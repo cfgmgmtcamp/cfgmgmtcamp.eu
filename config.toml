@@ -1,0 +1,12 @@
+### config.toml
+title = "CfgMgmtCamp"
+baseURL = "https://cfgmgmtcamp.eu/"
+theme = "cfgmgmtcamp"
+languageCode = "en-us"
+dataDir = "data"
+PaginatePath = "blog"
+sectionPagesMenu = "main"
+buildDrafts = false
+pygmentsUseClasses = true
+enableGitInfo = true
+enableRobotsTXT = true
