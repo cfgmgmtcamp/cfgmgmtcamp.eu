@@ -13,5 +13,6 @@ build:
 	@find public/ -name '*.js' ! -name '*.gz' -type f -exec sh -c "gzip -c -9 < {} > {}.gz" \;
 
 serve:
+	$(HUGO)
 	$(HUGO) server --disableFastRender
 

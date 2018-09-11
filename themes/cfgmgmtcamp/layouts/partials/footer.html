@@ -1,0 +1,14 @@
+<footer>
+	<div>
+		CfgMgmtCamp is a free open source event.<br>
+		CfgMgmtCamp logo is property of the CfgMgmtCamp group.<br>
+		Copyleft 2014 - {{ now.Year }}, CfgMgmtCamp.<br>
+	</div>
+</footer>
+
+{{ if .Site.Params.analytics.piwik }}
+	{{ partial "_analytics/piwik.html" . }}
+{{ end }}
+
+</body>
+</html>

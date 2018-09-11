@@ -10,3 +10,46 @@ buildDrafts = false
 pygmentsUseClasses = true
 enableGitInfo = true
 enableRobotsTXT = true
+
+
+### navbar
+[[menu.navbar]]
+	name = "About"
+	identifier = "about"
+	url = "/about/"
+	weight = -1000
+#[[menu.navbar]]
+#	name = "Registration"
+#	identifier = "registration"
+#	url = "/registration/"
+#	weight = -1000
+[[menu.navbar]]
+	name = "Sponsors"
+	identifier = "sponsors"
+	url = "/sponsors/"
+	weight = -900
+[[menu.navbar]]
+	name = "Location"
+	identifier = "location"
+	url = "/location/"
+	weight = -800
+#[[menu.navbar]]
+#	name = "CfP"
+#	identifier = "cfp"
+#	url = "/cfp/"
+#	weight = -700
+#[[menu.navbar]]
+#	name = "Schedule"
+#	identifier = "schedule"
+#	url = "/schedule/"
+#	weight = -700
+[[menu.navbar]]
+	name = "Conduct"
+	identifier = "conduct"
+	url = "/codeofconduct/"
+	weight = -300
+[[menu.navbar]]
+	name = "Archive"
+	identifier = "archive"
+	url = "/archive/"
+	weight = -100

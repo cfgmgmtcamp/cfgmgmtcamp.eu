@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<section id="archive">
+	<div>
+		<h1>{{ .Title }}</h1>
+		{{ if .Content }}
+		{{ .Content }}
+		{{ end }}
+		<ul>
+		{{ range .Data.Pages }}
+			<li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date }}</li>
+		{{ end }}
+		</ul>
+|   </div>
+</section>
+
+{{ partial "footer.html" . }}

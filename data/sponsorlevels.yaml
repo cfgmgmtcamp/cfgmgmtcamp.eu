@@ -1,0 +1,40 @@
+- name:  Titanium
+  identifier: titanium
+  image:
+    height: 300
+    width: 600
+- name: Platinum
+  identifier: platium
+  image:
+    height: 200
+    width: 200
+- name: Gold
+  identifier: gold
+  image:
+    height: 200
+    width: 200
+- name: Silver
+  identifier: silver
+  image:
+    height: 200
+    width: 200
+- name: Core
+  identifier: core
+  image:
+    height: 300
+    width: 250
+- name: Media
+  identifier: media
+  image:
+    height: 200
+    width: 200
+- name: Bronze
+  identifier: bronze
+  image:
+    height: 200
+    width: 200
+- name: Metal
+  identifier: metal
+  image:
+    height: 200
+    width: 200
