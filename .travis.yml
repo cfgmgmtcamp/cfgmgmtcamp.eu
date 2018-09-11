@@ -8,6 +8,10 @@ branches:
   only:
     - master
 
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install glibc
+
 install:
   - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.tar.gz/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | xargs wget
   - tar xvf hugo_extended_*_Linux-64bit.tar.gz
