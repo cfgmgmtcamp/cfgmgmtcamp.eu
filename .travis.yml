@@ -1,0 +1,46 @@
+#!.travis.yaml
+language: go
+
+go:
+  - 1.10.x
+
+branches:
+  only:
+    - master
+
+install:
+  - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.tar.gz/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | xargs wget
+  - tar xvf hugo_extended_*_Linux-64bit.tar.gz
+  - rm -rf public 2> /dev/null
+
+script:
+  - ./hugo
+  - echo 'cfgmgmtcamp.eu' > public/CNAME
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  verbose: true
+  keep-history: true
+  local-dir: public
+  target_branch: gh-pages
+  on:
+    branch: master
+
+notifications:
+  irc:
+    channels:
+      - "irc.frenode.org#cfgmgmtcamp"
+    on_success: change
+
+
+
+
+
+
+
+
+
+
+
+
