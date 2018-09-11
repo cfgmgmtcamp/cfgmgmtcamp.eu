@@ -1,0 +1,52 @@
+{{ partial "header.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<div class="scheduling">
+<div class="cd-schedule loading">
+	<div class="timeline">
+		<ul>
+		{{ range $.Site.Data.timeslots }}
+			<li><span>{{ .slot }}</span></li>
+		{{ end }}
+		</ul>
+	</div>
+	<div class="events">
+		<ul>
+		{{ range .Site.Pages.GroupByParam "Room" }}
+			<li class="events-group">
+				<div class="top-info"><span>{{ .Key }}</span></div>
+				<ul>
+				{{ range .Pages }}
+					<li class="single-event" data-start="{{ .Params.Start }}" data-end="{{ .Params.End }}" data-content="{{ .Content }}" data-event="{{ .Params.Eventtype }}">
+						<a href="#0"><em class="event-name">{{ .Title }}</em><br><em class="event-speaker">{{ .Params.Speaker }}</em></a>
+					</li>
+				{{ end }}
+				</ul>
+			</li>
+		{{ end }}
+		</ul>
+	</div>
+	<div class="event-modal">
+		<header class="header">
+			<div class="content">
+				<span class="event-date"></span>
+				<h3 class="event-name"></h3>
+			</div>
+			<div class="header-bg"></div>
+		</header>
+		<div class="body">
+			<div class="event-info"></div>
+			<div class="body-bg"></div>
+		</div>
+		<a href="#0" class="close">Close</a>
+	</div>
+	<div class="cover-layer"></div>
+</div>
+</div>
+
+<script src="{{ "js/modernizr.js" | relURL }}"></script>
+<script src="{{ "js/jquery-3.0.0.min.js" | relURL }}"></script>
+<script src="{{ "js/main.js" | relURL }}"></script>
+
+{{ partial "footer.html" . }}

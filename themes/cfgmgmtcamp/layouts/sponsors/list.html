@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<section id="sponsors">
+	<div id="sponsors">
+		{{ if .Content }}
+			<h1>{{ .Title }}</h1>
+			{{ .Content }}
+		{{ end }}
+		{{ range $.Site.Data.sponsorlevels }}
+			<ul>
+				<li>
+					<h2>{{ .name }}</h2>
+					{{ $key := .identifier }}
+					{{ $imageheight := .image.height }}
+					{{ $imagewidth := .image.width }}
+					<ul>
+						{{ range $.Site.Pages }}
+						{{ $level := .Param "level" }}
+							{{ if eq $level $key }}
+								<li>
+									{{ if .Param "link" }}
+									<a href="{{ .Param "link" }}">
+									{{ end }}
+									<img src="/images/{{  .Param "image" }}" alt="{{ .Title }}" width="{{ $imagewidth }}" height="{{ $imageheight }}">
+									{{ if .Param "link" }}
+									</a>
+									{{ end }}
+								</li>
+							{{ end }}
+						{{ end }}
+					</ul>
+				</li>
+			</ul>
+		{{ end }}
+	</div>
+</section>
+
+{{ partial "footer.html" . }}
