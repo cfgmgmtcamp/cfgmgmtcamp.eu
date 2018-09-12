@@ -33,10 +33,10 @@ enableRobotsTXT = true
 	identifier = "location"
 	url = "/location/"
 	weight = -800
-#[[menu.navbar]]
-#	name = "CfP"
-#	identifier = "cfp"
-#	url = "/cfp/"
+[[menu.navbar]]
+	name = "CfP"
+	identifier = "cfp"
+	url = "https://cfp.cfgmgmtcamp.be"
 #	weight = -700
 #[[menu.navbar]]
 #	name = "Schedule"
@@ -51,5 +51,5 @@ enableRobotsTXT = true
 [[menu.navbar]]
 	name = "Archive"
 	identifier = "archive"
-	url = "/archive/"
+	url = "https://archive.cfgmgmtcamp.eu/"
 	weight = -100
