@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sponsors on CfgMgmtCamp</title>
+    <link>https://cfgmgmtcamp.eu/sponsors/</link>
+    <description>Recent content in Sponsors on CfgMgmtCamp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cfgmgmtcamp.eu/sponsors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ansible</title>
+      <link>https://cfgmgmtcamp.eu/sponsors/ansible/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cfgmgmtcamp.eu/sponsors/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HoGent</title>
+      <link>https://cfgmgmtcamp.eu/sponsors/hogent/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cfgmgmtcamp.eu/sponsors/hogent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inuits</title>
+      <link>https://cfgmgmtcamp.eu/sponsors/inuits/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cfgmgmtcamp.eu/sponsors/inuits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VanTosh</title>
+      <link>https://cfgmgmtcamp.eu/sponsors/vantosh/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cfgmgmtcamp.eu/sponsors/vantosh/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
