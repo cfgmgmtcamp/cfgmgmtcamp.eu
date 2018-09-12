@@ -1,17 +1,14 @@
 #!.travis.yaml
-language: go
-
-go:
-  - 1.10.x
-
 branches:
   only:
     - master
 
 install:
-  - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-32bit.tar.gz/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | xargs wget
-  - tar xvf hugo_*_Linux-32bit.tar.gz
-  - rm -rf public 2> /dev/null
+  - export HUGOVER=0.48
+  #- wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-32bit.tar.gz/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | xargs wget
+  - wget https://github.com/gohugoio/hugo/releases/download/v${HUGOVER}/hugo_${HUGOVER}_Linux-32bit.tar.gz
+  - tar xvf hugo_${HUGOVER}_Linux-32bit.tar.gz
+  - rm -rf public/
 
 script:
   - ./hugo
