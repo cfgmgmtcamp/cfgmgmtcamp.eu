@@ -37,7 +37,7 @@ enableRobotsTXT = true
 	name = "CfP"
 	identifier = "cfp"
 	url = "https://cfp.cfgmgmtcamp.be"
-#	weight = -700
+	weight = -700
 #[[menu.navbar]]
 #	name = "Schedule"
 #	identifier = "schedule"
