@@ -53,3 +53,8 @@ enableRobotsTXT = true
 	identifier = "archive"
 	url = "https://archive.cfgmgmtcamp.eu/"
 	weight = -100
+
+[params.analytics.piwik]
+	URL = "https://stats.vantosh.com"
+	ID = "45"
+
