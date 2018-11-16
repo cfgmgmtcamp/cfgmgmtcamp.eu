@@ -16,3 +16,5 @@ serve:
 	$(HUGO)
 	$(HUGO) server --disableFastRender
 
+clean:
+	@rm -rf public/
