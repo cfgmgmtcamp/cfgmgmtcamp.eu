@@ -18,31 +18,31 @@ enableRobotsTXT = true
 	identifier = "about"
 	url = "/about/"
 	weight = -1000
-#[[menu.navbar]]
-#	name = "Registration"
-#	identifier = "registration"
-#	url = "/registration/"
-#	weight = -1000
+[[menu.navbar]]
+	name = "Registration"
+	identifier = "registration"
+	url = "https://registration.cfgmgmtcamp.be/ghent/2019/"
+	weight = -900
 [[menu.navbar]]
 	name = "Sponsors"
 	identifier = "sponsors"
 	url = "/sponsors/"
-	weight = -900
+	weight = -800
 [[menu.navbar]]
 	name = "Location"
 	identifier = "location"
 	url = "/location/"
-	weight = -800
+	weight = -700
 [[menu.navbar]]
 	name = "CfP"
 	identifier = "cfp"
 	url = "https://cfp.cfgmgmtcamp.be"
-	weight = -700
+	weight = -600
 #[[menu.navbar]]
 #	name = "Schedule"
 #	identifier = "schedule"
 #	url = "/schedule/"
-#	weight = -700
+#	weight = -600
 [[menu.navbar]]
 	name = "Conduct"
 	identifier = "conduct"
