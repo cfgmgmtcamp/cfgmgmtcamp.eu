@@ -33,11 +33,18 @@ The campus does have a car parking, the parking is limited in space and is only 
 We would like to remind you that your car must be parked within the lines and in an assigned parking place for students or visitors.  
 Cars cannot remain on the parking long term, without prior registration.  
 
+Please note that the inner city of Ghent is a Low Emissions Zone.  
+While the venue is outside of the Low Emissions zone, we advice to pay attention.  
+More information can be found on the following sites :  
+
+- [LEZ Belgium](https://www.lez-belgium.be/en/info-menue/environmental-zones/ghent-lez.html)
+- [LEZ Gent](https://stad.gent/natuur-milieu/lage-emissiezone-2020/de-euronorm-en-lez)
+- [LEZ Maps](https://stad.gent/over-gent-en-het-stadsbestuur/over-gent/kaarten-cijfers-en-data/gent-kaart/stadsplan)
+
 ## Location Plan ##
 
 Configuration Management Camp takes place in the B-block and D-block buildings.  
 The reception is in the entrance hall, or foyer, of the B-block.  
 
 ![Campus Plan](/images/campus.png)
-
 
