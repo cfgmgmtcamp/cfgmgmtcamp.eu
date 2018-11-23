@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<section id="main">
+	<div class="inner">
+		<h1>{{ .Title }}</h1>
+		{{ if .Param "eventdate" }}
+		<h2>{{ .Param "eventdate" }}</h2>
+		{{ end }}
+		{{ .Content }}
+	</div>
+</section>
+
+{{ partial "footer.html" . }}
