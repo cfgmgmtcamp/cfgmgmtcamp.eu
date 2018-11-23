@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fringes Tech Days on CfgMgmtCamp</title>
+    <link>https://cfgmgmtcamp.eu/fringes/</link>
+    <description>Recent content in Fringes Tech Days on CfgMgmtCamp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cfgmgmtcamp.eu/fringes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Foreman Construction Day</title>
+      <link>https://cfgmgmtcamp.eu/fringes/foremanconstructionday/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cfgmgmtcamp.eu/fringes/foremanconstructionday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MgmtConfig Hackathon</title>
+      <link>https://cfgmgmtcamp.eu/fringes/mgmtconfighackathon/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cfgmgmtcamp.eu/fringes/mgmtconfighackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pulp Plugin Day</title>
+      <link>https://cfgmgmtcamp.eu/fringes/pulppluginday/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cfgmgmtcamp.eu/fringes/pulppluginday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Puppet Contrib Summit</title>
+      <link>https://cfgmgmtcamp.eu/fringes/puppetcontribsummit/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cfgmgmtcamp.eu/fringes/puppetcontribsummit/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
