@@ -4,14 +4,14 @@ branches:
     - master
 
 install:
-  - export HUGOVER=0.48
+  - export HUGOVER=0.51
   #- wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-32bit.tar.gz/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | xargs wget
   - wget https://github.com/gohugoio/hugo/releases/download/v${HUGOVER}/hugo_${HUGOVER}_Linux-32bit.tar.gz
   - tar xvf hugo_${HUGOVER}_Linux-32bit.tar.gz
   - rm -rf public/
 
 script:
-  - ./hugo
+  - ./hugo --minify
   - echo 'cfgmgmtcamp.eu' > public/CNAME
 
 deploy:
