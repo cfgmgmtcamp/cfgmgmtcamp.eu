@@ -15,6 +15,7 @@
 					{{ $key := .identifier }}
 					{{ $imageheight := .image.height }}
 					{{ $imagewidth := .image.width }}
+					{{ $imagesize := .size }}
 					<ul>
 						{{ range $.Site.Pages }}
 						{{ $level := .Param "level" }}
@@ -23,7 +24,11 @@
 									{{ if .Param "link" }}
 									<a href="{{ .Param "link" }}">
 									{{ end }}
-									<img src="/images/{{  .Param "image" }}" alt="{{ .Title }}" width="{{ $imagewidth }}" height="{{ $imageheight }}">
+									{{ $imagename := .Param "image" }}
+									{{ $imagelocation := (printf "%s/%s" "images/" $imagename) }}
+									{{ $imageresource := resources.Get $imagelocation }}
+									{{ $image := $imageresource.Fit $imagesize }}
+									<img src="{{  $image.RelPermalink }}" alt="{{ .Title }}">
 									{{ if .Param "link" }}
 									</a>
 									{{ end }}
