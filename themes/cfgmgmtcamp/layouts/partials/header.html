@@ -9,12 +9,24 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="{{ "css/leaflet.css" | relURL }}">
-	<link rel="stylesheet" type="text/css" href="{{ "css/reset.css" | relURL }}">
-	<link rel="stylesheet" type="text/css" href="{{ "css/stylesheet.css" | relURL }}" media="screen">
-	<link rel="stylesheet" type="text/css" href="{{ "css/pygment_trac.css" | relURL }}" media="screen">
-	<link rel="stylesheet" type="text/css" href="{{ "css/print.css" | relURL }}" media="print">
-	<link rel="stylesheet" type="text/css" href="{{ "css/schedule.css" | relURL }}">
+	{{ $leafletstylecss := resources.Get "css/leaflet.css" }}
+	{{ $leafletcss := $leafletstylecss | resources.Minify }}
+	<link href="{{ $leafletcss.RelPermalink }}" rel="stylesheet" type="text/css">
+	{{ $resetstylecss := resources.Get "css/reset.css" }}
+	{{ $resetcss := $resetstylecss | resources.Minify }}
+	<link href="{{ $resetcss.RelPermalink }}" rel="stylesheet" type="text/css">
+	{{ $stylesheetstylecss := resources.Get "css/stylesheet.css" }}
+	{{ $stylesheetcss := $stylesheetstylecss | resources.Minify }}
+	<link href="{{ $stylesheetcss.RelPermalink }}" rel="stylesheet" type="text/css" media="screen">
+	{{ $pygmentstylecss := resources.Get "css/pygment_trac.css" }}
+	{{ $pygmentcss := $pygmentstylecss | resources.Minify }}
+	<link href="{{ $pygmentcss.RelPermalink }}" rel="stylesheet" type="text/css" media="screen">
+	{{ $printstylecss := resources.Get "css/print.css" }}
+	{{ $printcss := $printstylecss | resources.Minify }}
+	<link href="{{ $printcss.RelPermalink }}" rel="stylesheet" type="text/css" media="print">
+	{{ $schedulestylecss := resources.Get "css/schedule.css" }}
+	{{ $schedulecss := $schedulestylecss | resources.Minify }}
+	<link href="{{ $schedulecss.RelPermalink }}" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!--[if lte IE 8]>
 		<link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
@@ -22,7 +34,9 @@
 	<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<script src="{{ "js/leaflet.js" | relURL }}"></script>
+	{{ $leafletjavascript := resources.Get "js/leaflet.js" }}
+	{{ $leafletjs := $leafletjavascript | resources.Minify }}
+	<script src="{{ $leafletjs.RelPermalink }}"></script>
 	<title>{{ .Title }}</title>
 </head>
 <body>
