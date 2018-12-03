@@ -45,6 +45,11 @@ enableRobotsTXT = true
 #	url = "/schedule/"
 #	weight = -600
 [[menu.navbar]]
+	name = "TechDays"
+	identifier = "fringes"
+	url = "/fringes/"
+	weight = -400
+[[menu.navbar]]
 	name = "Conduct"
 	identifier = "conduct"
 	url = "/codeofconduct/"
