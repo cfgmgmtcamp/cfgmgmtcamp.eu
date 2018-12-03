@@ -1,7 +1,10 @@
 ---
 title: "Ansible"
-date: 2018-09-03
-draft: false
-level: platinium
+date: 2018-12-03
+draft: true
+level: titanium
 image: sponsors/ansible.png
+link: https://www.ansible.com/
 ---
+
+
