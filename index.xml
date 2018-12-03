@@ -1,139 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>CfgMgmtCamp</title>
-    <link>https://cfgmgmtcamp.eu/</link>
-    <description>Recent content on CfgMgmtCamp</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://cfgmgmtcamp.eu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Foreman Construction Day</title>
-      <link>https://cfgmgmtcamp.eu/fringes/foremanconstructionday/</link>
-      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/fringes/foremanconstructionday/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MgmtConfig Hackathon</title>
-      <link>https://cfgmgmtcamp.eu/fringes/mgmtconfighackathon/</link>
-      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/fringes/mgmtconfighackathon/</guid>
-      <description>Mgmt is a real-time automation tool that is fast and safe. The main author will be on site to chat with you about mgmt, review your code, help you get your patch merged and listen to your design ideas for the project!
-Come to get help implementing your first mgmt resource, write a new language function, or even get help writing your very first module! We&amp;rsquo;ll also discuss and explain any internals that anyone is curious about.</description>
-    </item>
-    
-    <item>
-      <title>Pulp Plugin Day</title>
-      <link>https://cfgmgmtcamp.eu/fringes/pulppluginday/</link>
-      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/fringes/pulppluginday/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Puppet Contrib Summit</title>
-      <link>https://cfgmgmtcamp.eu/fringes/puppetcontribsummit/</link>
-      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/fringes/puppetcontribsummit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Don&#39;t forget our Call for Proposals</title>
-      <link>https://cfgmgmtcamp.eu/posts/cfp/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/posts/cfp/</guid>
-      <description>In case you aren&amp;rsquo;t following us on Twitter and and haven&amp;rsquo;t noticed. Our CFP has been open for a while now
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CfgMgmtCamp</title><link>https://cfgmgmtcamp.eu/</link><description>Recent content on CfgMgmtCamp</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://cfgmgmtcamp.eu/index.xml" rel="self" type="application/rss+xml"/><item><title>AT Computing</title><link>https://cfgmgmtcamp.eu/sponsors/atcomputing/</link><pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/sponsors/atcomputing/</guid><description/></item><item><title>Icinga</title><link>https://cfgmgmtcamp.eu/sponsors/icinga/</link><pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/sponsors/icinga/</guid><description/></item><item><title>Nucleus</title><link>https://cfgmgmtcamp.eu/sponsors/nucleus/</link><pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/sponsors/nucleus/</guid><description/></item><item><title>Puppet</title><link>https://cfgmgmtcamp.eu/sponsors/puppet/</link><pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/sponsors/puppet/</guid><description/></item><item><title>The Scale Factory</title><link>https://cfgmgmtcamp.eu/sponsors/scalefactory/</link><pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/sponsors/scalefactory/</guid><description/></item><item><title>Foreman Construction Day</title><link>https://cfgmgmtcamp.eu/fringes/foremanconstructionday/</link><pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/fringes/foremanconstructionday/</guid><description/></item><item><title>MgmtConfig Hackathon</title><link>https://cfgmgmtcamp.eu/fringes/mgmtconfighackathon/</link><pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/fringes/mgmtconfighackathon/</guid><description>Mgmt is a real-time automation tool that is fast and safe. The main author will be on site to chat with you about mgmt, review your code, help you get your patch merged and listen to your design ideas for the project!
+Come to get help implementing your first mgmt resource, write a new language function, or even get help writing your very first module! We&amp;rsquo;ll also discuss and explain any internals that anyone is curious about.</description></item><item><title>Pulp Plugin Day</title><link>https://cfgmgmtcamp.eu/fringes/pulppluginday/</link><pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/fringes/pulppluginday/</guid><description/></item><item><title>Puppet Contrib Summit</title><link>https://cfgmgmtcamp.eu/fringes/puppetcontribsummit/</link><pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/fringes/puppetcontribsummit/</guid><description/></item><item><title>Don&#39;t forget our Call for Proposals</title><link>https://cfgmgmtcamp.eu/posts/cfp/</link><pubDate>Sat, 03 Nov 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/posts/cfp/</guid><description>In case you aren&amp;rsquo;t following us on Twitter and and haven&amp;rsquo;t noticed. Our CFP has been open for a while now
 We’re pleased to announce CfgMgmtCamp 2019, the sixth year and 8th edition. CfgMgmtCamp has evolved beyond pure configuration management, so we are evolving the topics and content of the conference. CfgMgmtCamp wants to bring all infrastructure management tools and principles together to share and learn.
-While there is still almost a month left to submit your talks don&amp;rsquo;t wait to long ;)</description>
-    </item>
-    
-    <item>
-      <title>Sponsors needed for Configuration Management Camp</title>
-      <link>https://cfgmgmtcamp.eu/posts/cfs2019/</link>
-      <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/posts/cfs2019/</guid>
-      <description>Configuration Management Camp 2019 Ghent is looking for sponsors.
+While there is still almost a month left to submit your talks don&amp;rsquo;t wait to long ;)</description></item><item><title>Sponsors needed for Configuration Management Camp</title><link>https://cfgmgmtcamp.eu/posts/cfs2019/</link><pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/posts/cfs2019/</guid><description>Configuration Management Camp 2019 Ghent is looking for sponsors.
 The sponsor documentation for Ghent 2019 is available HERE
-Help us maintain Configuration Management Camp as the premier place for practitioners to build the future.</description>
-    </item>
-    
-    <item>
-      <title>Config Management Camp 2019</title>
-      <link>https://cfgmgmtcamp.eu/posts/ghent2019/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/posts/ghent2019/</guid>
-      <description>Configuration Management Camp will be held in Ghent, Belgium February 4-6, 2019.
+Help us maintain Configuration Management Camp as the premier place for practitioners to build the future.</description></item><item><title>Config Management Camp 2019</title><link>https://cfgmgmtcamp.eu/posts/ghent2019/</link><pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/posts/ghent2019/</guid><description>Configuration Management Camp will be held in Ghent, Belgium February 4-6, 2019.
 Configuration Management Camp is the event for technologists interested in adopting, improving, and using Open Source Software and frameworks for managing configuration, infrastructure, containers, clouds, virtualization, serverless, security, and more.
-Our community welcomes all people interested in discussing and improving the software and practices used in building, deploying, and managing applications. Meet, exchange ideas, and learn from one another over the course of three days.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://cfgmgmtcamp.eu/about/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/about/</guid>
-      <description>Configuration Management Camp is the event for technologists interested Open Source Infrastructure automation and related topics This includes but is not limited to top Open Source Configuration Management , Provisioning, Orchestration, Choreography, Container Operations and many more topics.
-We’re pleased to announce CfgMgmtCamp 2019, the sixt year and 8th edition. While CfgMgmtCamp has evolved beyond pure configuration management, we are evolving the topics and content of the conference. CfgMgmtCamp wants to join all infrastructure management tools and principles to come together to share and learn about infra mgmt.</description>
-    </item>
-    
-    <item>
-      <title>Ansible</title>
-      <link>https://cfgmgmtcamp.eu/sponsors/ansible/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/sponsors/ansible/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HoGent</title>
-      <link>https://cfgmgmtcamp.eu/sponsors/hogent/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/sponsors/hogent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inuits</title>
-      <link>https://cfgmgmtcamp.eu/sponsors/inuits/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/sponsors/inuits/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VanTosh</title>
-      <link>https://cfgmgmtcamp.eu/sponsors/vantosh/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/sponsors/vantosh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Location</title>
-      <link>https://cfgmgmtcamp.eu/location/</link>
-      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/location/</guid>
-      <description>Configuration Management Camp takes place in a public higher eduction location.
+Our community welcomes all people interested in discussing and improving the software and practices used in building, deploying, and managing applications. Meet, exchange ideas, and learn from one another over the course of three days.</description></item><item><title>About</title><link>https://cfgmgmtcamp.eu/about/</link><pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/about/</guid><description>Configuration Management Camp is the event for technologists interested Open Source Infrastructure automation and related topics This includes but is not limited to top Open Source Configuration Management , Provisioning, Orchestration, Choreography, Container Operations and many more topics.
+We’re pleased to announce CfgMgmtCamp 2019, the sixt year and 8th edition. While CfgMgmtCamp has evolved beyond pure configuration management, we are evolving the topics and content of the conference. CfgMgmtCamp wants to join all infrastructure management tools and principles to come together to share and learn about infra mgmt.</description></item><item><title>HoGent</title><link>https://cfgmgmtcamp.eu/sponsors/hogent/</link><pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/sponsors/hogent/</guid><description/></item><item><title>Inuits</title><link>https://cfgmgmtcamp.eu/sponsors/inuits/</link><pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/sponsors/inuits/</guid><description/></item><item><title>Rudder</title><link>https://cfgmgmtcamp.eu/sponsors/rudder/</link><pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/sponsors/rudder/</guid><description/></item><item><title>VanTosh</title><link>https://cfgmgmtcamp.eu/sponsors/vantosh/</link><pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/sponsors/vantosh/</guid><description/></item><item><title>Location</title><link>https://cfgmgmtcamp.eu/location/</link><pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/location/</guid><description>Configuration Management Camp takes place in a public higher eduction location.
 Address HoGent - Campus SchoonMeersen
 Valentin Vaerwyckweg 1
 9000 Gent
@@ -143,47 +16,7 @@ Getting there This is the Campus of the University College of Ghent.
 The campus is conveniently located.
 Train It is within walking distance of the Gent-Sint-Pieters train station
 There will be signs to from the train station to the venue.
-Belgian Train Service</description>
-    </item>
-    
-    <item>
-      <title>Keynote 0</title>
-      <link>https://cfgmgmtcamp.eu/schedule/keynote0/</link>
-      <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/schedule/keynote0/</guid>
-      <description>The keynote that will blow your mind up.</description>
-    </item>
-    
-    <item>
-      <title>Keynote 1</title>
-      <link>https://cfgmgmtcamp.eu/schedule/keynote1/</link>
-      <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/schedule/keynote1/</guid>
-      <description>The keynote that will impolede your mind up.</description>
-    </item>
-    
-    <item>
-      <title>The most awesome talk ever</title>
-      <link>https://cfgmgmtcamp.eu/schedule/awesometalk/</link>
-      <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/schedule/awesometalk/</guid>
-      <description>This is the most awesome talk about the most awesome topic.</description>
-    </item>
-    
-    <item>
-      <title>Code of Conduct</title>
-      <link>https://cfgmgmtcamp.eu/codeofconduct/</link>
-      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/codeofconduct/</guid>
-      <description>Configuration Management Camp is a community conference intended for networking and collaboration in the community of people interested in configuration management.
+Belgian Train Service</description></item><item><title>Keynote 0</title><link>https://cfgmgmtcamp.eu/schedule/keynote0/</link><pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/schedule/keynote0/</guid><description>The keynote that will blow your mind up.</description></item><item><title>Keynote 1</title><link>https://cfgmgmtcamp.eu/schedule/keynote1/</link><pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/schedule/keynote1/</guid><description>The keynote that will impolede your mind up.</description></item><item><title>The most awesome talk ever</title><link>https://cfgmgmtcamp.eu/schedule/awesometalk/</link><pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/schedule/awesometalk/</guid><description>This is the most awesome talk about the most awesome topic.</description></item><item><title>Code of Conduct</title><link>https://cfgmgmtcamp.eu/codeofconduct/</link><pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/codeofconduct/</guid><description>Configuration Management Camp is a community conference intended for networking and collaboration in the community of people interested in configuration management.
 We value the participation of each member of the community and want all attendees to have an enjoyable and fulfilling experience.
 Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the conference and at all conference events, whether officially sponsored or not.
-Exhibitors, speakers, sponsors, staff and all other attendees at Configuration Management Camp are subject to this Code of Conduct.</description>
-    </item>
-    
-  </channel>
-</rss>
+Exhibitors, speakers, sponsors, staff and all other attendees at Configuration Management Camp are subject to this Code of Conduct.</description></item></channel></rss>

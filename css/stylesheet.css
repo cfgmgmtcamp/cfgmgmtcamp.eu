@@ -187,6 +187,9 @@ section div ul li {
 	margin: 5px 0 5px 0;
 }
 
+#sponsors div ul {
+	text-align: center;
+}
 #sponsors div ul li {
 	list-style: none;
 }

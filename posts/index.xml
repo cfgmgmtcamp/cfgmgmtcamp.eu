@@ -1,48 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on CfgMgmtCamp</title>
-    <link>https://cfgmgmtcamp.eu/posts/</link>
-    <description>Recent content in Posts on CfgMgmtCamp</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 03 Nov 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://cfgmgmtcamp.eu/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Don&#39;t forget our Call for Proposals</title>
-      <link>https://cfgmgmtcamp.eu/posts/cfp/</link>
-      <pubDate>Sat, 03 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/posts/cfp/</guid>
-      <description>In case you aren&amp;rsquo;t following us on Twitter and and haven&amp;rsquo;t noticed. Our CFP has been open for a while now
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on CfgMgmtCamp</title><link>https://cfgmgmtcamp.eu/posts/</link><description>Recent content in Posts on CfgMgmtCamp</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 03 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://cfgmgmtcamp.eu/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Don&#39;t forget our Call for Proposals</title><link>https://cfgmgmtcamp.eu/posts/cfp/</link><pubDate>Sat, 03 Nov 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/posts/cfp/</guid><description>In case you aren&amp;rsquo;t following us on Twitter and and haven&amp;rsquo;t noticed. Our CFP has been open for a while now
 We’re pleased to announce CfgMgmtCamp 2019, the sixth year and 8th edition. CfgMgmtCamp has evolved beyond pure configuration management, so we are evolving the topics and content of the conference. CfgMgmtCamp wants to bring all infrastructure management tools and principles together to share and learn.
-While there is still almost a month left to submit your talks don&amp;rsquo;t wait to long ;)</description>
-    </item>
-    
-    <item>
-      <title>Sponsors needed for Configuration Management Camp</title>
-      <link>https://cfgmgmtcamp.eu/posts/cfs2019/</link>
-      <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/posts/cfs2019/</guid>
-      <description>Configuration Management Camp 2019 Ghent is looking for sponsors.
+While there is still almost a month left to submit your talks don&amp;rsquo;t wait to long ;)</description></item><item><title>Sponsors needed for Configuration Management Camp</title><link>https://cfgmgmtcamp.eu/posts/cfs2019/</link><pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/posts/cfs2019/</guid><description>Configuration Management Camp 2019 Ghent is looking for sponsors.
 The sponsor documentation for Ghent 2019 is available HERE
-Help us maintain Configuration Management Camp as the premier place for practitioners to build the future.</description>
-    </item>
-    
-    <item>
-      <title>Config Management Camp 2019</title>
-      <link>https://cfgmgmtcamp.eu/posts/ghent2019/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://cfgmgmtcamp.eu/posts/ghent2019/</guid>
-      <description>Configuration Management Camp will be held in Ghent, Belgium February 4-6, 2019.
+Help us maintain Configuration Management Camp as the premier place for practitioners to build the future.</description></item><item><title>Config Management Camp 2019</title><link>https://cfgmgmtcamp.eu/posts/ghent2019/</link><pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate><guid>https://cfgmgmtcamp.eu/posts/ghent2019/</guid><description>Configuration Management Camp will be held in Ghent, Belgium February 4-6, 2019.
 Configuration Management Camp is the event for technologists interested in adopting, improving, and using Open Source Software and frameworks for managing configuration, infrastructure, containers, clouds, virtualization, serverless, security, and more.
-Our community welcomes all people interested in discussing and improving the software and practices used in building, deploying, and managing applications. Meet, exchange ideas, and learn from one another over the course of three days.</description>
-    </item>
-    
-  </channel>
-</rss>
+Our community welcomes all people interested in discussing and improving the software and practices used in building, deploying, and managing applications. Meet, exchange ideas, and learn from one another over the course of three days.</description></item></channel></rss>
