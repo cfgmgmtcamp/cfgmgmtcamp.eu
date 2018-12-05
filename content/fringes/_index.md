@@ -1,5 +1,5 @@
 ---
-title: "Fringes Tech Days"
+title: "Fringes"
 date: 2018-11-23
 draft: false
 ---
