@@ -17,3 +17,5 @@ We are going to start at 10 am by going over the
 [Plugin Writer's Guide](https://docs.pulpproject.org/en/3.0/nightly/plugins/index.html#plugin-writer-s-guide).
 Then everyone is going to setup a development environment and start working on a Pulp plugin of
 their choice. 
+
+Please remember to [register](https://registration.cfgmgmtcamp.be/ghent/2019/) through the general Config Management Camp registration system.
