@@ -15,6 +15,6 @@ Many different sponsorship opportunities are available but please contact us if 
 Download the sponsor prospectus and let us know which sponsorship option best suits your team.  
 [https://cfgmgmtcamp.eu/files/sponsordoc.pdf](https://cfgmgmtcamp.eu/files/sponsordoc.pdf)  
 
-We thank these sponsors for making Config Management Camp 2018 possible.  
+We thank these sponsors for making Config Management Camp 2019 possible.  
 
 
