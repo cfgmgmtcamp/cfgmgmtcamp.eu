@@ -4,7 +4,7 @@ speaker: "Bram Vogelaar"
 date: 2018-12-27
 eventtype: talk
 room: 0.daula
-start: 17:00
-end: 17:55
+start: 17:30
+end: 18:25
 draft: false
 ---

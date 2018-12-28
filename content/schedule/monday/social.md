@@ -3,7 +3,7 @@ title: "Social Event"
 date: 2018-12-27
 eventtype: break
 room: 0.daula
-start: 18:00
+start: 18:30
 end: 19:00
 draft: false
 ---
