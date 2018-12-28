@@ -3,6 +3,9 @@
 {{ partial "navbar.html" . }}
 
 <div class="scheduling">
+
+<h1>{{ .Title }}</h1>
+
 <div class="cd-schedule loading">
 	<div class="timeline">
 		<ul>
@@ -13,7 +16,7 @@
 	</div>
 	<div class="events">
 		<ul>
-		{{ range .Site.Pages.GroupByParam "Room" }}
+		{{ range .Data.Pages.GroupByParam "Room" }}
 			<li class="events-group">
 				<div class="top-info"><span>{{ .Key }}</span></div>
 				<ul>
@@ -45,8 +48,12 @@
 </div>
 </div>
 
-<script src="{{ "js/modernizr.js" | relURL }}"></script>
+{{ $modirnizrjavascript := resources.Get "js/modernizr.js" }}
+{{ $modirnizrjs := $modirnizrjavascript | resources.Minify }}
+<script src="{{ $modirnizrjs.RelPermalink }}"></script>
 <script src="{{ "js/jquery-3.0.0.min.js" | relURL }}"></script>
-<script src="{{ "js/main.js" | relURL }}"></script>
+{{ $mainjavascript := resources.Get "js/main.js" }}
+{{ $mainjs :=  $mainjavascript | resources.Minify }}
+<script src="{{ $mainjs.RelPermalink }}"></script>
 
 {{ partial "footer.html" . }}
