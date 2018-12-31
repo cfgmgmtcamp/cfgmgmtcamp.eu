@@ -13,6 +13,9 @@ install:
 script:
   - ./hugo --minify
   - echo 'cfgmgmtcamp.eu' > public/CNAME
+  - echo '' > public/schedule/schedule.ics
+  - [[ -f public/schedule/monday/index.ics ]] && cat public/schedule/monday/index.ics >> public/schedule/schedule.ics
+  - [[ -f public/schedule/tuesday/index.ics ]] && cat public/schedule/tuesday/index.ics >> public/schedule/schedule.ics
 
 deploy:
   provider: pages
