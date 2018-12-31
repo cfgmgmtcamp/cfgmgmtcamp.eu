@@ -1,5 +1,5 @@
 ---
-title: "Coffe Break"
+title: "Break"
 date: 2018-12-27
 eventtype: break
 room: 1.baula

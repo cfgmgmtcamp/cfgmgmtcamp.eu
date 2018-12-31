@@ -4,8 +4,8 @@ speaker: "Eric Sorenson"
 date: 2018-12-26
 eventtype: keynote
 room: 0.daula
-start: 12:00
-end: 12:55
+start: 11:00
+end: 11:55
 type: schedule
 draft: false
 ---

@@ -1,12 +1,11 @@
 ---
-Title: "Incident Resolution as Code"
-Speaker: "Julien Pivotto"
-date: 2018-12-26
+title: "Incident Resolution as Code"
+speaker: "Julien Pivotto"
 eventtype: talk
-room: b1
-start: 15:00
-end: 15:55
-type: schedule
+room: 3.ansible
+start: 16:30
+end: 17:25
+date: 2018-12-26
 draft: false
 ---
 
