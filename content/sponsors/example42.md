@@ -1,10 +1,10 @@
 ---
 title: "Example42"
-date: 2018-12-03
-draft: true
-level: gold
+level: silver
 image: sponsors/example42.png
 link: https://www.example42.com/
+date: 2018-12-28
+draft: false
 ---
 
 
