@@ -445,7 +445,9 @@ footer a:hover {
   color: #444;
 }
 
-
+div .event-info {
+	width: 75%;
+}
 
 /* MISC */
 .clearfix:after {

@@ -21,7 +21,7 @@
 				<div class="top-info"><span>{{ .Key }}</span></div>
 				<ul>
 				{{ range .Pages }}
-					<li class="single-event" data-start="{{ .Params.Start }}" data-end="{{ .Params.End }}" data-content="{{ .Content }}" data-event="{{ .Params.Eventtype }}">
+					<li class="single-event" data-start="{{ .Params.Start }}" data-end="{{ .Params.End }}" data-content="{{ .Permalink }}" data-event="{{ .Params.Eventtype }}">
 						<a href="#0"><em class="event-name">{{ .Title }}</em><br><em class="event-speaker">{{ .Params.Speaker }}</em></a>
 					</li>
 				{{ end }}
@@ -35,6 +35,8 @@
 			<div class="content">
 				<span class="event-date"></span>
 				<h3 class="event-name"></h3>
+				<br>
+				<h3 class="event-speaker"></h3>
 			</div>
 			<div class="header-bg"></div>
 		</header>

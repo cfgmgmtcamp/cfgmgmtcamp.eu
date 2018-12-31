@@ -113,14 +113,15 @@ jQuery(document).ready(function($){
 		//update event name and time
 		this.modalHeader.find('.event-name').text(event.find('.event-name').text());
 		this.modalHeader.find('.event-date').text(event.find('.event-date').text());
+		this.modalHeader.find('.event-speaker').text(event.find('.event-speaker').text());
 		this.modal.attr('data-event', event.parent().attr('data-event'));
 
 		//update event content
-		this.modalBody.find('.event-info').load(event.parent().attr('data-content')+'.html .event-info > *', function(data){
+		this.modalBody.find('.event-info').load(event.parent().attr('data-content')+'/index.html .event-info > *', function(data){
 			//once the event content has been loaded
 			self.element.addClass('content-loaded');
 		});
-
+		
 		this.element.addClass('modal-is-open');
 
 		setTimeout(function(){
