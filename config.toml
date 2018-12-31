@@ -12,6 +12,8 @@ pygmentsUseClasses = true
 enableGitInfo = true
 enableRobotsTXT = true
 
+[outputs]
+section = [ "HTML", "Calendar" ]
 
 ### navbar
 [[menu.navbar]]
