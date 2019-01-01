@@ -14,8 +14,8 @@ script:
   - ./hugo --minify
   - echo 'cfgmgmtcamp.eu' > public/CNAME
   - echo '' > public/schedule/schedule.ics
-  - if [[ -f public/schedule/monday/index.ics ]]; then; cat public/schedule/monday/index.ics >> public/schedule/schedule.ics; fi
-  - if [[ -f public/schedule/tuesday/index.ics ]]; then; cat public/schedule/tuesday/index.ics >> public/schedule/schedule.ics; fi
+  - if [[ -f public/schedule/monday/index.ics ]]; then cat public/schedule/monday/index.ics >> public/schedule/schedule.ics; fi
+  - if [[ -f public/schedule/tuesday/index.ics ]]; then cat public/schedule/tuesday/index.ics >> public/schedule/schedule.ics; fi
 
 deploy:
   provider: pages
