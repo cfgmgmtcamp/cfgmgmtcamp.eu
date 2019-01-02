@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cfgmgmtcamp/schedule//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+{{ range .Pages -}}
+BEGIN:VEVENT
+SUMMARY:{{ .Title }}
+{{ $speaker := .Param "speaker" -}}
+{{ $speakerfile := printf "%s/%s" "speaker" $speaker -}}
+ORGANIZER:{{ with .Site.GetPage $speakerfile }}{{ .Title }}{{ end }}
+CATEGORIES:{{ .Params.Eventtype }}
+DTSTAMP:{{ dateFormat "20060102T150400Z" .Date }}
+{{ $day := .File.Dir -}}
+{{ $day := substr $day 9 -}}
+{{ $day := strings.TrimSuffix "/" $day -}}
+{{ $starttime := .Param "start" -}}
+{{ $endtime := .Param "end" -}}
+{{ range $.Site.Data.days -}}
+{{ if eq $day .day -}}
+{{ $date := string .date -}}
+{{ $starttime := replace $starttime ":" "" -}}
+{{ $endtime := replace $endtime ":" "" -}}
+{{ $start := printf "%s%s" $date $starttime -}}
+DTSTART:{{ $date }}T{{ $starttime }}00Z
+DTEND:{{ $date }}T{{ $endtime }}00Z
+{{ end -}}
+{{ end -}}
+DESCRIPTION:{{ .Content }}
+URL:{{ .Permalink }}
+LOCATION:{{ .Params.Room }}
+STATUS:CONFIRMED
+END:VEVENT
+{{ end -}}
+END:VCALENDAR

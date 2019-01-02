@@ -114,13 +114,23 @@ jQuery(document).ready(function($){
 		this.modalHeader.find('.event-name').text(event.find('.event-name').text());
 		this.modalHeader.find('.event-date').text(event.find('.event-date').text());
 		this.modalHeader.find('.event-speaker').text(event.find('.event-speaker').text());
+
 		this.modal.attr('data-event', event.parent().attr('data-event'));
 
 		//update event content
-		this.modalBody.find('.event-info').load(event.parent().attr('data-content')+'/index.html .event-info > *', function(data){
+		this.modalBody.find('.event-abstract-info').load(event.parent().attr('data-content')+'/index.html .event-info > *', function(data){
 			//once the event content has been loaded
 			self.element.addClass('content-loaded');
 		});
+		this.modalBody.find('.event-speaker-info').load(event.parent().attr('data-speaker')+'/index.html .event-speaker > *', function(data){
+			//once the event content has been loaded
+			self.element.addClass('content-loaded');
+		});
+		this.modalHeader.find('.event-speaker-image').load(event.parent().attr('data-speaker')+'/index.html .speaker-image > *', function(data){
+			//once the event content has been loaded
+			self.element.addClass('content-loaded');
+		});
+
 		
 		this.element.addClass('modal-is-open');
 

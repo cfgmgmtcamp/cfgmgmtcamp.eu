@@ -153,7 +153,7 @@ section div {
 	margin: 0 auto;
 	margin-top: 125px;
 	margin-bottom: 125px;
-	padding: 120px 80px 120px 80px;
+	padding: 50px 100px 50px 100px;
 	background: #ffffff;
 }
 section div h1 {
@@ -195,6 +195,65 @@ section div ul li {
 }
 #sponsors div ul li ul li {
 	display: inline;
+}
+
+#talk div {
+	margin: 0 auto;
+	width: 75%;
+}
+#talk p {
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+#talk h1 {
+	color: #008f8f;
+	margin: 0;
+	padding: 0;
+}
+#talk h2 {
+	color: #8f008f;
+	margin: 0;
+	padding: 0;
+}
+#talk h3 {
+	color: #8f0000;
+	margin: 0;
+	padding: 0;
+}
+#talk .event-info {
+	margin: 0;
+	padding: 0;
+}
+#talk .event-speaker div {
+	margin: 0;
+	padding: 0;
+}
+#talk .event-speaker img {
+	float: right;
+}
+
+#speaker div {
+	margin: 0 auto;
+	width: 75%;
+}
+#speaker p {
+	margin: 0;
+	padding: 0;
+}
+#speaker h1 {
+	margin: 0;
+	padding: 0;
+	color: #030377;
+}
+.speaker-image img {
+	float: right;
+}
+#speaker .event-speaker {
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-size: 16px;
 }
 
 #map {

@@ -372,6 +372,9 @@
   height: 100%;
   padding: 1.4em 5%;
 }
+.cd-schedule .event-modal .event-speaker-image {
+	display: none;
+}
 
 .cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .body-bg {
   /* these are the morphing backgrounds - visible on desktop only */
@@ -487,6 +490,14 @@
     height: 100%;
     width: auto;
   }
+  .cd-schedule .event-modal .event-speaker-image {
+    display: block;
+  }
+  .cd-schedule .event-modal .event-speaker-image img {
+    width: 80px;
+    height: 80px;
+  }
+
   .cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .body-bg {
     /* Force Hardware acceleration */
     -webkit-transform: translateZ(0);

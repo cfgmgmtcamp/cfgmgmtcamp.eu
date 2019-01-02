@@ -2,6 +2,7 @@
 
 {{ partial "navbar.html" . }}
 
+
 <div class="scheduling">
 
 <h1>{{ .Title }}</h1>
@@ -21,8 +22,10 @@
 				<div class="top-info"><span>{{ .Key }}</span></div>
 				<ul>
 				{{ range .Pages }}
-					<li class="single-event" data-start="{{ .Params.Start }}" data-end="{{ .Params.End }}" data-content="{{ .Permalink }}" data-event="{{ .Params.Eventtype }}">
-						<a href="#0"><em class="event-name">{{ .Title }}</em><br><em class="event-speaker">{{ .Params.Speaker }}</em></a>
+					{{ $speaker := .Param "speaker" }}
+					{{ $speakerfile := printf "%s/%s" "speaker" $speaker }}
+					<li class="single-event" data-start="{{ .Params.Start }}" data-end="{{ .Params.End }}" data-content="{{ .Permalink }}" data-speaker="{{ $speakerfile | relURL }}" data-event="{{ .Params.Eventtype }}">
+						<a href="#0"><em class="event-name">{{ .Title }}</em><br><em class="event-speaker">{{ with .Site.GetPage $speakerfile }}{{ .Title }}{{ end }}</em></a>
 					</li>
 				{{ end }}
 				</ul>
@@ -37,11 +40,16 @@
 				<h3 class="event-name"></h3>
 				<br>
 				<h3 class="event-speaker"></h3>
+				<br>
+				<span class="event-speaker-image"></span>
 			</div>
 			<div class="header-bg"></div>
 		</header>
 		<div class="body">
-			<div class="event-info"></div>
+			<div class="event-info">
+				<div class="event-abstract-info"></div>
+				<div class="event-speaker-info"></div>
+			</div>
 			<div class="body-bg"></div>
 		</div>
 		<a href="#0" class="close">Close</a>

@@ -27,6 +27,7 @@
 	{{ $schedulestylecss := resources.Get "css/schedule.css" }}
 	{{ $schedulecss := $schedulestylecss | resources.Minify }}
 	<link href="{{ $schedulecss.RelPermalink }}" rel="stylesheet" type="text/css">
+	<link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!--[if lte IE 8]>
 		<link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
