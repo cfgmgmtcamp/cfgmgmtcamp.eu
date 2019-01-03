@@ -18,3 +18,6 @@ This will be chance to work on Terraform with folks from HashiCorp, as well as o
 * Tools and plugins
 
 Room and other details TBC
+
+Please remember to [register](https://registration.cfgmgmtcamp.be/ghent/2019/) through the general Config Management Camp registration system.
+
