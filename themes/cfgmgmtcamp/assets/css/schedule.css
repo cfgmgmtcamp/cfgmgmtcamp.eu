@@ -497,6 +497,16 @@
     width: 80px;
     height: 80px;
   }
+  .cd-schedule .event-modal .event-speaker-twitter a {
+     font-size: 0.75em;
+     color: #ffffff;
+  }
+  .cd-schedule .event-modal .event-link a {
+     color #ffffff;
+  }
+  .cd-schedule .event-modal .event-link a:hover {
+     color #888888;
+  }
 
   .cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .body-bg {
     /* Force Hardware acceleration */

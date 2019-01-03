@@ -115,6 +115,12 @@ jQuery(document).ready(function($){
 		this.modalHeader.find('.event-date').text(event.find('.event-date').text());
 		this.modalHeader.find('.event-speaker').text(event.find('.event-speaker').text());
 
+		if(event.parent().attr('data-speaker-twitter') != "") {
+			this.modalHeader.find('.event-speaker-twitter-handle').text('@'+event.parent().attr('data-speaker-twitter'))
+			this.modalHeader.find('.event-speaker-twitter-url').attr('href', 'https://twitter.com/'+event.parent().attr('data-speaker-twitter'))
+		}
+		this.modalHeader.find('.event-link-url').attr('href', event.parent().attr('data-content'));
+
 		this.modal.attr('data-event', event.parent().attr('data-event'));
 
 		//update event content

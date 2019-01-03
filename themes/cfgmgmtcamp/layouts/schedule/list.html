@@ -24,7 +24,7 @@
 				{{ range .Pages }}
 					{{ $speaker := .Param "speaker" }}
 					{{ $speakerfile := printf "%s/%s" "speaker" $speaker }}
-					<li class="single-event" data-start="{{ .Params.Start }}" data-end="{{ .Params.End }}" data-content="{{ .Permalink }}" data-speaker="{{ $speakerfile | relURL }}" data-event="{{ .Params.Eventtype }}">
+					<li class="single-event" data-start="{{ .Params.Start }}" data-end="{{ .Params.End }}" data-content="{{ .Permalink }}" data-speaker="{{ $speakerfile | relURL }}" data-event="{{ .Params.Eventtype }}" data-speaker-twitter="{{ with .Site.GetPage $speakerfile }}{{ if isset .Params "twitter" }}{{ .Param "twitter" }}{{ end }}{{ end }}" >
 						<a href="#0"><em class="event-name">{{ .Title }}</em><br><em class="event-speaker">{{ with .Site.GetPage $speakerfile }}{{ .Title }}{{ end }}</em></a>
 					</li>
 				{{ end }}
@@ -42,12 +42,18 @@
 				<h3 class="event-speaker"></h3>
 				<br>
 				<span class="event-speaker-image"></span>
+				<br>
+				<span class="event-speaker-twitter"><a class="event-speaker-twitter-url"><i class="fab fa-twitter"></i><span class="event-speaker-twitter-handle"></span></a></span>
+				<br>
+				<span class="event-link"><a class="event-link-url"><i class="fas fa-external-link-alt" style="color:#fff;"></i></a></span>
 			</div>
 			<div class="header-bg"></div>
 		</header>
 		<div class="body">
 			<div class="event-info">
+				<h3>Talk info</h3>
 				<div class="event-abstract-info"></div>
+				<h3>Speaker info</h3>
 				<div class="event-speaker-info"></div>
 			</div>
 			<div class="body-bg"></div>
