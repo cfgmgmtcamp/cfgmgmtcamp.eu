@@ -1,0 +1,883 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cfgmgmtcamp/schedule//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:Ops hates containers! Why?
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20190102T000000Z
+DTSTART:20190204T140000Z
+DTEND:20190204T145500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/opscontainer/
+LOCATION:1.baula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:'Shift Left Security', what the funk does that mean?!
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T150000Z
+DTEND:20190204T155500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/shiftleft/
+LOCATION:2.security
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A general update on the Choria and Marionette Collective projects
+ORGANIZER:R.I. Pienaar
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T163000Z
+DTEND:20190204T172500Z
+DESCRIPTION:<p>Choria is a 2 year old project that started life as an easy route to using MCollective for open source Puppet users.<br />
+It has evolved to encompass a number of technologies related to large scale systems management
+and have been deployed on globe spanning sites with 100s of thousands of nodes and thousands of daily active users.</p>
+
+<p>This talk will give an update on the projects status, progress, and will explore some of the new technologies created in this project.</p>
+
+<p>With the arrival of Puppet 6 in fall 2018 Puppet Inc has officially deprecated The Marionette Collective and
+have donated the legacy MCollective code bases to the Choria project.<br />
+We will explore what options Puppet 6 users have for benefiting from their past investments in the MCollective platform and
+look at work done that will be of particular interest to Puppet users such as orchestrating nodes using the Puppet DSL using Choria Playbooks.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/choriamarionette/
+LOCATION:3.puppet
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T83000Z
+DTEND:20190204T85500Z
+DESCRIPTION:<p>We provide free breakfast with croissants, coffee and thee.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakfast/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CFToolkit - New tooling in CFEngine 3.10, 3.12, and beyond
+ORGANIZER:Ole Herman Elgesem
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T140000Z
+DTEND:20190204T145500Z
+DESCRIPTION:<p>The CFEngine team has been working on various scripts and tooling to make it easier to
+deploy, upgrade, test, and troubleshoot CFEngine installations.
+In this talk, we will focus on 4 new tools; cf-net (introduced in 3.10),
+cf-check (introduced in 3.12.1), cf-remote, and cf-policyupgrade (under development).<br />
+Some technical details will be covered,
+but most of the discussion will be centered around use cases and functionality.
+All tools covered are free and open source, written in C and Python 3.</p>
+
+<p>The speakers are developers on the CFEngine team.<br />
+We will encourage the audience to ask questions, give feedback and suggestions during and after the presentation.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/cftoolkit/
+LOCATION:2.code
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cross-OS security hardening
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T163000Z
+DTEND:20190204T172500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/hardening/
+LOCATION:2.security
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dr SaltStack: or How I Stopped Worrying And Replaced All The Crons
+ORGANIZER:Gareth Greenaway
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T173000Z
+DTEND:20190204T182500Z
+DESCRIPTION:<p>Cron, a popular tool for scheduling jobs, has been used by millions of people on millions of servers around the world for several years.<br />
+As servers become less like pets and more like cattle, jobs can no longer be tied to a specific server and
+a scheduling system must be flexible to allow jobs to easily be scheduled across multiple servers,
+quickly moved from one server to another, and easily report on the status of a scheduled job.</p>
+
+<p>Salt Stack, is at its heart, a remote execution system which also does configuration management very well.<br />
+This presentation will demonstrate how Salt can be used to replace Cron for command scheduling and fulfill these modern requirements.</p>
+
+<p>The talk will include:</p>
+
+<ul>
+<li>A brief introduction to Salt Stack</li>
+<li>Examples of how to schedule jobs using Salt Stack.</li>
+<li>Using the Salt State system to scheduling jobs with dependencies.</li>
+<li>Using Salt Returners to receive notifications on job status.</li>
+<li>With Salt&rsquo;s remote execution modules, how to centrally manage jobs across many servers.</li>
+</ul>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/drsalt/
+LOCATION:3.terrasalt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:I Don't Know What I'm Doing: A Newbie Guide for Golang for DevOps
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T150000Z
+DTEND:20190204T155500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/gonewbie/
+LOCATION:2.code
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Istio: Service Mesh Network Security
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T140000Z
+DTEND:20190204T145500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/istio/
+LOCATION:2.security
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Packer, Terraform and Jenkins - IaC & CD for small stacks
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T140000Z
+DTEND:20190204T145500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/terrapacker/
+LOCATION:3.terrasalt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Salt xor Ansible
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T163000Z
+DTEND:20190204T172500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/saltxansible/
+LOCATION:3.terrasalt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Secrets management with Puppet at CERN
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T173000Z
+DTEND:20190204T182500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/puppetcern/
+LOCATION:3.puppet
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Terraboard, a web interface to visualize and query Terraform states
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T150000Z
+DTEND:20190204T155500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/terraboard/
+LOCATION:3.terrasalt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:What did you InSpec?
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T163000Z
+DTEND:20190204T172500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/inspec/
+LOCATION:2.code
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ansible from metal to container
+ORGANIZER:Toshaan Bharvani
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+DTSTART:20190204T150000Z
+DTEND:20190204T155500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/ansimetal/
+LOCATION:3.ansible
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Automate Kubernetes Workloads with Ansible
+ORGANIZER:Michael Hrivnak
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+DTSTART:20190204T173000Z
+DTEND:20190204T182500Z
+DESCRIPTION:<p>Have you longed for a simple yet powerful way to automate workloads on Kubernetes?<br />
+Ansible, the familiar IT automation tool, makes it easier than ever to automate your cluster.<br />
+This talk introduces two practical ways to define and provision complex applications using Ansible Automation with Kubernetes.</p>
+
+<p>The Automation Broker allows users to leverage Ansible Automation to define and orchestrate applications,
+making them available for self-service provisioning in the Service Catalog.</p>
+
+<p>The Ansible Operator allows users to actively manage the full lifecycle of an application by defining management behaviors with Ansible;
+the Operator handles everything else.</p>
+
+<p>In this session you will learn:
+- How to define and deploy your application on Kubernetes using Ansible.
+- How to publish your own applications in the Kubernetes Service Catalog.
+- How to create a Kubernetes Operator using Ansible.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/ansikube/
+LOCATION:3.ansible
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181229T000000Z
+DTSTART:20190204T160000Z
+DTEND:20190204T162500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon5/
+LOCATION:3.ansible
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Drilling down a software bug: lessons about observability, monitoring, automation and good practices
+ORGANIZER:Katerina Koutsonikoli
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+DTSTART:20190204T163000Z
+DTEND:20190204T172500Z
+DESCRIPTION:<p>So, there is case, every once in a few days the kafka cluster dies and
+along dies the whole application resulting in revenue loss for the company.</p>
+
+<p>Starting there, I would like to describe how we approached the unknown issue, assumptions, failure, trial and error,
+until we found the root cause: a known bug in the respective version of the famous distributed software.<br />
+Of course, every software has bugs and hitting a major one is not such uncommon but more than that,
+what is actually important is the actual lessons learnt during the process:</p>
+
+<ul>
+<li>how do we monitor our infrastructure and ways to improve it</li>
+<li>what actually happens inside our application, how do failures of external software affect it, how we can improve stability</li>
+<li>tools we have Vs tools we need, call for more automation</li>
+<li>what are the actual resources we need for our use case, if we under/overprovision, understand our scale and optimize the costs</li>
+<li>importance of documentation and post-mortems, the 5 WHYs.</li>
+</ul>
+
+<p>Major takeaway of this talk:
+tackle your incidents as a way to understand more about your systems
+(both technical systems: infra, code, tools AND non-technical systems: teams, workflows, procedures, practices) and design them better.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/drilling/
+LOCATION:1.devobs
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Foreman - Lifecycle management for training labs
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+DTSTART:20190204T173000Z
+DTEND:20190204T182500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/foremanlifecycle/
+LOCATION:3.foreman
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Foreman and Kubevirt for Orchestrating a Virtualized environment over Containers
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+DTSTART:20190204T163000Z
+DTEND:20190204T172500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/foremankube/
+LOCATION:3.foreman
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mgmt Config: Advanced demos and internals for hackers
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+DTSTART:20190204T163000Z
+DTEND:20190204T172500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/mgmtadvanced/
+LOCATION:3.mgmt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Foreman Release Process and Roadmap
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+DTSTART:20190204T140000Z
+DTEND:20190204T145500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/foremanrel/
+LOCATION:3.foreman
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tool migration - from Puppet to mgmt and back
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+DTSTART:20190204T150000Z
+DTEND:20190204T155500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/fromback/
+LOCATION:3.mgmt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Using acceptance tests for better Puppet modules
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+DTSTART:20190204T150000Z
+DTEND:20190204T155500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/puppetaccept/
+LOCATION:3.puppet
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ensuring security with Foreman - OpenSCAP plugin
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181228T000000Z
+DTSTART:20190204T150000Z
+DTEND:20190204T155500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/foremanscap/
+LOCATION:3.foreman
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mgmt Config: The Road to 0.1
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181228T000000Z
+DTSTART:20190204T140000Z
+DTEND:20190204T145500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/mgmtroad/
+LOCATION:3.mgmt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Scaling and monitoring your puppetserver for thousands of clients - including all pitfalls!
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181228T000000Z
+DTSTART:20190204T140000Z
+DTEND:20190204T145500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/scalingpuppet/
+LOCATION:3.puppet
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Applying SOLID principles to Infrastructure as Code
+ORGANIZER:Bram Vogelaar
+CATEGORIES:talk
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T173000Z
+DTEND:20190204T182500Z
+DESCRIPTION:<p>S.O.L.I.D is an acronym for the first five object-oriented design(OOD) principles by Robert C. Martin, in the early 2000s.</p>
+
+<p>These principles, when combined together, make it easy for a programmer to develop software that are easy to maintain and extend.<br />
+They also make it easy for developers to avoid code smells, easily re-factor code, and are also a part of the agile or adaptive software development.</p>
+
+<p>This talk discusses our options how we can model puppet code while applying the SOLID principles.<br />
+As the puppet DSL is not a object oriented language we will also address the limitations of the design pattern,
+which we ll have to solve using the convention over configuration design pattern.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/solid/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T160000Z
+DTEND:20190204T162500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon0/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T160000Z
+DTEND:20190204T162500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon1/
+LOCATION:1.baula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T160000Z
+DTEND:20190204T162500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon2/
+LOCATION:1.devobs
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T160000Z
+DTEND:20190204T162500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon3/
+LOCATION:3.puppet
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T160000Z
+DTEND:20190204T162500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon4/
+LOCATION:3.mgmt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T160000Z
+DTEND:20190204T162500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon6/
+LOCATION:3.foreman
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T160000Z
+DTEND:20190204T162500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon7/
+LOCATION:3.terrasalt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T160000Z
+DTEND:20190204T162500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon8/
+LOCATION:2.code
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T160000Z
+DTEND:20190204T162500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon9/
+LOCATION:2.security
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building a Devops organisation without YAML
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T150000Z
+DTEND:20190204T155500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/yamlcomp/
+LOCATION:1.devobs
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffe Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T103000Z
+DTEND:20190204T105500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakprenoon/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DevOps vs SRE - competing standards or friends?
+ORGANIZER:Seth Vargo
+CATEGORIES:talk
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T140000Z
+DTEND:20190204T145500Z
+DESCRIPTION:<p>Google has been practicing Site Reliability Engineering (SRE) since the early 2000&rsquo;s,
+but only recently began speaking about it publicly.<br />
+Some have called SRE &lsquo;DevOps 2.0&rsquo;, while others view it as a competing standard.<br />
+This talk discusses the differences and similarities between DevOps and SRE.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/devopsvssre/
+LOCATION:1.devobs
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Introducing 'object-oriented operations' for community-driven infrastructure-as-code
+ORGANIZER:Mark Shuttleworth
+CATEGORIES:keynote
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T120000Z
+DTEND:20190204T125500Z
+DESCRIPTION:<p>Infrastructure as code is a proven pattern,
+and so is open source. Wouldn&rsquo;t it make sense to bring a community driven approach to operational code itself?</p>
+
+<p>This talk is about bringing those ideas together,
+to create effective open source communities for operational code on Kubernetes and on traditional machine or cloud environments.<br />
+Collaborating on complex infrastructure, and using open source to share the benefits of that collaboration,
+will enable us all to spend more time focused on the things which are truly different about our challenges and less on the problems we all share.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/objectinfra/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T130000Z
+DTEND:20190204T135500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/lunch0/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T130000Z
+DTEND:20190204T135500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/lunch1/
+LOCATION:1.baula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T130000Z
+DTEND:20190204T135500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/lunch2/
+LOCATION:1.devobs
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T130000Z
+DTEND:20190204T135500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/lunch3/
+LOCATION:2.code
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T130000Z
+DTEND:20190204T135500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/lunch4/
+LOCATION:2.security
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T130000Z
+DTEND:20190204T135500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/lunch5/
+LOCATION:3.ansible
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T130000Z
+DTEND:20190204T135500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/lunch6/
+LOCATION:3.foreman
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T130000Z
+DTEND:20190204T135500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/lunch7/
+LOCATION:3.mgmt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T130000Z
+DTEND:20190204T135500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/lunch8/
+LOCATION:3.puppet
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T130000Z
+DTEND:20190204T135500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/lunch9/
+LOCATION:3.terrasalt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Managing complex infrastructure as code using pipelines
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T140000Z
+DTEND:20190204T145500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/infrapipelines/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Social Event
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T183000Z
+DTEND:20190204T190000Z
+DESCRIPTION:<p>The social event, aka beer event, is about 2 minutes walk from the event.<br />
+There is no registration for this part, however to get free drinks, you&rsquo;ll require a token you will get at the event.<br />
+The social event start from 18:00 and goes as long as you want.<br />
+There will be free drinks for a limited time.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/social/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Solving large scale operational metadata problems using stream processing
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T150000Z
+DTEND:20190204T155500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/metastreamprocess/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CfgMgmtCamp is dead, ...
+ORGANIZER:
+CATEGORIES:intro
+DTSTAMP:20181226T000000Z
+DTSTART:20190204T90000Z
+DTEND:20190204T92500Z
+DESCRIPTION:<p>The opening introduction of #CfgMgmtCamp.<br />
+Config Management Camp is expanding it&rsquo;s horizon beyong our traditional scope.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/intro/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Config Mgmt for Kubernetes workloads with GitOps and Helm
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181226T000000Z
+DTSTART:20190204T150000Z
+DTEND:20190204T155500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/kubegitops/
+LOCATION:1.baula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fourth Generation Automation: Uniting Models and Tasks
+ORGANIZER:Eric Sorenson
+CATEGORIES:keynote
+DTSTAMP:20181226T000000Z
+DTSTART:20190204T110000Z
+DTEND:20190204T115500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/4thgenauto/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Incident Resolution as Code
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181226T000000Z
+DTSTART:20190204T163000Z
+DTEND:20190204T172500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/incidentcode/
+LOCATION:3.ansible
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TBA
+ORGANIZER:
+CATEGORIES:keynote
+DTSTAMP:20181226T000000Z
+DTSTART:20190204T93000Z
+DTEND:20190204T102500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/keynote0/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ansible Community Update
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:00010101T000000Z
+DTSTART:20190204T140000Z
+DTEND:20190204T145500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/ansicommi/
+LOCATION:3.ansible
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Blue/Green Deployment with Docker, Haproxy and Consul
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:00010101T000000Z
+DTSTART:20190204T173000Z
+DTEND:20190204T182500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/greenbluecontainer/
+LOCATION:1.baula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CNAB: packaging for distributed applications with multiple toolchains
+ORGANIZER:Gareth Rushgrove
+CATEGORIES:talk
+DTSTAMP:00010101T000000Z
+DTSTART:20190204T163000Z
+DTEND:20190204T172500Z
+DESCRIPTION:<p>When you&rsquo;re managing distrubyted applications you&rsquo;re probably using a variety of tools that serve specific purposes.<br />
+Terraform, Helm, Compose, CloudFormation, Pulumi, ARM templates, etc. No one tool solves all your needs.<br />
+And new tools come along regularly. But all tools tend to invent there own packaging.</p>
+
+<p>In this talk we&rsquo;ll introduce the Cloud Native Application Bundles (CNAB) specification, and some associated tooling.<br />
+CNAB embraces the multi-tool world and allows for packaging up multiple formats and their accompanying toolchains into a single artefact.</p>
+
+<p>Imagine a single installable package that contains Terraform code to launch an RDS instance and a Compose file or
+Helm charts describing the application that will use it.<br />
+Today you might package and distribute those separately, with CNAB you can keep them together.</p>
+
+<p>That means we can share metadata, cryptographically sign a single artefact, push all aspects of the application to a central registry and more.</p>
+
+<p>In this talk we&rsquo;ll introduce CNAB, discuss some of the problems it solves, and show demos of the accompanying tooling.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/cnab/
+LOCATION:1.baula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Observabilty at scale
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:00010101T000000Z
+DTSTART:20190204T173000Z
+DTEND:20190204T182500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/observescale/
+LOCATION:1.devobs
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TBA
+ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:00010101T000000Z
+DTSTART:20190204T163000Z
+DTEND:20190204T172500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/complexpipe/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
