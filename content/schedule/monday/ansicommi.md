@@ -1,6 +1,6 @@
 ---
 title: "Ansible Community Update"
-speaker: "Robyn Bergeron"
+speaker: robynbergoron
 eventtype: talk
 room: 3.ansible
 start: 14:00

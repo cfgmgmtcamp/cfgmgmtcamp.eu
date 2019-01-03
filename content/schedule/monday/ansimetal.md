@@ -1,6 +1,6 @@
 ---
 title: "Ansible from metal to container"
-speaker: "Toshaan Bharvani"
+speaker: toshaanbharvani
 eventtype: talk
 room: 3.ansible
 start: 15:00

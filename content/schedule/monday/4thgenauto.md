@@ -1,6 +1,6 @@
 ---
 title: "Fourth Generation Automation: Uniting Models and Tasks"
-speaker: "Eric Sorenson"
+speaker: ericsorenson
 date: 2018-12-26
 eventtype: keynote
 room: 0.daula
