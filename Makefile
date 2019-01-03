@@ -15,6 +15,9 @@ build:
 	@test -s public/schedule/monday/index.ics && head -n -1 public/schedule/monday/index.ics >> public/schedule/schedule.ics
 	@test -s public/schedule/tuesday/index.ics && tail -n -4  public/schedule/tuesday/index.ics >> public/schedule/schedule.ics
 
+draft:
+	$(HUGO) --minify --buildDrafts --buildFuture --buildExpired
+
 serve:
 	$(HUGO) --minify
 	$(HUGO) server --disableFastRender
