@@ -1,7 +1,7 @@
 ---
 title: "Chef"
-date: 2018-09-03
-draft: true
+image: sponsors/chef.jpg
 level: titanium
-image: sponsors/chef.png
+date: 2019-01-03
+draft: true
 ---
