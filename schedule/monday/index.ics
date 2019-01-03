@@ -4,12 +4,19 @@ PRODID:-//cfgmgmtcamp/schedule//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 SUMMARY:Ops hates containers! Why?
-ORGANIZER:
+ORGANIZER:Martin Alfke
 CATEGORIES:talk
 DTSTAMP:20190102T000000Z
 DTSTART:20190204T140000Z
 DTEND:20190204T145500Z
-DESCRIPTION:
+DESCRIPTION:<p>&ldquo;Docker, Docker, Docker, Docker, &hellip;&rdquo;, developers really love Docker.<br />
+Usually one sees the no longer need for configuration management,
+the easy way to spin up a platform on a laptop, the low resource footprint.
+But how do you deploy laptops in data centers?</p>
+
+<p>This talk will give you an insight how we (more Ops then Dev) started to learn (and love) containers,
+the issues we saw when running them in larger scale and how Ops people should start dealing with Container technologies.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/opscontainer/
 LOCATION:1.baula
 STATUS:CONFIRMED
@@ -91,6 +98,39 @@ DTSTAMP:20181231T000000Z
 DTSTART:20190204T163000Z
 DTEND:20190204T172500Z
 DESCRIPTION:
+
+<h3 id="intro">Intro</h3>
+
+<p>We&rsquo;re working to put in place a Rudder policy that covers all OS that we support at our customers,
+or that will be coming around (i.e. beta of a new version).</p>
+
+<p>For our managed systems, it should cover distro-/OS-specific settings and that &ldquo;what makes sense everywhere, will be applied everywhere&rdquo;.</p>
+
+<p>For our human eyes, it should have a clear design that allows for easy understanding and maintenance.</p>
+
+<p>Rudder offers many options to express little details in the policy.<br />
+We need to find a best practice for quickly choosing the simplest option, which is least likely to require redesign.</p>
+
+<h3 id="experiences">Experiences</h3>
+
+<ul>
+<li>managing kernel module blacklists, managing sysctls</li>
+<li>configuring auditd to be safe and lightweight</li>
+<li>mixing globally applicable and os-specific Rudder rules</li>
+<li>using ncf sys knowledge to abstract OS-specific package and service names out of the policy</li>
+<li>independent testing of compliance using Lynis and monitoring</li>
+</ul>
+
+<p>** why? because if we (flawed human) design the policy, we (same flawed human) should not design the final test :-) **</p>
+
+<h3 id="takeaway">Takeaway</h3>
+
+<p>We&rsquo;ll wrap it up with practical stuff like configuring OSSEC and why nsjail is awesome as a containment technology for services.<br />
+We can help our colleagues and ourselves securing many applications, with a much better learning curve than SElinux etc. got.</p>
+
+<p>So when you walk in the room and listen you get rough idea of sustainable policy design but also of what a sec policy looks like,
+if it&rsquo;s not only made to fill a checklist.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/hardening/
 LOCATION:2.security
 STATUS:CONFIRMED
@@ -126,24 +166,50 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:I Don't Know What I'm Doing: A Newbie Guide for Golang for DevOps
-ORGANIZER:
+ORGANIZER:Peter Souter
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 DTSTART:20190204T150000Z
 DTEND:20190204T155500Z
-DESCRIPTION:
+DESCRIPTION:<p>Golang as a language has exploded with popularity since it&rsquo;s first release in 2009.<br />
+It&rsquo;s now the langauage behind a number of applications core to most organisations operations, such as Docker, Terraform, Kubernetes and etcd.</p>
+
+<p>However, for most people used to scripting interpreted languages like Ruby and Python,
+it can be a bit hard to get started with. What&rsquo;s all this err != nil business, and why am I getting errors when I don&rsquo;t refer to a variable?</p>
+
+<p>In this talk, we&rsquo;ll be discussing how to learn enough Golang to get into trouble,
+or at least enough to contribute fixes and features to your favourite infra management tools and apps,
+with an example of adding a new feature to the Vault Terraform Provider, and the gotcha&rsquo;s you might experience along the way.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/gonewbie/
 LOCATION:2.code
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Istio: Service Mesh Network Security
-ORGANIZER:
+ORGANIZER:Andrew Martin
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 DTSTART:20190204T140000Z
 DTEND:20190204T145500Z
-DESCRIPTION:
+DESCRIPTION:<p>Microservice security is too hard.<br />
+We must issue and rotate TLS certificates, deploy identity providers, and embed auth logic in applications.<br />
+These all require secure development, test, and maintenance effort.<br />
+Istio (a Google, IBM, and Lyft project) offers a new way:
+by providing a service mesh and a unified identity for each request,
+it offers all these things with zero application changes.</p>
+
+<p>In this talk we detail:</p>
+
+<ul>
+<li>What a service mesh is, and why Istio could revolutionise microservices</li>
+<li>Increasing application security and availability using network RBAC and circuit breakers</li>
+<li>Why all applications should use encryption by default</li>
+<li>&ldquo;Free&rdquo; mutual TLS between all services and rotate certs every hour</li>
+<li>Preventing token replay attacks that plague JWT</li>
+<li>Securely delegating requests between microservices</li>
+</ul>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/istio/
 LOCATION:2.security
 STATUS:CONFIRMED
@@ -198,12 +264,17 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:What did you InSpec?
-ORGANIZER:
+ORGANIZER:Gratien D'haese
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 DTSTART:20190204T163000Z
 DTEND:20190204T172500Z
-DESCRIPTION:
+DESCRIPTION:<p>InSpec is an open-source testing framework created by Chef that enables you to specify compliance, security, and other policy requirements.<br />
+However, the usage is not limited to compliance checking only as you can also use it to validate systems.<br />
+And, as InSpec is code which is very readable and easy to implement it can be used in a lot of different cases.<br />
+For a DevOps engineer it is a must have to tool which can be used together with Chef, Puppet or Ansible.<br />
+We will go over the language, use cases along with short demo&rsquo;s.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/inspec/
 LOCATION:2.code
 STATUS:CONFIRMED
@@ -296,7 +367,15 @@ CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 DTSTART:20190204T173000Z
 DTEND:20190204T182500Z
-DESCRIPTION:
+DESCRIPTION:<p>This talk will show a uncommon case study for Foreman at NETWAYS.<br />
+Our training schedule is fully packed with public and in-house training courses and
+having many different topics requires us to change training environments quite often and
+in short time to get them to different locations.<br />
+Moving away from golden images to Foreman and Puppet has enabled our Events team to provision training environments independently from technical stuff.<br />
+The Discovery Plugin allows to use the same process for handling rental notebooks for in-house training courses and big conference.<br />
+Virtual machines for the training labs have gone from manual provisioning through managed by Foreman to Vagrant to get even more flexibility.<br />
+And the latest step to reduce the need for re-provisioning is by using LVM snapshots and downloading Virtual Machine images from the cloud.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/foremanlifecycle/
 LOCATION:3.foreman
 STATUS:CONFIRMED
@@ -308,7 +387,18 @@ CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 DTSTART:20190204T163000Z
 DTEND:20190204T172500Z
-DESCRIPTION:
+DESCRIPTION:<p>Kubernetes with Kubevirt is the uprising solution for unified management of virtual machines and containers.</p>
+
+<p>Foreman is well known as a complete life cycle systems management tool for provisioning, configuring and monitoring of physical and virtual servers.</p>
+
+<p>The talk will focus on the newly added support for Kubevirt in Foreman which allows provisioning and configuration of Virtual Servers on top of Kubernetes with Kubevirt.</p>
+
+<p>After describing the use-cases and the supported functionality provided by the integration, I intend to show a demo that combines all of the pieces and the interaction between them.</p>
+
+<p>The demo will show how a virtual server is being created from Foreman, adding a VM on KubeVirt compute resource and provision its OS from PXE.</p>
+
+<p>The setup is a bit complex due to the nature of the moving parts and those will be explained as well prior to the demo.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/foremankube/
 LOCATION:3.foreman
 STATUS:CONFIRMED
@@ -327,24 +417,35 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Foreman Release Process and Roadmap
-ORGANIZER:
+ORGANIZER:Tomer Brisker
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 DTSTART:20190204T140000Z
 DTEND:20190204T145500Z
-DESCRIPTION:
+DESCRIPTION:<p>The first part of the talk will be a short description of the release process of Foreman,
+as well as some changes that have been made to it over the past year to ensure higher quality releases.<br />
+The second part will be an open discussion of the roadmap for the upcoming releases.<br />
+This is your chance to influence the future direction of the Foreman project - come and say your opinions!</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/foremanrel/
 LOCATION:3.foreman
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tool migration - from Puppet to mgmt and back
-ORGANIZER:
+ORGANIZER:Felix Frank
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 DTSTART:20190204T150000Z
 DTEND:20190204T155500Z
-DESCRIPTION:
+DESCRIPTION:<p>Switching out the back bone of your automation tool chain is usually painful.<br />
+It likely involves rewriting all your infrastructure code,
+and will either require a scary over-night cut-off, or a period in which two tools run concurrently,
+with operators carefully shifting functionality one step at a time.</p>
+
+<p>With mgmt&rsquo;s support for Puppet code, migrating becomes a lot more natural.<br />
+This session does a deep dive and shows how mgmt will allow you to use and maintain a mixed code base of both Puppet&rsquo;s and mgmt&rsquo;s DSLs.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/fromback/
 LOCATION:3.mgmt
 STATUS:CONFIRMED
@@ -363,12 +464,22 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ensuring security with Foreman - OpenSCAP plugin
-ORGANIZER:
+ORGANIZER:Aditi Puntambekar
 CATEGORIES:talk
 DTSTAMP:20181228T000000Z
 DTSTART:20190204T150000Z
 DTEND:20190204T155500Z
-DESCRIPTION:
+DESCRIPTION:<p>Systems left with unpatched vulnerabilities can have a number of consequences.<br />
+Security compliance is a state where computer systems are scrutinized against certain defined security policy.<br />
+OpenSCAP is one such security compliance ecosystem that provides multiple tools to assist administrators and auditors
+with assessment, measurement, and enforcement of security baselines.<br />
+Foreman provides OpenSCAP as a plugin that enables Foreman to receive automated vulnerability assessment and
+security compliance audits from Foreman hosts. You can upload SCAP compliance contents,
+create compliance policies out of them and further, these policies can be assigned to various hosts or hostgroups created through foreman.<br />
+OpenSCAP reports will help users find vulnerabilities on the hosts and also suggest remediation plan to fix those vulnerabilities.<br />
+Foreman OpenSCAP plugin is made of 4 components viz., foreman_openscap, smart_proxy_openscap, foreman_scap_client and puppet-foreman_scap_client.<br />
+These components together establish the Foreman and OpenSCAP integration.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/foremanscap/
 LOCATION:3.foreman
 STATUS:CONFIRMED
@@ -705,18 +816,6 @@ LOCATION:3.terrasalt
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Managing complex infrastructure as code using pipelines
-ORGANIZER:
-CATEGORIES:talk
-DTSTAMP:20181227T000000Z
-DTSTART:20190204T140000Z
-DTEND:20190204T145500Z
-DESCRIPTION:
-URL:https://cfgmgmtcamp.eu/schedule/monday/infrapipelines/
-LOCATION:0.daula
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Social Event
 ORGANIZER:
 CATEGORIES:break
@@ -745,8 +844,20 @@ LOCATION:0.daula
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CfgMgmtCamp is dead, ...
+SUMMARY:TBA
 ORGANIZER:
+CATEGORIES:talk
+DTSTAMP:20181227T000000Z
+DTSTART:20190204T140000Z
+DTEND:20190204T145500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/infrapipelines/
+LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CfgMgmtCamp is dead, ...
+ORGANIZER:Kris Buytaert & Toshaan Bharvani
 CATEGORIES:intro
 DTSTAMP:20181226T000000Z
 DTSTART:20190204T90000Z
@@ -777,26 +888,45 @@ CATEGORIES:keynote
 DTSTAMP:20181226T000000Z
 DTSTART:20190204T110000Z
 DTEND:20190204T115500Z
-DESCRIPTION:
+DESCRIPTION:<p>First we had CFEngine, and things were good&hellip; for a while.</p>
+
+<p>Then Puppet and Chef came along, embodying the idea that infrastructure code should behave like application code.<br />
+More recently, Ansible brought the concept of idempotent resources to imperative workflows,
+but stops short of modelling in the name of simplicity.</p>
+
+<p>Now we&rsquo;re wondering: is it possible to get the best of both worlds?<br />
+Can we get model-based guarantees plus orchestrated action?<br />
+I think the answer is yes, and as a case study I will take a tour through history and dive into Bolt,
+an open-source project started by Puppet in 2017, that has rapidly evolved to bring these two worlds together.<br />
+I&rsquo;ll talk through the design principles behind Bolt, walk through some code examples, and maybe even live demo &hellip;</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/4thgenauto/
 LOCATION:0.daula
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Incident Resolution as Code
-ORGANIZER:
+ORGANIZER:Julien Pivotto
 CATEGORIES:talk
 DTSTAMP:20181226T000000Z
 DTSTART:20190204T163000Z
 DTEND:20190204T172500Z
-DESCRIPTION:
+DESCRIPTION:<p>In this talk I will go in details about how we quickly resolve incidents using Prometheus and ansible.</p>
+
+<p>Come and discover how we linked the monitoring, queuing systems and orchestration to do unattended incident management.</p>
+
+<p>One of the main advantages of this is that we can apply technical remediation or mitigation from business metrics,
+even if things happen at different levels.</p>
+
+<p>All of this working anywhere Prometheus and ansible run, so not only in a kube env, but also in a traditional infrastructure.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/incidentcode/
 LOCATION:3.ansible
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TBA
-ORGANIZER:
+ORGANIZER:Charity Majors
 CATEGORIES:keynote
 DTSTAMP:20181226T000000Z
 DTSTART:20190204T93000Z
@@ -820,12 +950,18 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Blue/Green Deployment with Docker, Haproxy and Consul
-ORGANIZER:
+ORGANIZER:Vladimir Vitkov
 CATEGORIES:talk
 DTSTAMP:00010101T000000Z
 DTSTART:20190204T173000Z
 DTEND:20190204T182500Z
-DESCRIPTION:
+DESCRIPTION:<p>In the more and more prevalent Agile methodology for software development,
+velocity and frequent code deployments are king.<br />
+That means frequent deploys and the need to make that happen mostly automatically.<br />
+Rollbacks are mandatory. Everything should be automated, streamlined and audited.<br />
+Today i will show you one way to do a blue/green deploymnet allowing high velocity and flexibility.<br />
+If demo Gods allow it we will even see it in action.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/greenbluecontainer/
 LOCATION:1.baula
 STATUS:CONFIRMED
