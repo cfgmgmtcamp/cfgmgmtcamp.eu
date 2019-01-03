@@ -1,6 +1,6 @@
 ---
 title: "Welcome to YAMLcamp"
-speaker: "Kris Buytaert, Toshaan Bharvani"
+speaker: kristosh
 date: 2018-12-26
 eventtype: intro
 room: 0.daula

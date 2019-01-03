@@ -1,6 +1,6 @@
 ---
 title: "What did you InSpec?"
-speaker: "Gratien D'haese"
+speaker: gratiendhaese
 eventtype: talk
 room: 2.code
 start: 16:30
@@ -8,3 +8,10 @@ end: 17:25
 date: 2018-12-31
 draft: false
 ---
+
+InSpec is an open-source testing framework created by Chef that enables you to specify compliance, security, and other policy requirements.  
+However, the usage is not limited to compliance checking only as you can also use it to validate systems.  
+And, as InSpec is code which is very readable and easy to implement it can be used in a lot of different cases.  
+For a DevOps engineer it is a must have to tool which can be used together with Chef, Puppet or Ansible.  
+We will go over the language, use cases along with short demo's.  
+

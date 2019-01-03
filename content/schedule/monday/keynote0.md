@@ -1,6 +1,6 @@
 ---
 title: "TBA"
-speaker: "Charity Majors"
+speaker: charitymajors
 date: 2018-12-26
 eventtype: keynote
 room: 0.daula

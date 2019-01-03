@@ -1,8 +1,8 @@
 ---
 title: "Mark Shuttleworth"
 image: https://cfp.cfgmgmtcamp.be/uploads/4c638f062be22251bf187711ae7bd0b30bbf628ff3b618fe04.jpeg
-twitter: https://twitter.com/sabdfl
-date: 2018-12-31
+twitter: sabdfl
+date: 2010-01-03
 draft: false
 ---
 

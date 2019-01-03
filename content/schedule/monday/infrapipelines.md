@@ -1,6 +1,6 @@
 ---
-title: "Managing complex infrastructure as code using pipelines"
-speaker: "Kief Morris"
+title: "TBA"
+speaker:
 date: 2018-12-27
 eventtype: talk
 room: 0.daula
