@@ -187,6 +187,38 @@ section div ul li {
 	margin: 5px 0 5px 0;
 }
 
+#posts h1 {
+	display: inline;
+	font-size: 32px;
+	font-weight: bold;
+	color: #008888;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-bottom: 10px #ff00ff;
+}
+#posts h2 {
+	display: inline;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000088;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 10px #ff00ff;
+}
+#posts h3 {
+	display: inline;
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+	color: #770000;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 10px #ff00ff;
+}
+
 #sponsors div ul {
 	text-align: center;
 }
