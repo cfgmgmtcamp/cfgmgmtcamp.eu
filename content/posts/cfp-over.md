@@ -1,6 +1,6 @@
 ---
 title: "CFP Closed"
-date: 2018-11-03
+date: 2018-12-03
 type: posts
 draft: false
 ---
