@@ -1,3 +1,36 @@
 #!.gitignore
-public/
-resources/
+
+### Hugo ###
+# https://github.com/github/gitignore/tree/master/community/Golang
+# gitginore template for Hugo projects
+# website: https://gohugo.io
+
+# generated files by hugo
+/public/
+/resources/_gen/
+
+# executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+## Vim
+# https://github.com/github/gitignore/blob/master/Global/Vim.gitignore
+
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
