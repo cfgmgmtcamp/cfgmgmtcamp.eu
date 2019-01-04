@@ -3,8 +3,8 @@ title: "Puppet's Type & Provider Module Extraction Saga"
 speaker: jorietappa
 eventtype: talk
 room: 3.puppet
-start: 17:30
-end: 18:25
+start: 15:00
+end: 15:55
 date: 2018-12-31
 draft: false
 ---

@@ -3,8 +3,8 @@ title: "Using acceptance tests for better Puppet modules"
 speaker: ewoudkohlvanwijngaarden
 eventtype: talk
 room: 3.puppet
-start: 15:00
-end: 15:55
+start: 17:30
+end: 18:25
 date: 2018-12-29
 draft: false
 ---
