@@ -1,6 +1,6 @@
 ---
 title: "Foreman - Lifecycle management for training labs"
-speaker: "Dirk Goetz"
+speaker: dirkgoetz
 eventtype: talk
 room: 3.foreman
 start: 17:30

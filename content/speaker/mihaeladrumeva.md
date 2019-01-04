@@ -1,6 +1,6 @@
 ---
 title: "Mihaela Drumeva"
-twitter: https://twitter.com/micky_geeky
+twitter: micky_geeky
 date: 2019-01-01
 draft: false
 ---

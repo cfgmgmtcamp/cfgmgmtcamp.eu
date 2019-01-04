@@ -1,6 +1,6 @@
 ---
 title: "Foreman and Kubevirt for Orchestrating a Virtualized environment over Containers"
-speaker: borisddnopozov
+speaker: borisodnopozov
 eventtype: talk
 room: 3.foreman
 start: 16:30
