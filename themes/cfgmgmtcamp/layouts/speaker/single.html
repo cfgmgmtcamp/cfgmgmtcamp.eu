@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<section id="speaker">
+	<div id="speaker">
+		<h1>{{ .Title }}{{ if isset .Params "twitter" }} <a href="{{ .Param "twitter" }}"><i class="fab fa-twitter"></i></a>{{ end }}</h1>
+		{{ if isset .Params "image" }}<div class=speaker-image><img src="{{ .Param "Image" }}" alt="{{ .Title }}"></div>{{ end }}
+		<div class="event-speaker">
+			{{ .Content }}
+		</div>
+		<div class="event-talks">
+		<h3>Talks</h3>
+		<ul>
+		{{ $speakercode := .File.BaseFileName }}
+		{{ range where .Site.RegularPages "Section" "schedule" }}
+			{{ $speaker := .Param "speaker" }}
+			{{ if eq $speakercode $speaker }}
+				<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+			{{ end }}
+		{{ end }}
+		</ul>
+		</div>
+	</div>
+</section>
+
+{{ partial "footer.html" . }}
