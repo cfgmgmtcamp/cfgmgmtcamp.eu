@@ -1,10 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-speaker: {{ .Speaker }}
-room: {{ .Room }}
-eventtype: {{ .EventType }}
-start: {{ .Start }}
-end: {{ .End }}
+speaker:
+room:
+eventtype: talk
+start:
+end:
 date: {{ .Date }}
 draft: true
 ---

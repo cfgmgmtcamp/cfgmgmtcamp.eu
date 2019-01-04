@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-level: {{ .Level }}
-image: {{ .Image }}
+level:
+image:
 draft: true
 ---

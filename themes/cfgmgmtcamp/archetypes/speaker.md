@@ -1,7 +1,7 @@
 ---
 title: {{ replace .Name "-" " " | title }}
-image: {{ .Image }}
-twitter: {{ .Twitter }}
+image:
+twitter:
 date: {{ .Date }}
 draft: true
 ---
