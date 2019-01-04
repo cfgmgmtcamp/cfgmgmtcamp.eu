@@ -4,7 +4,13 @@
 
 <section id="speaker">
 	<div id="speaker">
-		<h1>{{ .Title }}{{ if isset .Params "twitter" }} <a href="{{ .Param "twitter" }}"><i class="fab fa-twitter"></i></a>{{ end }}</h1>
+		<h1>
+		{{ .Title }}
+		{{ if isset .Params "twitter" }}
+		<br>
+		<a href="https://twitter.com/{{ .Param "twitter" }}"><i class="fab fa-twitter"></i> @{{ .Param "twitter" }}</a>
+		{{ end }}
+		</h1>
 		{{ if isset .Params "image" }}<div class=speaker-image><img src="{{ .Param "Image" }}" alt="{{ .Title }}"></div>{{ end }}
 		<div class="event-speaker">
 			{{ .Content }}
