@@ -3,6 +3,18 @@ VERSION:2.0
 PRODID:-//cfgmgmtcamp/schedule//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
+SUMMARY:Ansible Community Update
+ORGANIZER:Robyn Bergeron
+CATEGORIES:talk
+DTSTAMP:20190103T000000Z
+DTSTART:20190204T140000Z
+DTEND:20190204T145500Z
+DESCRIPTION:
+URL:https://cfgmgmtcamp.eu/schedule/monday/ansicommi/
+LOCATION:3.ansible
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ops hates containers! Why?
 ORGANIZER:Martin Alfke
 CATEGORIES:talk
@@ -23,12 +35,19 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:'Shift Left Security', what the funk does that mean?!
-ORGANIZER:
+ORGANIZER:Gerard de Vos
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 DTSTART:20190204T150000Z
 DTEND:20190204T155500Z
-DESCRIPTION:
+DESCRIPTION:<p>In the agile, lean, devops communities people talk about improving security by &ldquo;shifting left&rdquo;.<br />
+Patterns and tools are emerging, or re-emerging,
+that make security less of a pain in the development process while also making applications more secure.<br />
+I will cover tools and processes that help teams with the day to day work like
+code scanners, application scanners, pull requests, deployment tooling and infrastructure-as-code.<br />
+At the organisational level some relatively small changes to, for instance, the change approval process can have a big impact.<br />
+These are tools and processes that have proven themselves at many organisations and perhaps they can do the same for you.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/shiftleft/
 LOCATION:2.security
 STATUS:CONFIRMED
@@ -92,7 +111,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cross-OS security hardening
-ORGANIZER:
+ORGANIZER:Florian Heigl
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 DTSTART:20190204T163000Z
@@ -216,48 +235,86 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Packer, Terraform and Jenkins - IaC & CD for small stacks
-ORGANIZER:
+ORGANIZER:Simon McCartney
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 DTSTART:20190204T140000Z
 DTEND:20190204T145500Z
-DESCRIPTION:
+DESCRIPTION:<p>Not everything revolves around docker containers and kubernetes, some environments pine for evolution of existing models &amp; practices.<br />
+Although this talk is about VMs and baking AMIs, it&rsquo;s not really a step inside a time machine to ~2010.</p>
+
+<p>We&rsquo;ll walk though some sane patterns for:</p>
+
+<ul>
+<li>building AMIs in a Jenkinsfile pipeline using packer</li>
+<li>testing AMIs in a Jenkinsfile pipeline using InSpec</li>
+<li>building test stacks using terraform from inside a Jenkinsfile pipeline, validating AWS infra using InSpec</li>
+<li>mapping branches to terraform environments and tfvars files</li>
+<li>using that same pipeline to deploy to production</li>
+</ul>
+
+<p>The talk is based on the experience of building out a real-world example of AMI based small stacks in
+<a href="https://github.com/jenkins201/packer-terraform-cicd-aws">https://github.com/jenkins201/packer-terraform-cicd-aws</a></p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/terrapacker/
 LOCATION:3.terrasalt
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Salt xor Ansible
-ORGANIZER:
+ORGANIZER:Pablo Suárez Hernández
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 DTSTART:20190204T163000Z
 DTEND:20190204T172500Z
-DESCRIPTION:
+DESCRIPTION:<p>Salt can be used for data-driven orchestration, remote execution for any infrastructure, configuration management for any app stack, and much more.</p>
+
+<p>Ansible, together with Ansible Tower brings you comprehensive enough tool for IT automation.</p>
+
+<p>In this session, Pablo Suárez Hernández, Senior Software Engineer for SUSE, will break down:</p>
+
+<ul>
+<li>How Salt competes with Ansible</li>
+<li>How SUSE is committed to the improvements and development of Salt</li>
+<li>News for the upcoming Fluorine release and future releases</li>
+</ul>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/saltxansible/
 LOCATION:3.terrasalt
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Secrets management with Puppet at CERN
-ORGANIZER:
+ORGANIZER:Carles Garcia Cabot
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 DTSTART:20190204T173000Z
 DTEND:20190204T182500Z
-DESCRIPTION:
+DESCRIPTION:<p>The CERN IT infrastructure consists of more than 40000 Puppet-managed virtual and
+physical machines located in two data centers.<br />
+Many Puppet catalogs contain configuration that depends on sensitive data
+which has to be centrally managed but accessible only by the relevant machines.<br />
+In order to distribute the secrets to hosts via Puppet,
+we developed a system that provides Puppet resources that fetch secrets at catalog application time and a CLI for managing them.</p>
+
+<p>This presentation will explain how this system works and how it is integrated with our configuration management stack,
+its limitations and future developments.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/puppetcern/
 LOCATION:3.puppet
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Terraboard, a web interface to visualize and query Terraform states
-ORGANIZER:
+ORGANIZER:Raphaël Pinson
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 DTSTART:20190204T150000Z
 DTEND:20190204T155500Z
-DESCRIPTION:
+DESCRIPTION:<p>The Terraform project has grown a lot in popularity since its inception in 2015.<br />
+Many resources that were not automated as code yet can now be managed this way.<br />
+The Terraboard project aims to provide a web interface to visualize and query Terraform states.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/terraboard/
 LOCATION:3.terrasalt
 STATUS:CONFIRMED
@@ -362,7 +419,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Foreman - Lifecycle management for training labs
-ORGANIZER:
+ORGANIZER:Dirk Goetz
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 DTSTART:20190204T173000Z
@@ -382,7 +439,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Foreman and Kubevirt for Orchestrating a Virtualized environment over Containers
-ORGANIZER:
+ORGANIZER:Boris Odnopozov
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 DTSTART:20190204T163000Z
@@ -405,12 +462,24 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mgmt Config: Advanced demos and internals for hackers
-ORGANIZER:
+ORGANIZER:James 'purpleidea' Shubin
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 DTSTART:20190204T163000Z
 DTEND:20190204T172500Z
-DESCRIPTION:
+DESCRIPTION:<p>Mgmt is a real-time automation tool that is fast and safe.<br />
+We try and take a fresh look at existing automation problems.</p>
+
+<p>This presentation will briefly introduce the tool and
+spend most of the time presenting and demoing some advanced and/or
+complicated features and use cases in the project.<br />
+While we&rsquo;re certain the audience will have experienced these sorts of
+difficult problems before, we hope they will appreciate our more elegant solutions.</p>
+
+<p>We&rsquo;ll also dive into some of the internals of the project for new contributors who want to peer into the core code.<br />
+We&rsquo;ll also discuss some of the shortcomings in the current implementation and discuss future improvements.<br />
+Finally we&rsquo;ll talk about some of the future designs we&rsquo;re planning and make it easy for new users to get involved and help shape the project.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/mgmtadvanced/
 LOCATION:3.mgmt
 STATUS:CONFIRMED
@@ -452,12 +521,23 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Using acceptance tests for better Puppet modules
-ORGANIZER:
+ORGANIZER:Ewoud Kohl van Wijngaarden
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 DTSTART:20190204T150000Z
 DTEND:20190204T155500Z
-DESCRIPTION:
+DESCRIPTION:<p>Using rspec-puppet to write module tests is also very common.<br />
+Most of us also use rspec-puppet-facts to test with the correct OS facts.<br />
+These are all good tools and every Puppet module author should know them.<br />
+Writing acceptance tests is a lot less known.</p>
+
+<p>With beaker and its plugins we can write acceptance tests with powerful assertions using serverspec on actual throw away machines.<br />
+This is the easiest way to guarantee your PRs don&rsquo;t introduce regressions.<br />
+It can also be used during development to verify functionality.</p>
+
+<p>In this talk we&rsquo;ll go over the basics of how to set up the boiler plate, write tests, easily (re)run them during development and use it in your CI.<br />
+Examples will be taken from both Voxpupuli and The Foreman&rsquo;s Puppet modules.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/puppetaccept/
 LOCATION:3.puppet
 STATUS:CONFIRMED
@@ -486,24 +566,46 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mgmt Config: The Road to 0.1
-ORGANIZER:
+ORGANIZER:James 'purpleidea' Shubin
 CATEGORIES:talk
 DTSTAMP:20181228T000000Z
 DTSTART:20190204T140000Z
 DTEND:20190204T145500Z
-DESCRIPTION:
+DESCRIPTION:<p>Real-time, autonomous, automation.</p>
+
+<p>Mgmt is a real-time automation tool that is fast and safe.<br />
+As we get closer to a 0.1 release that we&rsquo;ll recommend as &ldquo;production ready&rdquo;,
+we&rsquo;ll look at the last remaining features that we&rsquo;re aiming to land by then.<br />
+We&rsquo;ll explain and demo the import and module system, classes, and native functions.</p>
+
+<p>It uses a real-time, reactive programming language to model the desired state over time,
+and a powerful event-driven engine to apply this state.<br />
+We&rsquo;ll also show some exciting real-time demos that include scheduling, finite state machines, and remote execution.<br />
+Finally we&rsquo;ll talk about some of the future designs we&rsquo;re planning and
+make it easy for new users to get involved and help shape the project.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/mgmtroad/
 LOCATION:3.mgmt
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scaling and monitoring your puppetserver for thousands of clients - including all pitfalls!
-ORGANIZER:
+ORGANIZER:Tim Meusel
 CATEGORIES:talk
 DTSTAMP:20181228T000000Z
 DTSTART:20190204T140000Z
 DTEND:20190204T145500Z
-DESCRIPTION:
+DESCRIPTION:<p>Throwing hardware on your Puppetserver to scale it vertically works up to a certain level.<br />
+But how do you proceed once you reach the limit?<br />
+How do you distribute your agents over several Puppetservers evenly, but without hardcoded assignments?<br />
+How do you handle the massively increased load on your Foreman and PuppetDB intances,
+after the Puppetserver isn&rsquo;t the bottleneck anymore?<br />
+And how the heck can this all be monitored?</p>
+
+<p>I would like to show you a walkthrough from a small environment with a single physical server for Puppetserver/Foreman/PostgreSQL
+and a handful of agents that got scaled up to several thousand agents.<br />
+This also includes probably all common pitfalls that you can find yourself in on this journey!</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/scalingpuppet/
 LOCATION:3.puppet
 STATUS:CONFIRMED
@@ -638,12 +740,18 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Building a Devops organisation without YAML
-ORGANIZER:
+ORGANIZER:Ulf Månsson
 CATEGORIES:talk
 DTSTAMP:20181227T000000Z
 DTSTART:20190204T150000Z
 DTEND:20190204T155500Z
-DESCRIPTION:
+DESCRIPTION:<p>Inspired by Luke Kanies talk last year at CfgMgmtCamp to move from startups to enterprises and
+implement what we in the community have learned I have now started that journey at Volvo Cars.<br />
+I will talk about how we within the Consumer Commercial Digital Products are building
+a new organization from scratch to help transfer Volvo Cars from a traditional enterprise
+to a software company by creating a Devops culture and automate.<br />
+I will also talk about our philosophy for automation and how we are working hard to avoid YAML.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/yamlcomp/
 LOCATION:1.devobs
 STATUS:CONFIRMED
@@ -833,12 +941,35 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Solving large scale operational metadata problems using stream processing
-ORGANIZER:
+ORGANIZER:R.I. Pienaar
 CATEGORIES:talk
 DTSTAMP:20181227T000000Z
 DTSTART:20190204T150000Z
 DTEND:20190204T155500Z
-DESCRIPTION:
+DESCRIPTION:<p>Stream processing technologies are usually associated with social media, click streams,
+machine learning and big data however this talk will show it can be useful in solving difficult
+problems operations face when dealing with large server estates.</p>
+
+<p>A very large scale stream processing pipeline have been built managing metadata
+for 100s of thousands of nodes using technologies from Choria.io and NATS.io,
+this talk will explore the design, performance and potential uses of such a platform.</p>
+
+<p>Areas covered:</p>
+
+<ul>
+<li>basic streaming overview</li>
+<li>design of the global network</li>
+<li>design of a replication tool particular to the needs</li>
+<li>building hierarchical cached views of the estate</li>
+<li>exposing data to other systems with examples</li>
+<li>using stream processing methodologies to perform real time analysis and remediation of the fleet</li>
+</ul>
+
+<p>We;ll also explore how this is a good parallel for IoT where the mentioned node scale is considered small.</p>
+
+<p>While this talk demonstrates a platform built using specific technologies and the design of those will influence the talk,
+it&rsquo;s not a vendor talk and we’ll make efforts so the ideas are transferred and not the glossies from any one tool.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/metastreamprocess/
 LOCATION:0.daula
 STATUS:CONFIRMED
@@ -871,12 +1002,21 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Config Mgmt for Kubernetes workloads with GitOps and Helm
-ORGANIZER:
+ORGANIZER:Tomasz Tarczynski
 CATEGORIES:talk
 DTSTAMP:20181226T000000Z
 DTSTART:20190204T150000Z
 DTEND:20190204T155500Z
-DESCRIPTION:
+DESCRIPTION:<p>Kubernetes provides a declarative API,
+so you can describe the desired state of the system and then the control plane makes the actual state match the desired state.<br />
+But we still need config mgmt for API objects to the point when they are applied to the cluster.</p>
+
+<p>Helm helps organizing these configs into charts, template them, and manage releases.<br />
+GitOps let&rsquo;s you use a git repo as a single source of truth for the desired state of the whole system.<br />
+Then all changes to this state are delivered just as git commits instead of using kubectl apply or helm upgrade.</p>
+
+<p>In this talk I will introduce the GitOps model for operating cloud native environments and give a short demo.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/kubegitops/
 LOCATION:1.baula
 STATUS:CONFIRMED
@@ -937,18 +1077,6 @@ LOCATION:0.daula
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ansible Community Update
-ORGANIZER:
-CATEGORIES:talk
-DTSTAMP:00010101T000000Z
-DTSTART:20190204T140000Z
-DTEND:20190204T145500Z
-DESCRIPTION:
-URL:https://cfgmgmtcamp.eu/schedule/monday/ansicommi/
-LOCATION:3.ansible
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Blue/Green Deployment with Docker, Haproxy and Consul
 ORGANIZER:Vladimir Vitkov
 CATEGORIES:talk
@@ -994,12 +1122,15 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Observabilty at scale
-ORGANIZER:
+ORGANIZER:Ramez Hanna
 CATEGORIES:talk
 DTSTAMP:00010101T000000Z
 DTSTART:20190204T173000Z
 DTEND:20190204T182500Z
-DESCRIPTION:
+DESCRIPTION:<p>This is a talk about how Criteo (<a href="http://labs.criteo.com/">http://labs.criteo.com/</a>) is monitoring 30k servers across 8 datacenters.<br />
+I&rsquo;ll also talk about observability and what it means and how you should focus on observability
+rather than monitoring Technologies would include prometheus, bigGraphite, cassandra and elasticsearch.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/observescale/
 LOCATION:1.devobs
 STATUS:CONFIRMED
