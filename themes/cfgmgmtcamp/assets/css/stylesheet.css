@@ -188,6 +188,7 @@ section div ul li {
 }
 
 #posts h1 {
+	display: inline;
 	font-size: 32px;
 	font-weight: bold;
 	color: #008888;
@@ -197,6 +198,7 @@ section div ul li {
 	border-bottom: 10px #ff00ff;
 }
 #posts h2 {
+	display: inline;
 	font-size: 24px;
 	font-weight: bold;
 	color: #000088;
@@ -206,6 +208,7 @@ section div ul li {
 	border-bottom: 10px #ff00ff;
 }
 #posts h3 {
+	display: inline;
 	float: right;
 	font-size: 14px;
 	font-weight: bold;
