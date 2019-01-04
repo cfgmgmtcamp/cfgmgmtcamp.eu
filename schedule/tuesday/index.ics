@@ -225,21 +225,6 @@ LOCATION:3.pulp
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Puppet's Type & Provider Module Extraction Saga
-ORGANIZER:Jorie Tappa
-CATEGORIES:talk
-DTSTAMP:20181231T000000Z
-DTSTART:20190205T173000Z
-DTEND:20190205T182500Z
-DESCRIPTION:<p>In Puppet 6, we removed several core types and providers into modules, and published most of those onto the Puppet Forge.<br />
-This talk covers the history and motivation behind removing them, hurdles we faced, module authorship with PDK, setting up CI pipelines,
-and the behind the scenes view of how the extracted modules are repackaged back into Puppet agent.</p>
-
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/puppettype/
-LOCATION:3.puppet
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SaltStack for Developers: Extending SaltStack
 ORGANIZER:Gareth Greenaway
 CATEGORIES:talk
@@ -471,6 +456,29 @@ the issues encountered and the approach adopted for the improvement of UX and UI
 
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/uxuicfgtool/
 LOCATION:3.rudder
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Using acceptance tests for better Puppet modules
+ORGANIZER:Ewoud Kohl van Wijngaarden
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+DTSTART:20190205T173000Z
+DTEND:20190205T182500Z
+DESCRIPTION:<p>Using rspec-puppet to write module tests is also very common.<br />
+Most of us also use rspec-puppet-facts to test with the correct OS facts.<br />
+These are all good tools and every Puppet module author should know them.<br />
+Writing acceptance tests is a lot less known.</p>
+
+<p>With beaker and its plugins we can write acceptance tests with powerful assertions using serverspec on actual throw away machines.<br />
+This is the easiest way to guarantee your PRs don&rsquo;t introduce regressions.<br />
+It can also be used during development to verify functionality.</p>
+
+<p>In this talk we&rsquo;ll go over the basics of how to set up the boiler plate, write tests, easily (re)run them during development and use it in your CI.<br />
+Examples will be taken from both Voxpupuli and The Foreman&rsquo;s Puppet modules.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/puppetaccept/
+LOCATION:3.puppet
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

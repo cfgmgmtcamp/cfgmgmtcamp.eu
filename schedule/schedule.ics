@@ -262,6 +262,21 @@ LOCATION:3.terrasalt
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Puppet's Type & Provider Module Extraction Saga
+ORGANIZER:Jorie Tappa
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+DTSTART:20190204T150000Z
+DTEND:20190204T155500Z
+DESCRIPTION:<p>In Puppet 6, we removed several core types and providers into modules, and published most of those onto the Puppet Forge.<br />
+This talk covers the history and motivation behind removing them, hurdles we faced, module authorship with PDK, setting up CI pipelines,
+and the behind the scenes view of how the extracted modules are repackaged back into Puppet agent.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/puppettype/
+LOCATION:3.puppet
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Salt xor Ansible
 ORGANIZER:Pablo Suárez Hernández
 CATEGORIES:talk
@@ -518,29 +533,6 @@ This session does a deep dive and shows how mgmt will allow you to use and maint
 
 URL:https://cfgmgmtcamp.eu/schedule/monday/fromback/
 LOCATION:3.mgmt
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Using acceptance tests for better Puppet modules
-ORGANIZER:Ewoud Kohl van Wijngaarden
-CATEGORIES:talk
-DTSTAMP:20181229T000000Z
-DTSTART:20190204T150000Z
-DTEND:20190204T155500Z
-DESCRIPTION:<p>Using rspec-puppet to write module tests is also very common.<br />
-Most of us also use rspec-puppet-facts to test with the correct OS facts.<br />
-These are all good tools and every Puppet module author should know them.<br />
-Writing acceptance tests is a lot less known.</p>
-
-<p>With beaker and its plugins we can write acceptance tests with powerful assertions using serverspec on actual throw away machines.<br />
-This is the easiest way to guarantee your PRs don&rsquo;t introduce regressions.<br />
-It can also be used during development to verify functionality.</p>
-
-<p>In this talk we&rsquo;ll go over the basics of how to set up the boiler plate, write tests, easily (re)run them during development and use it in your CI.<br />
-Examples will be taken from both Voxpupuli and The Foreman&rsquo;s Puppet modules.</p>
-
-URL:https://cfgmgmtcamp.eu/schedule/monday/puppetaccept/
-LOCATION:3.puppet
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1029,17 +1021,19 @@ CATEGORIES:keynote
 DTSTAMP:20181226T000000Z
 DTSTART:20190204T110000Z
 DTEND:20190204T115500Z
-DESCRIPTION:<p>First we had CFEngine, and things were good&hellip; for a while.</p>
+DESCRIPTION:<p>To borrow a phrase, &ldquo;In the beginning was the command line.&rdquo; Then we had ISConf and CFEngine, and things were good&hellip; for a while.</p>
 
-<p>Then Puppet and Chef came along, embodying the idea that infrastructure code should behave like application code.<br />
-More recently, Ansible brought the concept of idempotent resources to imperative workflows,
-but stops short of modelling in the name of simplicity.</p>
+<p>Puppet and Chef came along, embodying the idea that infrastructure code should behave like application code.  More
+recently, Ansible brought the concept of idempotent resources to imperative workflows, but stops short of modelling in
+favor of radical simplicity.</p>
 
 <p>Now we&rsquo;re wondering: is it possible to get the best of both worlds?<br />
-Can we get model-based guarantees plus orchestrated action?<br />
-I think the answer is yes, and as a case study I will take a tour through history and dive into Bolt,
-an open-source project started by Puppet in 2017, that has rapidly evolved to bring these two worlds together.<br />
-I&rsquo;ll talk through the design principles behind Bolt, walk through some code examples, and maybe even live demo &hellip;</p>
+Can we get model-based guarantees plus orchestrated action?</p>
+
+<p>I think the answer is &ldquo;yes&rdquo; and in this talk I will explore an emerging &ldquo;fourth generation&rdquo; of config management tools
+that attempt to bring the beneficial properties of models together with orchestrated action. In full disclosure, I&rsquo;ll
+talk about Puppet&rsquo;s Bolt and Lyra projects, but the talk will not be vendor-specific as tools like Terraform and OpsMop
+also exemplify this approach.</p>
 
 URL:https://cfgmgmtcamp.eu/schedule/monday/4thgenauto/
 LOCATION:0.daula
@@ -1376,21 +1370,6 @@ LOCATION:3.pulp
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Puppet's Type & Provider Module Extraction Saga
-ORGANIZER:Jorie Tappa
-CATEGORIES:talk
-DTSTAMP:20181231T000000Z
-DTSTART:20190205T173000Z
-DTEND:20190205T182500Z
-DESCRIPTION:<p>In Puppet 6, we removed several core types and providers into modules, and published most of those onto the Puppet Forge.<br />
-This talk covers the history and motivation behind removing them, hurdles we faced, module authorship with PDK, setting up CI pipelines,
-and the behind the scenes view of how the extracted modules are repackaged back into Puppet agent.</p>
-
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/puppettype/
-LOCATION:3.puppet
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SaltStack for Developers: Extending SaltStack
 ORGANIZER:Gareth Greenaway
 CATEGORIES:talk
@@ -1622,6 +1601,29 @@ the issues encountered and the approach adopted for the improvement of UX and UI
 
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/uxuicfgtool/
 LOCATION:3.rudder
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Using acceptance tests for better Puppet modules
+ORGANIZER:Ewoud Kohl van Wijngaarden
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+DTSTART:20190205T173000Z
+DTEND:20190205T182500Z
+DESCRIPTION:<p>Using rspec-puppet to write module tests is also very common.<br />
+Most of us also use rspec-puppet-facts to test with the correct OS facts.<br />
+These are all good tools and every Puppet module author should know them.<br />
+Writing acceptance tests is a lot less known.</p>
+
+<p>With beaker and its plugins we can write acceptance tests with powerful assertions using serverspec on actual throw away machines.<br />
+This is the easiest way to guarantee your PRs don&rsquo;t introduce regressions.<br />
+It can also be used during development to verify functionality.</p>
+
+<p>In this talk we&rsquo;ll go over the basics of how to set up the boiler plate, write tests, easily (re)run them during development and use it in your CI.<br />
+Examples will be taken from both Voxpupuli and The Foreman&rsquo;s Puppet modules.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/puppetaccept/
+LOCATION:3.puppet
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
