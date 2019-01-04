@@ -15,11 +15,11 @@
 </header>
 
 <div id="container">
-	<section id="about">
+	<section id="posts">
 		<div class="inner">
 		{{ range first 5 (where .Data.Pages "Type" "posts") }}
 			<h1>{{ .Title }}</h1>
-                        <div class="post-date">{{ .Date.Format "2 January 2006" }}</div>
+            <h3>{{ .Date.Format "2 January 2006" }}</h3>
 			{{ .Content }}
 		{{ end  }}
 		</div>
