@@ -1088,20 +1088,27 @@ LOCATION:0.daula
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Blue/Green Deployment with Docker, Haproxy and Consul
-ORGANIZER:Vladimir Vitkov
+SUMMARY:Battle of the circuit breakers: Istio vs Hystrix
+ORGANIZER:
 CATEGORIES:talk
 DTSTAMP:00010101T000000Z
 DTSTART:20190204T173000Z
 DTEND:20190204T182500Z
-DESCRIPTION:<p>In the more and more prevalent Agile methodology for software development,
-velocity and frequent code deployments are king.<br />
-That means frequent deploys and the need to make that happen mostly automatically.<br />
-Rollbacks are mandatory. Everything should be automated, streamlined and audited.<br />
-Today i will show you one way to do a blue/green deploymnet allowing high velocity and flexibility.<br />
-If demo Gods allow it we will even see it in action.</p>
+DESCRIPTION:<p>Kubernetes in general, and Istio in particular, have changed a lot the way we look at Ops-related constraints: monitoring,
+load-balancing, health checks, etc.
+Before those products became available, there were already available solutions to handle those constraints.</p>
 
-URL:https://cfgmgmtcamp.eu/schedule/monday/greenbluecontainer/
+<p>Among them is Hystrix, a Java library provided by Netflix.<br />
+From the site: &ldquo;Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems,
+services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.&rdquo;<br />
+In particular, Hystrix provides an implementation of the Circuit Breaker pattern,
+which prevents a network or service failure from cascading to other services. But now Istio also provides the same capability.</p>
+
+<p>In this talk, we will have a look at how Istio and Hystrix implement the Circuit Breaker pattern, and what pros/cons each of them has.</p>
+
+<p>After this talk, you&rsquo;ll be able to decide which one is the best fit in your context.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/battlebreaker/
 LOCATION:1.baula
 STATUS:CONFIRMED
 END:VEVENT
