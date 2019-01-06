@@ -7,7 +7,15 @@
 	<h1>Speakers</h1>
 	<ul>
 	{{ range .Pages.ByTitle }}
-		<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+		{{ $count := newScratch }}
+		{{ $count.Set "talks" "0" }}
+		{{ range where .Site.Pages "Params.speaker" .File.BaseFileName }}
+			{{ $count.Add "Talk" 1 }}
+		{{ end }}
+		{{ $talkcount := $count.Get "Talk" }}
+		{{ if ge $talkcount 1 }}
+			<li><a href="{{ .Permalink }}">{{ .Title }} ({{ $count.Get "Talk" }}) </a></li>
+		{{ end }}
 	{{ end }}
 	</ul>
 	</div>
