@@ -1060,13 +1060,30 @@ LOCATION:3.ansible
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:TBA
+SUMMARY:Observability for emerging infra: what got you here won't get you there
 ORGANIZER:Charity Majors
 CATEGORIES:keynote
 DTSTAMP:20181226T000000Z
 DTSTART:20190204T93000Z
 DTEND:20190204T102500Z
-DESCRIPTION:
+DESCRIPTION:<p>Distributed systems, microservices, containers and schedulers, polyglot persistence &hellip;<br />
+modern infrastructure is ever more fluid and dynamic, chaotic and transient.<br />
+Likewise, individual engineering roles can no longer be broken down neatly into<br />
+software engineers (who write the code) and ops engineers (who deploy the code (and buffer the consequences)).<br />
+Many teams have already sailed past an event horizon of complexity and found that their old tools and processes no longer work for them.</p>
+
+<p>But why, exactly?<br />
+What was wrong with traditional metrics and logs?<br />
+Why are they failing to keep pace with modern requirements?<br />
+Isn&rsquo;t observability just a marketing term for monitoring? And what on earth can we do about it?</p>
+
+<p>In this talk we&rsquo;ll cover the shortcomings of traditional metrics and logs,
+and the technical and cultural differences between monitoring and observability.<br />
+We&rsquo;ll also talk about the deep cultural revolution underway from siloed specialties
+towards software ownership (in every type of engineering role) &ndash;
+and what exactly does that mean when it comes to systems observability? &ndash;
+as well as the technical practices and mental shifts that are absolutely required to keep pace with modern infrastructure.</p>
+
 URL:https://cfgmgmtcamp.eu/schedule/monday/keynote0/
 LOCATION:0.daula
 STATUS:CONFIRMED
