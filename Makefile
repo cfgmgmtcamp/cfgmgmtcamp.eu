@@ -2,7 +2,7 @@
 
 HUGO=hugo
 
-.PHONY: build serve
+.PHONY: build serve draft clean
 
 all: build
 
