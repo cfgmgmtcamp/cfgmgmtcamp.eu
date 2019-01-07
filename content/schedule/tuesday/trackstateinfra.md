@@ -2,7 +2,7 @@
 title: "Keeping Track of Stateful Infrastructure"
 speaker: patrickmeyer
 eventtype: talk
-room: 2.devobs
+room: 1.devobs
 start: 14:0
 end: 14:55
 date: 2018-12-31
