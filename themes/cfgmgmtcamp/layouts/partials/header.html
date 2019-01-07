@@ -27,6 +27,9 @@
 	{{ $schedulestylecss := resources.Get "css/schedule.css" }}
 	{{ $schedulecss := $schedulestylecss | resources.Minify }}
 	<link href="{{ $schedulecss.RelPermalink }}" rel="stylesheet" type="text/css">
+	{{ $schedulesinglestylecss := resources.Get "css/schedule-single.css" }}
+	{{ $schedulesinglecss := $schedulesinglestylecss | resources.Minify }}
+	<link href="{{ $schedulesinglecss.RelPermalink }}" rel="stylesheet" type="text/css">
 	<link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!--[if lte IE 8]>

@@ -6,6 +6,9 @@
 	content: 'mobile';
 	display: none;
 }
+.cd-schedule em {
+	font-style: normal;
+}
 @media only screen and (min-width: 800px) {
 	.cd-schedule {
 		width: 98%;

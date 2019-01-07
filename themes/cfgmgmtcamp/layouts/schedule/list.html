@@ -10,7 +10,7 @@
 <div class="cd-schedule loading">
 	<div class="timeline">
 		<ul>
-		{{ range $.Site.Data.timeslots }}
+		{{ range (index $.Site.Data.timeslots (index (split ($.Page.Permalink | relURL) "/") 2)) }}
 			<li><span>{{ .slot }}</span></li>
 		{{ end }}
 		</ul>
@@ -25,7 +25,7 @@
 					{{ $speaker := .Param "speaker" }}
 					{{ $speakerfile := printf "%s/%s" "speaker" $speaker }}
 					<li class="single-event" data-start="{{ .Params.Start }}" data-end="{{ .Params.End }}" data-content="{{ .Permalink }}" data-speaker="{{ $speakerfile | relURL }}" data-event="{{ .Params.Eventtype }}" data-speaker-twitter="{{ with .Site.GetPage $speakerfile }}{{ if isset .Params "twitter" }}{{ .Param "twitter" }}{{ end }}{{ end }}" >
-						<a href="#0"><em class="event-name">{{ .Title }}</em><br><em class="event-speaker">{{ with .Site.GetPage $speakerfile }}{{ .Title }}{{ end }}</em></a>
+						<a href="#0"><em class="event-name">{{ .Title }}</em><em class="event-speaker">{{ with .Site.GetPage $speakerfile }}{{ .Title }}{{ end }}</em></a>
 					</li>
 				{{ end }}
 				</ul>
