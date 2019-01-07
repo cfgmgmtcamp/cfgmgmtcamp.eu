@@ -116,7 +116,7 @@ so you can easily try out the different approaches in your environment.<br />
 Though the general patterns are applicable with any centralized logging system.</p>
 
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/centrallog/
-LOCATION:2.devobs
+LOCATION:1.devobs
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -185,7 +185,7 @@ What makes serveradmin unique is how easy it is to modify the database schema as
 [1] <a href="https://github.com/innogames/igvm">https://github.com/innogames/igvm</a></p>
 
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/trackstateinfra/
-LOCATION:2.devobs
+LOCATION:1.devobs
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -416,31 +416,6 @@ LOCATION:3.ansible
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Support at scale in a DevOps world: how Swarming and Cynefin can save you from 3rd Line hell
-ORGANIZER:Jon Hall
-CATEGORIES:talk
-DTSTAMP:20181229T000000Z
-DTSTART:20190205T173000Z
-DTEND:20190205T182500Z
-DESCRIPTION:<p>As DevOps practices and modern software defined infrastructure become increasingly established in enterprises,
-and as the scale of delivery grows, practitioners increasingly find themselves drawn into traditional IT support structures.<br />
-Here, they find themselves expected to act as part of a classic multi-tier support structure,
-with at least part of their time spent acting as a 3rd line support function.</p>
-
-<p>This presentation explores the problems this creates:
-its siloed nature creates inefficient work-in-progress queues,
-and reduces cross-functional collaboration and knowledge sharing.</p>
-
-<p>Service Management plays a vital role in managing system consumers at scale,
-but it needs to modernise to work well in the new era.<br />
-Hence, this presentation explores emergent methods such as Swarming,
-and new thinking such as Cynefin, which bring new thinking and new structures which align much better to modern development and operations thinking.</p>
-
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/devopsupport/
-LOCATION:2.devobs
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:UX challenges of a UI-centric config management tool
 ORGANIZER:Raphael Gauthier
 CATEGORIES:talk
@@ -536,7 +511,7 @@ and this talk will show the rationale behind this predicate, how we implemented 
 and the benefits of this approach for the modern IT world.</p>
 
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/obserecfgmgmt/
-LOCATION:2.devobs
+LOCATION:1.devobs
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -735,7 +710,7 @@ DTSTART:20190205T160000Z
 DTEND:20190205T162500Z
 DESCRIPTION:
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon5/
-LOCATION:2.devobs
+LOCATION:1.devobs
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -784,6 +759,24 @@ DTEND:20190205T111500Z
 DESCRIPTION:
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakprenoon/
 LOCATION:0.daula
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building a Devops organisation without YAML
+ORGANIZER:Ulf Månsson
+CATEGORIES:talk
+DTSTAMP:20181227T000000Z
+DTSTART:20190205T173000Z
+DTEND:20190205T182500Z
+DESCRIPTION:<p>Inspired by Luke Kanies talk last year at CfgMgmtCamp to move from startups to enterprises and
+implement what we in the community have learned I have now started that journey at Volvo Cars.<br />
+I will talk about how we within the Consumer Commercial Digital Products are building
+a new organization from scratch to help transfer Volvo Cars from a traditional enterprise
+to a software company by creating a Devops culture and automate.<br />
+I will also talk about our philosophy for automation and how we are working hard to avoid YAML.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/yamlcomp/
+LOCATION:1.devobs
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -928,7 +921,7 @@ DTSTART:20190205T130000Z
 DTEND:20190205T135500Z
 DESCRIPTION:
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch2/
-LOCATION:2.devobs
+LOCATION:1.devobs
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

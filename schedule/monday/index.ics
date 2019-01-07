@@ -500,6 +500,31 @@ LOCATION:3.mgmt
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Support at scale in a DevOps world: how Swarming and Cynefin can save you from 3rd Line hell
+ORGANIZER:Jon Hall
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+DTSTART:20190204T150000Z
+DTEND:20190204T155500Z
+DESCRIPTION:<p>As DevOps practices and modern software defined infrastructure become increasingly established in enterprises,
+and as the scale of delivery grows, practitioners increasingly find themselves drawn into traditional IT support structures.<br />
+Here, they find themselves expected to act as part of a classic multi-tier support structure,
+with at least part of their time spent acting as a 3rd line support function.</p>
+
+<p>This presentation explores the problems this creates:
+its siloed nature creates inefficient work-in-progress queues,
+and reduces cross-functional collaboration and knowledge sharing.</p>
+
+<p>Service Management plays a vital role in managing system consumers at scale,
+but it needs to modernise to work well in the new era.<br />
+Hence, this presentation explores emergent methods such as Swarming,
+and new thinking such as Cynefin, which bring new thinking and new structures which align much better to modern development and operations thinking.</p>
+
+URL:https://cfgmgmtcamp.eu/schedule/monday/devopsupport/
+LOCATION:1.devobs
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:The Foreman Release Process and Roadmap
 ORGANIZER:Tomer Brisker
 CATEGORIES:talk
@@ -728,24 +753,6 @@ DTEND:20190204T162500Z
 DESCRIPTION:
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon9/
 LOCATION:2.security
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Building a Devops organisation without YAML
-ORGANIZER:Ulf Månsson
-CATEGORIES:talk
-DTSTAMP:20181227T000000Z
-DTSTART:20190204T150000Z
-DTEND:20190204T155500Z
-DESCRIPTION:<p>Inspired by Luke Kanies talk last year at CfgMgmtCamp to move from startups to enterprises and
-implement what we in the community have learned I have now started that journey at Volvo Cars.<br />
-I will talk about how we within the Consumer Commercial Digital Products are building
-a new organization from scratch to help transfer Volvo Cars from a traditional enterprise
-to a software company by creating a Devops culture and automate.<br />
-I will also talk about our philosophy for automation and how we are working hard to avoid YAML.</p>
-
-URL:https://cfgmgmtcamp.eu/schedule/monday/yamlcomp/
-LOCATION:1.devobs
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
