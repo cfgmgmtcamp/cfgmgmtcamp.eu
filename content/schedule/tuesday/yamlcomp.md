@@ -4,8 +4,8 @@ speaker: ulfmansson
 date: 2018-12-27
 eventtype: talk
 room: 1.devobs
-start: 15:00
-end: 15:55
+start: 17:30
+end: 18:25
 draft: false
 ---
 

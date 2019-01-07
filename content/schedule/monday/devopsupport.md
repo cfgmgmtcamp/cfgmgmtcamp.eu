@@ -2,9 +2,9 @@
 title: "Support at scale in a DevOps world: how Swarming and Cynefin can save you from 3rd Line hell"
 speaker: jonhall
 eventtype: talk
-room: 2.devobs
-start: 17:30
-end: 18:25
+room: 1.devobs
+start: 15:00
+end: 15:55
 date: 2018-12-29
 draft: false
 ---
