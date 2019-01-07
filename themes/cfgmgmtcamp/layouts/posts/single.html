@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<section id="main">
+	<div class="inner">
+		<h1>{{ .Title }}</h1>
+		<h3>{{ .Date.Format "2 January 2006" }}</h3>
+		{{ .Content }}
+	</div>
+</section>
+
+{{ partial "footer.html" . }}
