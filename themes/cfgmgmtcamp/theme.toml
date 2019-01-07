@@ -4,15 +4,15 @@
 name = "Cfgmgmtcamp"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
+description = "This is the theme for CfgMgmtCamp"
+homepage = "https://cfgmgmtcamp.eu/"
 tags = []
 features = []
 min_version = "0.41"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Toshaan Bharvani"
+  homepage = "https://www.toshaan.com/"
 
 # If porting an existing theme
 [original]
