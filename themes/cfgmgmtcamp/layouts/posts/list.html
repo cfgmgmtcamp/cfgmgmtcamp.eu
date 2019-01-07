@@ -10,7 +10,7 @@ i{{ partial "header.html" . }}
 			{{ end }}
 		<ul>
 		{{ range .Data.Pages }}
-			<li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Data }}</li>
+			<li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "2 January 2006" }}</li>
 		{{ end }}
 		</ul>
 	</div>
