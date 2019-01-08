@@ -1,26 +1,27 @@
-<!doctype html><html><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="chrome=1"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=MobileOptimized content=width><meta name=HandheldFriendly content=true><meta name=apple-mobile-web-app-capable content=yes><meta name=twitter:card content=summary><meta name=twitter:site content=@cfgmgmtcamp><meta name=twitter:creator content=@cfgmgmtcamp><meta name=twitter:title content="Configuration and configuration management with Unikernels"><meta name=twitter:description content="Unikernels are a new class of operating system.
-The core idea is to merge the kernel, libraries, and application into a single image binary, operating in a single address space.
-This has the potential to improve security, performance, and a few other factors.
+<!doctype html><html><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="chrome=1"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=MobileOptimized content=width><meta name=HandheldFriendly content=true><meta name=apple-mobile-web-app-capable content=yes><meta name=twitter:card content=summary><meta name=twitter:site content=@cfgmgmtcamp><meta name=twitter:creator content=@cfgmgmtcamp><meta name=twitter:title content="Configuration and configuration management with Unikernels"><meta name=twitter:description content="&lt;p&gt;Unikernels are a new class of operating system.&lt;br /&gt;
+The core idea is to merge the kernel, libraries, and application into a single image binary, operating in a single address space.&lt;br /&gt;
+This has the potential to improve security, performance, and a few other factors.&lt;/p&gt;
 
-For native Unikernel applications, this moves configuration to the build stage.
-So how are we supposed to manage these applications?
-How should they be configured and deployed?
-How can we profile them?
-Debug them?
- The talk will start with what a Unikernel is, an overview of the Unikernel landscape and their different characterist.
-Where are they heading?
-An interesting development is happening with Unikernels sneaking their way onto Linux systems and playing hand-in-hand with more traditional systems.
+&lt;p&gt;For native Unikernel applications, this moves configuration to the build stage.&lt;br /&gt;
+So how are we supposed to manage these applications?&lt;br /&gt;
+How should they be configured and deployed?&lt;br /&gt;
+How can we profile them?&lt;br /&gt;
+Debug them?&lt;br /&gt;
+ The talk will start with what a Unikernel is, an overview of the Unikernel landscape and their different characterist.&lt;br /&gt;
+Where are they heading?&lt;br /&gt;
+An interesting development is happening with Unikernels sneaking their way onto Linux systems and playing hand-in-hand with more traditional systems.&lt;/p&gt;
 
-I&rsquo;ll demo a couple of Unikernel applications.
-Show how they are configured and deployed.
-What tools exist and what tools are missing.
-A bit of talk about the joys and pains of deploying an untested class of operating systems in production.
+&lt;p&gt;I’ll demo a couple of Unikernel applications.&lt;br /&gt;
+Show how they are configured and deployed.&lt;br /&gt;
+What tools exist and what tools are missing.&lt;br /&gt;
+A bit of talk about the joys and pains of deploying an untested class of operating systems in production.&lt;/p&gt;
 
-Open questions for which I have no answers but will solicit feedback are:
+&lt;p&gt;Open questions for which I have no answers but will solicit feedback are:&lt;/p&gt;
 
-
-What existing tools could be used to manage this class of applications?
-What class of problems matches the characteristics of Unikernels (Real-time, immutable, small)"><meta name=twitter:image content=https://cfgmgmtcamp.eu/images/logo_top.png><meta name=twitter:image:alt content=perbuer><link href="https://fonts.googleapis.com/css?family=Chivo:900" rel=stylesheet type=text/css><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel=stylesheet><link href=/css/leaflet.min.css rel=stylesheet type=text/css><link href=/css/reset.min.css rel=stylesheet type=text/css><link href=/css/stylesheet.min.css rel=stylesheet type=text/css media=screen><link href=/css/pygment_trac.min.css rel=stylesheet type=text/css media=screen><link href=/css/print.min.css rel=stylesheet type=text/css media=print><link href=/css/schedule.min.css rel=stylesheet type=text/css><link href=/css/schedule-single.min.css rel=stylesheet type=text/css><link href=https://use.fontawesome.com/releases/v5.6.3/css/all.css rel=stylesheet><link rel="shortcut icon" href=favicon.ico><script src=/js/leaflet.min.js></script><title>Configuration and configuration management with Unikernels</title></head><body><nav><a href=# id=menu-icon>&#x2261;</a><ul><li><a href=/><img src=/images/logo_top.png alt=CfgMgmtCamp></a></li><li><a href=/about/>About</a> |</li><li><a href=https://registration.cfgmgmtcamp.be/ghent/2019/>Registration</a> |</li><li><a href=/sponsors/>Sponsors</a> |</li><li><a href=/location/>Location</a> |</li><li><a href=https://cfp.cfgmgmtcamp.be>CfP</a> |</li><li><a href=/fringes/>Fringe</a> |</li><li><a href=/codeofconduct/>Conduct</a> |</li><li><a href=https://archive.cfgmgmtcamp.eu/>Archive</a> |</li></ul></nav><section id=talk><div id=talk><h1>Configuration and configuration management with Unikernels</h1><h2><a href=/speaker/perbuer>Per Buer</a> <span style=font-size:1em><a href=https://twitter.com/perbu><i class="fab fa-twitter"></i>@perbu</a></span></h2><h3>0.daula
+&lt;ul&gt;
+&lt;li&gt;What existing tools could be used to manage this class of applications?&lt;/li&gt;
+&lt;li&gt;What class of problems matches the characteristics of Unikernels (Real-time, immutable, small)&lt;/li&gt;
+&lt;/ul&gt;"><meta name=twitter:image content=https://cfgmgmtcamp.eu/images/logo_top.png><meta name=twitter:image:alt content=perbuer><link href="https://fonts.googleapis.com/css?family=Chivo:900" rel=stylesheet type=text/css><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel=stylesheet><link href=/css/leaflet.min.css rel=stylesheet type=text/css><link href=/css/reset.min.css rel=stylesheet type=text/css><link href=/css/stylesheet.min.css rel=stylesheet type=text/css media=screen><link href=/css/pygment_trac.min.css rel=stylesheet type=text/css media=screen><link href=/css/print.min.css rel=stylesheet type=text/css media=print><link href=/css/schedule.min.css rel=stylesheet type=text/css><link href=/css/schedule-single.min.css rel=stylesheet type=text/css><link href=https://use.fontawesome.com/releases/v5.6.3/css/all.css rel=stylesheet><link rel="shortcut icon" href=favicon.ico><script src=/js/leaflet.min.js></script><title>Configuration and configuration management with Unikernels</title></head><body><nav><a href=# id=menu-icon>&#x2261;</a><ul><li><a href=/><img src=/images/logo_top.png alt=CfgMgmtCamp></a></li><li><a href=/about/>About</a> |</li><li><a href=https://registration.cfgmgmtcamp.be/ghent/2019/>Registration</a> |</li><li><a href=/sponsors/>Sponsors</a> |</li><li><a href=/location/>Location</a> |</li><li><a href=https://cfp.cfgmgmtcamp.be>CfP</a> |</li><li><a href=/fringes/>Fringe</a> |</li><li><a href=/codeofconduct/>Conduct</a> |</li><li><a href=https://archive.cfgmgmtcamp.eu/>Archive</a> |</li></ul></nav><section id=talk><div id=talk><h1>Configuration and configuration management with Unikernels</h1><h2><a href=/speaker/perbuer>Per Buer</a> <span style=font-size:1em><a href=https://twitter.com/perbu><i class="fab fa-twitter"></i>@perbu</a></span></h2><h3>0.daula
 -
 Tuesday 5th February 2019
 -
