@@ -1,5 +1,6 @@
 ---
 title: "Keynote Announcement"
+type: posts
 date: 2019-01-07
 draft: false
 ---
