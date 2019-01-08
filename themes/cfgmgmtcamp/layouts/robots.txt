@@ -1,0 +1,15 @@
+#!robots.txt
+
+# implicit allow twitterbot
+User-agent: Twitterbot
+Crawl-delay: 5
+Dissallow:
+
+# google bots
+User-Agent: google
+User-Agent: googlebot
+Crawl-delay: 10
+
+# all others
+User-agent: *
+Dissallow:
