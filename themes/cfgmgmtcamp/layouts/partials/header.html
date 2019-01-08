@@ -10,8 +10,8 @@
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@cfgmgmtcamp" />
 	<meta name="twitter:creator" content="@cfgmgmtcamp" />
-	<meta name="twitter:title" content="{{- .Title | htmlUnescape -}}" />
-	<meta name="twitter:description" content="{{- .Content | htmlUnescape -}}" />
+	<meta name="twitter:title" content="{{- .Title | plainify | htmlUnescape -}}" />
+	<meta name="twitter:description" content="{{- .Content | plainify | htmlUnescape -}}" />
 	{{ if (isset .Params "image") }}
 		<meta name="twitter:image" content="{{ .Params.image }}" />
 	{{ else }}
