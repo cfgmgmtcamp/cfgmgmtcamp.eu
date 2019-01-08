@@ -13,13 +13,19 @@
 	<meta name="twitter:title" content="{{- .Title | plainify | htmlUnescape -}}" />
 	<meta name="twitter:description" content="{{- .Content | plainify | htmlUnescape -}}" />
 	{{ if (isset .Params "image") }}
-		<meta name="twitter:image" content="{{ .Params.image }}" />
+		<meta name="twitter:image" content="{{- .Params.image -}}" />
+		<meta name="twitter:image:alt" content="CfgMgmtCamp" />
+	{{ else if (isset .Params "speaker") }}
+		{{- $speaker := .Param "speaker" -}}
+		{{- $speakerfile := printf "%s/%s" "speaker" $speaker -}}
+		{{- with .Site.GetPage $speakerfile -}}
+			{{- if isset .Params "image" -}}
+				<meta name="twitter:image" content="{{ .Param "image" }}" />
+			{{- end -}}
+			<meta name="twitter:image:alt" content="{{ .Title }}" />
+		{{- end -}}
 	{{ else }}
 		<meta name="twitter:image" content="https://cfgmgmtcamp.eu/images/logo_top.png" />
-	{{ end }}
-	{{ if (isset .Params "speaker") }}
-		<meta name="twitter:image:alt" content="{{ .Params.speaker }}" />
-	{{ else }}
 		<meta name="twitter:image:alt" content="CfgMgmtCamp" />
 	{{ end }}
 	<link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
