@@ -41,7 +41,8 @@ DTEND:{{ $date }}T{{ $endtime }}00
 {{ end -}}
 {{ end -}}
 {{ end -}}
-DESCRIPTION:^'{{ .Content }}^'
+DESCRIPTION:ALTREP="{{ .Permalink }}":{{ $title }}
+X-ALT-DESC;FMTTYPE=text/html:@"{{ .Content }}";
 URL:{{ .Permalink }}
 LOCATION:{{ .Params.Room }}
 CLASS:PUBLIC

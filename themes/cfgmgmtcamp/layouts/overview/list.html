@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<section id="overview">
+	<div id="overview">
+		<h1>{{ .Title }}</h1>
+		<div class="overview-content">
+			{{ .Content }}
+		</div>
+		<div class="overview-days">
+			{{ range $.Site.Data.days }}
+				<li><a href="{{ printf "%s/%s" "schedule" .day | relURL }}">{{ .name }}</a></li>
+			{{ end }}
+		</div>
+		{{ if (fileExists "static/schedule/ical.svg") -}}
+			<div class="overview-qr">
+				This is the qrcode for the ical ics file :
+				<img src="/schedule/ical.svg">
+			</div>
+		{{ end }}
+	</div>
+</section>
+
+{{ partial "footer.html" . }}

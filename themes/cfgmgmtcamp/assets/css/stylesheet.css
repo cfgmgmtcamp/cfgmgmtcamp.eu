@@ -292,6 +292,40 @@ section div ul li {
 	padding: 0;
 	font: 1em;
 }
+#overview div {
+	margin: 0 auto;
+	width: 75%;
+}
+#overview p {
+	margin: 0;
+	padding: 0;
+}
+#overview h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 32px;
+}
+#overview h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 32px;
+	color: #ff0000;
+}
+#overview h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 32px;
+}
+#overview .overview-days {
+}
+#overview .overview-days li {
+	list-style: none;
+}
+#overview .overview-days a {
+	font-size: 32px;
+}
+#overview .overview-qr {
+}
 
 #map {
   height: 300px;
