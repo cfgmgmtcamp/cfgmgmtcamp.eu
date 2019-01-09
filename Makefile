@@ -19,6 +19,9 @@ build:
 	@test -s public/schedule/tuesday/index.ics && tail -n +9 public/schedule/tuesday/index.ics >> public/schedule/schedule.ics
 	@sed '1d' -i public/schedule/schedule.ics
 
+travis:
+	$(MAKE) HUGO=./hugo build
+
 draft:
 	$(HUGO) --minify --buildDrafts --buildFuture --buildExpired
 

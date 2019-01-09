@@ -18,7 +18,7 @@ install:
   - rm -rf public/
 
 script:
-  - make
+  - make travis
   - echo 'cfgmgmtcamp.eu' > public/CNAME
 
 deploy:
