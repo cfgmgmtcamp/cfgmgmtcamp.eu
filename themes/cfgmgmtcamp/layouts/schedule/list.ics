@@ -10,13 +10,15 @@ X-WR-TIMEZONE;VALUE=TEXT:Europe/Brussels
 BEGIN:VEVENT
 METHOD:PUBLISH
 UID:{{ .File.BaseFileName }}@cfgmgmtcamp.eu
-SUMMARY:{{ .Title }}
+{{ $title := .Title -}}
+{{ $title := replace $title "," "\\," -}}
+SUMMARY:{{ $title }}
 {{ $speaker := .Param "speaker" -}}
 {{ $speakerfile := printf "%s/%s" "speaker" $speaker -}}
 ORGANIZER:{{ with .Site.GetPage $speakerfile }}{{ .Title }}{{ end }}
 CATEGORIES:{{ .Params.Eventtype }}
+DTSTAMP:{{ dateFormat "20060102T150400" .Date }}Z
 TZID:Europe-Brussels
-DTSTAMP:{{ dateFormat "20060102T150400" .Date }}
 {{ $day := .File.Dir -}}
 {{ $day := substr $day 9 -}}
 {{ $day := strings.TrimSuffix "/" $day -}}
@@ -39,12 +41,11 @@ DTEND:{{ $date }}T{{ $endtime }}00
 {{ end -}}
 {{ end -}}
 {{ end -}}
-DESCRIPTION:{{- .Content | plainify | htmlUnescape -}}
+DESCRIPTION:^'{{ .Content }}^'
 URL:{{ .Permalink }}
 LOCATION:{{ .Params.Room }}
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
-
 {{ end -}}
 END:VCALENDAR
