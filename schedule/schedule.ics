@@ -16,7 +16,8 @@ DTSTAMP:20190109T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T173000
 DTEND:20190204T182500
-DESCRIPTION:^'<p>Kubernetes in general, and Istio in particular, have changed a lot the way we look at Ops-related constraints: monitoring,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/battlebreaker/":Battle of the circuit breakers: Istio vs Hystrix
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Kubernetes in general, and Istio in particular, have changed a lot the way we look at Ops-related constraints: monitoring,
 load-balancing, health checks, etc.
 Before those products became available, there were already available solutions to handle those constraints.</p>
 
@@ -29,7 +30,7 @@ which prevents a network or service failure from cascading to other services. Bu
 <p>In this talk, we will have a look at how Istio and Hystrix implement the Circuit Breaker pattern, and what pros/cons each of them has.</p>
 
 <p>After this talk, you&rsquo;ll be able to decide which one is the best fit in your context.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/battlebreaker/
 LOCATION:1.baula
 CLASS:PUBLIC
@@ -45,7 +46,8 @@ DTSTAMP:20190109T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T163000
 DTEND:20190204T172500
-DESCRIPTION:^'<p>When you&rsquo;re managing distrubyted applications you&rsquo;re probably using a variety of tools that serve specific purposes.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/cnab/":CNAB: packaging for distributed applications with multiple toolchains
+X-ALT-DESC;FMTTYPE=text/html:@"<p>When you&rsquo;re managing distrubyted applications you&rsquo;re probably using a variety of tools that serve specific purposes.<br />
 Terraform, Helm, Compose, CloudFormation, Pulumi, ARM templates, etc. No one tool solves all your needs.<br />
 And new tools come along regularly. But all tools tend to invent there own packaging.</p>
 
@@ -59,7 +61,7 @@ Today you might package and distribute those separately, with CNAB you can keep 
 <p>That means we can share metadata, cryptographically sign a single artefact, push all aspects of the application to a central registry and more.</p>
 
 <p>In this talk we&rsquo;ll introduce CNAB, discuss some of the problems it solves, and show demos of the accompanying tooling.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/cnab/
 LOCATION:1.baula
 CLASS:PUBLIC
@@ -75,10 +77,11 @@ DTSTAMP:20190109T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T173000
 DTEND:20190204T182500
-DESCRIPTION:^'<p>This is a talk about how Criteo (<a href="http://labs.criteo.com/">http://labs.criteo.com/</a>) is monitoring 30k servers across 8 datacenters.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/observescale/":Observabilty at scale
+X-ALT-DESC;FMTTYPE=text/html:@"<p>This is a talk about how Criteo (<a href="http://labs.criteo.com/">http://labs.criteo.com/</a>) is monitoring 30k servers across 8 datacenters.<br />
 I&rsquo;ll also talk about observability and what it means and how you should focus on observability
 rather than monitoring Technologies would include prometheus, bigGraphite, cassandra and elasticsearch.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/observescale/
 LOCATION:1.devobs
 CLASS:PUBLIC
@@ -94,7 +97,8 @@ DTSTAMP:20190109T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T163000
 DTEND:20190204T172500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/complexpipe/":TBA
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/complexpipe/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -110,7 +114,8 @@ DTSTAMP:20190103T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T140000
 DTEND:20190204T145500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/ansicommi/":Ansible Community Update
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/ansicommi/
 LOCATION:3.ansible
 CLASS:PUBLIC
@@ -126,14 +131,15 @@ DTSTAMP:20190102T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T140000
 DTEND:20190204T145500
-DESCRIPTION:^'<p>&ldquo;Docker, Docker, Docker, Docker, &hellip;&rdquo;, developers really love Docker.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/opscontainer/":Ops hates containers! Why?
+X-ALT-DESC;FMTTYPE=text/html:@"<p>&ldquo;Docker, Docker, Docker, Docker, &hellip;&rdquo;, developers really love Docker.<br />
 Usually one sees the no longer need for configuration management,
 the easy way to spin up a platform on a laptop, the low resource footprint.
 But how do you deploy laptops in data centers?</p>
 
 <p>This talk will give you an insight how we (more Ops then Dev) started to learn (and love) containers,
 the issues we saw when running them in larger scale and how Ops people should start dealing with Container technologies.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/opscontainer/
 LOCATION:1.baula
 CLASS:PUBLIC
@@ -149,14 +155,15 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T150000
 DTEND:20190204T155500
-DESCRIPTION:^'<p>In the agile, lean, devops communities people talk about improving security by &ldquo;shifting left&rdquo;.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/shiftleft/":'Shift Left Security'\, what the funk does that mean?!
+X-ALT-DESC;FMTTYPE=text/html:@"<p>In the agile, lean, devops communities people talk about improving security by &ldquo;shifting left&rdquo;.<br />
 Patterns and tools are emerging, or re-emerging,
 that make security less of a pain in the development process while also making applications more secure.<br />
 I will cover tools and processes that help teams with the day to day work like
 code scanners, application scanners, pull requests, deployment tooling and infrastructure-as-code.<br />
 At the organisational level some relatively small changes to, for instance, the change approval process can have a big impact.<br />
 These are tools and processes that have proven themselves at many organisations and perhaps they can do the same for you.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/shiftleft/
 LOCATION:2.security
 CLASS:PUBLIC
@@ -172,7 +179,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T163000
 DTEND:20190204T172500
-DESCRIPTION:^'<p>Choria is a 2 year old project that started life as an easy route to using MCollective for open source Puppet users.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/choriamarionette/":A general update on the Choria and Marionette Collective projects
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Choria is a 2 year old project that started life as an easy route to using MCollective for open source Puppet users.<br />
 It has evolved to encompass a number of technologies related to large scale systems management
 and have been deployed on globe spanning sites with 100s of thousands of nodes and thousands of daily active users.</p>
 
@@ -182,7 +190,7 @@ and have been deployed on globe spanning sites with 100s of thousands of nodes a
 have donated the legacy MCollective code bases to the Choria project.<br />
 We will explore what options Puppet 6 users have for benefiting from their past investments in the MCollective platform and
 look at work done that will be of particular interest to Puppet users such as orchestrating nodes using the Puppet DSL using Choria Playbooks.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/choriamarionette/
 LOCATION:3.puppet
 CLASS:PUBLIC
@@ -198,8 +206,9 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T083000
 DTEND:20190204T085500
-DESCRIPTION:^'<p>We provide free breakfast with croissants, coffee and thee.</p>
-^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakfast00/":Breakfast
+X-ALT-DESC;FMTTYPE=text/html:@"<p>We provide free breakfast with croissants, coffee and thee.</p>
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakfast00/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -215,7 +224,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T140000
 DTEND:20190204T145500
-DESCRIPTION:^'<p>The CFEngine team has been working on various scripts and tooling to make it easier to
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/cftoolkit/":CFToolkit - New tooling in CFEngine 3.10\, 3.12\, and beyond
+X-ALT-DESC;FMTTYPE=text/html:@"<p>The CFEngine team has been working on various scripts and tooling to make it easier to
 deploy, upgrade, test, and troubleshoot CFEngine installations.
 In this talk, we will focus on 4 new tools; cf-net (introduced in 3.10),
 cf-check (introduced in 3.12.1), cf-remote, and cf-policyupgrade (under development).<br />
@@ -225,7 +235,7 @@ All tools covered are free and open source, written in C and Python 3.</p>
 
 <p>The speakers are developers on the CFEngine team.<br />
 We will encourage the audience to ask questions, give feedback and suggestions during and after the presentation.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/cftoolkit/
 LOCATION:2.code
 CLASS:PUBLIC
@@ -241,7 +251,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T163000
 DTEND:20190204T172500
-DESCRIPTION:^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/hardening/":Cross-OS security hardening
+X-ALT-DESC;FMTTYPE=text/html:@"
 
 <h3 id="intro">Intro</h3>
 
@@ -274,7 +285,7 @@ We can help our colleagues and ourselves securing many applications, with a much
 
 <p>So when you walk in the room and listen you get rough idea of sustainable policy design but also of what a sec policy looks like,
 if it&rsquo;s not only made to fill a checklist.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/hardening/
 LOCATION:2.security
 CLASS:PUBLIC
@@ -290,7 +301,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T173000
 DTEND:20190204T182500
-DESCRIPTION:^'<p>Cron, a popular tool for scheduling jobs, has been used by millions of people on millions of servers around the world for several years.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/drsalt/":Dr SaltStack: or How I Stopped Worrying And Replaced All The Crons
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Cron, a popular tool for scheduling jobs, has been used by millions of people on millions of servers around the world for several years.<br />
 As servers become less like pets and more like cattle, jobs can no longer be tied to a specific server and
 a scheduling system must be flexible to allow jobs to easily be scheduled across multiple servers,
 quickly moved from one server to another, and easily report on the status of a scheduled job.</p>
@@ -307,7 +319,7 @@ This presentation will demonstrate how Salt can be used to replace Cron for comm
 <li>Using Salt Returners to receive notifications on job status.</li>
 <li>With Salt&rsquo;s remote execution modules, how to centrally manage jobs across many servers.</li>
 </ul>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/drsalt/
 LOCATION:3.terrasalt
 CLASS:PUBLIC
@@ -323,7 +335,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T150000
 DTEND:20190204T155500
-DESCRIPTION:^'<p>Golang as a language has exploded with popularity since it&rsquo;s first release in 2009.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/gonewbie/":I Don't Know What I'm Doing: A Newbie Guide for Golang for DevOps
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Golang as a language has exploded with popularity since it&rsquo;s first release in 2009.<br />
 It&rsquo;s now the langauage behind a number of applications core to most organisations operations, such as Docker, Terraform, Kubernetes and etcd.</p>
 
 <p>However, for most people used to scripting interpreted languages like Ruby and Python,
@@ -332,7 +345,7 @@ it can be a bit hard to get started with. What&rsquo;s all this err != nil busin
 <p>In this talk, we&rsquo;ll be discussing how to learn enough Golang to get into trouble,
 or at least enough to contribute fixes and features to your favourite infra management tools and apps,
 with an example of adding a new feature to the Vault Terraform Provider, and the gotcha&rsquo;s you might experience along the way.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/gonewbie/
 LOCATION:2.code
 CLASS:PUBLIC
@@ -348,7 +361,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T140000
 DTEND:20190204T145500
-DESCRIPTION:^'<p>Microservice security is too hard.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/istioservicemesh/":Istio: Service Mesh Network Security
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Microservice security is too hard.<br />
 We must issue and rotate TLS certificates, deploy identity providers, and embed auth logic in applications.<br />
 These all require secure development, test, and maintenance effort.<br />
 Istio (a Google, IBM, and Lyft project) offers a new way:
@@ -365,7 +379,7 @@ it offers all these things with zero application changes.</p>
 <li>Preventing token replay attacks that plague JWT</li>
 <li>Securely delegating requests between microservices</li>
 </ul>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/istioservicemesh/
 LOCATION:2.security
 CLASS:PUBLIC
@@ -381,7 +395,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T140000
 DTEND:20190204T145500
-DESCRIPTION:^'<p>Not everything revolves around docker containers and kubernetes, some environments pine for evolution of existing models &amp; practices.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/terrapacker/":Packer\, Terraform and Jenkins - IaC & CD for small stacks
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Not everything revolves around docker containers and kubernetes, some environments pine for evolution of existing models &amp; practices.<br />
 Although this talk is about VMs and baking AMIs, it&rsquo;s not really a step inside a time machine to ~2010.</p>
 
 <p>We&rsquo;ll walk though some sane patterns for:</p>
@@ -396,7 +411,7 @@ Although this talk is about VMs and baking AMIs, it&rsquo;s not really a step in
 
 <p>The talk is based on the experience of building out a real-world example of AMI based small stacks in
 <a href="https://github.com/jenkins201/packer-terraform-cicd-aws">https://github.com/jenkins201/packer-terraform-cicd-aws</a></p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/terrapacker/
 LOCATION:3.terrasalt
 CLASS:PUBLIC
@@ -412,10 +427,11 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T150000
 DTEND:20190204T155500
-DESCRIPTION:^'<p>In Puppet 6, we removed several core types and providers into modules, and published most of those onto the Puppet Forge.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/puppettype/":Puppet's Type & Provider Module Extraction Saga
+X-ALT-DESC;FMTTYPE=text/html:@"<p>In Puppet 6, we removed several core types and providers into modules, and published most of those onto the Puppet Forge.<br />
 This talk covers the history and motivation behind removing them, hurdles we faced, module authorship with PDK, setting up CI pipelines,
 and the behind the scenes view of how the extracted modules are repackaged back into Puppet agent.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/puppettype/
 LOCATION:3.puppet
 CLASS:PUBLIC
@@ -431,7 +447,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T163000
 DTEND:20190204T172500
-DESCRIPTION:^'<p>Salt can be used for data-driven orchestration, remote execution for any infrastructure, configuration management for any app stack, and much more.</p>
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/saltxansible/":Salt xor Ansible
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Salt can be used for data-driven orchestration, remote execution for any infrastructure, configuration management for any app stack, and much more.</p>
 
 <p>Ansible, together with Ansible Tower brings you comprehensive enough tool for IT automation.</p>
 
@@ -442,7 +459,7 @@ DESCRIPTION:^'<p>Salt can be used for data-driven orchestration, remote executio
 <li>How SUSE is committed to the improvements and development of Salt</li>
 <li>News for the upcoming Fluorine release and future releases</li>
 </ul>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/saltxansible/
 LOCATION:3.terrasalt
 CLASS:PUBLIC
@@ -458,7 +475,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T173000
 DTEND:20190204T182500
-DESCRIPTION:^'<p>The CERN IT infrastructure consists of more than 40000 Puppet-managed virtual and
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/puppetcern/":Secrets management with Puppet at CERN
+X-ALT-DESC;FMTTYPE=text/html:@"<p>The CERN IT infrastructure consists of more than 40000 Puppet-managed virtual and
 physical machines located in two data centers.<br />
 Many Puppet catalogs contain configuration that depends on sensitive data
 which has to be centrally managed but accessible only by the relevant machines.<br />
@@ -467,7 +485,7 @@ we developed a system that provides Puppet resources that fetch secrets at catal
 
 <p>This presentation will explain how this system works and how it is integrated with our configuration management stack,
 its limitations and future developments.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/puppetcern/
 LOCATION:3.puppet
 CLASS:PUBLIC
@@ -483,10 +501,11 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T150000
 DTEND:20190204T155500
-DESCRIPTION:^'<p>The Terraform project has grown a lot in popularity since its inception in 2015.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/terraboard/":Terraboard\, a web interface to visualize and query Terraform states
+X-ALT-DESC;FMTTYPE=text/html:@"<p>The Terraform project has grown a lot in popularity since its inception in 2015.<br />
 Many resources that were not automated as code yet can now be managed this way.<br />
 The Terraboard project aims to provide a web interface to visualize and query Terraform states.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/terraboard/
 LOCATION:3.terrasalt
 CLASS:PUBLIC
@@ -502,12 +521,13 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T163000
 DTEND:20190204T172500
-DESCRIPTION:^'<p>InSpec is an open-source testing framework created by Chef that enables you to specify compliance, security, and other policy requirements.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/inspec/":What did you InSpec?
+X-ALT-DESC;FMTTYPE=text/html:@"<p>InSpec is an open-source testing framework created by Chef that enables you to specify compliance, security, and other policy requirements.<br />
 However, the usage is not limited to compliance checking only as you can also use it to validate systems.<br />
 And, as InSpec is code which is very readable and easy to implement it can be used in a lot of different cases.<br />
 For a DevOps engineer it is a must have to tool which can be used together with Chef, Puppet or Ansible.<br />
 We will go over the language, use cases along with short demo&rsquo;s.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/inspec/
 LOCATION:2.code
 CLASS:PUBLIC
@@ -523,7 +543,8 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T150000
 DTEND:20190204T155500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/ansimetal/":Ansible from metal to container
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/ansimetal/
 LOCATION:3.ansible
 CLASS:PUBLIC
@@ -539,7 +560,8 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T173000
 DTEND:20190204T182500
-DESCRIPTION:^'<p>Have you longed for a simple yet powerful way to automate workloads on Kubernetes?<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/ansikube/":Automate Kubernetes Workloads with Ansible
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Have you longed for a simple yet powerful way to automate workloads on Kubernetes?<br />
 Ansible, the familiar IT automation tool, makes it easier than ever to automate your cluster.<br />
 This talk introduces two practical ways to define and provision complex applications using Ansible Automation with Kubernetes.</p>
 
@@ -553,7 +575,7 @@ the Operator handles everything else.</p>
 - How to define and deploy your application on Kubernetes using Ansible.
 - How to publish your own applications in the Kubernetes Service Catalog.
 - How to create a Kubernetes Operator using Ansible.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/ansikube/
 LOCATION:3.ansible
 CLASS:PUBLIC
@@ -569,7 +591,8 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T160000
 DTEND:20190204T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon05/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon05/
 LOCATION:3.ansible
 CLASS:PUBLIC
@@ -585,7 +608,8 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T163000
 DTEND:20190204T172500
-DESCRIPTION:^'<p>So, there is case, every once in a few days the kafka cluster dies and
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/drilling/":Drilling down a software bug: lessons about observability\, monitoring\, automation and good practices
+X-ALT-DESC;FMTTYPE=text/html:@"<p>So, there is case, every once in a few days the kafka cluster dies and
 along dies the whole application resulting in revenue loss for the company.</p>
 
 <p>Starting there, I would like to describe how we approached the unknown issue, assumptions, failure, trial and error,
@@ -604,7 +628,7 @@ what is actually important is the actual lessons learnt during the process:</p>
 <p>Major takeaway of this talk:
 tackle your incidents as a way to understand more about your systems
 (both technical systems: infra, code, tools AND non-technical systems: teams, workflows, procedures, practices) and design them better.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/drilling/
 LOCATION:1.devobs
 CLASS:PUBLIC
@@ -620,7 +644,8 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T173000
 DTEND:20190204T182500
-DESCRIPTION:^'<p>This talk will show a uncommon case study for Foreman at NETWAYS.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/foremanlifecycle/":Foreman - Lifecycle management for training labs
+X-ALT-DESC;FMTTYPE=text/html:@"<p>This talk will show a uncommon case study for Foreman at NETWAYS.<br />
 Our training schedule is fully packed with public and in-house training courses and
 having many different topics requires us to change training environments quite often and
 in short time to get them to different locations.<br />
@@ -628,7 +653,7 @@ Moving away from golden images to Foreman and Puppet has enabled our Events team
 The Discovery Plugin allows to use the same process for handling rental notebooks for in-house training courses and big conference.<br />
 Virtual machines for the training labs have gone from manual provisioning through managed by Foreman to Vagrant to get even more flexibility.<br />
 And the latest step to reduce the need for re-provisioning is by using LVM snapshots and downloading Virtual Machine images from the cloud.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/foremanlifecycle/
 LOCATION:3.foreman
 CLASS:PUBLIC
@@ -644,7 +669,8 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T163000
 DTEND:20190204T172500
-DESCRIPTION:^'<p>Kubernetes with Kubevirt is the uprising solution for unified management of virtual machines and containers.</p>
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/foremankube/":Foreman and Kubevirt for Orchestrating a Virtualized environment over Containers
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Kubernetes with Kubevirt is the uprising solution for unified management of virtual machines and containers.</p>
 
 <p>Foreman is well known as a complete life cycle systems management tool for provisioning, configuring and monitoring of physical and virtual servers.</p>
 
@@ -655,7 +681,7 @@ DESCRIPTION:^'<p>Kubernetes with Kubevirt is the uprising solution for unified m
 <p>The demo will show how a virtual server is being created from Foreman, adding a VM on KubeVirt compute resource and provision its OS from PXE.</p>
 
 <p>The setup is a bit complex due to the nature of the moving parts and those will be explained as well prior to the demo.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/foremankube/
 LOCATION:3.foreman
 CLASS:PUBLIC
@@ -671,7 +697,8 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T163000
 DTEND:20190204T172500
-DESCRIPTION:^'<p>Mgmt is a real-time automation tool that is fast and safe.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/mgmtadvanced/":Mgmt Config: Advanced demos and internals for hackers
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Mgmt is a real-time automation tool that is fast and safe.<br />
 We try and take a fresh look at existing automation problems.</p>
 
 <p>This presentation will briefly introduce the tool and
@@ -683,7 +710,7 @@ difficult problems before, we hope they will appreciate our more elegant solutio
 <p>We&rsquo;ll also dive into some of the internals of the project for new contributors who want to peer into the core code.<br />
 We&rsquo;ll also discuss some of the shortcomings in the current implementation and discuss future improvements.<br />
 Finally we&rsquo;ll talk about some of the future designs we&rsquo;re planning and make it easy for new users to get involved and help shape the project.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/mgmtadvanced/
 LOCATION:3.mgmt
 CLASS:PUBLIC
@@ -699,7 +726,8 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T150000
 DTEND:20190204T155500
-DESCRIPTION:^'<p>As DevOps practices and modern software defined infrastructure become increasingly established in enterprises,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/devopsupport/":Support at scale in a DevOps world: how Swarming and Cynefin can save you from 3rd Line hell
+X-ALT-DESC;FMTTYPE=text/html:@"<p>As DevOps practices and modern software defined infrastructure become increasingly established in enterprises,
 and as the scale of delivery grows, practitioners increasingly find themselves drawn into traditional IT support structures.<br />
 Here, they find themselves expected to act as part of a classic multi-tier support structure,
 with at least part of their time spent acting as a 3rd line support function.</p>
@@ -712,7 +740,7 @@ and reduces cross-functional collaboration and knowledge sharing.</p>
 but it needs to modernise to work well in the new era.<br />
 Hence, this presentation explores emergent methods such as Swarming,
 and new thinking such as Cynefin, which bring new thinking and new structures which align much better to modern development and operations thinking.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/devopsupport/
 LOCATION:1.devobs
 CLASS:PUBLIC
@@ -728,11 +756,12 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T140000
 DTEND:20190204T145500
-DESCRIPTION:^'<p>The first part of the talk will be a short description of the release process of Foreman,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/foremanrel/":The Foreman Release Process and Roadmap
+X-ALT-DESC;FMTTYPE=text/html:@"<p>The first part of the talk will be a short description of the release process of Foreman,
 as well as some changes that have been made to it over the past year to ensure higher quality releases.<br />
 The second part will be an open discussion of the roadmap for the upcoming releases.<br />
 This is your chance to influence the future direction of the Foreman project - come and say your opinions!</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/foremanrel/
 LOCATION:3.foreman
 CLASS:PUBLIC
@@ -748,14 +777,15 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T150000
 DTEND:20190204T155500
-DESCRIPTION:^'<p>Switching out the back bone of your automation tool chain is usually painful.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/fromback/":Tool migration - from Puppet to mgmt and back
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Switching out the back bone of your automation tool chain is usually painful.<br />
 It likely involves rewriting all your infrastructure code,
 and will either require a scary over-night cut-off, or a period in which two tools run concurrently,
 with operators carefully shifting functionality one step at a time.</p>
 
 <p>With mgmt&rsquo;s support for Puppet code, migrating becomes a lot more natural.<br />
 This session does a deep dive and shows how mgmt will allow you to use and maintain a mixed code base of both Puppet&rsquo;s and mgmt&rsquo;s DSLs.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/fromback/
 LOCATION:3.mgmt
 CLASS:PUBLIC
@@ -771,7 +801,8 @@ DTSTAMP:20181228T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T150000
 DTEND:20190204T155500
-DESCRIPTION:^'<p>Systems left with unpatched vulnerabilities can have a number of consequences.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/foremanscap/":Ensuring security with Foreman - OpenSCAP plugin
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Systems left with unpatched vulnerabilities can have a number of consequences.<br />
 Security compliance is a state where computer systems are scrutinized against certain defined security policy.<br />
 OpenSCAP is one such security compliance ecosystem that provides multiple tools to assist administrators and auditors
 with assessment, measurement, and enforcement of security baselines.<br />
@@ -781,7 +812,7 @@ create compliance policies out of them and further, these policies can be assign
 OpenSCAP reports will help users find vulnerabilities on the hosts and also suggest remediation plan to fix those vulnerabilities.<br />
 Foreman OpenSCAP plugin is made of 4 components viz., foreman_openscap, smart_proxy_openscap, foreman_scap_client and puppet-foreman_scap_client.<br />
 These components together establish the Foreman and OpenSCAP integration.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/foremanscap/
 LOCATION:3.foreman
 CLASS:PUBLIC
@@ -797,7 +828,8 @@ DTSTAMP:20181228T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T140000
 DTEND:20190204T145500
-DESCRIPTION:^'<p>Real-time, autonomous, automation.</p>
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/mgmtroad/":Mgmt Config: The Road to 0.1
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Real-time, autonomous, automation.</p>
 
 <p>Mgmt is a real-time automation tool that is fast and safe.<br />
 As we get closer to a 0.1 release that we&rsquo;ll recommend as &ldquo;production ready&rdquo;,
@@ -809,7 +841,7 @@ and a powerful event-driven engine to apply this state.<br />
 We&rsquo;ll also show some exciting real-time demos that include scheduling, finite state machines, and remote execution.<br />
 Finally we&rsquo;ll talk about some of the future designs we&rsquo;re planning and
 make it easy for new users to get involved and help shape the project.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/mgmtroad/
 LOCATION:3.mgmt
 CLASS:PUBLIC
@@ -825,7 +857,8 @@ DTSTAMP:20181228T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T140000
 DTEND:20190204T145500
-DESCRIPTION:^'<p>Throwing hardware on your Puppetserver to scale it vertically works up to a certain level.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/scalingpuppet/":Scaling and monitoring your puppetserver for thousands of clients - including all pitfalls!
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Throwing hardware on your Puppetserver to scale it vertically works up to a certain level.<br />
 But how do you proceed once you reach the limit?<br />
 How do you distribute your agents over several Puppetservers evenly, but without hardcoded assignments?<br />
 How do you handle the massively increased load on your Foreman and PuppetDB intances,
@@ -835,7 +868,7 @@ And how the heck can this all be monitored?</p>
 <p>I would like to show you a walkthrough from a small environment with a single physical server for Puppetserver/Foreman/PostgreSQL
 and a handful of agents that got scaled up to several thousand agents.<br />
 This also includes probably all common pitfalls that you can find yourself in on this journey!</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/scalingpuppet/
 LOCATION:3.puppet
 CLASS:PUBLIC
@@ -851,7 +884,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T173000
 DTEND:20190204T182500
-DESCRIPTION:^'<p>S.O.L.I.D is an acronym for the first five object-oriented design(OOD) principles by Robert C. Martin, in the early 2000s.</p>
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/solid/":Applying SOLID principles to Infrastructure as Code
+X-ALT-DESC;FMTTYPE=text/html:@"<p>S.O.L.I.D is an acronym for the first five object-oriented design(OOD) principles by Robert C. Martin, in the early 2000s.</p>
 
 <p>These principles, when combined together, make it easy for a programmer to develop software that are easy to maintain and extend.<br />
 They also make it easy for developers to avoid code smells, easily re-factor code, and are also a part of the agile or adaptive software development.</p>
@@ -859,7 +893,7 @@ They also make it easy for developers to avoid code smells, easily re-factor cod
 <p>This talk discusses our options how we can model puppet code while applying the SOLID principles.<br />
 As the puppet DSL is not a object oriented language we will also address the limitations of the design pattern,
 which we ll have to solve using the convention over configuration design pattern.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/solid/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -875,7 +909,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T160000
 DTEND:20190204T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon00/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon00/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -891,7 +926,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T160000
 DTEND:20190204T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon01/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon01/
 LOCATION:1.baula
 CLASS:PUBLIC
@@ -907,7 +943,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T160000
 DTEND:20190204T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon02/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon02/
 LOCATION:1.devobs
 CLASS:PUBLIC
@@ -923,7 +960,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T160000
 DTEND:20190204T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon03/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon03/
 LOCATION:3.puppet
 CLASS:PUBLIC
@@ -939,7 +977,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T160000
 DTEND:20190204T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon04/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon04/
 LOCATION:3.mgmt
 CLASS:PUBLIC
@@ -955,7 +994,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T160000
 DTEND:20190204T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon06/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon06/
 LOCATION:3.foreman
 CLASS:PUBLIC
@@ -971,7 +1011,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T160000
 DTEND:20190204T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon07/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon07/
 LOCATION:3.terrasalt
 CLASS:PUBLIC
@@ -987,7 +1028,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T160000
 DTEND:20190204T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon08/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon08/
 LOCATION:2.code
 CLASS:PUBLIC
@@ -1003,7 +1045,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T160000
 DTEND:20190204T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon09/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon09/
 LOCATION:2.security
 CLASS:PUBLIC
@@ -1019,7 +1062,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T103000
 DTEND:20190204T105500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakprenoon00/":Coffe Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakprenoon00/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -1035,11 +1079,12 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T140000
 DTEND:20190204T145500
-DESCRIPTION:^'<p>Google has been practicing Site Reliability Engineering (SRE) since the early 2000&rsquo;s,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/devopsvssre/":DevOps vs SRE - competing standards or friends?
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Google has been practicing Site Reliability Engineering (SRE) since the early 2000&rsquo;s,
 but only recently began speaking about it publicly.<br />
 Some have called SRE &lsquo;DevOps 2.0&rsquo;, while others view it as a competing standard.<br />
 This talk discusses the differences and similarities between DevOps and SRE.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/devopsvssre/
 LOCATION:1.devobs
 CLASS:PUBLIC
@@ -1055,14 +1100,15 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T120000
 DTEND:20190204T125500
-DESCRIPTION:^'<p>Infrastructure as code is a proven pattern,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/objectinfra/":Introducing 'object-oriented operations' for community-driven infrastructure-as-code
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Infrastructure as code is a proven pattern,
 and so is open source. Wouldn&rsquo;t it make sense to bring a community driven approach to operational code itself?</p>
 
 <p>This talk is about bringing those ideas together,
 to create effective open source communities for operational code on Kubernetes and on traditional machine or cloud environments.<br />
 Collaborating on complex infrastructure, and using open source to share the benefits of that collaboration,
 will enable us all to spend more time focused on the things which are truly different about our challenges and less on the problems we all share.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/objectinfra/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -1078,7 +1124,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T130000
 DTEND:20190204T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch00/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch00/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -1094,7 +1141,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T130000
 DTEND:20190204T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch01/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch01/
 LOCATION:1.baula
 CLASS:PUBLIC
@@ -1110,7 +1158,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T130000
 DTEND:20190204T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch02/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch02/
 LOCATION:1.devobs
 CLASS:PUBLIC
@@ -1126,7 +1175,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T130000
 DTEND:20190204T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch03/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch03/
 LOCATION:2.code
 CLASS:PUBLIC
@@ -1142,7 +1192,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T130000
 DTEND:20190204T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch04/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch04/
 LOCATION:2.security
 CLASS:PUBLIC
@@ -1158,7 +1209,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T130000
 DTEND:20190204T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch05/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch05/
 LOCATION:3.ansible
 CLASS:PUBLIC
@@ -1174,7 +1226,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T130000
 DTEND:20190204T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch06/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch06/
 LOCATION:3.foreman
 CLASS:PUBLIC
@@ -1190,7 +1243,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T130000
 DTEND:20190204T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch07/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch07/
 LOCATION:3.mgmt
 CLASS:PUBLIC
@@ -1206,7 +1260,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T130000
 DTEND:20190204T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch08/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch08/
 LOCATION:3.puppet
 CLASS:PUBLIC
@@ -1222,7 +1277,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T130000
 DTEND:20190204T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch09/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch09/
 LOCATION:3.terrasalt
 CLASS:PUBLIC
@@ -1238,11 +1294,12 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T183000
 DTEND:20190204T190000
-DESCRIPTION:^'<p>The social event, aka beer event, is about 2 minutes walk from the event.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/social/":Social Event
+X-ALT-DESC;FMTTYPE=text/html:@"<p>The social event, aka beer event, is about 2 minutes walk from the event.<br />
 There is no registration for this part, however to get free drinks, you&rsquo;ll require a token you will get at the event.<br />
 The social event start from 18:00 and goes as long as you want.<br />
 There will be free drinks for a limited time.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/social/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -1258,7 +1315,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T150000
 DTEND:20190204T155500
-DESCRIPTION:^'<p>Stream processing technologies are usually associated with social media, click streams,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/metastreamprocess/":Solving large scale operational metadata problems using stream processing
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Stream processing technologies are usually associated with social media, click streams,
 machine learning and big data however this talk will show it can be useful in solving difficult
 problems operations face when dealing with large server estates.</p>
 
@@ -1281,7 +1339,7 @@ this talk will explore the design, performance and potential uses of such a plat
 
 <p>While this talk demonstrates a platform built using specific technologies and the design of those will influence the talk,
 it&rsquo;s not a vendor talk and we’ll make efforts so the ideas are transferred and not the glossies from any one tool.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/metastreamprocess/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -1297,7 +1355,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T140000
 DTEND:20190204T145500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/infrapipelines/":TBA
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/monday/infrapipelines/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -1313,9 +1372,10 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T090000
 DTEND:20190204T092500
-DESCRIPTION:^'<p>The opening introduction of #CfgMgmtCamp.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/intro00/":CfgMgmtCamp is dead\, ...
+X-ALT-DESC;FMTTYPE=text/html:@"<p>The opening introduction of #CfgMgmtCamp.<br />
 Config Management Camp is expanding it&rsquo;s horizon beyong our traditional scope.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/intro00/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -1331,7 +1391,8 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T150000
 DTEND:20190204T155500
-DESCRIPTION:^'<p>Kubernetes provides a declarative API,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/kubegitops/":Config Mgmt for Kubernetes workloads with GitOps and Helm
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Kubernetes provides a declarative API,
 so you can describe the desired state of the system and then the control plane makes the actual state match the desired state.<br />
 But we still need config mgmt for API objects to the point when they are applied to the cluster.</p>
 
@@ -1340,7 +1401,7 @@ GitOps let&rsquo;s you use a git repo as a single source of truth for the desire
 Then all changes to this state are delivered just as git commits instead of using kubectl apply or helm upgrade.</p>
 
 <p>In this talk I will introduce the GitOps model for operating cloud native environments and give a short demo.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/kubegitops/
 LOCATION:1.baula
 CLASS:PUBLIC
@@ -1356,7 +1417,8 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T110000
 DTEND:20190204T115500
-DESCRIPTION:^'<p>To borrow a phrase, &ldquo;In the beginning was the command line.&rdquo; Then we had ISConf and CFEngine, and things were good&hellip; for a while.</p>
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/4thgenauto/":Fourth Generation Automation: Uniting Models and Tasks
+X-ALT-DESC;FMTTYPE=text/html:@"<p>To borrow a phrase, &ldquo;In the beginning was the command line.&rdquo; Then we had ISConf and CFEngine, and things were good&hellip; for a while.</p>
 
 <p>Puppet and Chef came along, embodying the idea that infrastructure code should behave like application code.  More
 recently, Ansible brought the concept of idempotent resources to imperative workflows, but stops short of modelling in
@@ -1369,7 +1431,7 @@ Can we get model-based guarantees plus orchestrated action?</p>
 that attempt to bring the beneficial properties of models together with orchestrated action. In full disclosure, I&rsquo;ll
 talk about Puppet&rsquo;s Bolt and Lyra projects, but the talk will not be vendor-specific as tools like Terraform and OpsMop
 also exemplify this approach.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/4thgenauto/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -1385,7 +1447,8 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T163000
 DTEND:20190204T172500
-DESCRIPTION:^'<p>In this talk I will go in details about how we quickly resolve incidents using Prometheus and ansible.</p>
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/incidentcode/":Incident Resolution as Code
+X-ALT-DESC;FMTTYPE=text/html:@"<p>In this talk I will go in details about how we quickly resolve incidents using Prometheus and ansible.</p>
 
 <p>Come and discover how we linked the monitoring, queuing systems and orchestration to do unattended incident management.</p>
 
@@ -1393,7 +1456,7 @@ DESCRIPTION:^'<p>In this talk I will go in details about how we quickly resolve 
 even if things happen at different levels.</p>
 
 <p>All of this working anywhere Prometheus and ansible run, so not only in a kube env, but also in a traditional infrastructure.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/incidentcode/
 LOCATION:3.ansible
 CLASS:PUBLIC
@@ -1409,7 +1472,8 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T093000
 DTEND:20190204T102500
-DESCRIPTION:^'<p>Distributed systems, microservices, containers and schedulers, polyglot persistence &hellip;<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/monday/keynote0/":Observability for emerging infra: what got you here won't get you there
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Distributed systems, microservices, containers and schedulers, polyglot persistence &hellip;<br />
 modern infrastructure is ever more fluid and dynamic, chaotic and transient.<br />
 Likewise, individual engineering roles can no longer be broken down neatly into<br />
 software engineers (who write the code) and ops engineers (who deploy the code (and buffer the consequences)).<br />
@@ -1426,7 +1490,7 @@ We&rsquo;ll also talk about the deep cultural revolution underway from siloed sp
 towards software ownership (in every type of engineering role) &ndash;
 and what exactly does that mean when it comes to systems observability? &ndash;
 as well as the technical practices and mental shifts that are absolutely required to keep pace with modern infrastructure.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/monday/keynote0/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -1442,11 +1506,12 @@ DTSTAMP:20190109T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T150000
 DTEND:20190205T155500
-DESCRIPTION:^'<p>Ansible is often used in a develop, accept and production environment, but there are no general use cases available.</p>
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/ansibledevaccprod/":Ansible in a dev\, acc and prod environment. A real life example
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Ansible is often used in a develop, accept and production environment, but there are no general use cases available.</p>
 
 <p>This presentation shows how we solved the dev, acc and prod environment issues within a clients setup
 and how this can aid you in solving similar problems.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/ansibledevaccprod/
 LOCATION:3.ansible
 CLASS:PUBLIC
@@ -1462,14 +1527,15 @@ DTSTAMP:20190109T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T150000
 DTEND:20190205T155500
-DESCRIPTION:^'<p>Cloudflare started its automation efforts using Salt about three years ago.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/saltscaling/":Three years of automating large scale networks using Salt
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Cloudflare started its automation efforts using Salt about three years ago.<br />
 We have since open sourced many components, fixes and features in collaboration with other networks.<br />
 Salt is now one of the most widely-adopted open-source automating frameworks within the network community.<br />
 Already well known to the system community, Salt has reached its maturity on the network automation side as well.<br />
 Today, Salt natively provides integrations with well-known open-source libraries and tools,
 including: NAPALM, NetBox, Netmiko, Junos PyEZ (junos-eznc), Arista pyeapi, CiscoConfParse, as well as features for PeeringDB, and many others.<br />
 In this talk, we&rsquo;ll take a look back at the progress, changes and the evolution over the past years, as well as a brief look at potential future features.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/saltscaling/
 LOCATION:3.salt
 CLASS:PUBLIC
@@ -1485,14 +1551,15 @@ DTSTAMP:20190103T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T173000
 DTEND:20190205T182500
-DESCRIPTION:^'<p>Benefits fueled by the modularity of the pulp plugin ecosystem by taking the example of pulp_deb and pulp_gem.</p>
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/pulpplugins/":Pulp Users Love Plugins
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Benefits fueled by the modularity of the pulp plugin ecosystem by taking the example of pulp_deb and pulp_gem.</p>
 
 <p>Pulp is a rest-api driven, plugin based framework for content repository management.<br />
 Despite being used unmediated, it is also employed as a key backend component in foreman/katello.<br />
 Its complete rewrite, needing a reimplementation of all content plugins, invites for experimentation with new technologies.<br />
 In this talk we introduce the new version of one of those plugins for debian packages, with its unique challenges.<br />
 Also we compare with a completely new one for rubygems.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/pulpplugins/
 LOCATION:3.pulp
 CLASS:PUBLIC
@@ -1508,7 +1575,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T150000
 DTEND:20190205T155500
-DESCRIPTION:^'<p>For a long time now, a common refrain in the #puppet IRC and now Slack channels has been explaining
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/puppetagent/":Agent-side functions in Puppet 6. Wait\, that's a thing?
+X-ALT-DESC;FMTTYPE=text/html:@"<p>For a long time now, a common refrain in the #puppet IRC and now Slack channels has been explaining
 how Puppet functions run during compilation on the master and not on the agent.<br />
 No, really. Not on the agent.</p>
 
@@ -1520,7 +1588,7 @@ Puppet 6 introduces the concept of Deferred functions, to be run during the cata
 <p>In this talk I&rsquo;ll show how that can be used to manage secrets on the node, without the master ever knowing those secrets.<br />
 I&rsquo;ll also walk through the process of updating my popular node_encrypt module, which encrypts secrets as they pass through the catalog,
 to use Deferred functions to decrypt those secrets agent side, vastly broadening its capabilities.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/puppetagent/
 LOCATION:3.puppet
 CLASS:PUBLIC
@@ -1536,7 +1604,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T083000
 DTEND:20190205T092500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakfast10/":Breakfast
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakfast10/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -1552,7 +1621,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T140000
 DTEND:20190205T145500
-DESCRIPTION:^'<p>As the number of servers that we are responsible for increases,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/saltselfheal/":Building a self healing system with SaltStack
+X-ALT-DESC;FMTTYPE=text/html:@"<p>As the number of servers that we are responsible for increases,
 the ability to manage issues on those systems becomes more and more difficult.<br />
 Situations arise like log files filling up disks,
 failed login attempts that could be brute force attacks,
@@ -1571,7 +1641,7 @@ Pairing this with the Reactor system, we can have SaltStack remediate those syst
 <li>Using Salt Reactors to react to events from the Salt Beacons.</li>
 <li>Using those reactors to remediate issues as they occur.</li>
 </ul>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/saltselfheal/
 LOCATION:3.salt
 CLASS:PUBLIC
@@ -1587,7 +1657,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T150000
 DTEND:20190205T155500
-DESCRIPTION:^'<p>Most organizations feel the need to centralize their logs -
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/centrallog/":Centralized Logging Patterns
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Most organizations feel the need to centralize their logs -
 once you have more than a couple of servers or containers,
 SSH and tail will not serve you well any more.<br />
 However, the common question or struggle is how to achieve that.</p>
@@ -1606,7 +1677,7 @@ so you can pick the one that fits your organization best:</p>
 <p>Each pattern has its own demo with the open source Elastic Stack (previously called ELK Stack),
 so you can easily try out the different approaches in your environment.<br />
 Though the general patterns are applicable with any centralized logging system.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/centrallog/
 LOCATION:1.devobs
 CLASS:PUBLIC
@@ -1622,11 +1693,12 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T163000
 DTEND:20190205T172500
-DESCRIPTION:^'<p>How to manage (large) groups of servers using Foreman and Katello without having to log in.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/dontlogin/":Don't make me log in
+X-ALT-DESC;FMTTYPE=text/html:@"<p>How to manage (large) groups of servers using Foreman and Katello without having to log in.<br />
 Showcases katello-agent, remote execution, openscap, pxe and image based deployments with automated building via Gitlab pipelines.</p>
 
 <p>I&rsquo;ve set up a lab with LXD, Cloud-Init, Foreman Ansible Modules and some more automation to make my life easier.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/dontlogin/
 LOCATION:3.katello
 CLASS:PUBLIC
@@ -1642,14 +1714,15 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T140000
 DTEND:20190205T145500
-DESCRIPTION:^'<p>Katello, a plugin to The Foreman, provides package repositories to clients,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/katansi/":Katello and Ansible for automated testing and releasing of packages
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Katello, a plugin to The Foreman, provides package repositories to clients,
 allows repository snapshots and can present these snapshots to different client groups.<br />
 This, together with an extensive Ansible integration, allows for easy automation of the whole lifecycle of a package,
 from build, though integration testing down to the clients in QA and Production.</p>
 
 <p>In this talk we will show how you can build out such a setup, integrate with your build services,
 spin up your test environment with the newly created package-set and promote the packages to the next level as soon as all tests are green.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/katansi/
 LOCATION:3.katello
 CLASS:PUBLIC
@@ -1665,7 +1738,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T140000
 DTEND:20190205T145500
-DESCRIPTION:^'<p>An overview over InnoGames infrastructure and the tools we build.</p>
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/trackstateinfra/":Keeping Track of Stateful Infrastructure
+X-ALT-DESC;FMTTYPE=text/html:@"<p>An overview over InnoGames infrastructure and the tools we build.</p>
 
 <p>At InnoGames we have to keep track of three collocations,
 ~30 racks with thousands of VMs to run games for over 200 million registered users.<br />
@@ -1687,7 +1761,7 @@ What makes serveradmin unique is how easy it is to modify the database schema as
 
 <p>[0] <a href="https://github.com/innogames/serveradmin">https://github.com/innogames/serveradmin</a>
 [1] <a href="https://github.com/innogames/igvm">https://github.com/innogames/igvm</a></p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/trackstateinfra/
 LOCATION:1.devobs
 CLASS:PUBLIC
@@ -1703,14 +1777,15 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T150000
 DTEND:20190205T155500
-DESCRIPTION:^'<p>Pulp is a platform for software repository management.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/pulpdeb/":Managing large Debian repositories with Pulp (and less than 50GiB of RAM)
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Pulp is a platform for software repository management.<br />
 The pulp_deb plugin adds Apt-repository support for Debian packages.<br />
 Until recently, the pulp_deb implementation did not scale well for large repositories.<br />
 Synchronizing a full Debian or Ubuntu release (typically containing around 50,000 Packages)
 would routinely take hours before falling victim to the OOM-killer.<br />
 This talk discusses the changes we employed to fix this lamentable state of affairs.<br />
 It concludes with lessons learned for the development of pulp_deb 3.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/pulpdeb/
 LOCATION:3.pulp
 CLASS:PUBLIC
@@ -1726,12 +1801,13 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T140000
 DTEND:20190205T145500
-DESCRIPTION:^'<p>Pulp is a platform for managing repositories of software packages, and its plugin architecture allows management of any type of content.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/pulp3/":Pulp 3: Ready for a Test Drive
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Pulp is a platform for managing repositories of software packages, and its plugin architecture allows management of any type of content.<br />
 Pulp&rsquo;s web API enables users to synchronize, upload, and publish versioned repositories with simple but flexible workflows.<br />
 This presentation will highlight simplified installation and deployment, better performance, new features,
 and a growing collection of plugins including rpm, python, docker, ansible, chef, ruby, file, and more in development.<br />
 Pulp 3 is approaching maturity and is ready for you to test drive.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/pulp3/
 LOCATION:3.pulp
 CLASS:PUBLIC
@@ -1747,7 +1823,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T173000
 DTEND:20190205T182500
-DESCRIPTION:^'<p>The Salt project is already very powerful Python-based DevOps platform that ships with almost 500 remote execution modules and
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/saltextend/":SaltStack for Developers: Extending SaltStack
+X-ALT-DESC;FMTTYPE=text/html:@"<p>The Salt project is already very powerful Python-based DevOps platform that ships with almost 500 remote execution modules and
 just over 300 state modules, it has the means and the ability to support many different systems and environments,
 but that doesn’t mean that they all suit your needs perfectly.<br />
 By extending Salt with your own modules or building enhancements into existing ones,
@@ -1756,7 +1833,7 @@ In this talk, first, we&rsquo;ll start by looking at the Loader system that driv
 Then we&rsquo;ll move onto writing a new remote execution module and then look at how we can use our remote execution module
 in a state module for configuration management.<br />
 Finally, we&rsquo;ll take a look at how to extend some of the other subsystems of Salt such as engines, beacons, and returners.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/saltextend/
 LOCATION:3.salt
 CLASS:PUBLIC
@@ -1772,7 +1849,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T163000
 DTEND:20190205T172500
-DESCRIPTION:^'<p>Uyuni (<a href="https://www.uyuni-project.org/">https://www.uyuni-project.org/</a>), an opinionated fork of the Spacewalk project,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/uyuni/":Uyuni: An open source frontend solution for managing your software-defined infrastructure with Salt
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Uyuni (<a href="https://www.uyuni-project.org/">https://www.uyuni-project.org/</a>), an opinionated fork of the Spacewalk project,
 provides open source lifecycle management for today&rsquo;s datacenter.<br />
 With the help of Salt for configuration management it keeps your workloads up to date and secure.</p>
 
@@ -1786,7 +1864,7 @@ and tracks what runs on your Kubernetes clusters. All using Salt under the hood!
 
 <p>This presentation will give you an overview about Uyuni,
 its current possibilities for managing datacenters, and how it provides you a powerful frontend to interact with Salt.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/uyuni/
 LOCATION:3.salt
 CLASS:PUBLIC
@@ -1802,7 +1880,8 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T163000
 DTEND:20190205T172500
-DESCRIPTION:^'<p>Vox Pupuli is a group of more than 120 puppet module/tooling/documentation authors,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/voxpupuli/":Vox Pupuli  - The Community behind Puppet
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Vox Pupuli is a group of more than 120 puppet module/tooling/documentation authors,
 all working together to ensure a continuing development process.<br />
 In 2016 we elected our first Project Management Committee
 with one of its goals being to include Vox Pupuli
@@ -1815,7 +1894,7 @@ Have a look at our funny journey of hunting broken gems and changing upstream so
 We invite everybody to participate. We will get into the details of what Vox Pupuli is,
 how you can interact/contribute/benefit.<br />
 We will tell you some stories, funny and sad, about all the bugs we&rsquo;ve discovered in the Puppet and Ruby ecosystem!</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/voxpupuli/
 LOCATION:3.puppet
 CLASS:PUBLIC
@@ -1831,11 +1910,12 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T173000
 DTEND:20190205T182500
-DESCRIPTION:^'<p>This is a tale from a customer who had a Bash script to talk to the Katello API.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/curlapi/":cURL is not an API client
+X-ALT-DESC;FMTTYPE=text/html:@"<p>This is a tale from a customer who had a Bash script to talk to the Katello API.<br />
 As tales go, the disaster was coming in form of a Katello upgrade which broke said script and and engineer was called to fix the customers problems.<br />
 The talk will show a few common errors you can make when using bash/cURL as a pseudo API client and
 how Python or Ruby with a proper API definition via Swagger or Apipie can prevent these.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/curlapi/
 LOCATION:3.katello
 CLASS:PUBLIC
@@ -1851,12 +1931,13 @@ DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T163000
 DTEND:20190205T172500
-DESCRIPTION:^'<p>In this talk, we&rsquo;ll cover the newest Pulp 3 plugin, pulp_ansible.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/pulpansible/":pulp_ansible: Ansible content storage
+X-ALT-DESC;FMTTYPE=text/html:@"<p>In this talk, we&rsquo;ll cover the newest Pulp 3 plugin, pulp_ansible.<br />
 Pulp is a platform for managing software packages including RPMs, Python packages, Docker images, and more.<br />
 Users can use the pulp_ansible plugin to mirror Ansible Galaxy content locally, upload and
 organize Ansible content in Pulp, and serve content to Ansible clients.<br />
 We&rsquo;ll also talk about how Ansible Galaxy will be using pulp_ansible as its storage engine to store and serve content.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/pulpansible/
 LOCATION:3.pulp
 CLASS:PUBLIC
@@ -1872,14 +1953,15 @@ DTSTAMP:20181230T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T150000
 DTEND:20190205T155500
-DESCRIPTION:^'<p>In this presentation I will show you how to manage Debian/Ubuntu hosts with Katello.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/katellodeb/":Managing Debian / Ubuntu hosts with Katello (incl. Errata)
+X-ALT-DESC;FMTTYPE=text/html:@"<p>In this presentation I will show you how to manage Debian/Ubuntu hosts with Katello.<br />
 Last year we at ATIX AG spent a lot of time improving support for Debian-based operating systems.<br />
 With these changes it is possible to fully manage Debian / Ubuntu hosts -
 including package installation from content views and managing package updates using Errata.</p>
 
 <p>Note that we are currently working hard to add changes to the upstream Katello project.<br />
 Therefore some changes are only available as github pull request.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/katellodeb/
 LOCATION:3.katello
 CLASS:PUBLIC
@@ -1895,13 +1977,14 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T173000
 DTEND:20190205T182500
-DESCRIPTION:^'<p>In recent years, Ansible has established itself as a standard tool that is frequently used in DevOps, among other areas.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/ansiblefast/":Ansible - 'Faster-than-light'
+X-ALT-DESC;FMTTYPE=text/html:@"<p>In recent years, Ansible has established itself as a standard tool that is frequently used in DevOps, among other areas.<br />
 Despite all flexibility and simplicity, the speed of the tool is often criticized.<br />
 In this talk we would like to discuss possibilities that can be used to increase the execution speed of Ansible,
 sometimes with significant profit.<br />
 The possibilities range from setting and changing individual configuration parameters to using an external execution framework.<br />
 For this purpose we will present test results that show the influence of tweaks.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/ansiblefast/
 LOCATION:3.ansible
 CLASS:PUBLIC
@@ -1917,10 +2000,11 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T163000
 DTEND:20190205T172500
-DESCRIPTION:^'<p>erakia is standalone tool inspired by Puppet&rsquo;s hiera which allows you to separate configuration data from configuration code.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/jerakia/":Hierarchical Config Data with Jerakia and Ansible
+X-ALT-DESC;FMTTYPE=text/html:@"<p>erakia is standalone tool inspired by Puppet&rsquo;s hiera which allows you to separate configuration data from configuration code.<br />
 The newest iteration of jerakia provides you a smooth integration into ansible via a module.<br />
 This talk will give a generic overview over jerakia and it&rsquo;s intentions as well as the integration into ansible.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/jerakia/
 LOCATION:3.ansible
 CLASS:PUBLIC
@@ -1936,9 +2020,10 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T173000
 DTEND:20190205T182500
-DESCRIPTION:^'<p>The latest major version of the solution has brought a major new feature to the Rudder solution: a plugin ecosystem.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/rudderplugin/":How to benefit from the new plugin ecosystem in Rudder 5.0?
+X-ALT-DESC;FMTTYPE=text/html:@"<p>The latest major version of the solution has brought a major new feature to the Rudder solution: a plugin ecosystem.<br />
 The Rudder software architect will present the reasons for this new feature, how it works, and what are the different plugins available.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/rudderplugin/
 LOCATION:3.rudder
 CLASS:PUBLIC
@@ -1954,7 +2039,8 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T140000
 DTEND:20190205T145500
-DESCRIPTION:^'<p>The Foreman had various scripts written in a various languages to do packaging.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/obal/":Obal: wrapping Ansible Playbooks into a CLI app
+X-ALT-DESC;FMTTYPE=text/html:@"<p>The Foreman had various scripts written in a various languages to do packaging.<br />
 In Red Hat downstream there was an entirely separate set of tools available.<br />
 The same people also worked on Pulp packaging.<br />
 To share workflows we&rsquo;re standardizing on Ansible roles and playbooks.<br />
@@ -1962,7 +2048,7 @@ Because running Ansible is awkward, we wrote a wrapper in Python named obal.<br 
 This allows us to provide a clean command line interface with help texts that allow self discovery of the options.<br />
 While the tool bundles our packaging playbooks, it is designed to be able to use any Ansible playbook.<br />
 In this talk we&rsquo;ll go over the use cases, glueing Ansible and Python&rsquo;s argparse together and some shortcomings of Ansible we worked around.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/obal/
 LOCATION:3.ansible
 CLASS:PUBLIC
@@ -1978,13 +2064,14 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T163000
 DTEND:20190205T172500
-DESCRIPTION:^'<p>One of Rudder&rsquo;s main focuses is its comprehensive graphical user interface,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/uxuicfgtool/":UX challenges of a UI-centric config management tool
+X-ALT-DESC;FMTTYPE=text/html:@"<p>One of Rudder&rsquo;s main focuses is its comprehensive graphical user interface,
 which allows users to view and manage its configurations without writing a line of code.<br />
 The user experience and interface considerations for a tool as technical and complex,
 and with such potential to break things as a configuration management tool are certainly a challenge,
 and in some ways in unchartered territory. Rudder&rsquo;s frontend developer will present an analysis of the situation,
 the issues encountered and the approach adopted for the improvement of UX and UI planned for 2019.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/uxuicfgtool/
 LOCATION:3.rudder
 CLASS:PUBLIC
@@ -2000,7 +2087,8 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T173000
 DTEND:20190205T182500
-DESCRIPTION:^'<p>Using rspec-puppet to write module tests is also very common.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/puppetaccept/":Using acceptance tests for better Puppet modules
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Using rspec-puppet to write module tests is also very common.<br />
 Most of us also use rspec-puppet-facts to test with the correct OS facts.<br />
 These are all good tools and every Puppet module author should know them.<br />
 Writing acceptance tests is a lot less known.</p>
@@ -2011,7 +2099,7 @@ It can also be used during development to verify functionality.</p>
 
 <p>In this talk we&rsquo;ll go over the basics of how to set up the boiler plate, write tests, easily (re)run them during development and use it in your CI.<br />
 Examples will be taken from both Voxpupuli and The Foreman&rsquo;s Puppet modules.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/puppetaccept/
 LOCATION:3.puppet
 CLASS:PUBLIC
@@ -2027,11 +2115,12 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T150000
 DTEND:20190205T155500
-DESCRIPTION:^'<p>Let&rsquo;s take a look at Rudder&rsquo;s new features from 2018,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/ruddernext/":What happened in Rudder in 2018 and what's next?
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Let&rsquo;s take a look at Rudder&rsquo;s new features from 2018,
 both in terms of the features of versions 4.3 and 5.0
 as well as the new documentation and our platform for building and distributing binaries.<br />
 We will then present the provisional roadmap for 2019: let&rsquo;s go to Rudder 5.1 and 5.2!</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/ruddernext/
 LOCATION:3.rudder
 CLASS:PUBLIC
@@ -2047,14 +2136,15 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T140000
 DTEND:20190205T145500
-DESCRIPTION:^'<p>Rudder is an open source configuration management tool that includes continuous auditing
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/rudderwhatwhere/":What is Rudder and when should I use it?
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Rudder is an open source configuration management tool that includes continuous auditing
 (with or without remediation), compliance info and graphs and the possibility to configure everything in the UI and/or APIs.<br />
 It has been around for more than six years and has users large (think 10 000 nodes) and small around the world.</p>
 
 <p>Let&rsquo;s take a moment to look at the vision that lead us here,
 how Rudder is different from similar tools, and what users find invaluable, nice (or annoying - I&rsquo;ll be honest!).<br />
 If you&rsquo;re not familiar with Rudder this is a great talk to attend to get the basics covered.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/rudderwhatwhere/
 LOCATION:3.rudder
 CLASS:PUBLIC
@@ -2070,7 +2160,8 @@ DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T163000
 DTEND:20190205T172500
-DESCRIPTION:^'<p>More and more services expose their state, internal details and metrics to be observable, and improve overall quality of service.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/obserecfgmgmt/":What uses for observing operations of Configuration Management?
+X-ALT-DESC;FMTTYPE=text/html:@"<p>More and more services expose their state, internal details and metrics to be observable, and improve overall quality of service.<br />
 But what about observing the infrastructure they are deployed, configured and maintained on?<br />
 What can we learn from that, and what do we need from configuration management to get these features and metrics?</p>
 
@@ -2081,7 +2172,7 @@ but also we need to observe these features over time, to trace changes, and corr
 centralized and exposed in a meaningful way - with agents ensuring the continuous configuration of systems,
 and this talk will show the rationale behind this predicate, how we implemented this solution,
 and the benefits of this approach for the modern IT world.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/obserecfgmgmt/
 LOCATION:1.devobs
 CLASS:PUBLIC
@@ -2097,7 +2188,8 @@ DTSTAMP:20181228T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T173000
 DTEND:20190205T182500
-DESCRIPTION:^'<p>After almost a year of running Openshift Origin in production we decided to migrate to a vanilla Kubernetes setup and
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/roadtravel/":Benefits of taking the less traveled road
+X-ALT-DESC;FMTTYPE=text/html:@"<p>After almost a year of running Openshift Origin in production we decided to migrate to a vanilla Kubernetes setup and
 during this phase we had to take some hard decisions:</p>
 
 <ul>
@@ -2108,7 +2200,7 @@ we wrote custom probes (unit and integration tests) verifying first the user exp
 </ul>
 
 <p>This talk shows the reasons, benefits and some of implementation details of these decisions.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/roadtravel/
 LOCATION:1.baula
 CLASS:PUBLIC
@@ -2124,12 +2216,13 @@ DTSTAMP:20181228T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T173000
 DTEND:20190205T182500
-DESCRIPTION:^'<p>It&rsquo;s 2019 and at Chef we&rsquo;ve been busy building new tools and integrations,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/mschef/":Chef and the Microsoft Ecosystem\, Engineering Update
+X-ALT-DESC;FMTTYPE=text/html:@"<p>It&rsquo;s 2019 and at Chef we&rsquo;ve been busy building new tools and integrations,
 as well as improving our existing open source software with the help of the community.<br />
 This session will get you up to speed on the advances and decisions that have been made
 over the last year in the Microsoft, Windows and Azure ecosystem and
 give an opportunity to ask questions of our Product/Engineering team.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/mschef/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -2145,7 +2238,8 @@ DTSTAMP:20181228T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T140000
 DTEND:20190205T145500
-DESCRIPTION:^'<p>Puppet 6 made a number of changes to the PKI / certificate layer that fix longstanding problems and add awesome new features.</p>
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/sslsauce/":Inside the Secret Sauce Laboratory: Rethinking SSL in Puppet
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Puppet 6 made a number of changes to the PKI / certificate layer that fix longstanding problems and add awesome new features.</p>
 
 <p>This will be a technical deep dive into those changes including:</p>
 
@@ -2158,7 +2252,7 @@ DESCRIPTION:^'<p>Puppet 6 made a number of changes to the PKI / certificate laye
 </ul>
 
 <p>Anyone who&rsquo;s had to troubleshoot Puppet SSL problems will benefit from learning about these improvements.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/sslsauce/
 LOCATION:3.puppet
 CLASS:PUBLIC
@@ -2174,14 +2268,15 @@ DTSTAMP:20181228T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T163000
 DTEND:20190205T172500
-DESCRIPTION:^'<p>Over the years the topic of CMDBs, asset management and inventoring things have crossed my path numerous times.</p>
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/onecmdb/":One to rule them all? What's happening in the landscape of CMDBs
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Over the years the topic of CMDBs, asset management and inventoring things have crossed my path numerous times.</p>
 
 <p>I want to give an overview of the current state of affairs:
 What exists in the CMDB landscape within the scope of open source solutions and
 why companies still write a lot of these solutions themselves to tackle their specific needs.<br />
 Furthermore I want to elaborate on what I think is actually needed when looking at the subject of asset management and
 when there is actually a need for a CMDB.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/onecmdb/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -2197,13 +2292,14 @@ DTSTAMP:20181228T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T150000
 DTEND:20190205T155500
-DESCRIPTION:^'<p>Tarmak is an open-source toolkit for Kubernetes cluster lifecycle management.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/tarmak/":Tarmak\, why do we need another Kubernetes provisioner?
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Tarmak is an open-source toolkit for Kubernetes cluster lifecycle management.<br />
 It is focused on best-practice cluster security, management and operation.<br />
 This talk will clarify the reasoning behind creating Tarmak, the architecture and technologies used.<br />
 With Tarmak we tried to not reinvent the full wheel,
 that is why we have chosen to depend on a lot open-source tools (Terraform, Puppet, Vault, &hellip;).<br />
 This talk will explain how all of this is tied together.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/tarmak/
 LOCATION:1.baula
 CLASS:PUBLIC
@@ -2219,7 +2315,8 @@ DTSTAMP:20181228T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T163000
 DTEND:20190205T172500
-DESCRIPTION:^'<p>The abstraction layer for Configuration Management is moving away from the operating system to the orchestration layer,
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/kr8cfg/":kr8: Kubernetes Configuration Management
+X-ALT-DESC;FMTTYPE=text/html:@"<p>The abstraction layer for Configuration Management is moving away from the operating system to the orchestration layer,
 but the configuration management tools aren&rsquo;t keeping up.<br />
 As the number of Kubernetes clusters you run grows,
 your ability to install components on them with slight and subtle differences becomes more and more manual.</p>
@@ -2232,7 +2329,7 @@ while still allowing the power and flexibility to get what you need done.</p>
 <p>This talk will go over the inspiration behind kr8,
 as well as show a practical demo and example of deploying the components
 you choose to multiple clusters with the modifications needed in a few lines of code.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/kr8cfg/
 LOCATION:1.baula
 CLASS:PUBLIC
@@ -2248,7 +2345,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T160000
 DTEND:20190205T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon10/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon10/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -2264,7 +2362,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T160000
 DTEND:20190205T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon11/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon11/
 LOCATION:1.baula
 CLASS:PUBLIC
@@ -2280,7 +2379,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T160000
 DTEND:20190205T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon12/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon12/
 LOCATION:3.puppet
 CLASS:PUBLIC
@@ -2296,7 +2396,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T160000
 DTEND:20190205T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon13/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon13/
 LOCATION:3.ansible
 CLASS:PUBLIC
@@ -2312,7 +2413,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T160000
 DTEND:20190205T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon14/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon14/
 LOCATION:3.rudder
 CLASS:PUBLIC
@@ -2328,7 +2430,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T160000
 DTEND:20190205T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon15/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon15/
 LOCATION:1.devobs
 CLASS:PUBLIC
@@ -2344,7 +2447,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T160000
 DTEND:20190205T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon16/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon16/
 LOCATION:3.salt
 CLASS:PUBLIC
@@ -2360,7 +2464,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T160000
 DTEND:20190205T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon17/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon17/
 LOCATION:3.pulp
 CLASS:PUBLIC
@@ -2376,7 +2481,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T160000
 DTEND:20190205T162500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon18/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon18/
 LOCATION:3.katello
 CLASS:PUBLIC
@@ -2392,7 +2498,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T110000
 DTEND:20190205T111500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakprenoon10/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakprenoon10/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -2408,13 +2515,14 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T173000
 DTEND:20190205T182500
-DESCRIPTION:^'<p>Inspired by Luke Kanies talk last year at CfgMgmtCamp to move from startups to enterprises and
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/yamlcomp/":Building a Devops organisation without YAML
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Inspired by Luke Kanies talk last year at CfgMgmtCamp to move from startups to enterprises and
 implement what we in the community have learned I have now started that journey at Volvo Cars.<br />
 I will talk about how we within the Consumer Commercial Digital Products are building
 a new organization from scratch to help transfer Volvo Cars from a traditional enterprise
 to a software company by creating a Devops culture and automate.<br />
 I will also talk about our philosophy for automation and how we are working hard to avoid YAML.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/yamlcomp/
 LOCATION:1.devobs
 CLASS:PUBLIC
@@ -2430,7 +2538,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T122000
 DTEND:20190205T125500
-DESCRIPTION:^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/ignites/":Ignites
+X-ALT-DESC;FMTTYPE=text/html:@"
 
 <h2 id="overengineering-your-personal-website">Overengineering your personal website</h2>
 
@@ -2483,7 +2592,7 @@ David will also tell the story of Frank, a sysadmin, and what he thinks of those
 <p>The Open Source Business Alliance is a non-profit organisation promoting open source within germany on a political level.
 As part of an ignite talk I want to give a brief overview of our work in order to possibly spark interest,
 so that people in the audience might carry this idea on to see whether they can / want to do such work in their country.</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/ignites/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -2499,7 +2608,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T112000
 DTEND:20190205T121500
-DESCRIPTION:^'<p>These days &ldquo;infrastructure as code&rdquo; means HCL, YAML, JSON.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/iacode/":Infrastructure as code should contain code
+X-ALT-DESC;FMTTYPE=text/html:@"<p>These days &ldquo;infrastructure as code&rdquo; means HCL, YAML, JSON.<br />
 I will never buy that JSON is a programming language.<br />
 Cloud Formation tries so hard mixing JSON with keywords that runtime become functions saying that it is a maintainable approach.<br />
 Helm pushes hard saying that YAML with some parameters that runtime get translated to a variable is a flexible and maintainable approach.<br />
@@ -2509,7 +2619,7 @@ because it will keep you out from writing weird and wrong code that you are not 
 The truth is that you need to code better! At InfluxData we know that,
 and this talk is about our journey moving from YAML to Go to manage our Kubernetes cluster.<br />
 What we faced and why we think it is way better!</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/iacode/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -2525,7 +2635,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T140000
 DTEND:20190205T145500
-DESCRIPTION:^'<p>Istio is a new open platform to connect, manage, and secure micro-services jointly launched by IBM, Google, and Lyft.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/istioobserve/":Istio: Control and Observability for Microservices
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Istio is a new open platform to connect, manage, and secure micro-services jointly launched by IBM, Google, and Lyft.<br />
 This session will provide a technical overview of the Istio project and demonstrations of using Istio with microservices and Kubernetes.</p>
 
 <p>Specifically :</p>
@@ -2535,7 +2646,7 @@ Making the deployment more secure (Using istio to get mutual tls authentication 
 Rolling out a new version to 1% of users (Using istio for traffic splitting)
 Making the deployment more robust (Using istio for circuit breaking and automatic request retries)
 Controlling the front door (Using Istio-ingressgateway instead of default Kubernetes Ingress)</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/istioobserve/
 LOCATION:1.baula
 CLASS:PUBLIC
@@ -2551,7 +2662,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T130000
 DTEND:20190205T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch10/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch10/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -2567,7 +2679,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T130000
 DTEND:20190205T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch11/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch11/
 LOCATION:1.baula
 CLASS:PUBLIC
@@ -2583,7 +2696,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T130000
 DTEND:20190205T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch12/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch12/
 LOCATION:1.devobs
 CLASS:PUBLIC
@@ -2599,7 +2713,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T130000
 DTEND:20190205T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch13/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch13/
 LOCATION:3.ansible
 CLASS:PUBLIC
@@ -2615,7 +2730,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T130000
 DTEND:20190205T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch14/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch14/
 LOCATION:3.katello
 CLASS:PUBLIC
@@ -2631,7 +2747,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T130000
 DTEND:20190205T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch15/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch15/
 LOCATION:3.pulp
 CLASS:PUBLIC
@@ -2647,7 +2764,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T130000
 DTEND:20190205T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch16/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch16/
 LOCATION:3.puppet
 CLASS:PUBLIC
@@ -2663,7 +2781,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T130000
 DTEND:20190205T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch17/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch17/
 LOCATION:3.rudder
 CLASS:PUBLIC
@@ -2679,7 +2798,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T130000
 DTEND:20190205T135500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch18/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch18/
 LOCATION:3.salt
 CLASS:PUBLIC
@@ -2695,7 +2815,8 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T140000
 DTEND:20190205T145500
-DESCRIPTION:^'<p>I started my first job as an operations engineer 18 months ago and
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/journey/":The Unexpected (Infrastructure Management) Journey
+X-ALT-DESC;FMTTYPE=text/html:@"<p>I started my first job as an operations engineer 18 months ago and
 I had all of those questions and many more.<br />
 Coming from development background the transition into a more ops role and
 a DevOps team has been a fascinating journey.<br />
@@ -2704,7 +2825,7 @@ I&rsquo;d like to share the lessons I learned along the way and encourage more p
 <p>What is it like to start new in infrastructure management land coming from unconventional background?
 - How do you wrap your head into infrastructure as code when all you cared before was if your code compiles?
 - How do software development techniques translate to infrastructure management?</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/journey/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -2720,7 +2841,8 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T150000
 DTEND:20190205T155500
-DESCRIPTION:^'<p>Unikernels are a new class of operating system.<br />
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/unikernels/":Configuration and configuration management with Unikernels
+X-ALT-DESC;FMTTYPE=text/html:@"<p>Unikernels are a new class of operating system.<br />
 The core idea is to merge the kernel, libraries, and application into a single image binary, operating in a single address space.<br />
 This has the potential to improve security, performance, and a few other factors.</p>
 
@@ -2744,7 +2866,7 @@ A bit of talk about the joys and pains of deploying an untested class of operati
 <li>What existing tools could be used to manage this class of applications?</li>
 <li>What class of problems matches the characteristics of Unikernels (Real-time, immutable, small)</li>
 </ul>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/unikernels/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -2760,7 +2882,8 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T100000
 DTEND:20190205T105500
-DESCRIPTION:^'^'
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/keynote1/":TBA
+X-ALT-DESC;FMTTYPE=text/html:@"";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/keynote1/
 LOCATION:0.daula
 CLASS:PUBLIC
@@ -2776,10 +2899,11 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190205T093000
 DTEND:20190205T095500
-DESCRIPTION:^'<p>The opening introduction of the second day of CfgMgmtCamp or YAMLcamp.</p>
+DESCRIPTION:ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/intro10/":Welcome to YAMLcamp
+X-ALT-DESC;FMTTYPE=text/html:@"<p>The opening introduction of the second day of CfgMgmtCamp or YAMLcamp.</p>
 
 <p>Long live all YAML engineers</p>
-^'
+";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/intro10/
 LOCATION:0.daula
 CLASS:PUBLIC
