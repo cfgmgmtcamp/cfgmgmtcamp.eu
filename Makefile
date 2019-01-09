@@ -7,6 +7,9 @@ HUGO=hugo
 all: build
 
 build:
+	@gzip -9 -c static/schedule/giggity.json > static/schedule/giggity.json.gz
+	@qrencode -t SVG -o static/schedule/giggity.svg -l H -Sv 3 < static/schedule/giggity.json.gz
+	@qrencode -t SVG -o static/schedule/ical.svg -l H 'https://cfgmgmtcamp.eu/schedule/schedule.ics'
 	$(HUGO) --minify
 	@find public/ -name '*.html' ! -name '*.gz' -type f -exec sh -c "gzip -c -9 < {} > {}.gz" \;
 	@find public/ -name '*.css' ! -name '*.gz' -type f -exec sh -c "gzip -c -9 < {} > {}.gz" \;

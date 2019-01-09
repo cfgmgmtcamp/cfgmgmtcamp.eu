@@ -3,6 +3,13 @@ branches:
   only:
     - master
 
+addons:
+  apt:
+    update: true
+    packages:
+      - make
+      - qrencode
+
 install:
   - export HUGOVER=0.53
   #- wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-32bit.tar.gz/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | xargs wget
@@ -11,11 +18,8 @@ install:
   - rm -rf public/
 
 script:
-  - ./hugo --minify
+  - make
   - echo 'cfgmgmtcamp.eu' > public/CNAME
-  - echo '' > public/schedule/schedule.ics
-  - if [[ -f public/schedule/monday/index.ics ]]; then cat public/schedule/monday/index.ics >> public/schedule/schedule.ics; fi
-  - if [[ -f public/schedule/tuesday/index.ics ]]; then cat public/schedule/tuesday/index.ics >> public/schedule/schedule.ics; fi
 
 deploy:
   provider: pages
