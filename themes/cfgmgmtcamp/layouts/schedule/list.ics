@@ -1,15 +1,22 @@
-BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//cfgmgmtcamp/schedule//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC;VALUE=TEXT:iCal
+X-WR-CALNAME;VALUE=TEXT:iCal
+X-WR-TIMEZONE;VALUE=TEXT:Europe/Brussels
+BEGIN:VCALENDAR
 {{ range .Pages -}}
 BEGIN:VEVENT
+METHOD:PUBLISH
+UID:{{ .File.BaseFileName }}@cfgmgmtcamp.eu
 SUMMARY:{{ .Title }}
 {{ $speaker := .Param "speaker" -}}
 {{ $speakerfile := printf "%s/%s" "speaker" $speaker -}}
 ORGANIZER:{{ with .Site.GetPage $speakerfile }}{{ .Title }}{{ end }}
 CATEGORIES:{{ .Params.Eventtype }}
-DTSTAMP:{{ dateFormat "20060102T150400Z" .Date }}
+TZID:Europe-Brussels
+DTSTAMP:{{ dateFormat "20060102T150400" .Date }}
 {{ $day := .File.Dir -}}
 {{ $day := substr $day 9 -}}
 {{ $day := strings.TrimSuffix "/" $day -}}
@@ -21,13 +28,14 @@ DTSTAMP:{{ dateFormat "20060102T150400Z" .Date }}
 {{ $starttime := replace $starttime ":" "" -}}
 {{ $endtime := replace $endtime ":" "" -}}
 {{ $start := printf "%s%s" $date $starttime -}}
-DTSTART:{{ $date }}T{{ $starttime }}00Z
-DTEND:{{ $date }}T{{ $endtime }}00Z
+DTSTART:{{ $date }}T{{ $starttime }}00
+DTEND:{{ $date }}T{{ $endtime }}00
 {{ end -}}
 {{ end -}}
-DESCRIPTION:{{ .Content }}
+DESCRIPTION:{{- .Content | plainify | htmlUnescape -}}
 URL:{{ .Permalink }}
 LOCATION:{{ .Params.Room }}
+CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
 {{ end -}}
