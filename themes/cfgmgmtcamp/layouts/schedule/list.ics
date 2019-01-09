@@ -26,10 +26,17 @@ DTSTAMP:{{ dateFormat "20060102T150400" .Date }}
 {{ if eq $day .day -}}
 {{ $date := string .date -}}
 {{ $starttime := replace $starttime ":" "" -}}
-{{ $endtime := replace $endtime ":" "" -}}
-{{ $start := printf "%s%s" $date $starttime -}}
+{{ if le (len $starttime) 3 -}}
+DTSTART:{{ $date }}T0{{ $starttime }}00
+{{ else -}}
 DTSTART:{{ $date }}T{{ $starttime }}00
+{{ end -}}
+{{ $endtime := replace $endtime ":" "" -}}
+{{ if le (len $endtime) 3 -}}
+DTEND:{{ $date }}T0{{ $endtime }}00
+{{ else -}}
 DTEND:{{ $date }}T{{ $endtime }}00
+{{ end -}}
 {{ end -}}
 {{ end -}}
 DESCRIPTION:{{- .Content | plainify | htmlUnescape -}}
@@ -38,5 +45,6 @@ LOCATION:{{ .Params.Room }}
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
+
 {{ end -}}
 END:VCALENDAR
