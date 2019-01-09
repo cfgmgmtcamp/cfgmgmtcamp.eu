@@ -8,6 +8,44 @@ X-WR-CALNAME;VALUE=TEXT:iCal
 X-WR-TIMEZONE;VALUE=TEXT:Europe/Brussels
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:ansibledevaccprod@cfgmgmtcamp.eu
+SUMMARY:Ansible in a dev, acc and prod environment. A real life example
+ORGANIZER:Ton Kersten
+CATEGORIES:talk
+TZID:Europe-Brussels
+DTSTAMP:20190109T000000
+DTSTART:20190205T150000
+DTEND:20190205T155500
+DESCRIPTION:Ansible is often used in a develop, accept and production environment, but there are no general use cases available.
+This presentation shows how we solved the dev, acc and prod environment issues within a clients setup and how this can aid you in solving similar problems.
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/ansibledevaccprod/
+LOCATION:3.ansible
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:saltscaling@cfgmgmtcamp.eu
+SUMMARY:Three years of automating large scale networks using Salt
+ORGANIZER:Mircea Ulinic
+CATEGORIES:talk
+TZID:Europe-Brussels
+DTSTAMP:20190109T000000
+DTSTART:20190205T150000
+DTEND:20190205T155500
+DESCRIPTION:Cloudflare started its automation efforts using Salt about three years ago.
+We have since open sourced many components, fixes and features in collaboration with other networks.
+Salt is now one of the most widely-adopted open-source automating frameworks within the network community.
+Already well known to the system community, Salt has reached its maturity on the network automation side as well.
+Today, Salt natively provides integrations with well-known open-source libraries and tools, including: NAPALM, NetBox, Netmiko, Junos PyEZ (junos-eznc), Arista pyeapi, CiscoConfParse, as well as features for PeeringDB, and many others.
+In this talk, we’ll take a look back at the progress, changes and the evolution over the past years, as well as a brief look at potential future features.
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/saltscaling/
+LOCATION:3.salt
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:pulpplugins@cfgmgmtcamp.eu
 SUMMARY:Pulp Users Love Plugins
 ORGANIZER:Matthias Dellweg
@@ -1059,44 +1097,6 @@ DESCRIPTION:The opening introduction of the second day of CfgMgmtCamp or YAMLcam
 Long live all YAML engineers
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/intro/
 LOCATION:0.daula
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:ansibledevaccprod@cfgmgmtcamp.eu
-SUMMARY:Ansible in a dev, acc and prod environment. A real life example
-ORGANIZER:Ton Kersten
-CATEGORIES:talk
-TZID:Europe-Brussels
-DTSTAMP:00010101T000000
-DTSTART:20190205T150000
-DTEND:20190205T155500
-DESCRIPTION:Ansible is often used in a develop, accept and production environment, but there are no general use cases available.
-This presentation shows how we solved the dev, acc and prod environment issues within a clients setup and how this can aid you in solving similar problems.
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/ansibledevaccprod/
-LOCATION:3.ansible
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:saltscaling@cfgmgmtcamp.eu
-SUMMARY:Three years of automating large scale networks using Salt
-ORGANIZER:Mircea Ulinic
-CATEGORIES:talk
-TZID:Europe-Brussels
-DTSTAMP:00010101T000000
-DTSTART:20190205T150000
-DTEND:20190205T155500
-DESCRIPTION:Cloudflare started its automation efforts using Salt about three years ago.
-We have since open sourced many components, fixes and features in collaboration with other networks.
-Salt is now one of the most widely-adopted open-source automating frameworks within the network community.
-Already well known to the system community, Salt has reached its maturity on the network automation side as well.
-Today, Salt natively provides integrations with well-known open-source libraries and tools, including: NAPALM, NetBox, Netmiko, Junos PyEZ (junos-eznc), Arista pyeapi, CiscoConfParse, as well as features for PeeringDB, and many others.
-In this talk, we’ll take a look back at the progress, changes and the evolution over the past years, as well as a brief look at potential future features.
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/saltscaling/
-LOCATION:3.salt
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT

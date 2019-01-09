@@ -9,6 +9,83 @@ X-WR-CALNAME;VALUE=TEXT:iCal
 X-WR-TIMEZONE;VALUE=TEXT:Europe/Brussels
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:battlebreaker@cfgmgmtcamp.eu
+SUMMARY:Battle of the circuit breakers: Istio vs Hystrix
+ORGANIZER:Nicolas Frankel
+CATEGORIES:talk
+TZID:Europe-Brussels
+DTSTAMP:20190109T000000
+DTSTART:20190204T173000
+DTEND:20190204T182500
+DESCRIPTION:Kubernetes in general, and Istio in particular, have changed a lot the way we look at Ops-related constraints: monitoring, load-balancing, health checks, etc. Before those products became available, there were already available solutions to handle those constraints.
+Among them is Hystrix, a Java library provided by Netflix.
+From the site: “Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.”
+In particular, Hystrix provides an implementation of the Circuit Breaker pattern, which prevents a network or service failure from cascading to other services. But now Istio also provides the same capability.
+In this talk, we will have a look at how Istio and Hystrix implement the Circuit Breaker pattern, and what pros/cons each of them has.
+After this talk, you’ll be able to decide which one is the best fit in your context.
+URL:https://cfgmgmtcamp.eu/schedule/monday/battlebreaker/
+LOCATION:1.baula
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:cnab@cfgmgmtcamp.eu
+SUMMARY:CNAB: packaging for distributed applications with multiple toolchains
+ORGANIZER:Gareth Rushgrove
+CATEGORIES:talk
+TZID:Europe-Brussels
+DTSTAMP:20190109T000000
+DTSTART:20190204T163000
+DTEND:20190204T172500
+DESCRIPTION:When you’re managing distrubyted applications you’re probably using a variety of tools that serve specific purposes.
+Terraform, Helm, Compose, CloudFormation, Pulumi, ARM templates, etc. No one tool solves all your needs.
+And new tools come along regularly. But all tools tend to invent there own packaging.
+In this talk we’ll introduce the Cloud Native Application Bundles (CNAB) specification, and some associated tooling.
+CNAB embraces the multi-tool world and allows for packaging up multiple formats and their accompanying toolchains into a single artefact.
+Imagine a single installable package that contains Terraform code to launch an RDS instance and a Compose file or Helm charts describing the application that will use it.
+Today you might package and distribute those separately, with CNAB you can keep them together.
+That means we can share metadata, cryptographically sign a single artefact, push all aspects of the application to a central registry and more.
+In this talk we’ll introduce CNAB, discuss some of the problems it solves, and show demos of the accompanying tooling.
+URL:https://cfgmgmtcamp.eu/schedule/monday/cnab/
+LOCATION:1.baula
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:observescale@cfgmgmtcamp.eu
+SUMMARY:Observabilty at scale
+ORGANIZER:Ramez Hanna
+CATEGORIES:talk
+TZID:Europe-Brussels
+DTSTAMP:20190109T000000
+DTSTART:20190204T173000
+DTEND:20190204T182500
+DESCRIPTION:This is a talk about how Criteo (http://labs.criteo.com/) is monitoring 30k servers across 8 datacenters.
+I’ll also talk about observability and what it means and how you should focus on observability rather than monitoring Technologies would include prometheus, bigGraphite, cassandra and elasticsearch.
+URL:https://cfgmgmtcamp.eu/schedule/monday/observescale/
+LOCATION:1.devobs
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:complexpipe@cfgmgmtcamp.eu
+SUMMARY:TBA
+ORGANIZER:
+CATEGORIES:talk
+TZID:Europe-Brussels
+DTSTAMP:20190109T000000
+DTSTART:20190204T163000
+DTEND:20190204T172500
+DESCRIPTION:URL:https://cfgmgmtcamp.eu/schedule/monday/complexpipe/
+LOCATION:0.daula
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:ansicommi@cfgmgmtcamp.eu
 SUMMARY:Ansible Community Update
 ORGANIZER:Robyn Bergeron
@@ -1079,83 +1156,6 @@ LOCATION:0.daula
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:battlebreaker@cfgmgmtcamp.eu
-SUMMARY:Battle of the circuit breakers: Istio vs Hystrix
-ORGANIZER:Nicolas Frankel
-CATEGORIES:talk
-TZID:Europe-Brussels
-DTSTAMP:00010101T000000
-DTSTART:20190204T173000
-DTEND:20190204T182500
-DESCRIPTION:Kubernetes in general, and Istio in particular, have changed a lot the way we look at Ops-related constraints: monitoring, load-balancing, health checks, etc. Before those products became available, there were already available solutions to handle those constraints.
-Among them is Hystrix, a Java library provided by Netflix.
-From the site: “Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.”
-In particular, Hystrix provides an implementation of the Circuit Breaker pattern, which prevents a network or service failure from cascading to other services. But now Istio also provides the same capability.
-In this talk, we will have a look at how Istio and Hystrix implement the Circuit Breaker pattern, and what pros/cons each of them has.
-After this talk, you’ll be able to decide which one is the best fit in your context.
-URL:https://cfgmgmtcamp.eu/schedule/monday/battlebreaker/
-LOCATION:1.baula
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:cnab@cfgmgmtcamp.eu
-SUMMARY:CNAB: packaging for distributed applications with multiple toolchains
-ORGANIZER:Gareth Rushgrove
-CATEGORIES:talk
-TZID:Europe-Brussels
-DTSTAMP:00010101T000000
-DTSTART:20190204T163000
-DTEND:20190204T172500
-DESCRIPTION:When you’re managing distrubyted applications you’re probably using a variety of tools that serve specific purposes.
-Terraform, Helm, Compose, CloudFormation, Pulumi, ARM templates, etc. No one tool solves all your needs.
-And new tools come along regularly. But all tools tend to invent there own packaging.
-In this talk we’ll introduce the Cloud Native Application Bundles (CNAB) specification, and some associated tooling.
-CNAB embraces the multi-tool world and allows for packaging up multiple formats and their accompanying toolchains into a single artefact.
-Imagine a single installable package that contains Terraform code to launch an RDS instance and a Compose file or Helm charts describing the application that will use it.
-Today you might package and distribute those separately, with CNAB you can keep them together.
-That means we can share metadata, cryptographically sign a single artefact, push all aspects of the application to a central registry and more.
-In this talk we’ll introduce CNAB, discuss some of the problems it solves, and show demos of the accompanying tooling.
-URL:https://cfgmgmtcamp.eu/schedule/monday/cnab/
-LOCATION:1.baula
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:observescale@cfgmgmtcamp.eu
-SUMMARY:Observabilty at scale
-ORGANIZER:Ramez Hanna
-CATEGORIES:talk
-TZID:Europe-Brussels
-DTSTAMP:00010101T000000
-DTSTART:20190204T173000
-DTEND:20190204T182500
-DESCRIPTION:This is a talk about how Criteo (http://labs.criteo.com/) is monitoring 30k servers across 8 datacenters.
-I’ll also talk about observability and what it means and how you should focus on observability rather than monitoring Technologies would include prometheus, bigGraphite, cassandra and elasticsearch.
-URL:https://cfgmgmtcamp.eu/schedule/monday/observescale/
-LOCATION:1.devobs
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:complexpipe@cfgmgmtcamp.eu
-SUMMARY:TBA
-ORGANIZER:
-CATEGORIES:talk
-TZID:Europe-Brussels
-DTSTAMP:00010101T000000
-DTSTART:20190204T163000
-DTEND:20190204T172500
-DESCRIPTION:URL:https://cfgmgmtcamp.eu/schedule/monday/complexpipe/
-LOCATION:0.daula
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
 END:VCALENDAR
 BEGIN:VCALENDAR
 VERSION:2.0
@@ -1165,6 +1165,44 @@ METHOD:PUBLISH
 X-WR-CALDESC;VALUE=TEXT:iCal
 X-WR-CALNAME;VALUE=TEXT:iCal
 X-WR-TIMEZONE;VALUE=TEXT:Europe/Brussels
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:ansibledevaccprod@cfgmgmtcamp.eu
+SUMMARY:Ansible in a dev, acc and prod environment. A real life example
+ORGANIZER:Ton Kersten
+CATEGORIES:talk
+TZID:Europe-Brussels
+DTSTAMP:20190109T000000
+DTSTART:20190205T150000
+DTEND:20190205T155500
+DESCRIPTION:Ansible is often used in a develop, accept and production environment, but there are no general use cases available.
+This presentation shows how we solved the dev, acc and prod environment issues within a clients setup and how this can aid you in solving similar problems.
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/ansibledevaccprod/
+LOCATION:3.ansible
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:saltscaling@cfgmgmtcamp.eu
+SUMMARY:Three years of automating large scale networks using Salt
+ORGANIZER:Mircea Ulinic
+CATEGORIES:talk
+TZID:Europe-Brussels
+DTSTAMP:20190109T000000
+DTSTART:20190205T150000
+DTEND:20190205T155500
+DESCRIPTION:Cloudflare started its automation efforts using Salt about three years ago.
+We have since open sourced many components, fixes and features in collaboration with other networks.
+Salt is now one of the most widely-adopted open-source automating frameworks within the network community.
+Already well known to the system community, Salt has reached its maturity on the network automation side as well.
+Today, Salt natively provides integrations with well-known open-source libraries and tools, including: NAPALM, NetBox, Netmiko, Junos PyEZ (junos-eznc), Arista pyeapi, CiscoConfParse, as well as features for PeeringDB, and many others.
+In this talk, we’ll take a look back at the progress, changes and the evolution over the past years, as well as a brief look at potential future features.
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/saltscaling/
+LOCATION:3.salt
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
 UID:pulpplugins@cfgmgmtcamp.eu
@@ -2218,44 +2256,6 @@ DESCRIPTION:The opening introduction of the second day of CfgMgmtCamp or YAMLcam
 Long live all YAML engineers
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/intro/
 LOCATION:0.daula
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:ansibledevaccprod@cfgmgmtcamp.eu
-SUMMARY:Ansible in a dev, acc and prod environment. A real life example
-ORGANIZER:Ton Kersten
-CATEGORIES:talk
-TZID:Europe-Brussels
-DTSTAMP:00010101T000000
-DTSTART:20190205T150000
-DTEND:20190205T155500
-DESCRIPTION:Ansible is often used in a develop, accept and production environment, but there are no general use cases available.
-This presentation shows how we solved the dev, acc and prod environment issues within a clients setup and how this can aid you in solving similar problems.
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/ansibledevaccprod/
-LOCATION:3.ansible
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:saltscaling@cfgmgmtcamp.eu
-SUMMARY:Three years of automating large scale networks using Salt
-ORGANIZER:Mircea Ulinic
-CATEGORIES:talk
-TZID:Europe-Brussels
-DTSTAMP:00010101T000000
-DTSTART:20190205T150000
-DTEND:20190205T155500
-DESCRIPTION:Cloudflare started its automation efforts using Salt about three years ago.
-We have since open sourced many components, fixes and features in collaboration with other networks.
-Salt is now one of the most widely-adopted open-source automating frameworks within the network community.
-Already well known to the system community, Salt has reached its maturity on the network automation side as well.
-Today, Salt natively provides integrations with well-known open-source libraries and tools, including: NAPALM, NetBox, Netmiko, Junos PyEZ (junos-eznc), Arista pyeapi, CiscoConfParse, as well as features for PeeringDB, and many others.
-In this talk, we’ll take a look back at the progress, changes and the evolution over the past years, as well as a brief look at potential future features.
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/saltscaling/
-LOCATION:3.salt
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
