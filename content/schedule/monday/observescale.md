@@ -5,7 +5,8 @@ eventtype: talk
 room: 1.devobs
 start: 17:30
 end: 18:25
-draft: fale
+date: 2019-01-09
+draft: false
 ---
 
 This is a talk about how Criteo (http://labs.criteo.com/) is monitoring 30k servers across 8 datacenters.  

@@ -5,6 +5,7 @@ eventtype: talk
 room: 1.baula
 start: 17:30
 end: 18:25
+date: 2019-01-09
 draft: false
 ---
 
