@@ -30,7 +30,16 @@
 		<div class="event-speaker">
 			<h2>Speaker Info</h2>
 			{{ if isset .Params "image" }}
-				<img src="{{ .Param "image" }}" alt="{{ .Title }}">
+				{{ $image := .Param "image" }}
+				{{ $imageurl := urls.Parse $image }}
+				{{ if eq $imageurl.Scheme "https" }}
+					<img src="{{ $image }}" alt="{{ .Title }}">
+				{{ else }}
+					{{ $imagelocation := (printf "%s/%s" "images/" $image) }}
+					{{ $imageresource := resources.Get $imagelocation }}
+					{{ $imagefile := $imageresource.Fit "400x400" }}
+					<img src="{{ $imagefile.RelPermalink }}" alt="{{ .Title }}">
+				{{ end }}
 			{{ end }}
 			{{ .Content }}
 		</div>

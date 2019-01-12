@@ -7,11 +7,24 @@
 		<h1>
 		{{ .Title }}
 		{{ if isset .Params "twitter" }}
-		<br>
-		<a href="https://twitter.com/{{ .Param "twitter" }}"><i class="fab fa-twitter"></i> @{{ .Param "twitter" }}</a>
+			<br>
+			<a href="https://twitter.com/{{ .Param "twitter" }}"><i class="fab fa-twitter"></i> @{{ .Param "twitter" }}</a>
 		{{ end }}
 		</h1>
-		{{ if isset .Params "image" }}<div class=speaker-image><img src="{{ .Param "Image" }}" alt="{{ .Title }}"></div>{{ end }}
+		{{ if isset .Params "image" }}
+			<div class=speaker-image>
+			{{ $image := .Param "image" }}
+			{{ $imageurl := urls.Parse $image }}
+			{{ if eq $imageurl.Scheme "https" }}
+				<img src="{{ $image }}" alt="{{ .Title }}">
+			{{ else }}
+				{{ $imagelocation := (printf "%s/%s" "images/" $image) }}
+				{{ $imageresource := resources.Get $imagelocation }}
+				{{ $imagefile := $imageresource.Fit "400x400" }}
+				<img src="{{ $imagefile.RelPermalink }}" alt="{{ .Title }}">
+			{{ end }}
+			</div>
+		{{ end }}
 		<div class="event-speaker">
 			{{ .Content }}
 		</div>
