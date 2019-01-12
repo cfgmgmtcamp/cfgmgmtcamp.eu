@@ -2,7 +2,7 @@
 title: "Cross-OS security hardening"
 speaker: florianheigl
 eventtype: talk
-room: 0.aula
+room: 0.daula
 start: 16:30
 end: 17:25
 date: 2018-12-31
