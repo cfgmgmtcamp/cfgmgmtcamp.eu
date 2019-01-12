@@ -1347,23 +1347,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:infrapipelines@cfgmgmtcamp.eu
-SUMMARY:TBA
-ORGANIZER:
-CATEGORIES:talk
-DTSTAMP:20181227T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T140000
-DTEND:20190204T145500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/infrapipelines/":TBA
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/infrapipelines/
-LOCATION:0.daula
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:intro00@cfgmgmtcamp.eu
 SUMMARY:CfgMgmtCamp is dead\, ...
 ORGANIZER:Kris Buytaert & Toshaan Bharvani
