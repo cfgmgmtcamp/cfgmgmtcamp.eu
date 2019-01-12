@@ -35,7 +35,7 @@
 				{{ if eq $imageurl.Scheme "https" }}
 					<img src="{{ $image }}" alt="{{ .Title }}">
 				{{ else }}
-					{{ $imagelocation := (printf "%s/%s" "images/" $image) }}
+					{{ $imagelocation := (printf "%s/%s" "images/speakers/" $image) }}
 					{{ $imageresource := resources.Get $imagelocation }}
 					{{ $imagefile := $imageresource.Fit "400x400" }}
 					<img src="{{ $imagefile.RelPermalink }}" alt="{{ .Title }}">
