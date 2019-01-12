@@ -5,5 +5,5 @@ CfgMgmgtCamp Hugo based website
 
 This github repo builds the website for cfgmgmtcamp.eu
 
-
+If you want to contribute, please check out our [wiki](https://github.com/cfgmgmtcamp/cfgmgmtcamp.eu/wiki) with information on how to add content.
 
