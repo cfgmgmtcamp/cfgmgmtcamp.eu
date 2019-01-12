@@ -22,15 +22,19 @@
 							{{ if eq $level $key }}
 								<li>
 									{{ if .Param "link" }}
-									<a href="{{ .Param "link" }}">
+										<a href="{{ .Param "link" }}">
 									{{ end }}
-									{{ $imagename := .Param "image" }}
-									{{ $imagelocation := (printf "%s/%s" "images/" $imagename) }}
-									{{ $imageresource := resources.Get $imagelocation }}
-									{{ $image := $imageresource.Fit $imagesize }}
-									<img src="{{  $image.RelPermalink }}" alt="{{ .Title }}">
+									{{ if .Param "image" }}
+										{{ $imagename := .Param "image" }}
+										{{ $imagelocation := (printf "%s/%s" "images/sponsors/" $imagename) }}
+										{{ $imageresource := resources.Get $imagelocation }}
+										{{ $image := $imageresource.Fit $imagesize }}
+										<img src="{{  $image.RelPermalink }}" alt="{{ .Title }}">
+									{{ else }}
+										{{ .Title }}
+									{{ end }}
 									{{ if .Param "link" }}
-									</a>
+										</a>
 									{{ end }}
 								</li>
 							{{ end }}
