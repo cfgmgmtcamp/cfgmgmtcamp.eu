@@ -1383,32 +1383,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:kubegitops@cfgmgmtcamp.eu
-SUMMARY:Config Mgmt for Kubernetes workloads with GitOps and Helm
-ORGANIZER:Tomasz Tarczynski
-CATEGORIES:talk
-DTSTAMP:20181226T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T150000
-DTEND:20190204T155500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/kubegitops/":Config Mgmt for Kubernetes workloads with GitOps and Helm
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Kubernetes provides a declarative API,
-so you can describe the desired state of the system and then the control plane makes the actual state match the desired state.<br />
-But we still need config mgmt for API objects to the point when they are applied to the cluster.</p>
-
-<p>Helm helps organizing these configs into charts, template them, and manage releases.<br />
-GitOps let&rsquo;s you use a git repo as a single source of truth for the desired state of the whole system.<br />
-Then all changes to this state are delivered just as git commits instead of using kubectl apply or helm upgrade.</p>
-
-<p>In this talk I will introduce the GitOps model for operating cloud native environments and give a short demo.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/kubegitops/
-LOCATION:1.baula
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:4thgenauto@cfgmgmtcamp.eu
 SUMMARY:Fourth Generation Automation: Uniting Models and Tasks
 ORGANIZER:Eric Sorenson
