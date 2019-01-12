@@ -1,7 +1,7 @@
 ---
 title: "Steve Traugott"
 twitter: stevegt
-image: speaker/stevegt.png
+image: /speakers/stevegt.png
 date: 2019-01-03
 draft: false
 ---
