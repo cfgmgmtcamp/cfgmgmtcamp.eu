@@ -996,23 +996,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:breakafternoon09@cfgmgmtcamp.eu
-SUMMARY:Break
-ORGANIZER:
-CATEGORIES:break
-DTSTAMP:20181227T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T160000
-DTEND:20190204T162500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon09/":Break
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon09/
-LOCATION:2.security
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:breakprenoon00@cfgmgmtcamp.eu
 SUMMARY:Coffe Break
 ORGANIZER:
