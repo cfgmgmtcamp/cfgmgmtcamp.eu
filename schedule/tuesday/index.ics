@@ -77,6 +77,30 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:shiftleft@cfgmgmtcamp.eu
+SUMMARY:'Shift Left Security'\, what the funk does that mean?!
+ORGANIZER:Gerard de Vos
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+TZID:Europe-Brussels
+DTSTART:20190205T150000
+DTEND:20190205T155500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/shiftleft/":'Shift Left Security'\, what the funk does that mean?!
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>In the agile, lean, devops communities people talk about improving security by &ldquo;shifting left&rdquo;.<br />
+Patterns and tools are emerging, or re-emerging,
+that make security less of a pain in the development process while also making applications more secure.<br />
+I will cover tools and processes that help teams with the day to day work like
+code scanners, application scanners, pull requests, deployment tooling and infrastructure-as-code.<br />
+At the organisational level some relatively small changes to, for instance, the change approval process can have a big impact.<br />
+These are tools and processes that have proven themselves at many organisations and perhaps they can do the same for you.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/shiftleft/
+LOCATION:0.aula
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:puppetagent@cfgmgmtcamp.eu
 SUMMARY:Agent-side functions in Puppet 6. Wait\, that's a thing?
 ORGANIZER:Ben Ford
