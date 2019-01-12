@@ -2,7 +2,7 @@
 title: "'Shift Left Security', what the funk does that mean?!"
 speaker: gerarddevos
 eventtype: talk
-room: 0.aula
+room: 0.daula
 start: 15:00
 end: 15:55
 date: 2018-12-31
