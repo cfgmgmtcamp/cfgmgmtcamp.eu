@@ -1363,47 +1363,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:unikernels@cfgmgmtcamp.eu
-SUMMARY:Configuration and configuration management with Unikernels
-ORGANIZER:Per Buer
-CATEGORIES:talk
-DTSTAMP:20181226T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T150000
-DTEND:20190205T155500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/unikernels/":Configuration and configuration management with Unikernels
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Unikernels are a new class of operating system.<br />
-The core idea is to merge the kernel, libraries, and application into a single image binary, operating in a single address space.<br />
-This has the potential to improve security, performance, and a few other factors.</p>
-
-<p>For native Unikernel applications, this moves configuration to the build stage.<br />
-So how are we supposed to manage these applications?<br />
-How should they be configured and deployed?<br />
-How can we profile them?<br />
-Debug them?<br />
- The talk will start with what a Unikernel is, an overview of the Unikernel landscape and their different characterist.<br />
-Where are they heading?<br />
-An interesting development is happening with Unikernels sneaking their way onto Linux systems and playing hand-in-hand with more traditional systems.</p>
-
-<p>I&rsquo;ll demo a couple of Unikernel applications.<br />
-Show how they are configured and deployed.<br />
-What tools exist and what tools are missing.<br />
-A bit of talk about the joys and pains of deploying an untested class of operating systems in production.</p>
-
-<p>Open questions for which I have no answers but will solicit feedback are:</p>
-
-<ul>
-<li>What existing tools could be used to manage this class of applications?</li>
-<li>What class of problems matches the characteristics of Unikernels (Real-time, immutable, small)</li>
-</ul>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/unikernels/
-LOCATION:0.daula
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:intro10@cfgmgmtcamp.eu
 SUMMARY:Welcome to YAMLcamp
 ORGANIZER:Kris Buytaert & Toshaan Bharvani
