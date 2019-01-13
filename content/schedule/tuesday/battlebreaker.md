@@ -2,9 +2,9 @@
 title: "Battle of the circuit breakers: Istio vs Hystrix"
 speaker: nicolasfrankel
 eventtype: talk
-room: 1.baula
-start: 17:30
-end: 18:25
+room: 1.devobs
+start: 11:20
+end: 12:15
 date: 2019-01-09
 draft: false
 ---

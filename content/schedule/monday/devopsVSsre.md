@@ -3,9 +3,9 @@ title: "DevOps vs SRE - competing standards or friends?"
 speaker: sethvargo
 date: 2018-12-27
 eventtype: talk
-room: 1.baula
-start: 11:20
-end: 12:15
+room: 0.daula
+start: 16:30
+end: 17:25
 draft: false
 ---
 
