@@ -522,6 +522,25 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:rudderplugin@cfgmgmtcamp.eu
+SUMMARY:How to benefit from the new plugin ecosystem in Rudder 5.0?
+ORGANIZER:Benoît Peccatte
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T173000
+DTEND:20190204T182500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/rudderplugin/":How to benefit from the new plugin ecosystem in Rudder 5.0?
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The latest major version of the solution has brought a major new feature to the Rudder solution: a plugin ecosystem.<br />
+The Rudder software architect will present the reasons for this new feature, how it works, and what are the different plugins available.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/rudderplugin/
+LOCATION:3.rudder
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:mgmtadvanced@cfgmgmtcamp.eu
 SUMMARY:Mgmt Config: Advanced demos and internals for hackers
 ORGANIZER:James 'purpleidea' Shubin
@@ -591,6 +610,74 @@ This session does a deep dive and shows how mgmt will allow you to use and maint
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/fromback/
 LOCATION:3.mgmt
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:uxuicfgtool@cfgmgmtcamp.eu
+SUMMARY:UX challenges of a UI-centric config management tool
+ORGANIZER:Raphael Gauthier
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T163000
+DTEND:20190204T172500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/uxuicfgtool/":UX challenges of a UI-centric config management tool
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>One of Rudder&rsquo;s main focuses is its comprehensive graphical user interface,
+which allows users to view and manage its configurations without writing a line of code.<br />
+The user experience and interface considerations for a tool as technical and complex,
+and with such potential to break things as a configuration management tool are certainly a challenge,
+and in some ways in unchartered territory. Rudder&rsquo;s frontend developer will present an analysis of the situation,
+the issues encountered and the approach adopted for the improvement of UX and UI planned for 2019.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/uxuicfgtool/
+LOCATION:3.rudder
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:ruddernext@cfgmgmtcamp.eu
+SUMMARY:What happened in Rudder in 2018 and what's next?
+ORGANIZER:Alexis Mousset
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T150000
+DTEND:20190204T155500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/ruddernext/":What happened in Rudder in 2018 and what's next?
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Let&rsquo;s take a look at Rudder&rsquo;s new features from 2018,
+both in terms of the features of versions 4.3 and 5.0
+as well as the new documentation and our platform for building and distributing binaries.<br />
+We will then present the provisional roadmap for 2019: let&rsquo;s go to Rudder 5.1 and 5.2!</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/ruddernext/
+LOCATION:3.rudder
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:rudderwhatwhere@cfgmgmtcamp.eu
+SUMMARY:What is Rudder and when should I use it?
+ORGANIZER:Alexander Brianceau
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T140000
+DTEND:20190204T145500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/rudderwhatwhere/":What is Rudder and when should I use it?
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Rudder is an open source configuration management tool that includes continuous auditing
+(with or without remediation), compliance info and graphs and the possibility to configure everything in the UI and/or APIs.<br />
+It has been around for more than six years and has users large (think 10 000 nodes) and small around the world.</p>
+
+<p>Let&rsquo;s take a moment to look at the vision that lead us here,
+how Rudder is different from similar tools, and what users find invaluable, nice (or annoying - I&rsquo;ll be honest!).<br />
+If you&rsquo;re not familiar with Rudder this is a great talk to attend to get the basics covered.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/rudderwhatwhere/
+LOCATION:3.rudder
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -789,6 +876,23 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:breakafternoon14@cfgmgmtcamp.eu
+SUMMARY:Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T160000
+DTEND:20190204T162500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon14/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon14/
+LOCATION:3.rudder
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:breakafternoon17@cfgmgmtcamp.eu
 SUMMARY:Break
 ORGANIZER:
@@ -961,6 +1065,23 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch15/":Lunch
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch15/
 LOCATION:3.pulp
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:lunch17@cfgmgmtcamp.eu
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T130000
+DTEND:20190204T135500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch17/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/lunch17/
+LOCATION:3.rudder
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -1840,25 +1961,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:rudderplugin@cfgmgmtcamp.eu
-SUMMARY:How to benefit from the new plugin ecosystem in Rudder 5.0?
-ORGANIZER:Benoît Peccatte
-CATEGORIES:talk
-DTSTAMP:20181229T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T173000
-DTEND:20190205T182500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/rudderplugin/":How to benefit from the new plugin ecosystem in Rudder 5.0?
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The latest major version of the solution has brought a major new feature to the Rudder solution: a plugin ecosystem.<br />
-The Rudder software architect will present the reasons for this new feature, how it works, and what are the different plugins available.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/rudderplugin/
-LOCATION:3.rudder
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:obal@cfgmgmtcamp.eu
 SUMMARY:Obal: wrapping Ansible Playbooks into a CLI app
 ORGANIZER:Ewoud Kohl van Wijngaarden
@@ -1914,29 +2016,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:uxuicfgtool@cfgmgmtcamp.eu
-SUMMARY:UX challenges of a UI-centric config management tool
-ORGANIZER:Raphael Gauthier
-CATEGORIES:talk
-DTSTAMP:20181229T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T163000
-DTEND:20190205T172500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/uxuicfgtool/":UX challenges of a UI-centric config management tool
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>One of Rudder&rsquo;s main focuses is its comprehensive graphical user interface,
-which allows users to view and manage its configurations without writing a line of code.<br />
-The user experience and interface considerations for a tool as technical and complex,
-and with such potential to break things as a configuration management tool are certainly a challenge,
-and in some ways in unchartered territory. Rudder&rsquo;s frontend developer will present an analysis of the situation,
-the issues encountered and the approach adopted for the improvement of UX and UI planned for 2019.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/uxuicfgtool/
-LOCATION:3.rudder
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:puppetaccept@cfgmgmtcamp.eu
 SUMMARY:Using acceptance tests for better Puppet modules
 ORGANIZER:Ewoud Kohl van Wijngaarden
@@ -1960,51 +2039,6 @@ Examples will be taken from both Voxpupuli and The Foreman&rsquo;s Puppet module
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/puppetaccept/
 LOCATION:3.puppet
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:ruddernext@cfgmgmtcamp.eu
-SUMMARY:What happened in Rudder in 2018 and what's next?
-ORGANIZER:Alexis Mousset
-CATEGORIES:talk
-DTSTAMP:20181229T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T150000
-DTEND:20190205T155500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/ruddernext/":What happened in Rudder in 2018 and what's next?
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Let&rsquo;s take a look at Rudder&rsquo;s new features from 2018,
-both in terms of the features of versions 4.3 and 5.0
-as well as the new documentation and our platform for building and distributing binaries.<br />
-We will then present the provisional roadmap for 2019: let&rsquo;s go to Rudder 5.1 and 5.2!</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/ruddernext/
-LOCATION:3.rudder
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:rudderwhatwhere@cfgmgmtcamp.eu
-SUMMARY:What is Rudder and when should I use it?
-ORGANIZER:Alexander Brianceau
-CATEGORIES:talk
-DTSTAMP:20181229T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T140000
-DTEND:20190205T145500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/rudderwhatwhere/":What is Rudder and when should I use it?
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Rudder is an open source configuration management tool that includes continuous auditing
-(with or without remediation), compliance info and graphs and the possibility to configure everything in the UI and/or APIs.<br />
-It has been around for more than six years and has users large (think 10 000 nodes) and small around the world.</p>
-
-<p>Let&rsquo;s take a moment to look at the vision that lead us here,
-how Rudder is different from similar tools, and what users find invaluable, nice (or annoying - I&rsquo;ll be honest!).<br />
-If you&rsquo;re not familiar with Rudder this is a great talk to attend to get the basics covered.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/rudderwhatwhere/
-LOCATION:3.rudder
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -2258,23 +2292,6 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon13/":B
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon13/
 LOCATION:3.ansible
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:breakafternoon14@cfgmgmtcamp.eu
-SUMMARY:Break
-ORGANIZER:
-CATEGORIES:break
-DTSTAMP:20181227T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T160000
-DTEND:20190205T162500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon14/":Break
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon14/
-LOCATION:3.rudder
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -2613,23 +2630,6 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch16/":Lunch
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch16/
 LOCATION:3.puppet
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:lunch17@cfgmgmtcamp.eu
-SUMMARY:Lunch
-ORGANIZER:
-CATEGORIES:break
-DTSTAMP:20181227T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T130000
-DTEND:20190205T135500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch17/":Lunch
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch17/
-LOCATION:3.rudder
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
