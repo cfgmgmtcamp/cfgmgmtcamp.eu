@@ -528,8 +528,8 @@ ORGANIZER:Benoît Peccatte
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T173000
-DTEND:20190204T182500
+DTSTART:20190204T163000
+DTEND:20190204T172500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/rudderplugin/":How to benefit from the new plugin ecosystem in Rudder 5.0?
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The latest major version of the solution has brought a major new feature to the Rudder solution: a plugin ecosystem.<br />
 The Rudder software architect will present the reasons for this new feature, how it works, and what are the different plugins available.</p>
@@ -621,8 +621,8 @@ ORGANIZER:Raphael Gauthier
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T163000
-DTEND:20190204T165500
+DTSTART:20190204T173000
+DTEND:20190204T175500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/uxuicfgtool/":UX challenges of a UI-centric config management tool
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>One of Rudder&rsquo;s main focuses is its comprehensive graphical user interface,
 which allows users to view and manage its configurations without writing a line of code.<br />
