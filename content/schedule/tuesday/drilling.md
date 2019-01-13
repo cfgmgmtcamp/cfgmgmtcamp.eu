@@ -3,8 +3,8 @@ title: "Drilling down a software bug: lessons about observability, monitoring, a
 speaker: katerinakoutsonikoli
 eventtype: talk
 room: 1.devobs
-start: 16:30
-end: 17:25
+start: 12:20
+end: 12:55
 date: 2018-12-29
 draft: false
 ---
