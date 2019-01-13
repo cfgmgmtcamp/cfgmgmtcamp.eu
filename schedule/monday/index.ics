@@ -69,26 +69,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:observescale@cfgmgmtcamp.eu
-SUMMARY:Observabilty at scale
-ORGANIZER:Ramez Hanna
-CATEGORIES:talk
-DTSTAMP:20190109T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T173000
-DTEND:20190204T182500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/observescale/":Observabilty at scale
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>This is a talk about how Criteo (<a href="http://labs.criteo.com/">http://labs.criteo.com/</a>) is monitoring 30k servers across 8 datacenters.<br />
-I&rsquo;ll also talk about observability and what it means and how you should focus on observability
-rather than monitoring Technologies would include prometheus, bigGraphite, cassandra and elasticsearch.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/observescale/
-LOCATION:1.devobs
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:ansicommi@cfgmgmtcamp.eu
 SUMMARY:Ansible Community Update
 ORGANIZER:Robyn Bergeron
@@ -559,42 +539,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:drilling@cfgmgmtcamp.eu
-SUMMARY:Drilling down a software bug: lessons about observability\, monitoring\, automation and good practices
-ORGANIZER:Katerina Koutsonikoli
-CATEGORIES:talk
-DTSTAMP:20181229T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T163000
-DTEND:20190204T172500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/drilling/":Drilling down a software bug: lessons about observability\, monitoring\, automation and good practices
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>So, there is case, every once in a few days the kafka cluster dies and
-along dies the whole application resulting in revenue loss for the company.</p>
-
-<p>Starting there, I would like to describe how we approached the unknown issue, assumptions, failure, trial and error,
-until we found the root cause: a known bug in the respective version of the famous distributed software.<br />
-Of course, every software has bugs and hitting a major one is not such uncommon but more than that,
-what is actually important is the actual lessons learnt during the process:</p>
-
-<ul>
-<li>how do we monitor our infrastructure and ways to improve it</li>
-<li>what actually happens inside our application, how do failures of external software affect it, how we can improve stability</li>
-<li>tools we have Vs tools we need, call for more automation</li>
-<li>what are the actual resources we need for our use case, if we under/overprovision, understand our scale and optimize the costs</li>
-<li>importance of documentation and post-mortems, the 5 WHYs.</li>
-</ul>
-
-<p>Major takeaway of this talk:
-tackle your incidents as a way to understand more about your systems
-(both technical systems: infra, code, tools AND non-technical systems: teams, workflows, procedures, practices) and design them better.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/drilling/
-LOCATION:1.devobs
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:foremanlifecycle@cfgmgmtcamp.eu
 SUMMARY:Foreman - Lifecycle management for training labs
 ORGANIZER:Dirk Goetz
@@ -672,36 +616,6 @@ Finally we&rsquo;ll talk about some of the future designs we&rsquo;re planning a
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/mgmtadvanced/
 LOCATION:3.mgmt
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:devopsupport@cfgmgmtcamp.eu
-SUMMARY:Support at scale in a DevOps world: how Swarming and Cynefin can save you from 3rd Line hell
-ORGANIZER:Jon Hall
-CATEGORIES:talk
-DTSTAMP:20181229T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T150000
-DTEND:20190204T155500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/devopsupport/":Support at scale in a DevOps world: how Swarming and Cynefin can save you from 3rd Line hell
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>As DevOps practices and modern software defined infrastructure become increasingly established in enterprises,
-and as the scale of delivery grows, practitioners increasingly find themselves drawn into traditional IT support structures.<br />
-Here, they find themselves expected to act as part of a classic multi-tier support structure,
-with at least part of their time spent acting as a 3rd line support function.</p>
-
-<p>This presentation explores the problems this creates:
-its siloed nature creates inefficient work-in-progress queues,
-and reduces cross-functional collaboration and knowledge sharing.</p>
-
-<p>Service Management plays a vital role in managing system consumers at scale,
-but it needs to modernise to work well in the new era.<br />
-Hence, this presentation explores emergent methods such as Swarming,
-and new thinking such as Cynefin, which bring new thinking and new structures which align much better to modern development and operations thinking.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/devopsupport/
-LOCATION:1.devobs
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -1008,27 +922,6 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakprenoon00/":Coff
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakprenoon00/
 LOCATION:0.daula
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:devopsVSsre@cfgmgmtcamp.eu
-SUMMARY:DevOps vs SRE - competing standards or friends?
-ORGANIZER:Seth Vargo
-CATEGORIES:talk
-DTSTAMP:20181227T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T140000
-DTEND:20190204T145500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/devopsvssre/":DevOps vs SRE - competing standards or friends?
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Google has been practicing Site Reliability Engineering (SRE) since the early 2000&rsquo;s,
-but only recently began speaking about it publicly.<br />
-Some have called SRE &lsquo;DevOps 2.0&rsquo;, while others view it as a competing standard.<br />
-This talk discusses the differences and similarities between DevOps and SRE.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/devopsvssre/
-LOCATION:1.devobs
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
