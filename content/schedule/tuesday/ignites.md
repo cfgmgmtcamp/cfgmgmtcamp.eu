@@ -42,7 +42,7 @@ and even creating your own higher-level abstractions.
 The Narcissus go package provides an abstraction for configuration files as structure tags.
 
 ## Config Management 2018 in Review ##
-### David Schitt ###
+### David Schmitt ###
 
 In this ignite David will do a quick run through the major innovations in Configuration Management in 2018.
 Expect a sparkly firework of features, value added, satisfied customers and robust goodness.
