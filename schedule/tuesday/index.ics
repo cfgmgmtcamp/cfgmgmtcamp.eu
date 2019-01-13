@@ -55,8 +55,8 @@ ORGANIZER:Mircea Ulinic
 CATEGORIES:talk
 DTSTAMP:20190109T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T150000
-DTEND:20190205T152500
+DTSTART:20190205T173000
+DTEND:20190205T175500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/saltscaling/":Three years of automating large scale networks using Salt
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Cloudflare started its automation efforts using Salt about three years ago.<br />
 We have since open sourced many components, fixes and features in collaboration with other networks.<br />
@@ -425,8 +425,8 @@ ORGANIZER:Gareth Greenaway
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T173000
-DTEND:20190205T182500
+DTSTART:20190205T163000
+DTEND:20190205T172500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/saltextend/":SaltStack for Developers: Extending SaltStack
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The Salt project is already very powerful Python-based DevOps platform that ships with almost 500 remote execution modules and
 just over 300 state modules, it has the means and the ability to support many different systems and environments,
@@ -471,8 +471,8 @@ ORGANIZER:Pablo Suárez Hernández
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T163000
-DTEND:20190205T172500
+DTSTART:20190205T150000
+DTEND:20190205T155500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/uyuni/":Uyuni: An open source frontend solution for managing your software-defined infrastructure with Salt
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Uyuni (<a href="https://www.uyuni-project.org/">https://www.uyuni-project.org/</a>), an opinionated fork of the Spacewalk project,
 provides open source lifecycle management for today&rsquo;s datacenter.<br />
