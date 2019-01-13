@@ -29,6 +29,36 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:battlebreaker@cfgmgmtcamp.eu
+SUMMARY:Battle of the circuit breakers: Istio vs Hystrix
+ORGANIZER:Nicolas Frankel
+CATEGORIES:talk
+DTSTAMP:20190109T000000Z
+TZID:Europe-Brussels
+DTSTART:20190205T112000
+DTEND:20190205T121500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/battlebreaker/":Battle of the circuit breakers: Istio vs Hystrix
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Kubernetes in general, and Istio in particular, have changed a lot the way we look at Ops-related constraints: monitoring,
+load-balancing, health checks, etc.
+Before those products became available, there were already available solutions to handle those constraints.</p>
+
+<p>Among them is Hystrix, a Java library provided by Netflix.<br />
+From the site: &ldquo;Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems,
+services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.&rdquo;<br />
+In particular, Hystrix provides an implementation of the Circuit Breaker pattern,
+which prevents a network or service failure from cascading to other services. But now Istio also provides the same capability.</p>
+
+<p>In this talk, we will have a look at how Istio and Hystrix implement the Circuit Breaker pattern, and what pros/cons each of them has.</p>
+
+<p>After this talk, you&rsquo;ll be able to decide which one is the best fit in your context.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/battlebreaker/
+LOCATION:1.devobs
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:observescale@cfgmgmtcamp.eu
 SUMMARY:Observabilty at scale
 ORGANIZER:Ramez Hanna
@@ -210,6 +240,56 @@ Though the general patterns are applicable with any centralized logging system.<
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/centrallog/
 LOCATION:1.devobs
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:hardening@cfgmgmtcamp.eu
+SUMMARY:Cross-OS security hardening
+ORGANIZER:Florian Heigl
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+TZID:Europe-Brussels
+DTSTART:20190205T112000
+DTEND:20190205T121500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/hardening/":Cross-OS security hardening
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY>
+
+<h3 id="intro">Intro</h3>
+
+<p>We&rsquo;re working to put in place a Rudder policy that covers all OS that we support at our customers,
+or that will be coming around (i.e. beta of a new version).</p>
+
+<p>For our managed systems, it should cover distro-/OS-specific settings and that &ldquo;what makes sense everywhere, will be applied everywhere&rdquo;.</p>
+
+<p>For our human eyes, it should have a clear design that allows for easy understanding and maintenance.</p>
+
+<p>Rudder offers many options to express little details in the policy.<br />
+We need to find a best practice for quickly choosing the simplest option, which is least likely to require redesign.</p>
+
+<h3 id="experiences">Experiences</h3>
+
+<ul>
+<li>managing kernel module blacklists, managing sysctls</li>
+<li>configuring auditd to be safe and lightweight</li>
+<li>mixing globally applicable and os-specific Rudder rules</li>
+<li>using ncf sys knowledge to abstract OS-specific package and service names out of the policy</li>
+<li>independent testing of compliance using Lynis and monitoring</li>
+</ul>
+
+<p>** why? because if we (flawed human) design the policy, we (same flawed human) should not design the final test :-) **</p>
+
+<h3 id="takeaway">Takeaway</h3>
+
+<p>We&rsquo;ll wrap it up with practical stuff like configuring OSSEC and why nsjail is awesome as a containment technology for services.<br />
+We can help our colleagues and ourselves securing many applications, with a much better learning curve than SElinux etc. got.</p>
+
+<p>So when you walk in the room and listen you get rough idea of sustainable policy design but also of what a sec policy looks like,
+if it&rsquo;s not only made to fill a checklist.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/hardening/
+LOCATION:1.baula
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -611,42 +691,6 @@ For this purpose we will present test results that show the influence of tweaks.
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/ansiblefast/
 LOCATION:3.ansible
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:drilling@cfgmgmtcamp.eu
-SUMMARY:Drilling down a software bug: lessons about observability\, monitoring\, automation and good practices
-ORGANIZER:Katerina Koutsonikoli
-CATEGORIES:talk
-DTSTAMP:20181229T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T112000
-DTEND:20190205T121500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/drilling/":Drilling down a software bug: lessons about observability\, monitoring\, automation and good practices
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>So, there is case, every once in a few days the kafka cluster dies and
-along dies the whole application resulting in revenue loss for the company.</p>
-
-<p>Starting there, I would like to describe how we approached the unknown issue, assumptions, failure, trial and error,
-until we found the root cause: a known bug in the respective version of the famous distributed software.<br />
-Of course, every software has bugs and hitting a major one is not such uncommon but more than that,
-what is actually important is the actual lessons learnt during the process:</p>
-
-<ul>
-<li>how do we monitor our infrastructure and ways to improve it</li>
-<li>what actually happens inside our application, how do failures of external software affect it, how we can improve stability</li>
-<li>tools we have Vs tools we need, call for more automation</li>
-<li>what are the actual resources we need for our use case, if we under/overprovision, understand our scale and optimize the costs</li>
-<li>importance of documentation and post-mortems, the 5 WHYs.</li>
-</ul>
-
-<p>Major takeaway of this talk:
-tackle your incidents as a way to understand more about your systems
-(both technical systems: infra, code, tools AND non-technical systems: teams, workflows, procedures, practices) and design them better.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/drilling/
-LOCATION:1.devobs
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -1094,27 +1138,6 @@ I will also talk about our philosophy for automation and how we are working hard
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/yamlcomp/
 LOCATION:1.devobs
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:devopsVSsre@cfgmgmtcamp.eu
-SUMMARY:DevOps vs SRE - competing standards or friends?
-ORGANIZER:Seth Vargo
-CATEGORIES:talk
-DTSTAMP:20181227T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T112000
-DTEND:20190205T121500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/devopsvssre/":DevOps vs SRE - competing standards or friends?
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Google has been practicing Site Reliability Engineering (SRE) since the early 2000&rsquo;s,
-but only recently began speaking about it publicly.<br />
-Some have called SRE &lsquo;DevOps 2.0&rsquo;, while others view it as a competing standard.<br />
-This talk discusses the differences and similarities between DevOps and SRE.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/devopsvssre/
-LOCATION:1.baula
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
