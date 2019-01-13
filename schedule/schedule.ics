@@ -92,8 +92,8 @@ ORGANIZER:Matthias Dellweg
 CATEGORIES:talk
 DTSTAMP:20190103T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T173000
-DTEND:20190204T182500
+DTSTART:20190204T150000
+DTEND:20190204T155500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/pulpplugins/":Pulp Users Love Plugins
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Benefits fueled by the modularity of the pulp plugin ecosystem by taking the example of pulp_deb and pulp_gem.</p>
 
@@ -296,8 +296,8 @@ ORGANIZER:Quirin Pamp
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T150000
-DTEND:20190204T152500
+DTSTART:20190204T173000
+DTEND:20190204T175500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/pulpdeb/":Managing large Debian repositories with Pulp (and less than 50GiB of RAM)
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Pulp is a platform for software repository management.<br />
 The pulp_deb plugin adds Apt-repository support for Debian packages.<br />
