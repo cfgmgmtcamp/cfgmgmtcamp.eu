@@ -2,9 +2,9 @@
 title: "Terraboard, a web interface to visualize and query Terraform states"
 speaker: raphaelpinson
 eventtype: talk
-room: 3.terrasalt
-start: 15:00
-end: 15:55
+room: 3.puppet
+start: 11:20
+end: 12:15
 date: 2018-12-31
 draft: false
 ---

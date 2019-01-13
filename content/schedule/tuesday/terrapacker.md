@@ -2,9 +2,9 @@
 title: "Packer, Terraform and Jenkins - IaC & CD for small stacks"
 speaker: simonmccartney
 eventtype: talk
-room: 3.terrasalt
-start: 14:00
-end: 14:55
+room: 3.puppet
+start: 12:20
+end: 12:55
 date: 2018-12-31
 draft: false
 ---
