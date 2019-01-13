@@ -232,40 +232,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:drsalt@cfgmgmtcamp.eu
-SUMMARY:Dr SaltStack: or How I Stopped Worrying And Replaced All The Crons
-ORGANIZER:Gareth Greenaway
-CATEGORIES:talk
-DTSTAMP:20181231T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T173000
-DTEND:20190204T182500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/drsalt/":Dr SaltStack: or How I Stopped Worrying And Replaced All The Crons
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Cron, a popular tool for scheduling jobs, has been used by millions of people on millions of servers around the world for several years.<br />
-As servers become less like pets and more like cattle, jobs can no longer be tied to a specific server and
-a scheduling system must be flexible to allow jobs to easily be scheduled across multiple servers,
-quickly moved from one server to another, and easily report on the status of a scheduled job.</p>
-
-<p>Salt Stack, is at its heart, a remote execution system which also does configuration management very well.<br />
-This presentation will demonstrate how Salt can be used to replace Cron for command scheduling and fulfill these modern requirements.</p>
-
-<p>The talk will include:</p>
-
-<ul>
-<li>A brief introduction to Salt Stack</li>
-<li>Examples of how to schedule jobs using Salt Stack.</li>
-<li>Using the Salt State system to scheduling jobs with dependencies.</li>
-<li>Using Salt Returners to receive notifications on job status.</li>
-<li>With Salt&rsquo;s remote execution modules, how to centrally manage jobs across many servers.</li>
-</ul>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/drsalt/
-LOCATION:3.terrasalt
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:gonewbie@cfgmgmtcamp.eu
 SUMMARY:I Don't Know What I'm Doing: A Newbie Guide for Golang for DevOps
 ORGANIZER:Peter Souter
@@ -326,38 +292,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:terrapacker@cfgmgmtcamp.eu
-SUMMARY:Packer\, Terraform and Jenkins - IaC & CD for small stacks
-ORGANIZER:Simon McCartney
-CATEGORIES:talk
-DTSTAMP:20181231T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T140000
-DTEND:20190204T145500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/terrapacker/":Packer\, Terraform and Jenkins - IaC & CD for small stacks
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Not everything revolves around docker containers and kubernetes, some environments pine for evolution of existing models &amp; practices.<br />
-Although this talk is about VMs and baking AMIs, it&rsquo;s not really a step inside a time machine to ~2010.</p>
-
-<p>We&rsquo;ll walk though some sane patterns for:</p>
-
-<ul>
-<li>building AMIs in a Jenkinsfile pipeline using packer</li>
-<li>testing AMIs in a Jenkinsfile pipeline using InSpec</li>
-<li>building test stacks using terraform from inside a Jenkinsfile pipeline, validating AWS infra using InSpec</li>
-<li>mapping branches to terraform environments and tfvars files</li>
-<li>using that same pipeline to deploy to production</li>
-</ul>
-
-<p>The talk is based on the experience of building out a real-world example of AMI based small stacks in
-<a href="https://github.com/jenkins201/packer-terraform-cicd-aws">https://github.com/jenkins201/packer-terraform-cicd-aws</a></p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/terrapacker/
-LOCATION:3.terrasalt
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:puppettype@cfgmgmtcamp.eu
 SUMMARY:Puppet's Type & Provider Module Extraction Saga
 ORGANIZER:Jorie Tappa
@@ -373,34 +307,6 @@ and the behind the scenes view of how the extracted modules are repackaged back 
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/puppettype/
 LOCATION:3.puppet
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:saltxansible@cfgmgmtcamp.eu
-SUMMARY:Salt xor Ansible
-ORGANIZER:Pablo Suárez Hernández
-CATEGORIES:talk
-DTSTAMP:20181231T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T163000
-DTEND:20190204T172500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/saltxansible/":Salt xor Ansible
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Salt can be used for data-driven orchestration, remote execution for any infrastructure, configuration management for any app stack, and much more.</p>
-
-<p>Ansible, together with Ansible Tower brings you comprehensive enough tool for IT automation.</p>
-
-<p>In this session, Pablo Suárez Hernández, Senior Software Engineer for SUSE, will break down:</p>
-
-<ul>
-<li>How Salt competes with Ansible</li>
-<li>How SUSE is committed to the improvements and development of Salt</li>
-<li>News for the upcoming Fluorine release and future releases</li>
-</ul>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/saltxansible/
-LOCATION:3.terrasalt
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -427,26 +333,6 @@ its limitations and future developments.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/puppetcern/
 LOCATION:3.puppet
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:terraboard@cfgmgmtcamp.eu
-SUMMARY:Terraboard\, a web interface to visualize and query Terraform states
-ORGANIZER:Raphaël Pinson
-CATEGORIES:talk
-DTSTAMP:20181231T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T150000
-DTEND:20190204T155500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/terraboard/":Terraboard\, a web interface to visualize and query Terraform states
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The Terraform project has grown a lot in popularity since its inception in 2015.<br />
-Many resources that were not automated as code yet can now be managed this way.<br />
-The Terraboard project aims to provide a web interface to visualize and query Terraform states.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/terraboard/
-LOCATION:3.terrasalt
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -1566,6 +1452,40 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:drsalt@cfgmgmtcamp.eu
+SUMMARY:Dr SaltStack: or How I Stopped Worrying And Replaced All The Crons
+ORGANIZER:Gareth Greenaway
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+TZID:Europe-Brussels
+DTSTART:20190205T122000
+DTEND:20190205T125500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/drsalt/":Dr SaltStack: or How I Stopped Worrying And Replaced All The Crons
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Cron, a popular tool for scheduling jobs, has been used by millions of people on millions of servers around the world for several years.<br />
+As servers become less like pets and more like cattle, jobs can no longer be tied to a specific server and
+a scheduling system must be flexible to allow jobs to easily be scheduled across multiple servers,
+quickly moved from one server to another, and easily report on the status of a scheduled job.</p>
+
+<p>Salt Stack, is at its heart, a remote execution system which also does configuration management very well.<br />
+This presentation will demonstrate how Salt can be used to replace Cron for command scheduling and fulfill these modern requirements.</p>
+
+<p>The talk will include:</p>
+
+<ul>
+<li>A brief introduction to Salt Stack</li>
+<li>Examples of how to schedule jobs using Salt Stack.</li>
+<li>Using the Salt State system to scheduling jobs with dependencies.</li>
+<li>Using Salt Returners to receive notifications on job status.</li>
+<li>With Salt&rsquo;s remote execution modules, how to centrally manage jobs across many servers.</li>
+</ul>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/drsalt/
+LOCATION:3.terrasalt
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:katansi@cfgmgmtcamp.eu
 SUMMARY:Katello and Ansible for automated testing and releasing of packages
 ORGANIZER:Evgeni Golov
@@ -1653,6 +1573,38 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:terrapacker@cfgmgmtcamp.eu
+SUMMARY:Packer\, Terraform and Jenkins - IaC & CD for small stacks
+ORGANIZER:Simon McCartney
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+TZID:Europe-Brussels
+DTSTART:20190205T122000
+DTEND:20190205T125500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/terrapacker/":Packer\, Terraform and Jenkins - IaC & CD for small stacks
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Not everything revolves around docker containers and kubernetes, some environments pine for evolution of existing models &amp; practices.<br />
+Although this talk is about VMs and baking AMIs, it&rsquo;s not really a step inside a time machine to ~2010.</p>
+
+<p>We&rsquo;ll walk though some sane patterns for:</p>
+
+<ul>
+<li>building AMIs in a Jenkinsfile pipeline using packer</li>
+<li>testing AMIs in a Jenkinsfile pipeline using InSpec</li>
+<li>building test stacks using terraform from inside a Jenkinsfile pipeline, validating AWS infra using InSpec</li>
+<li>mapping branches to terraform environments and tfvars files</li>
+<li>using that same pipeline to deploy to production</li>
+</ul>
+
+<p>The talk is based on the experience of building out a real-world example of AMI based small stacks in
+<a href="https://github.com/jenkins201/packer-terraform-cicd-aws">https://github.com/jenkins201/packer-terraform-cicd-aws</a></p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/terrapacker/
+LOCATION:3.puppet
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:pulp3@cfgmgmtcamp.eu
 SUMMARY:Pulp 3: Ready for a Test Drive
 ORGANIZER:Austin Macdonald
@@ -1670,6 +1622,34 @@ Pulp 3 is approaching maturity and is ready for you to test drive.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/pulp3/
 LOCATION:3.pulp
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:saltxansible@cfgmgmtcamp.eu
+SUMMARY:Salt xor Ansible
+ORGANIZER:Pablo Suárez Hernández
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+TZID:Europe-Brussels
+DTSTART:20190205T112000
+DTEND:20190205T121500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/saltxansible/":Salt xor Ansible
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Salt can be used for data-driven orchestration, remote execution for any infrastructure, configuration management for any app stack, and much more.</p>
+
+<p>Ansible, together with Ansible Tower brings you comprehensive enough tool for IT automation.</p>
+
+<p>In this session, Pablo Suárez Hernández, Senior Software Engineer for SUSE, will break down:</p>
+
+<ul>
+<li>How Salt competes with Ansible</li>
+<li>How SUSE is committed to the improvements and development of Salt</li>
+<li>News for the upcoming Fluorine release and future releases</li>
+</ul>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/saltxansible/
+LOCATION:3.terrasalt
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -1696,6 +1676,26 @@ Finally, we&rsquo;ll take a look at how to extend some of the other subsystems o
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/saltextend/
 LOCATION:3.salt
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:terraboard@cfgmgmtcamp.eu
+SUMMARY:Terraboard\, a web interface to visualize and query Terraform states
+ORGANIZER:Raphaël Pinson
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+TZID:Europe-Brussels
+DTSTART:20190205T112000
+DTEND:20190205T121500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/terraboard/":Terraboard\, a web interface to visualize and query Terraform states
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The Terraform project has grown a lot in popularity since its inception in 2015.<br />
+Many resources that were not automated as code yet can now be managed this way.<br />
+The Terraboard project aims to provide a web interface to visualize and query Terraform states.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/terraboard/
+LOCATION:3.puppet
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
