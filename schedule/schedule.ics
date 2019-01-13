@@ -1324,8 +1324,8 @@ ORGANIZER:Ramez Hanna
 CATEGORIES:talk
 DTSTAMP:20190109T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T112000
-DTEND:20190205T114500
+DTSTART:20190205T122000
+DTEND:20190205T124500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/observescale/":Observabilty at scale
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>This is a talk about how Criteo (<a href="http://labs.criteo.com/">http://labs.criteo.com/</a>) is monitoring 30k servers across 8 datacenters.<br />
 I&rsquo;ll also talk about observability and what it means and how you should focus on observability
@@ -1911,8 +1911,8 @@ ORGANIZER:Katerina Koutsonikoli
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T122000
-DTEND:20190205T125500
+DTSTART:20190205T112000
+DTEND:20190205T121500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/drilling/":Drilling down a software bug: lessons about observability\, monitoring\, automation and good practices
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>So, there is case, every once in a few days the kafka cluster dies and
 along dies the whole application resulting in revenue loss for the company.</p>
