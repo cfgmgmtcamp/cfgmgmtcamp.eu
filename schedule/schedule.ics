@@ -1791,8 +1791,8 @@ ORGANIZER:Tim Meusel
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T163000
-DTEND:20190205T165500
+DTSTART:20190205T173000
+DTEND:20190205T175500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/voxpupuli/":Vox Pupuli  - The Community behind Puppet
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Vox Pupuli is a group of more than 120 puppet module/tooling/documentation authors,
 all working together to ensure a continuing development process.<br />
@@ -2022,8 +2022,8 @@ ORGANIZER:Ewoud Kohl van Wijngaarden
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T173000
-DTEND:20190205T182500
+DTSTART:20190205T163000
+DTEND:20190205T172500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/puppetaccept/":Using acceptance tests for better Puppet modules
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Using rspec-puppet to write module tests is also very common.<br />
 Most of us also use rspec-puppet-facts to test with the correct OS facts.<br />
