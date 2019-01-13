@@ -4,7 +4,7 @@ speaker: simonmccartney
 eventtype: talk
 room: 3.puppet
 start: 12:20
-end: 12:45
+end: 12:55
 date: 2018-12-31
 draft: false
 ---
