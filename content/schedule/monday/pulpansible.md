@@ -1,6 +1,6 @@
 ---
 title: "pulp_ansible: Ansible content storage"
-speaker: daviddavis
+speaker: inapanova
 eventtype: talk
 room: 3.pulp
 start: 16:30
