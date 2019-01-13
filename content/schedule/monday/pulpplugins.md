@@ -3,8 +3,8 @@ title: "Pulp Users Love Plugins"
 speaker: matthiasdellweg
 eventtype: talk
 room: 3.pulp
-start: 17:30
-end: 18:25
+start: 15:00
+end: 15:55
 date: 2019-01-03
 draft: false
 ---

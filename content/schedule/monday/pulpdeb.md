@@ -3,8 +3,8 @@ title: "Managing large Debian repositories with Pulp (and less than 50GiB of RAM
 speaker: quirinpamp
 eventtype: talk
 room: 3.pulp
-start: 15:00
-end: 15:25
+start: 17:30
+end: 17:55
 date: 2018-12-31
 draft: false
 ---
