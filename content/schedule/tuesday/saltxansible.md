@@ -2,7 +2,7 @@
 title: "Salt xor Ansible"
 speaker: pablosuarezhernandez
 eventtype: talk
-room: 3.terrasalt
+room: 3.salt
 start: 11:20
 end: 12:15
 date: 2018-12-31

@@ -2,7 +2,7 @@
 title: "Dr SaltStack: or How I Stopped Worrying And Replaced All The Crons"
 speaker: garethgreenaway
 eventtype: talk
-room: 3.terrasalt
+room: 3.salt
 start: 12:20
 end: 12:55
 date: 2018-12-31
