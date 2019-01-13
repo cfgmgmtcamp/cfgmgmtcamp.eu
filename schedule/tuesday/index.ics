@@ -294,6 +294,32 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:gonewbie@cfgmgmtcamp.eu
+SUMMARY:I Don't Know What I'm Doing: A Newbie Guide for Golang for DevOps
+ORGANIZER:Peter Souter
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+TZID:Europe-Brussels
+DTSTART:20190205T122000
+DTEND:20190205T125500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/gonewbie/":I Don't Know What I'm Doing: A Newbie Guide for Golang for DevOps
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Golang as a language has exploded with popularity since it&rsquo;s first release in 2009.<br />
+It&rsquo;s now the langauage behind a number of applications core to most organisations operations, such as Docker, Terraform, Kubernetes and etcd.</p>
+
+<p>However, for most people used to scripting interpreted languages like Ruby and Python,
+it can be a bit hard to get started with. What&rsquo;s all this err != nil business, and why am I getting errors when I don&rsquo;t refer to a variable?</p>
+
+<p>In this talk, we&rsquo;ll be discussing how to learn enough Golang to get into trouble,
+or at least enough to contribute fixes and features to your favourite infra management tools and apps,
+with an example of adding a new feature to the Vault Terraform Provider, and the gotcha&rsquo;s you might experience along the way.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/gonewbie/
+LOCATION:3.ansible
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:katansi@cfgmgmtcamp.eu
 SUMMARY:Katello and Ansible for automated testing and releasing of packages
 ORGANIZER:Evgeni Golov
@@ -565,6 +591,28 @@ We will tell you some stories, funny and sad, about all the bugs we&rsquo;ve dis
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/voxpupuli/
 LOCATION:3.puppet
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:inspec@cfgmgmtcamp.eu
+SUMMARY:What did you InSpec?
+ORGANIZER:Gratien D'haese
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+TZID:Europe-Brussels
+DTSTART:20190205T112000
+DTEND:20190205T121500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/inspec/":What did you InSpec?
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>InSpec is an open-source testing framework created by Chef that enables you to specify compliance, security, and other policy requirements.<br />
+However, the usage is not limited to compliance checking only as you can also use it to validate systems.<br />
+And, as InSpec is code which is very readable and easy to implement it can be used in a lot of different cases.<br />
+For a DevOps engineer it is a must have to tool which can be used together with Chef, Puppet or Ansible.<br />
+We will go over the language, use cases along with short demo&rsquo;s.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/tuesday/inspec/
+LOCATION:3.ansible
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
