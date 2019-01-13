@@ -4,7 +4,7 @@ speaker: mirceaulinic
 eventtype: talk
 room: 3.salt
 start: 15:00
-end: 15:55
+end: 15:25
 date: 2019-01-09
 draft: false
 ---

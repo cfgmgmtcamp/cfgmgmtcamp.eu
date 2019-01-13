@@ -4,7 +4,7 @@ speaker: borisodnopozov
 eventtype: talk
 room: 3.foreman
 start: 16:30
-end: 17:25
+end: 16:55
 date: 2018-12-29
 draft: false
 ---

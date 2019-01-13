@@ -4,7 +4,7 @@ speaker: carlesgarciacabot
 eventtype: talk
 room: 3.puppet
 start: 17:30
-end: 18:25
+end: 17:55
 date: 2018-12-31
 draft: false
 ---

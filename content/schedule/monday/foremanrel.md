@@ -4,7 +4,7 @@ speaker: tomerbrisker
 eventtype: talk
 room: 3.foreman
 start: 14:00
-end: 14:55
+end: 14:25
 date: 2018-12-29
 draft: false
 ---

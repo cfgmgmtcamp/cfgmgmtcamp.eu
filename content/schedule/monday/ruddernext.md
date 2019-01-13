@@ -4,7 +4,7 @@ speaker: alexismousset
 eventtype: talk
 room: 3.rudder
 start: 15:00
-end: 15:55
+end: 15:25
 date: 2018-12-29
 draft: false
 ---

@@ -4,7 +4,7 @@ speaker: jonhall
 eventtype: talk
 room: 1.baula
 start: 12:20
-end: 12:55
+end: 12:45
 date: 2018-12-29
 draft: false
 ---
