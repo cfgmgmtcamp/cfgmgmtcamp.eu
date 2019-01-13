@@ -2,9 +2,9 @@
 title: "Drilling down a software bug: lessons about observability, monitoring, automation and good practices"
 speaker: katerinakoutsonikoli
 eventtype: talk
-room: 1.devobs
-start: 11:20
-end: 12:15
+room: 0.daula
+start: 16:30
+end: 17:25
 date: 2018-12-29
 draft: false
 ---
