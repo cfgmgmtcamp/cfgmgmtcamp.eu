@@ -599,8 +599,8 @@ ORGANIZER:Bernhard Hopfenmüller
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T173000
-DTEND:20190205T182500
+DTSTART:20190205T140000
+DTEND:20190205T145500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/ansiblefast/":Ansible - 'Faster-than-light'
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>In recent years, Ansible has established itself as a standard tool that is frequently used in DevOps, among other areas.<br />
 Despite all flexibility and simplicity, the speed of the tool is often criticized.<br />
@@ -678,8 +678,8 @@ ORGANIZER:Ewoud Kohl van Wijngaarden
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T140000
-DTEND:20190205T142500
+DTSTART:20190205T173000
+DTEND:20190205T175500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/obal/":Obal: wrapping Ansible Playbooks into a CLI app
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The Foreman had various scripts written in a various languages to do packaging.<br />
 In Red Hat downstream there was an entirely separate set of tools available.<br />
