@@ -288,7 +288,7 @@ This presentation will demonstrate how Salt can be used to replace Cron for comm
 </ul>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/drsalt/
-LOCATION:3.terrasalt
+LOCATION:3.salt
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -457,7 +457,7 @@ X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN"
 </ul>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/saltxansible/
-LOCATION:3.terrasalt
+LOCATION:3.salt
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
