@@ -384,12 +384,12 @@ BEGIN:VEVENT
 METHOD:PUBLISH
 UID:pulpansible@cfgmgmtcamp.eu
 SUMMARY:pulp_ansible: Ansible content storage
-ORGANIZER:David Davis
+ORGANIZER:Ina Panova
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T163000
-DTEND:20190204T172500
+DTEND:20190204T165500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/pulpansible/":pulp_ansible: Ansible content storage
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>In this talk, we&rsquo;ll cover the newest Pulp 3 plugin, pulp_ansible.<br />
 Pulp is a platform for managing software packages including RPMs, Python packages, Docker images, and more.<br />
