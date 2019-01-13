@@ -2,9 +2,9 @@
 title: "What did you InSpec?"
 speaker: gratiendhaese
 eventtype: talk
-room: 2.code
-start: 16:30
-end: 17:25
+room: 3.ansible
+start: 11:20
+end: 12:15
 date: 2018-12-31
 draft: false
 ---

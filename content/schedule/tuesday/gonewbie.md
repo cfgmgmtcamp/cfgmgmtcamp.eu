@@ -2,9 +2,9 @@
 title: "I Don't Know What I'm Doing: A Newbie Guide for Golang for DevOps"
 speaker: petersouter
 eventtype: talk
-room: 2.code
-start: 15:00
-end: 15:55
+room: 3.ansible
+start: 12:20
+end: 12:55
 date: 2018-12-31
 draft: false
 ---
