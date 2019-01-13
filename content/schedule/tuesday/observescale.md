@@ -3,8 +3,8 @@ title: "Observabilty at scale"
 speaker: ramezhanna
 eventtype: talk
 room: 1.devobs
-start: 11:20
-end: 11:45
+start: 12:20
+end: 12:45
 date: 2019-01-09
 draft: false
 ---
