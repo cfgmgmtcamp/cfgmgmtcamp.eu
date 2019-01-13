@@ -694,23 +694,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:breakafternoon02@cfgmgmtcamp.eu
-SUMMARY:Break
-ORGANIZER:
-CATEGORIES:break
-DTSTAMP:20181227T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T160000
-DTEND:20190204T162500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon02/":Break
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon02/
-LOCATION:1.devobs
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:breakafternoon03@cfgmgmtcamp.eu
 SUMMARY:Break
 ORGANIZER:
@@ -849,23 +832,6 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch01/":Lunch
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch01/
 LOCATION:1.baula
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:lunch02@cfgmgmtcamp.eu
-SUMMARY:Lunch
-ORGANIZER:
-CATEGORIES:break
-DTSTAMP:20181227T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T130000
-DTEND:20190204T135500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch02/":Lunch
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/lunch02/
-LOCATION:1.devobs
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
