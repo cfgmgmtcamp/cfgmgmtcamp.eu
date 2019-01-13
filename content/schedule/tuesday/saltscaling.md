@@ -3,8 +3,8 @@ title: "Three years of automating large scale networks using Salt"
 speaker: mirceaulinic
 eventtype: talk
 room: 3.salt
-start: 15:00
-end: 15:25
+start: 17:30
+end: 17:55
 date: 2019-01-09
 draft: false
 ---

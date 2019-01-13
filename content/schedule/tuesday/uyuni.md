@@ -3,8 +3,8 @@ title: "Uyuni: An open source frontend solution for managing your software-defin
 speaker: pablosuarezhernandez
 eventtype: talk
 room: 3.salt
-start: 16:30
-end: 17:25
+start: 15:00
+end: 15:55
 date: 2018-12-31
 draft: false
 ---
