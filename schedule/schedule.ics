@@ -86,6 +86,30 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:pulpplugins@cfgmgmtcamp.eu
+SUMMARY:Pulp Users Love Plugins
+ORGANIZER:Matthias Dellweg
+CATEGORIES:talk
+DTSTAMP:20190103T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T173000
+DTEND:20190204T182500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/pulpplugins/":Pulp Users Love Plugins
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Benefits fueled by the modularity of the pulp plugin ecosystem by taking the example of pulp_deb and pulp_gem.</p>
+
+<p>Pulp is a rest-api driven, plugin based framework for content repository management.<br />
+Despite being used unmediated, it is also employed as a key backend component in foreman/katello.<br />
+Its complete rewrite, needing a reimplementation of all content plugins, invites for experimentation with new technologies.<br />
+In this talk we introduce the new version of one of those plugins for debian packages, with its unique challenges.<br />
+Also we compare with a completely new one for rubygems.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/pulpplugins/
+LOCATION:3.pulp
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:opscontainer@cfgmgmtcamp.eu
 SUMMARY:Ops hates containers! Why?
 ORGANIZER:Martin Alfke
@@ -266,6 +290,52 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:pulpdeb@cfgmgmtcamp.eu
+SUMMARY:Managing large Debian repositories with Pulp (and less than 50GiB of RAM)
+ORGANIZER:Quirin Pamp
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T150000
+DTEND:20190204T155500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/pulpdeb/":Managing large Debian repositories with Pulp (and less than 50GiB of RAM)
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Pulp is a platform for software repository management.<br />
+The pulp_deb plugin adds Apt-repository support for Debian packages.<br />
+Until recently, the pulp_deb implementation did not scale well for large repositories.<br />
+Synchronizing a full Debian or Ubuntu release (typically containing around 50,000 Packages)
+would routinely take hours before falling victim to the OOM-killer.<br />
+This talk discusses the changes we employed to fix this lamentable state of affairs.<br />
+It concludes with lessons learned for the development of pulp_deb 3.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/pulpdeb/
+LOCATION:3.pulp
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:pulp3@cfgmgmtcamp.eu
+SUMMARY:Pulp 3: Ready for a Test Drive
+ORGANIZER:Austin Macdonald
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T140000
+DTEND:20190204T145500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/pulp3/":Pulp 3: Ready for a Test Drive
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Pulp is a platform for managing repositories of software packages, and its plugin architecture allows management of any type of content.<br />
+Pulp&rsquo;s web API enables users to synchronize, upload, and publish versioned repositories with simple but flexible workflows.<br />
+This presentation will highlight simplified installation and deployment, better performance, new features,
+and a growing collection of plugins including rpm, python, docker, ansible, chef, ruby, file, and more in development.<br />
+Pulp 3 is approaching maturity and is ready for you to test drive.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/pulp3/
+LOCATION:3.pulp
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:puppettype@cfgmgmtcamp.eu
 SUMMARY:Puppet's Type & Provider Module Extraction Saga
 ORGANIZER:Jorie Tappa
@@ -307,6 +377,28 @@ its limitations and future developments.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/puppetcern/
 LOCATION:3.puppet
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:pulpansible@cfgmgmtcamp.eu
+SUMMARY:pulp_ansible: Ansible content storage
+ORGANIZER:David Davis
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T163000
+DTEND:20190204T172500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/pulpansible/":pulp_ansible: Ansible content storage
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>In this talk, we&rsquo;ll cover the newest Pulp 3 plugin, pulp_ansible.<br />
+Pulp is a platform for managing software packages including RPMs, Python packages, Docker images, and more.<br />
+Users can use the pulp_ansible plugin to mirror Ansible Galaxy content locally, upload and
+organize Ansible content in Pulp, and serve content to Ansible clients.<br />
+We&rsquo;ll also talk about how Ansible Galaxy will be using pulp_ansible as its storage engine to store and serve content.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/pulpansible/
+LOCATION:3.pulp
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -697,6 +789,23 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:breakafternoon17@cfgmgmtcamp.eu
+SUMMARY:Break
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T160000
+DTEND:20190204T162500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakafternoon17/":Break
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/breakafternoon17/
+LOCATION:3.pulp
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:breakprenoon00@cfgmgmtcamp.eu
 SUMMARY:Coffe Break
 ORGANIZER:
@@ -835,6 +944,23 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch08/":Lunch
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/lunch08/
 LOCATION:3.puppet
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:lunch15@cfgmgmtcamp.eu
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T130000
+DTEND:20190204T135500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/lunch15/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/lunch15/
+LOCATION:3.pulp
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -1110,30 +1236,6 @@ In this talk, we&rsquo;ll take a look back at the progress, changes and the evol
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/saltscaling/
 LOCATION:3.salt
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:pulpplugins@cfgmgmtcamp.eu
-SUMMARY:Pulp Users Love Plugins
-ORGANIZER:Matthias Dellweg
-CATEGORIES:talk
-DTSTAMP:20190103T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T173000
-DTEND:20190205T182500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/pulpplugins/":Pulp Users Love Plugins
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Benefits fueled by the modularity of the pulp plugin ecosystem by taking the example of pulp_deb and pulp_gem.</p>
-
-<p>Pulp is a rest-api driven, plugin based framework for content repository management.<br />
-Despite being used unmediated, it is also employed as a key backend component in foreman/katello.<br />
-Its complete rewrite, needing a reimplementation of all content plugins, invites for experimentation with new technologies.<br />
-In this talk we introduce the new version of one of those plugins for debian packages, with its unique challenges.<br />
-Also we compare with a completely new one for rubygems.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/pulpplugins/
-LOCATION:3.pulp
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -1425,30 +1527,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:pulpdeb@cfgmgmtcamp.eu
-SUMMARY:Managing large Debian repositories with Pulp (and less than 50GiB of RAM)
-ORGANIZER:Quirin Pamp
-CATEGORIES:talk
-DTSTAMP:20181231T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T150000
-DTEND:20190205T155500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/pulpdeb/":Managing large Debian repositories with Pulp (and less than 50GiB of RAM)
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Pulp is a platform for software repository management.<br />
-The pulp_deb plugin adds Apt-repository support for Debian packages.<br />
-Until recently, the pulp_deb implementation did not scale well for large repositories.<br />
-Synchronizing a full Debian or Ubuntu release (typically containing around 50,000 Packages)
-would routinely take hours before falling victim to the OOM-killer.<br />
-This talk discusses the changes we employed to fix this lamentable state of affairs.<br />
-It concludes with lessons learned for the development of pulp_deb 3.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/pulpdeb/
-LOCATION:3.pulp
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:terrapacker@cfgmgmtcamp.eu
 SUMMARY:Packer\, Terraform and Jenkins - IaC & CD for small stacks
 ORGANIZER:Simon McCartney
@@ -1476,28 +1554,6 @@ Although this talk is about VMs and baking AMIs, it&rsquo;s not really a step in
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/terrapacker/
 LOCATION:3.puppet
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:pulp3@cfgmgmtcamp.eu
-SUMMARY:Pulp 3: Ready for a Test Drive
-ORGANIZER:Austin Macdonald
-CATEGORIES:talk
-DTSTAMP:20181231T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T140000
-DTEND:20190205T145500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/pulp3/":Pulp 3: Ready for a Test Drive
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Pulp is a platform for managing repositories of software packages, and its plugin architecture allows management of any type of content.<br />
-Pulp&rsquo;s web API enables users to synchronize, upload, and publish versioned repositories with simple but flexible workflows.<br />
-This presentation will highlight simplified installation and deployment, better performance, new features,
-and a growing collection of plugins including rpm, python, docker, ansible, chef, ruby, file, and more in development.<br />
-Pulp 3 is approaching maturity and is ready for you to test drive.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/pulp3/
-LOCATION:3.pulp
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -1676,28 +1732,6 @@ how Python or Ruby with a proper API definition via Swagger or Apipie can preven
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/curlapi/
 LOCATION:3.katello
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:pulpansible@cfgmgmtcamp.eu
-SUMMARY:pulp_ansible: Ansible content storage
-ORGANIZER:David Davis
-CATEGORIES:talk
-DTSTAMP:20181231T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T163000
-DTEND:20190205T172500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/pulpansible/":pulp_ansible: Ansible content storage
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>In this talk, we&rsquo;ll cover the newest Pulp 3 plugin, pulp_ansible.<br />
-Pulp is a platform for managing software packages including RPMs, Python packages, Docker images, and more.<br />
-Users can use the pulp_ansible plugin to mirror Ansible Galaxy content locally, upload and
-organize Ansible content in Pulp, and serve content to Ansible clients.<br />
-We&rsquo;ll also talk about how Ansible Galaxy will be using pulp_ansible as its storage engine to store and serve content.</p>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/pulpansible/
-LOCATION:3.pulp
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -2280,23 +2314,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:breakafternoon17@cfgmgmtcamp.eu
-SUMMARY:Break
-ORGANIZER:
-CATEGORIES:break
-DTSTAMP:20181227T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T160000
-DTEND:20190205T162500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon17/":Break
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/breakafternoon17/
-LOCATION:3.pulp
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:breakafternoon18@cfgmgmtcamp.eu
 SUMMARY:Break
 ORGANIZER:
@@ -2579,23 +2596,6 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch14/":Lunch
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch14/
 LOCATION:3.katello
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:lunch15@cfgmgmtcamp.eu
-SUMMARY:Lunch
-ORGANIZER:
-CATEGORIES:break
-DTSTAMP:20181227T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T130000
-DTEND:20190205T135500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/lunch15/":Lunch
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/lunch15/
-LOCATION:3.pulp
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
