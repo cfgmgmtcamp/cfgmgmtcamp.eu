@@ -3,8 +3,8 @@ title: "How to benefit from the new plugin ecosystem in Rudder 5.0?"
 speaker: benoitpeccatte
 eventtype: talk
 room: 3.rudder
-start: 16:30
-end: 17:25
+start: 15:00
+end: 15:55
 date: 2018-12-29
 draft: false
 ---

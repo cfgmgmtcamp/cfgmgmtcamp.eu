@@ -3,8 +3,8 @@ title: "Foreman - Lifecycle management for training labs"
 speaker: dirkgoetz
 eventtype: talk
 room: 3.foreman
-start: 17:30
-end: 17:55
+start: 17:00
+end: 17:25
 date: 2018-12-29
 draft: false
 ---

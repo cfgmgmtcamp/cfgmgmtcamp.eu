@@ -3,8 +3,8 @@ title: "What happened in Rudder in 2018 and what's next?"
 speaker: alexismousset
 eventtype: talk
 room: 3.rudder
-start: 15:00
-end: 15:25
+start: 14:30
+end: 14:55
 date: 2018-12-29
 draft: false
 ---
