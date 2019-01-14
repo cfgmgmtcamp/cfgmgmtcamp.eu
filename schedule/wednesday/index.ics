@@ -15,11 +15,11 @@ CATEGORIES:break
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
-DTEND:20190206T095500
+DTEND:20190206T100000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast0/":Breakfast
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast0/
-LOCATION:cloud
+LOCATION:4.cloud
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -32,11 +32,11 @@ CATEGORIES:break
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
-DTEND:20190206T095500
+DTEND:20190206T100000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast1/":Breakfast
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast1/
-LOCATION:foremanroom
+LOCATION:4.container
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -49,11 +49,11 @@ CATEGORIES:break
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
-DTEND:20190206T095500
+DTEND:20190206T100000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast2/":Breakfast
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast2/
-LOCATION:kuberoom
+LOCATION:4.kubernetes
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -66,11 +66,11 @@ CATEGORIES:break
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
-DTEND:20190206T095500
+DTEND:20190206T100000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast3/":Breakfast
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast3/
-LOCATION:mgmtroom
+LOCATION:5.foremanhackroom
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -83,11 +83,11 @@ CATEGORIES:break
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
-DTEND:20190206T095500
+DTEND:20190206T100000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast4/":Breakfast
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast4/
-LOCATION:rudderroom
+LOCATION:5.mgmthackroom
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -100,11 +100,11 @@ CATEGORIES:break
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
-DTEND:20190206T135500
+DTEND:20190206T140000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch0/":Lunch
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch0/
-LOCATION:cloud
+LOCATION:4.cloud
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -117,11 +117,11 @@ CATEGORIES:break
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
-DTEND:20190206T135500
+DTEND:20190206T140000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch1/":Lunch
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch1/
-LOCATION:mgmtroom
+LOCATION:4.container
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -134,11 +134,11 @@ CATEGORIES:break
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
-DTEND:20190206T135500
+DTEND:20190206T140000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch2/":Lunch
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch2/
-LOCATION:foremanroom
+LOCATION:4.kubernetes
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -151,11 +151,11 @@ CATEGORIES:break
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
-DTEND:20190206T135500
+DTEND:20190206T140000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch3/":Lunch
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch3/
-LOCATION:kuberoom
+LOCATION:5.foremanhackroom
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -168,11 +168,11 @@ CATEGORIES:break
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
-DTEND:20190206T135500
+DTEND:20190206T140000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch4/":Lunch
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch4/
-LOCATION:rudderroom
+LOCATION:5.mgmthackroom
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -180,16 +180,33 @@ BEGIN:VEVENT
 METHOD:PUBLISH
 UID:appkube@cfgmgmtcamp.eu
 SUMMARY:Developing Applications with Kubernetes
-ORGANIZER:
+ORGANIZER:JJ Asghar
 CATEGORIES:workshop
 DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T140000
 DTEND:20190206T170000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/appkube/":Developing Applications with Kubernetes
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Microservices revolutionized the way we look at app development and is now one of the most popular programming architectures.<br />
+Now, Docker alongside Kubernetes is changing the way teams look at deployments of these microservices.<br />
+Kubernetes provides powerful production-grade orchestration for your &ldquo;Dockerized&rdquo; microservices.<br />
+In this workshop, you&rsquo;ll get an overview of Kubernetes, and what it provides for application development.<br />
+You&rsquo;ll then go through the process of building and deploying a microservice application on Kubernetes.<br />
+This is a hands-on-keyboard lab, everyone should come with a laptop and a desire to learn.<br />
+Attendees can use minikube locally, or cloud accounts will be provided.</p>
+
+<p>We&rsquo;ll cover:</p>
+
+<ul>
+<li>Kubernetes basics</li>
+<li>Building Container Images</li>
+<li>Deploying the application with Kubernetes</li>
+<li>Upgrading and scaling the application with Kubernetes</li>
+<li>Debugging your application in Kubernetes</li>
+</ul>
+</BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/appkube/
-LOCATION:kuberoom
+LOCATION:4.kubernetes
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -197,7 +214,7 @@ BEGIN:VEVENT
 METHOD:PUBLISH
 UID:objectstack@cfgmgmtcamp.eu
 SUMMARY:Everyday OpenStack with Object Oriented Operations
-ORGANIZER:
+ORGANIZER:Mark Shuttleworth
 CATEGORIES:workshop
 DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
@@ -206,7 +223,7 @@ DTEND:20190206T170000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/objectstack/":Everyday OpenStack with Object Oriented Operations
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/objectstack/
-LOCATION:cloud
+LOCATION:4.cloud
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -223,7 +240,7 @@ DTEND:20190206T170000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/foreman1/":Foreman Construction Day After-Noon
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/foreman1/
-LOCATION:foremanroom
+LOCATION:5.foremanhackroom
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -240,7 +257,7 @@ DTEND:20190206T130000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/objectkube/":Multi-cloud and on-prem Kubernetes with Object Oriented Operations
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/objectkube/
-LOCATION:kuberoom
+LOCATION:4.kubernetes
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -248,16 +265,18 @@ BEGIN:VEVENT
 METHOD:PUBLISH
 UID:rudder@cfgmgmtcamp.eu
 SUMMARY:Rudder on Docker hackathon
-ORGANIZER:
+ORGANIZER:Alexander Brianceau
 CATEGORIES:workshop
 DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T100000
 DTEND:20190206T130000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/rudder/":Rudder on Docker hackathon
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Know about Docker, Rudder, or even better both?<br />
+Let&rsquo;s get our heads down together and work on making it easy to just &ldquo;docker run&rdquo; a Rudder server.</p>
+</BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/rudder/
-LOCATION:rudderroom
+LOCATION:4.container
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -274,7 +293,7 @@ DTEND:20190206T130000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/foreman0/":Foreman Construction Day Pre-Noon
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/foreman0/
-LOCATION:foremanroom
+LOCATION:5.foremanhackroom
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -282,7 +301,7 @@ BEGIN:VEVENT
 METHOD:PUBLISH
 UID:mgmtcamp1@cfgmgmtcamp.eu
 SUMMARY:MgmtCamp After-Noon Hackathon
-ORGANIZER:
+ORGANIZER:James 'purpleidea' Shubin
 CATEGORIES:hackathon
 DTSTAMP:00010101T000000Z
 TZID:Europe-Brussels
@@ -291,7 +310,7 @@ DTEND:20190206T170000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/mgmtcamp1/":MgmtCamp After-Noon Hackathon
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/mgmtcamp1/
-LOCATION:mgmtroom
+LOCATION:5.mgmthackroom
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -299,7 +318,7 @@ BEGIN:VEVENT
 METHOD:PUBLISH
 UID:mgmtcamp0@cfgmgmtcamp.eu
 SUMMARY:MgmtCamp Pre-Noon Hackathon
-ORGANIZER:
+ORGANIZER:James 'purpleidea' Shubin
 CATEGORIES:hackathon
 DTSTAMP:00010101T000000Z
 TZID:Europe-Brussels
@@ -308,7 +327,7 @@ DTEND:20190206T130000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/mgmtcamp0/":MgmtCamp Pre-Noon Hackathon
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/mgmtcamp0/
-LOCATION:mgmtroom
+LOCATION:5.mgmthackroom
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -323,9 +342,19 @@ TZID:Europe-Brussels
 DTSTART:20190206T100000
 DTEND:20190206T130000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/ansiblenet/":Using Ansible to bring DevOps to Network Devices
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>This tutorial is a guided session on using Ansible for network device management.<br />
+It will showcase how we use a DevOps based tool, traditionally used for system config management, and leverage it to control network devices.</p>
+
+<p>By the end of the tutorial, we will showcase how to :</p>
+
+<ul>
+<li>Make changes to network devices in real time</li>
+<li>Backup network device configurations</li>
+<li>Move a network device config source of truth off the device into an SCM</li>
+</ul>
+</BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/ansiblenet/
-LOCATION:cloud
+LOCATION:4.cloud
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT

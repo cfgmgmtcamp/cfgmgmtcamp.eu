@@ -582,8 +582,8 @@ ORGANIZER:Tim Meusel
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T173000
-DTEND:20190205T175500
+DTSTART:20190205T153000
+DTEND:20190205T155500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/voxpupuli/":Vox Pupuli  - The Community behind Puppet
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Vox Pupuli is a group of more than 120 puppet module/tooling/documentation authors,
 all working together to ensure a continuing development process.<br />
@@ -634,8 +634,8 @@ ORGANIZER:Evgeni Golov
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T173000
-DTEND:20190205T175500
+DTSTART:20190205T153000
+DTEND:20190205T155500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/curlapi/":cURL is not an API client
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>This is a tale from a customer who had a Bash script to talk to the Katello API.<br />
 As tales go, the disaster was coming in form of a Katello upgrade which broke said script and and engineer was called to fix the customers problems.<br />

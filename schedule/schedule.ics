@@ -170,7 +170,7 @@ All tools covered are free and open source, written in C and Python 3.</p>
 We will encourage the audience to ask questions, give feedback and suggestions during and after the presentation.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/cftoolkit/
-LOCATION:3.mgmt
+LOCATION:3.rudder
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -216,8 +216,8 @@ ORGANIZER:Quirin Pamp
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T173000
-DTEND:20190204T175500
+DTSTART:20190204T170000
+DTEND:20190204T172500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/pulpdeb/":Managing large Debian repositories with Pulp (and less than 50GiB of RAM)
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Pulp is a platform for software repository management.<br />
 The pulp_deb plugin adds Apt-repository support for Debian packages.<br />
@@ -431,8 +431,8 @@ ORGANIZER:Dirk Goetz
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T173000
-DTEND:20190204T175500
+DTSTART:20190204T170000
+DTEND:20190204T172500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/foremanlifecycle/":Foreman - Lifecycle management for training labs
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>This talk will show a uncommon case study for Foreman at NETWAYS.<br />
 Our training schedule is fully packed with public and in-house training courses and
@@ -484,8 +484,8 @@ ORGANIZER:Benoît Peccatte
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T163000
-DTEND:20190204T172500
+DTSTART:20190204T150000
+DTEND:20190204T155500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/rudderplugin/":How to benefit from the new plugin ecosystem in Rudder 5.0?
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The latest major version of the solution has brought a major new feature to the Rudder solution: a plugin ecosystem.<br />
 The Rudder software architect will present the reasons for this new feature, how it works, and what are the different plugins available.</p>
@@ -533,7 +533,7 @@ CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T140000
-DTEND:20190204T142500
+DTEND:20190204T145500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/foremanrel/":The Foreman Release Process and Roadmap
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The first part of the talk will be a short description of the release process of Foreman,
 as well as some changes that have been made to it over the past year to ensure higher quality releases.<br />
@@ -577,8 +577,8 @@ ORGANIZER:Raphael Gauthier
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T173000
-DTEND:20190204T175500
+DTSTART:20190204T163000
+DTEND:20190204T172500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/uxuicfgtool/":UX challenges of a UI-centric config management tool
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>One of Rudder&rsquo;s main focuses is its comprehensive graphical user interface,
 which allows users to view and manage its configurations without writing a line of code.<br />
@@ -600,8 +600,8 @@ ORGANIZER:Alexis Mousset
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T150000
-DTEND:20190204T152500
+DTSTART:20190204T143000
+DTEND:20190204T145500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/ruddernext/":What happened in Rudder in 2018 and what's next?
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Let&rsquo;s take a look at Rudder&rsquo;s new features from 2018,
 both in terms of the features of versions 4.3 and 5.0
@@ -867,14 +867,14 @@ END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
 UID:breakprenoon00@cfgmgmtcamp.eu
-SUMMARY:Coffe Break
+SUMMARY:Break
 ORGANIZER:
 CATEGORIES:break
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T103000
 DTEND:20190204T105500
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakprenoon00/":Coffe Break
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakprenoon00/":Break
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakprenoon00/
 LOCATION:0.daula
@@ -1848,8 +1848,8 @@ ORGANIZER:Tim Meusel
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T173000
-DTEND:20190205T175500
+DTSTART:20190205T153000
+DTEND:20190205T155500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/voxpupuli/":Vox Pupuli  - The Community behind Puppet
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Vox Pupuli is a group of more than 120 puppet module/tooling/documentation authors,
 all working together to ensure a continuing development process.<br />
@@ -1900,8 +1900,8 @@ ORGANIZER:Evgeni Golov
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T173000
-DTEND:20190205T175500
+DTSTART:20190205T153000
+DTEND:20190205T155500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/curlapi/":cURL is not an API client
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>This is a tale from a customer who had a Bash script to talk to the Katello API.<br />
 As tales go, the disaster was coming in form of a Katello upgrade which broke said script and and engineer was called to fix the customers problems.<br />
