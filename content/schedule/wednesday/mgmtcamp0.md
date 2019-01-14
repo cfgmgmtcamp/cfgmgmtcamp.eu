@@ -1,8 +1,8 @@
 ---
 title: "MgmtCamp Pre-Noon Hackathon"
-speaker: "James purpleidea Shubin"
+speaker: jamesshubin
 eventtype: hackathon
-room: mgmtroom
+room: 5.mgmthackroom
 start: 10:00
 end: 13:00
 draft: false
