@@ -3,8 +3,8 @@ title: "cURL is not an API client"
 speaker: evgenigolov
 eventtype: talk
 room: 3.katello
-start: 17:30
-end: 17:55
+start: 15:30
+end: 15:55
 date: 2018-12-31
 draft: false
 ---

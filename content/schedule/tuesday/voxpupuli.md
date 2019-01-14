@@ -3,8 +3,8 @@ title: "Vox Pupuli  - The Community behind Puppet"
 speaker: timmeusel
 eventtype: talk
 room: 3.puppet
-start: 17:30
-end: 17:55
+start: 15:30
+end: 15:55
 date: 2018-12-31
 draft: false
 ---
