@@ -8,6 +8,40 @@ X-WR-CALNAME;VALUE=TEXT:iCal
 X-WR-TIMEZONE;VALUE=TEXT:Europe/Brussels
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:sysdig@cfgmgmtcamp.eu
+SUMMARY:Container Security Workshop
+ORGANIZER:
+CATEGORIES:workshop
+DTSTAMP:20190114T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T140000
+DTEND:20190206T170000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/sysdig/":Container Security Workshop
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY>
+
+<p>In this 3-hour use-case driven training session we&rsquo;ll cover the most important container security techniques :
+(best practices, platform features, image scanning, run-time security and forensics) with Docker,
+Kubernetes and other 3rd party open source tools (Anchore, Falco and Sysdig Inspect).</p>
+
+<h1 id="agenda">Agenda:</h1>
+
+<ul>
+<li>Container security best practices (~30m) : Learn what are the security best practices building your containers: privileges, resource limits, Dockerfile options, rebuild process, etc.</li>
+<li>Kubernetes platform security features (~45min) : Host security configuration, Kubernetes RBAC, Kubernetes Security Policy, Kubernetes Network Policy and other Admission Controllers, etc.</li>
+<li>Break (15min)</li>
+<li>Image scanning (~30m) : How image static scanning works in Docker, available tools like Quay and Anchore, where can you perform image scanning in your process..</li>
+<li>Runtime security and forensics (~45h) : Why runtime security is important? How tools like seccomp, SELinux, AppArmor or Falco compare. Writing Falco rules. Forensics on containers.</li>
+<li>Break (15min)</li>
+<li>Deploying all the open source tools for a real example (1h) : Bringing together all the tools and setup a container security lab with Falco response engine, NATS and Kubeless to respond to security incidents with Kubernetes features like a Network Policy or capturing all the activity for forensics analysis.</li>
+</ul>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/sysdig/
+LOCATION:4.container
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:breakfast0@cfgmgmtcamp.eu
 SUMMARY:Breakfast
 ORGANIZER:
@@ -93,6 +127,57 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:breakfast5@cfgmgmtcamp.eu
+SUMMARY:Breakfast
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T090000
+DTEND:20190206T100000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast5/":Breakfast
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast5/
+LOCATION:5.pulphackroom
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:breakfast6@cfgmgmtcamp.eu
+SUMMARY:Breakfast
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T090000
+DTEND:20190206T100000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast6/":Breakfast
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast6/
+LOCATION:5.puppethackroom
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:breakfast7@cfgmgmtcamp.eu
+SUMMARY:Breakfast
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T090000
+DTEND:20190206T100000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast7/":Breakfast
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast7/
+LOCATION:5.terrahackroom
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:lunch0@cfgmgmtcamp.eu
 SUMMARY:Lunch
 ORGANIZER:
@@ -173,6 +258,57 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch4/":Lunch
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch4/
 LOCATION:5.mgmthackroom
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:lunch5@cfgmgmtcamp.eu
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T130000
+DTEND:20190206T140000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch5/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch5/
+LOCATION:5.pulphackroom
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:lunch6@cfgmgmtcamp.eu
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T130000
+DTEND:20190206T140000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch6/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch6/
+LOCATION:5.puppethackroom
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:lunch7@cfgmgmtcamp.eu
+SUMMARY:Lunch
+ORGANIZER:
+CATEGORIES:break
+DTSTAMP:20181227T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T130000
+DTEND:20190206T140000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch7/":Lunch
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch7/
+LOCATION:5.terrahackroom
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -282,6 +418,40 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:puppet0@cfgmgmtcamp.eu
+SUMMARY:#puppethack
+ORGANIZER:Eric Sorenson
+CATEGORIES:hackathon
+DTSTAMP:00010101T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T100000
+DTEND:20190206T130000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/puppet0/":#puppethack
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/puppet0/
+LOCATION:5.puppethackroom
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:puppet1@cfgmgmtcamp.eu
+SUMMARY:#puppethack
+ORGANIZER:Eric Sorenson
+CATEGORIES:hackathon
+DTSTAMP:00010101T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T140000
+DTEND:20190206T170000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/puppet1/":#puppethack
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/puppet1/
+LOCATION:5.puppethackroom
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:foreman0@cfgmgmtcamp.eu
 SUMMARY:Foreman Construction Day Pre-Noon
 ORGANIZER:
@@ -328,6 +498,74 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/mgmtcamp0/":MgmtCa
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/mgmtcamp0/
 LOCATION:5.mgmthackroom
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:pulp0@cfgmgmtcamp.eu
+SUMMARY:Pulp Plugin
+ORGANIZER:Ina Panova
+CATEGORIES:hackathon
+DTSTAMP:00010101T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T100000
+DTEND:20190206T130000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/pulp0/":Pulp Plugin
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/pulp0/
+LOCATION:5.pulphackroom
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:pulp1@cfgmgmtcamp.eu
+SUMMARY:Pulp Plugin
+ORGANIZER:Ina Panova
+CATEGORIES:hackathon
+DTSTAMP:00010101T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T140000
+DTEND:20190206T170000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/pulp1/":Pulp Plugin
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/pulp1/
+LOCATION:5.pulphackroom
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:terraform1@cfgmgmtcamp.eu
+SUMMARY:Terraform Hackathon
+ORGANIZER:
+CATEGORIES:hackathon
+DTSTAMP:00010101T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T140000
+DTEND:20190206T170000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/terraform1/":Terraform Hackathon
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/terraform1/
+LOCATION:5.terrahackroom
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
+UID:terraform0@cfgmgmtcamp.eu
+SUMMARY:Terraform Hackaton
+ORGANIZER:
+CATEGORIES:hackathon
+DTSTAMP:00010101T000000Z
+TZID:Europe-Brussels
+DTSTART:20190206T100000
+DTEND:20190206T130000
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/terraform0/":Terraform Hackaton
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/wednesday/terraform0/
+LOCATION:5.terrahackroom
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
