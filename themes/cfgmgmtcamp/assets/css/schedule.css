@@ -38,11 +38,11 @@
 		left: 0;
 		height: 100%;
 		width: 100%;
-		padding-top: 50px;
+		padding-top: 55px;
 	}
 	.cd-schedule .timeline li {
 		position: relative;
-		height: 50px;
+		height: 55px;
 	}
 	.cd-schedule .timeline li::after {
 		content: '';
@@ -152,7 +152,7 @@
     width: 100%;
   }
   .cd-schedule .events .events-group {
-    width: 8%;
+    width: 9.5%;
     float: left;
     border: 1px solid #EAEAEA;
     /* reset style */
@@ -164,7 +164,7 @@
   .cd-schedule .events .top-info {
     /* vertically center its content */
     display: table;
-    height: 50px;
+    height: 55px;
     border-bottom: 1px solid #EAEAEA;
     /* reset style */
     padding: 0;

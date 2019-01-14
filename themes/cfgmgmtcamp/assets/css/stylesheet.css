@@ -812,4 +812,8 @@ footer a:hover {
 .scheduling {
 	margin-top: 75px;
 }
+.scheduling h1 {
+	text-decoration: underline;
+	text-align: center;
+}
 
