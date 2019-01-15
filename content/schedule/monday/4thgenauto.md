@@ -5,7 +5,7 @@ date: 2018-12-26
 eventtype: keynote
 room: 0.daula
 start: 11:00
-end: 11:55
+end: 11:40
 type: schedule
 draft: false
 ---
