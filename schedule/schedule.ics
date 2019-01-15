@@ -872,8 +872,8 @@ ORGANIZER:
 CATEGORIES:break
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T103000
-DTEND:20190204T105500
+DTSTART:20190204T104000
+DTEND:20190204T110000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakprenoon00/":Break
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/breakprenoon00/
@@ -910,8 +910,8 @@ ORGANIZER:Mark Shuttleworth
 CATEGORIES:keynote
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T120000
-DTEND:20190204T125500
+DTSTART:20190204T1145000
+DTEND:20190204T123000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/objectinfra/":Introducing 'object-oriented operations' for community-driven infrastructure-as-code
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Infrastructure as code is a proven pattern,
 and so is open source. Wouldn&rsquo;t it make sense to bring a community driven approach to operational code itself?</p>
@@ -1192,7 +1192,7 @@ CATEGORIES:keynote
 DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T110000
-DTEND:20190204T115500
+DTEND:20190204T114000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/4thgenauto/":Fourth Generation Automation: Uniting Models and Tasks
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>To borrow a phrase, &ldquo;In the beginning was the command line.&rdquo; Then we had ISConf and CFEngine, and things were good&hellip; for a while.</p>
 
@@ -1246,8 +1246,8 @@ ORGANIZER:Charity Majors
 CATEGORIES:keynote
 DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T093000
-DTEND:20190204T102500
+DTSTART:20190204T100000
+DTEND:20190204T104000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/keynote0/":Observability for emerging infra: what got you here won't get you there
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Distributed systems, microservices, containers and schedulers, polyglot persistence &hellip;<br />
 modern infrastructure is ever more fluid and dynamic, chaotic and transient.<br />
