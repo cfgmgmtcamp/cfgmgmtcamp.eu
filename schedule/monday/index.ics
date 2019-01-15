@@ -138,7 +138,7 @@ CATEGORIES:break
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T083000
-DTEND:20190204T085500
+DTEND:20190204T095500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/breakfast00/":Breakfast
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>We provide free breakfast with croissants, coffee and thee.</p>
 </BODY></HTML>";
@@ -1191,7 +1191,7 @@ ORGANIZER:Eric Sorenson
 CATEGORIES:keynote
 DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T1120000
+DTSTART:20190204T112000
 DTEND:20190204T120000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/4thgenauto/":Fourth Generation Automation: Uniting Models and Tasks
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>To borrow a phrase, &ldquo;In the beginning was the command line.&rdquo; Then we had ISConf and CFEngine, and things were good&hellip; for a while.</p>
