@@ -4,8 +4,8 @@ speaker: "markshuttleworth"
 date: 2018-12-27
 eventtype: keynote
 room: 0.daula
-start: 11:450
-end: 12:30
+start: 12:00
+end: 12:40
 draft: false
 ---
 

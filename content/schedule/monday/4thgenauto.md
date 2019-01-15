@@ -4,8 +4,8 @@ speaker: ericsorenson
 date: 2018-12-26
 eventtype: keynote
 room: 0.daula
-start: 11:00
-end: 11:40
+start: 11:200
+end: 12:00
 type: schedule
 draft: false
 ---

@@ -4,8 +4,8 @@ speaker: kristosh
 date: 2018-12-26
 eventtype: intro
 room: 0.daula
-start: 9:00
-end: 9:25
+start: 10:00
+end: 10:20
 draft: false
 ---
 

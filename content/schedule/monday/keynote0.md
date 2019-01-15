@@ -4,8 +4,8 @@ speaker: charitymajors
 date: 2018-12-26
 eventtype: keynote
 room: 0.daula
-start: 10:00
-end: 10:40
+start: 10:20
+end: 11:00
 type: schedule
 draft: false
 ---
