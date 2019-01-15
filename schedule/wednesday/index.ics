@@ -569,31 +569,4 @@ LOCATION:5.terrahackroom
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:ansiblenet@cfgmgmtcamp.eu
-SUMMARY:Using Ansible to bring DevOps to Network Devices
-ORGANIZER:
-CATEGORIES:workshop
-DTSTAMP:00010101T000000Z
-TZID:Europe-Brussels
-DTSTART:20190206T100000
-DTEND:20190206T130000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/ansiblenet/":Using Ansible to bring DevOps to Network Devices
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>This tutorial is a guided session on using Ansible for network device management.<br />
-It will showcase how we use a DevOps based tool, traditionally used for system config management, and leverage it to control network devices.</p>
-
-<p>By the end of the tutorial, we will showcase how to :</p>
-
-<ul>
-<li>Make changes to network devices in real time</li>
-<li>Backup network device configurations</li>
-<li>Move a network device config source of truth off the device into an SCM</li>
-</ul>
-</BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/wednesday/ansiblenet/
-LOCATION:4.cloud
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
 END:VCALENDAR
