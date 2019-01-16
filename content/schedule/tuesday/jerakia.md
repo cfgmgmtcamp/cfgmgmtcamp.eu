@@ -9,7 +9,7 @@ date: 2018-12-29
 draft: false
 ---
 
-erakia is standalone tool inspired by Puppet's hiera which allows you to separate configuration data from configuration code.  
-The newest iteration of jerakia provides you a smooth integration into ansible via a module.  
-This talk will give a generic overview over jerakia and it's intentions as well as the integration into ansible.  
+Jerakia is standalone tool inspired by Puppet's Hiera which allows you to separate configuration data from configuration code.  
+The newest iteration of Jerakia provides you a smooth integration into Ansible via a module.  
+This talk will give a generic overview over Jerakia and it's intentions as well as the integration into Ansible.  
 
