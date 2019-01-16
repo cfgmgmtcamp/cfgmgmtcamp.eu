@@ -36,16 +36,16 @@ section = [ "HTML", "Calendar" ]
 	identifier = "location"
 	url = "/location/"
 	weight = -700
-[[menu.navbar]]
-	name = "CfP"
-	identifier = "cfp"
-	url = "https://cfp.cfgmgmtcamp.be"
-	weight = -600
 #[[menu.navbar]]
-#	name = "Schedule"
-#	identifier = "schedule"
-#	url = "/schedule/"
+#	name = "CfP"
+#	identifier = "cfp"
+#	url = "https://cfp.cfgmgmtcamp.be"
 #	weight = -600
+[[menu.navbar]]
+	name = "Schedule"
+	identifier = "schedule"
+	url = "/schedule/"
+	weight = -600
 [[menu.navbar]]
 	name = "Fringe"
 	identifier = "fringes"
