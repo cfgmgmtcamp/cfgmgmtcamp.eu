@@ -52,6 +52,11 @@ section = [ "HTML", "Calendar" ]
 	url = "/fringes/"
 	weight = -400
 [[menu.navbar]]
+	name = "Speakers"
+	identifier = "speakers"
+	url = "/speaker/"
+	weight = -350
+[[menu.navbar]]
 	name = "Conduct"
 	identifier = "conduct"
 	url = "/codeofconduct/"
