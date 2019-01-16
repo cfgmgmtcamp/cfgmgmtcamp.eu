@@ -19,8 +19,17 @@
 		{{- $speaker := .Param "speaker" -}}
 		{{- $speakerfile := printf "%s/%s" "speaker" $speaker -}}
 		{{- with .Site.GetPage $speakerfile -}}
-			{{- if isset .Params "image" -}}
-				<meta name="twitter:image" content="{{ .Param "image" }}" />
+			{{ if isset .Params "image" }}
+				{{ $image := .Param "image" }}
+				{{ $imageurl := urls.Parse $image }}
+				{{ if eq $imageurl.Scheme "https" }}
+					<meta name="twitter:image" content="{{ $imageurl }}" />
+				{{ else }}
+					{{ $imagelocation := (printf "%s/%s" "images/speakers/" $image) }}
+					{{ $imageresource := resources.Get $imagelocation }}
+					{{ $imagefile := $imageresource.Fit "400x400" }}
+					<meta name="twitter:image" content="{{ $imagefile.Permalink }}" />
+				{{ end }}
 			{{- end -}}
 			<meta name="twitter:image:alt" content="{{ .Title }}" />
 		{{- end -}}
