@@ -705,9 +705,9 @@ TZID:Europe-Brussels
 DTSTART:20190205T163000
 DTEND:20190205T172500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/jerakia/":Hierarchical Config Data with Jerakia and Ansible
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>erakia is standalone tool inspired by Puppet&rsquo;s hiera which allows you to separate configuration data from configuration code.<br />
-The newest iteration of jerakia provides you a smooth integration into ansible via a module.<br />
-This talk will give a generic overview over jerakia and it&rsquo;s intentions as well as the integration into ansible.</p>
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Jerakia is standalone tool inspired by Puppet&rsquo;s Hiera which allows you to separate configuration data from configuration code.<br />
+The newest iteration of Jerakia provides you a smooth integration into Ansible via a module.<br />
+This talk will give a generic overview over Jerakia and it&rsquo;s intentions as well as the integration into Ansible.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/jerakia/
 LOCATION:3.ansible
