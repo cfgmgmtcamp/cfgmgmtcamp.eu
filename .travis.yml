@@ -9,6 +9,7 @@ addons:
     packages:
       - make
       - qrencode
+      - dos2unix
 
 install:
   - export HUGOVER=0.53
