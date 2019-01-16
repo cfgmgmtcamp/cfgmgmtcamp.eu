@@ -18,6 +18,7 @@ build:
 	@test -s public/schedule/monday/index.ics && head -n -1 public/schedule/monday/index.ics >> public/schedule/schedule.ics
 	@test -s public/schedule/tuesday/index.ics && tail -n +9 public/schedule/tuesday/index.ics >> public/schedule/schedule.ics
 	@sed -e '/^$$/d' -i public/schedule/schedule.ics
+	@unix2dos public/schedule/schedule.ics public/schedule/schedule.ics
 
 travis:
 	$(MAKE) HUGO=./hugo build
