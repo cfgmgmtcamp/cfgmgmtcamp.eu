@@ -357,7 +357,20 @@ TZID:Europe-Brussels
 DTSTART:20190206T140000
 DTEND:20190206T170000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/objectstack/":Everyday OpenStack with Object Oriented Operations
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>In this extended tutorial, led by Mark Shuttleworth and James Troup,
+you&rsquo;ll see how Canonical manages to operate tens of OpenStack clouds at reasonable scale with a small but focused team.</p>
+
+<p>Operating OpenStack is widely considered to be difficult.
+Many early implementations have ground to a halt as people struggle with combinatorial complexity and the pace of change.
+Object-oriented operations enable reuse of ops code in diverse settings and configurations.</p>
+
+<p>The aim of the tutorial is to walk you through several major but nevertheless absolutely standard OpenStack operational challenges.
+High availability deployment, scaling, ceph troubleshooting and disk replacement, and ultimately a full upgrade of a running openstack.
+These mechanisms are used to provide carrier grade infrastructure with regular upgrades and expansions,
+never allowing more than one second of network downtime.</p>
+
+<p>It is an advanced talk, but people who have some familiarity with the various Openstack components will be able to follow along.</p>
+</BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/objectstack/
 LOCATION:4.cloud
 CLASS:PUBLIC
@@ -384,14 +397,33 @@ BEGIN:VEVENT
 METHOD:PUBLISH
 UID:objectkube@cfgmgmtcamp.eu
 SUMMARY:Multi-cloud and on-prem Kubernetes with Object Oriented Operations
-ORGANIZER:
+ORGANIZER:Mark Shuttleworth
 CATEGORIES:workshop
 DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T100000
 DTEND:20190206T130000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/objectkube/":Multi-cloud and on-prem Kubernetes with Object Oriented Operations
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>A deep dive into K8s operations, scaling, upgrades and integration across public clouds, VMware, OpenStack and bare metal,
+by Mark Shuttleworth and Calvin Hartwell.</p>
+
+<p>Calvin leads field engineering and delivery in EMEA for Canonical,
+helping companies deploy and operate OpenStack and Kubernetes efficiently at scale.
+Mark leads Ubuntu.</p>
+
+<p>Kubernetes is central to future automation and operations at the application layer across multiple cloud environments.
+It is an open community that is expanding very rapidly to embrace new capabilities and integrate with new services.
+That makes it challenging to operate efficiently, because the pace of change, the scale,
+and the complexity of user requirements all combine to make it difficult to keep up especially
+when one is trying to do it in a multi-cloud world taking advantage of the unique features in each public cloud.</p>
+
+<p>Calvin and Mark will work through the details of deploying Kubernetes, integrating it with various company systems,
+integrating it with cloud-specific LBAAS and identity, scaling it, and upgrading it.</p>
+
+<p>By the end of the tutorial you should be confident to deploy K8s in multiple different on-prem or cloud environments,
+taking advantage of sophisticated features, and offering your own CAAS to customers and users with high availability
+and a guarantee of free upgrades as and when they want them.</p>
+</BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/objectkube/
 LOCATION:4.kubernetes
 CLASS:PUBLIC
