@@ -3,8 +3,13 @@ VERSION:2.0
 PRODID:-//cfgmgmtcamp/schedule//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+{{ if isset .Params "schedulename" -}}
+X-WR-CALDESC;VALUE=TEXT:{{ .Param "schedulename" }}
+X-WR-CALNAME;VALUE=TEXT:{{ .Param "schedulename" }}
+{{ else -}}
 X-WR-CALDESC;VALUE=TEXT:iCal
 X-WR-CALNAME;VALUE=TEXT:iCal
+{{ end -}}
 X-WR-TIMEZONE;VALUE=TEXT:Europe/Brussels
 {{ range .Pages -}}
 BEGIN:VEVENT
