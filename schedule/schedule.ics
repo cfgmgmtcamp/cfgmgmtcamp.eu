@@ -20,16 +20,12 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/cnab/":CNAB: packagin
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>When you&rsquo;re managing distrubyted applications you&rsquo;re probably using a variety of tools that serve specific purposes.<br />
 Terraform, Helm, Compose, CloudFormation, Pulumi, ARM templates, etc. No one tool solves all your needs.<br />
 And new tools come along regularly. But all tools tend to invent there own packaging.</p>
-
 <p>In this talk we&rsquo;ll introduce the Cloud Native Application Bundles (CNAB) specification, and some associated tooling.<br />
 CNAB embraces the multi-tool world and allows for packaging up multiple formats and their accompanying toolchains into a single artefact.</p>
-
 <p>Imagine a single installable package that contains Terraform code to launch an RDS instance and a Compose file or
 Helm charts describing the application that will use it.<br />
 Today you might package and distribute those separately, with CNAB you can keep them together.</p>
-
 <p>That means we can share metadata, cryptographically sign a single artefact, push all aspects of the application to a central registry and more.</p>
-
 <p>In this talk we&rsquo;ll introduce CNAB, discuss some of the problems it solves, and show demos of the accompanying tooling.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/cnab/
@@ -66,7 +62,6 @@ DTSTART:20190204T150000
 DTEND:20190204T155500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/pulpplugins/":Pulp Users Love Plugins
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Benefits fueled by the modularity of the pulp plugin ecosystem by taking the example of pulp_deb and pulp_gem.</p>
-
 <p>Pulp is a rest-api driven, plugin based framework for content repository management.<br />
 Despite being used unmediated, it is also employed as a key backend component in foreman/katello.<br />
 Its complete rewrite, needing a reimplementation of all content plugins, invites for experimentation with new technologies.<br />
@@ -93,7 +88,6 @@ X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN"
 Usually one sees the no longer need for configuration management,
 the easy way to spin up a platform on a laptop, the low resource footprint.
 But how do you deploy laptops in data centers?</p>
-
 <p>This talk will give you an insight how we (more Ops then Dev) started to learn (and love) containers,
 the issues we saw when running them in larger scale and how Ops people should start dealing with Container technologies.</p>
 </BODY></HTML>";
@@ -116,9 +110,7 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/choriamarionette/":A 
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Choria is a 2 year old project that started life as an easy route to using MCollective for open source Puppet users.<br />
 It has evolved to encompass a number of technologies related to large scale systems management
 and have been deployed on globe spanning sites with 100s of thousands of nodes and thousands of daily active users.</p>
-
 <p>This talk will give an update on the projects status, progress, and will explore some of the new technologies created in this project.</p>
-
 <p>With the arrival of Puppet 6 in fall 2018 Puppet Inc has officially deprecated The Marionette Collective and
 have donated the legacy MCollective code bases to the Choria project.<br />
 We will explore what options Puppet 6 users have for benefiting from their past investments in the MCollective platform and
@@ -165,7 +157,6 @@ cf-check (introduced in 3.12.1), cf-remote, and cf-policyupgrade (under developm
 Some technical details will be covered,
 but most of the discussion will be centered around use cases and functionality.
 All tools covered are free and open source, written in C and Python 3.</p>
-
 <p>The speakers are developers on the CFEngine team.<br />
 We will encourage the audience to ask questions, give feedback and suggestions during and after the presentation.</p>
 </BODY></HTML>";
@@ -191,9 +182,7 @@ These all require secure development, test, and maintenance effort.<br />
 Istio (a Google, IBM, and Lyft project) offers a new way:
 by providing a service mesh and a unified identity for each request,
 it offers all these things with zero application changes.</p>
-
 <p>In this talk we detail:</p>
-
 <ul>
 <li>What a service mesh is, and why Istio could revolutionise microservices</li>
 <li>Increasing application security and availability using network RBAC and circuit breakers</li>
@@ -291,7 +280,6 @@ Many Puppet catalogs contain configuration that depends on sensitive data
 which has to be centrally managed but accessible only by the relevant machines.<br />
 In order to distribute the secrets to hosts via Puppet,
 we developed a system that provides Puppet resources that fetch secrets at catalog application time and a CLI for managing them.</p>
-
 <p>This presentation will explain how this system works and how it is integrated with our configuration management stack,
 its limitations and future developments.</p>
 </BODY></HTML>";
@@ -353,13 +341,10 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/ansikube/":Automate K
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Have you longed for a simple yet powerful way to automate workloads on Kubernetes?<br />
 Ansible, the familiar IT automation tool, makes it easier than ever to automate your cluster.<br />
 This talk introduces two practical ways to define and provision complex applications using Ansible Automation with Kubernetes.</p>
-
 <p>The Automation Broker allows users to leverage Ansible Automation to define and orchestrate applications,
 making them available for self-service provisioning in the Service Catalog.</p>
-
 <p>The Ansible Operator allows users to actively manage the full lifecycle of an application by defining management behaviors with Ansible;
 the Operator handles everything else.</p>
-
 <p>In this session you will learn:
 - How to define and deploy your application on Kubernetes using Ansible.
 - How to publish your own applications in the Kubernetes Service Catalog.
@@ -400,12 +385,10 @@ DTEND:20190204T182500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/drilling/":Drilling down a software bug: lessons about observability\, monitoring\, automation and good practices
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>So, there is case, every once in a few days the kafka cluster dies and
 along dies the whole application resulting in revenue loss for the company.</p>
-
 <p>Starting there, I would like to describe how we approached the unknown issue, assumptions, failure, trial and error,
 until we found the root cause: a known bug in the respective version of the famous distributed software.<br />
 Of course, every software has bugs and hitting a major one is not such uncommon but more than that,
 what is actually important is the actual lessons learnt during the process:</p>
-
 <ul>
 <li>how do we monitor our infrastructure and ways to improve it</li>
 <li>what actually happens inside our application, how do failures of external software affect it, how we can improve stability</li>
@@ -413,7 +396,6 @@ what is actually important is the actual lessons learnt during the process:</p>
 <li>what are the actual resources we need for our use case, if we under/overprovision, understand our scale and optimize the costs</li>
 <li>importance of documentation and post-mortems, the 5 WHYs.</li>
 </ul>
-
 <p>Major takeaway of this talk:
 tackle your incidents as a way to understand more about your systems
 (both technical systems: infra, code, tools AND non-technical systems: teams, workflows, procedures, practices) and design them better.</p>
@@ -460,15 +442,10 @@ DTSTART:20190204T163000
 DTEND:20190204T165500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/foremankube/":Foreman and Kubevirt for Orchestrating a Virtualized environment over Containers
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Kubernetes with Kubevirt is the uprising solution for unified management of virtual machines and containers.</p>
-
 <p>Foreman is well known as a complete life cycle systems management tool for provisioning, configuring and monitoring of physical and virtual servers.</p>
-
 <p>The talk will focus on the newly added support for Kubevirt in Foreman which allows provisioning and configuration of Virtual Servers on top of Kubernetes with Kubevirt.</p>
-
 <p>After describing the use-cases and the supported functionality provided by the integration, I intend to show a demo that combines all of the pieces and the interaction between them.</p>
-
 <p>The demo will show how a virtual server is being created from Foreman, adding a VM on KubeVirt compute resource and provision its OS from PXE.</p>
-
 <p>The setup is a bit complex due to the nature of the moving parts and those will be explained as well prior to the demo.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/foremankube/
@@ -508,13 +485,11 @@ DTEND:20190204T172500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/mgmtadvanced/":Mgmt Config: Advanced demos and internals for hackers
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Mgmt is a real-time automation tool that is fast and safe.<br />
 We try and take a fresh look at existing automation problems.</p>
-
 <p>This presentation will briefly introduce the tool and
 spend most of the time presenting and demoing some advanced and/or
 complicated features and use cases in the project.<br />
 While we&rsquo;re certain the audience will have experienced these sorts of
 difficult problems before, we hope they will appreciate our more elegant solutions.</p>
-
 <p>We&rsquo;ll also dive into some of the internals of the project for new contributors who want to peer into the core code.<br />
 We&rsquo;ll also discuss some of the shortcomings in the current implementation and discuss future improvements.<br />
 Finally we&rsquo;ll talk about some of the future designs we&rsquo;re planning and make it easy for new users to get involved and help shape the project.</p>
@@ -560,7 +535,6 @@ X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN"
 It likely involves rewriting all your infrastructure code,
 and will either require a scary over-night cut-off, or a period in which two tools run concurrently,
 with operators carefully shifting functionality one step at a time.</p>
-
 <p>With mgmt&rsquo;s support for Puppet code, migrating becomes a lot more natural.<br />
 This session does a deep dive and shows how mgmt will allow you to use and maintain a mixed code base of both Puppet&rsquo;s and mgmt&rsquo;s DSLs.</p>
 </BODY></HTML>";
@@ -627,7 +601,6 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/rudderwhatwhere/":Wha
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Rudder is an open source configuration management tool that includes continuous auditing
 (with or without remediation), compliance info and graphs and the possibility to configure everything in the UI and/or APIs.<br />
 It has been around for more than six years and has users large (think 10 000 nodes) and small around the world.</p>
-
 <p>Let&rsquo;s take a moment to look at the vision that lead us here,
 how Rudder is different from similar tools, and what users find invaluable, nice (or annoying - I&rsquo;ll be honest!).<br />
 If you&rsquo;re not familiar with Rudder this is a great talk to attend to get the basics covered.</p>
@@ -676,12 +649,10 @@ DTSTART:20190204T140000
 DTEND:20190204T145500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/mgmtroad/":Mgmt Config: The Road to 0.1
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Real-time, autonomous, automation.</p>
-
 <p>Mgmt is a real-time automation tool that is fast and safe.<br />
 As we get closer to a 0.1 release that we&rsquo;ll recommend as &ldquo;production ready&rdquo;,
 we&rsquo;ll look at the last remaining features that we&rsquo;re aiming to land by then.<br />
 We&rsquo;ll explain and demo the import and module system, classes, and native functions.</p>
-
 <p>It uses a real-time, reactive programming language to model the desired state over time,
 and a powerful event-driven engine to apply this state.<br />
 We&rsquo;ll also show some exciting real-time demos that include scheduling, finite state machines, and remote execution.<br />
@@ -710,7 +681,6 @@ How do you distribute your agents over several Puppetservers evenly, but without
 How do you handle the massively increased load on your Foreman and PuppetDB intances,
 after the Puppetserver isn&rsquo;t the bottleneck anymore?<br />
 And how the heck can this all be monitored?</p>
-
 <p>I would like to show you a walkthrough from a small environment with a single physical server for Puppetserver/Foreman/PostgreSQL
 and a handful of agents that got scaled up to several thousand agents.<br />
 This also includes probably all common pitfalls that you can find yourself in on this journey!</p>
@@ -732,10 +702,8 @@ DTSTART:20190204T173000
 DTEND:20190204T182500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/solid/":Applying SOLID principles to Infrastructure as Code
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>S.O.L.I.D is an acronym for the first five object-oriented design(OOD) principles by Robert C. Martin, in the early 2000s.</p>
-
 <p>These principles, when combined together, make it easy for a programmer to develop software that are easy to maintain and extend.<br />
 They also make it easy for developers to avoid code smells, easily re-factor code, and are also a part of the agile or adaptive software development.</p>
-
 <p>This talk discusses our options how we can model puppet code while applying the SOLID principles.<br />
 As the puppet DSL is not a object oriented language we will also address the limitations of the design pattern,
 which we ll have to solve using the convention over configuration design pattern.</p>
@@ -915,7 +883,6 @@ DTEND:20190204T124000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/objectinfra/":Introducing 'object-oriented operations' for community-driven infrastructure-as-code
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Infrastructure as code is a proven pattern,
 and so is open source. Wouldn&rsquo;t it make sense to bring a community driven approach to operational code itself?</p>
-
 <p>This talk is about bringing those ideas together,
 to create effective open source communities for operational code on Kubernetes and on traditional machine or cloud environments.<br />
 Collaborating on complex infrastructure, and using open source to share the benefits of that collaboration,
@@ -1097,13 +1064,10 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/metastreamprocess/":S
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Stream processing technologies are usually associated with social media, click streams,
 machine learning and big data however this talk will show it can be useful in solving difficult
 problems operations face when dealing with large server estates.</p>
-
 <p>A very large scale stream processing pipeline have been built managing metadata
 for 100s of thousands of nodes using technologies from Choria.io and NATS.io,
 this talk will explore the design, performance and potential uses of such a platform.</p>
-
 <p>Areas covered:</p>
-
 <ul>
 <li>basic streaming overview</li>
 <li>design of the global network</li>
@@ -1112,9 +1076,7 @@ this talk will explore the design, performance and potential uses of such a plat
 <li>exposing data to other systems with examples</li>
 <li>using stream processing methodologies to perform real time analysis and remediation of the fleet</li>
 </ul>
-
 <p>We;ll also explore how this is a good parallel for IoT where the mentioned node scale is considered small.</p>
-
 <p>While this talk demonstrates a platform built using specific technologies and the design of those will influence the talk,
 it&rsquo;s not a vendor talk and we’ll make efforts so the ideas are transferred and not the glossies from any one tool.</p>
 </BODY></HTML>";
@@ -1156,7 +1118,6 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/unikernels/":Configur
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Unikernels are a new class of operating system.<br />
 The core idea is to merge the kernel, libraries, and application into a single image binary, operating in a single address space.<br />
 This has the potential to improve security, performance, and a few other factors.</p>
-
 <p>For native Unikernel applications, this moves configuration to the build stage.<br />
 So how are we supposed to manage these applications?<br />
 How should they be configured and deployed?<br />
@@ -1165,14 +1126,11 @@ Debug them?<br />
  The talk will start with what a Unikernel is, an overview of the Unikernel landscape and their different characterist.<br />
 Where are they heading?<br />
 An interesting development is happening with Unikernels sneaking their way onto Linux systems and playing hand-in-hand with more traditional systems.</p>
-
 <p>I&rsquo;ll demo a couple of Unikernel applications.<br />
 Show how they are configured and deployed.<br />
 What tools exist and what tools are missing.<br />
 A bit of talk about the joys and pains of deploying an untested class of operating systems in production.</p>
-
 <p>Open questions for which I have no answers but will solicit feedback are:</p>
-
 <ul>
 <li>What existing tools could be used to manage this class of applications?</li>
 <li>What class of problems matches the characteristics of Unikernels (Real-time, immutable, small)</li>
@@ -1195,14 +1153,11 @@ DTSTART:20190204T112000
 DTEND:20190204T120000
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/4thgenauto/":Fourth Generation Automation: Uniting Models and Tasks
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>To borrow a phrase, &ldquo;In the beginning was the command line.&rdquo; Then we had ISConf and CFEngine, and things were good&hellip; for a while.</p>
-
 <p>Puppet and Chef came along, embodying the idea that infrastructure code should behave like application code.  More
 recently, Ansible brought the concept of idempotent resources to imperative workflows, but stops short of modelling in
 favor of radical simplicity.</p>
-
 <p>Now we&rsquo;re wondering: is it possible to get the best of both worlds?<br />
 Can we get model-based guarantees plus orchestrated action?</p>
-
 <p>I think the answer is &ldquo;yes&rdquo; and in this talk I will explore an emerging &ldquo;fourth generation&rdquo; of config management tools
 that attempt to bring the beneficial properties of models together with orchestrated action. In full disclosure, I&rsquo;ll
 talk about Puppet&rsquo;s Bolt and Lyra projects, but the talk will not be vendor-specific as tools like Terraform and OpsMop
@@ -1225,12 +1180,9 @@ DTSTART:20190204T163000
 DTEND:20190204T172500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/incidentcode/":Incident Resolution as Code
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>In this talk I will go in details about how we quickly resolve incidents using Prometheus and ansible.</p>
-
 <p>Come and discover how we linked the monitoring, queuing systems and orchestration to do unattended incident management.</p>
-
 <p>One of the main advantages of this is that we can apply technical remediation or mitigation from business metrics,
 even if things happen at different levels.</p>
-
 <p>All of this working anywhere Prometheus and ansible run, so not only in a kube env, but also in a traditional infrastructure.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/incidentcode/
@@ -1254,12 +1206,10 @@ modern infrastructure is ever more fluid and dynamic, chaotic and transient.<br 
 Likewise, individual engineering roles can no longer be broken down neatly into<br />
 software engineers (who write the code) and ops engineers (who deploy the code (and buffer the consequences)).<br />
 Many teams have already sailed past an event horizon of complexity and found that their old tools and processes no longer work for them.</p>
-
 <p>But why, exactly?<br />
 What was wrong with traditional metrics and logs?<br />
 Why are they failing to keep pace with modern requirements?<br />
 Isn&rsquo;t observability just a marketing term for monitoring? And what on earth can we do about it?</p>
-
 <p>In this talk we&rsquo;ll cover the shortcomings of traditional metrics and logs,
 and the technical and cultural differences between monitoring and observability.<br />
 We&rsquo;ll also talk about the deep cultural revolution underway from siloed specialties
@@ -1284,7 +1234,6 @@ DTSTART:20190205T150000
 DTEND:20190205T155500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/ansibledevaccprod/":Ansible in a dev\, acc and prod environment. A real life example
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Ansible is often used in a develop, accept and production environment, but there are no general use cases available.</p>
-
 <p>This presentation shows how we solved the dev, acc and prod environment issues within a clients setup
 and how this can aid you in solving similar problems.</p>
 </BODY></HTML>";
@@ -1307,15 +1256,12 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/battlebreaker/":Batt
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Kubernetes in general, and Istio in particular, have changed a lot the way we look at Ops-related constraints: monitoring,
 load-balancing, health checks, etc.
 Before those products became available, there were already available solutions to handle those constraints.</p>
-
 <p>Among them is Hystrix, a Java library provided by Netflix.<br />
 From the site: &ldquo;Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems,
 services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.&rdquo;<br />
 In particular, Hystrix provides an implementation of the Circuit Breaker pattern,
 which prevents a network or service failure from cascading to other services. But now Istio also provides the same capability.</p>
-
 <p>In this talk, we will have a look at how Istio and Hystrix implement the Circuit Breaker pattern, and what pros/cons each of them has.</p>
-
 <p>After this talk, you&rsquo;ll be able to decide which one is the best fit in your context.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/battlebreaker/
@@ -1405,12 +1351,10 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/puppetagent/":Agent-
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>For a long time now, a common refrain in the #puppet IRC and now Slack channels has been explaining
 how Puppet functions run during compilation on the master and not on the agent.<br />
 No, really. Not on the agent.</p>
-
 <p>And that&rsquo;s still true.<br />
 Because running functions on the master means that the catalog is a complete representation of the state we want on the node.<br />
 But&hellip; sometimes there are things that we just can&rsquo;t put in the catalog, or have to be computed on the agent.<br />
 Puppet 6 introduces the concept of Deferred functions, to be run during the catalog enforcement.</p>
-
 <p>In this talk I&rsquo;ll show how that can be used to manage secrets on the node, without the master ever knowing those secrets.<br />
 I&rsquo;ll also walk through the process of updating my popular node_encrypt module, which encrypts secrets as they pass through the catalog,
 to use Deferred functions to decrypt those secrets agent side, vastly broadening its capabilities.</p>
@@ -1453,14 +1397,10 @@ the ability to manage issues on those systems becomes more and more difficult.<b
 Situations arise like log files filling up disks,
 failed login attempts that could be brute force attacks,
 and unwanted processes and services running.</p>
-
 <p>Using the Beacon system of SaltStack, we can monitor a system for these &amp; other scenarios.<br />
 Pairing this with the Reactor system, we can have SaltStack remediate those systems to the desired state.</p>
-
 <p>In this talk, we&rsquo;ll look at some real-life examples if these scenarios and how Saltstack can help to automatically heal the systems.</p>
-
 <p>The talk will include:</p>
-
 <ul>
 <li>A brief introduction to Salt Stack.</li>
 <li>Using Salt Beacons to monitor aspects of a system.</li>
@@ -1488,10 +1428,8 @@ X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN"
 once you have more than a couple of servers or containers,
 SSH and tail will not serve you well any more.<br />
 However, the common question or struggle is how to achieve that.</p>
-
 <p>This talk presents multiple approaches and patterns with their advantages and disadvantages,
 so you can pick the one that fits your organization best:</p>
-
 <ul>
 <li>Parse: Take the log files of your applications and extract the relevant pieces of information.</li>
 <li>Send: Add a log appender to send out your events directly without persisting them to a log file.</li>
@@ -1499,7 +1437,6 @@ so you can pick the one that fits your organization best:</p>
 <li>Containerize: Keep track of short lived containers and configure their logging correctly.</li>
 <li>Orchestrate: Stay on top of your logs even when services are short lived and dynamically allocated on Kubernetes.</li>
 </ul>
-
 <p>Each pattern has its own demo with the open source Elastic Stack (previously called ELK Stack),
 so you can easily try out the different approaches in your environment.<br />
 Though the general patterns are applicable with any centralized logging system.</p>
@@ -1521,21 +1458,14 @@ DTSTART:20190205T112000
 DTEND:20190205T121500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/hardening/":Cross-OS security hardening
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY>
-
 <h3 id="intro">Intro</h3>
-
 <p>We&rsquo;re working to put in place a Rudder policy that covers all OS that we support at our customers,
 or that will be coming around (i.e. beta of a new version).</p>
-
 <p>For our managed systems, it should cover distro-/OS-specific settings and that &ldquo;what makes sense everywhere, will be applied everywhere&rdquo;.</p>
-
 <p>For our human eyes, it should have a clear design that allows for easy understanding and maintenance.</p>
-
 <p>Rudder offers many options to express little details in the policy.<br />
 We need to find a best practice for quickly choosing the simplest option, which is least likely to require redesign.</p>
-
 <h3 id="experiences">Experiences</h3>
-
 <ul>
 <li>managing kernel module blacklists, managing sysctls</li>
 <li>configuring auditd to be safe and lightweight</li>
@@ -1543,14 +1473,10 @@ We need to find a best practice for quickly choosing the simplest option, which 
 <li>using ncf sys knowledge to abstract OS-specific package and service names out of the policy</li>
 <li>independent testing of compliance using Lynis and monitoring</li>
 </ul>
-
 <p>** why? because if we (flawed human) design the policy, we (same flawed human) should not design the final test :-) **</p>
-
 <h3 id="takeaway">Takeaway</h3>
-
 <p>We&rsquo;ll wrap it up with practical stuff like configuring OSSEC and why nsjail is awesome as a containment technology for services.<br />
 We can help our colleagues and ourselves securing many applications, with a much better learning curve than SElinux etc. got.</p>
-
 <p>So when you walk in the room and listen you get rough idea of sustainable policy design but also of what a sec policy looks like,
 if it&rsquo;s not only made to fill a checklist.</p>
 </BODY></HTML>";
@@ -1572,7 +1498,6 @@ DTEND:20190205T172500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/dontlogin/":Don't make me log in
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>How to manage (large) groups of servers using Foreman and Katello without having to log in.<br />
 Showcases katello-agent, remote execution, openscap, pxe and image based deployments with automated building via Gitlab pipelines.</p>
-
 <p>I&rsquo;ve set up a lab with LXD, Cloud-Init, Foreman Ansible Modules and some more automation to make my life easier.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/dontlogin/
@@ -1595,12 +1520,9 @@ X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN"
 As servers become less like pets and more like cattle, jobs can no longer be tied to a specific server and
 a scheduling system must be flexible to allow jobs to easily be scheduled across multiple servers,
 quickly moved from one server to another, and easily report on the status of a scheduled job.</p>
-
 <p>Salt Stack, is at its heart, a remote execution system which also does configuration management very well.<br />
 This presentation will demonstrate how Salt can be used to replace Cron for command scheduling and fulfill these modern requirements.</p>
-
 <p>The talk will include:</p>
-
 <ul>
 <li>A brief introduction to Salt Stack</li>
 <li>Examples of how to schedule jobs using Salt Stack.</li>
@@ -1627,10 +1549,8 @@ DTEND:20190205T125500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/gonewbie/":I Don't Know What I'm Doing: A Newbie Guide for Golang for DevOps
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Golang as a language has exploded with popularity since it&rsquo;s first release in 2009.<br />
 It&rsquo;s now the langauage behind a number of applications core to most organisations operations, such as Docker, Terraform, Kubernetes and etcd.</p>
-
 <p>However, for most people used to scripting interpreted languages like Ruby and Python,
 it can be a bit hard to get started with. What&rsquo;s all this err != nil business, and why am I getting errors when I don&rsquo;t refer to a variable?</p>
-
 <p>In this talk, we&rsquo;ll be discussing how to learn enough Golang to get into trouble,
 or at least enough to contribute fixes and features to your favourite infra management tools and apps,
 with an example of adding a new feature to the Vault Terraform Provider, and the gotcha&rsquo;s you might experience along the way.</p>
@@ -1655,7 +1575,6 @@ X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN"
 allows repository snapshots and can present these snapshots to different client groups.<br />
 This, together with an extensive Ansible integration, allows for easy automation of the whole lifecycle of a package,
 from build, though integration testing down to the clients in QA and Production.</p>
-
 <p>In this talk we will show how you can build out such a setup, integrate with your build services,
 spin up your test environment with the newly created package-set and promote the packages to the next level as soon as all tests are green.</p>
 </BODY></HTML>";
@@ -1676,25 +1595,20 @@ DTSTART:20190205T140000
 DTEND:20190205T145500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/trackstateinfra/":Keeping Track of Stateful Infrastructure
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>An overview over InnoGames infrastructure and the tools we build.</p>
-
 <p>At InnoGames we have to keep track of three collocations,
 ~30 racks with thousands of VMs to run games for over 200 million registered users.<br />
 We have to manage our self hosted as well as various external services and preferably do so in a way that does not wake our oncall admin at 3am.</p>
-
 <p>All our infrastructure is configured via a central configuration management database.<br />
 We use that database to keep track of physical and virtual machines, network equipment and configuration, monitoring and much more.<br />
 We have open sourced our configuration management database [0], as well as our tooling for managing KVM VMs [1].<br />
 What makes serveradmin unique is how easy it is to modify the database schema as well as its very easy to use and fast API.</p>
-
 <p>This talk will:</p>
-
 <ul>
 <li>give you an overview over our infrastructure and custom tooling.</li>
 <li>explain our approach to API driven infrastructure automation.</li>
 <li>show you how to model your infrastructure in serveradmin.</li>
 <li>demonstrate creation, deletion and live migration of KVM VMs.</li>
 </ul>
-
 <p>[0] <a href="https://github.com/innogames/serveradmin">https://github.com/innogames/serveradmin</a>
 [1] <a href="https://github.com/innogames/igvm">https://github.com/innogames/igvm</a></p>
 </BODY></HTML>";
@@ -1716,9 +1630,7 @@ DTEND:20190205T125500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/terrapacker/":Packer\, Terraform and Jenkins - IaC & CD for small stacks
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Not everything revolves around docker containers and kubernetes, some environments pine for evolution of existing models &amp; practices.<br />
 Although this talk is about VMs and baking AMIs, it&rsquo;s not really a step inside a time machine to ~2010.</p>
-
 <p>We&rsquo;ll walk though some sane patterns for:</p>
-
 <ul>
 <li>building AMIs in a Jenkinsfile pipeline using packer</li>
 <li>testing AMIs in a Jenkinsfile pipeline using InSpec</li>
@@ -1726,7 +1638,6 @@ Although this talk is about VMs and baking AMIs, it&rsquo;s not really a step in
 <li>mapping branches to terraform environments and tfvars files</li>
 <li>using that same pipeline to deploy to production</li>
 </ul>
-
 <p>The talk is based on the experience of building out a real-world example of AMI based small stacks in
 <a href="https://github.com/jenkins201/packer-terraform-cicd-aws">https://github.com/jenkins201/packer-terraform-cicd-aws</a></p>
 </BODY></HTML>";
@@ -1747,11 +1658,8 @@ DTSTART:20190205T112000
 DTEND:20190205T121500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/saltxansible/":Salt xor Ansible
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Salt can be used for data-driven orchestration, remote execution for any infrastructure, configuration management for any app stack, and much more.</p>
-
 <p>Ansible, together with Ansible Tower brings you comprehensive enough tool for IT automation.</p>
-
 <p>In this session, Pablo Suárez Hernández, Senior Software Engineer for SUSE, will break down:</p>
-
 <ul>
 <li>How Salt competes with Ansible</li>
 <li>How SUSE is committed to the improvements and development of Salt</li>
@@ -1823,15 +1731,11 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/uyuni/":Uyuni: An op
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Uyuni (<a href="https://www.uyuni-project.org/">https://www.uyuni-project.org/</a>), an opinionated fork of the Spacewalk project,
 provides open source lifecycle management for today&rsquo;s datacenter.<br />
 With the help of Salt for configuration management it keeps your workloads up to date and secure.</p>
-
 <p>Uyuni manages all your Linux workloads.<br />
 It bootstraps physical servers, creates VMs for virtualization and cloud, builds container images,
 and tracks what runs on your Kubernetes clusters. All using Salt under the hood!</p>
-
 <p>It provides you a high-class frontend solution to interact with Salt, manage your states, formulas with forms, and much more using a web UI.</p>
-
 <p>Uyuni is open source, backed by SUSE Linux, and actively developed.</p>
-
 <p>This presentation will give you an overview about Uyuni,
 its current possibilities for managing datacenters, and how it provides you a powerful frontend to interact with Salt.</p>
 </BODY></HTML>";
@@ -1928,7 +1832,6 @@ X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN"
 Last year we at ATIX AG spent a lot of time improving support for Debian-based operating systems.<br />
 With these changes it is possible to fully manage Debian / Ubuntu hosts -
 including package installation from content views and managing package updates using Errata.</p>
-
 <p>Note that we are currently working hard to add changes to the upstream Katello project.<br />
 Therefore some changes are only available as github pull request.</p>
 </BODY></HTML>";
@@ -2020,11 +1923,9 @@ X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN"
 and as the scale of delivery grows, practitioners increasingly find themselves drawn into traditional IT support structures.<br />
 Here, they find themselves expected to act as part of a classic multi-tier support structure,
 with at least part of their time spent acting as a 3rd line support function.</p>
-
 <p>This presentation explores the problems this creates:
 its siloed nature creates inefficient work-in-progress queues,
 and reduces cross-functional collaboration and knowledge sharing.</p>
-
 <p>Service Management plays a vital role in managing system consumers at scale,
 but it needs to modernise to work well in the new era.<br />
 Hence, this presentation explores emergent methods such as Swarming,
@@ -2050,11 +1951,9 @@ X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN"
 Most of us also use rspec-puppet-facts to test with the correct OS facts.<br />
 These are all good tools and every Puppet module author should know them.<br />
 Writing acceptance tests is a lot less known.</p>
-
 <p>With beaker and its plugins we can write acceptance tests with powerful assertions using serverspec on actual throw away machines.<br />
 This is the easiest way to guarantee your PRs don&rsquo;t introduce regressions.<br />
 It can also be used during development to verify functionality.</p>
-
 <p>In this talk we&rsquo;ll go over the basics of how to set up the boiler plate, write tests, easily (re)run them during development and use it in your CI.<br />
 Examples will be taken from both Voxpupuli and The Foreman&rsquo;s Puppet modules.</p>
 </BODY></HTML>";
@@ -2077,10 +1976,8 @@ DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/obserecfgmgmt/":What
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>More and more services expose their state, internal details and metrics to be observable, and improve overall quality of service.<br />
 But what about observing the infrastructure they are deployed, configured and maintained on?<br />
 What can we learn from that, and what do we need from configuration management to get these features and metrics?</p>
-
 <p>Logs from installation is a good start, but they need centralization, aggregation and especially knowledge derivation from these -
 but also we need to observe these features over time, to trace changes, and correlate them with monitoring.</p>
-
 <p>Rudder was built around the predicate that all actions of the configuration agent need to be traced,
 centralized and exposed in a meaningful way - with agents ensuring the continuous configuration of systems,
 and this talk will show the rationale behind this predicate, how we implemented this solution,
@@ -2104,14 +2001,12 @@ DTEND:20190205T175500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/roadtravel/":Benefits of taking the less traveled road
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>After almost a year of running Openshift Origin in production we decided to migrate to a vanilla Kubernetes setup and
 during this phase we had to take some hard decisions:</p>
-
 <ul>
 <li>we focused our approach on control: we switched from using the tools provided by the community, like ansible or kops, to writing puppet manifests;</li>
 <li>we challenged the necessity of some features: this allowed us to simplify the setup,
 reuse tooling/systems from bare-metal infra and have directly addressable pods; - we focused on monitoring and observability:
 we wrote custom probes (unit and integration tests) verifying first the user experience monitored with SLOs.<br /></li>
 </ul>
-
 <p>This talk shows the reasons, benefits and some of implementation details of these decisions.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/roadtravel/
@@ -2153,9 +2048,7 @@ DTSTART:20190205T140000
 DTEND:20190205T145500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/sslsauce/":Inside the Secret Sauce Laboratory: Rethinking SSL in Puppet
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Puppet 6 made a number of changes to the PKI / certificate layer that fix longstanding problems and add awesome new features.</p>
-
 <p>This will be a technical deep dive into those changes including:</p>
-
 <ul>
 <li>new intermediate and signing CA support</li>
 <li>improved policy autosigning for cloud auto-scaling</li>
@@ -2163,7 +2056,6 @@ X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN"
 <li>new command line tools</li>
 <li>how to upgrade cleanly and roll new certs without breaking the world</li>
 </ul>
-
 <p>Anyone who&rsquo;s had to troubleshoot Puppet SSL problems will benefit from learning about these improvements.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/sslsauce/
@@ -2183,7 +2075,6 @@ DTSTART:20190205T163000
 DTEND:20190205T172500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/onecmdb/":One to rule them all? What's happening in the landscape of CMDBs
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Over the years the topic of CMDBs, asset management and inventoring things have crossed my path numerous times.</p>
-
 <p>I want to give an overview of the current state of affairs:
 What exists in the CMDB landscape within the scope of open source solutions and
 why companies still write a lot of these solutions themselves to tackle their specific needs.<br />
@@ -2233,12 +2124,10 @@ X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN"
 but the configuration management tools aren&rsquo;t keeping up.<br />
 As the number of Kubernetes clusters you run grows,
 your ability to install components on them with slight and subtle differences becomes more and more manual.</p>
-
 <p>kr8 is designed to take the heavy lifting out of this,
 by allowing you to manipulate yaml with a first class data templating language (jsonnet) without all the overhead of similar tools.<br />
 It follows the principles of simplicity you&rsquo;d expect from a bunch of admins writing a tool,
 while still allowing the power and flexibility to get what you need done.</p>
-
 <p>This talk will go over the inspiration behind kr8,
 as well as show a practical demo and example of deploying the components
 you choose to multiple clusters with the modifications needed in a few lines of code.</p>
@@ -2419,28 +2308,19 @@ DTSTART:20190205T122000
 DTEND:20190205T125500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/ignites/":Ignites
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY>
-
 <h2 id="overengineering-your-personal-website">Overengineering your personal website</h2>
-
 <h3 id="bram-vogelaar">Bram Vogelaar</h3>
-
 <p>Lets be honest, whether consisouly or not we all do it.
 In this talk we ll discuss how stupid crazy i a managed to go, while serving only a single static html page.</p>
-
 <h2 id="monitoring-your-jenkins-pipelines-using-prometheus">Monitoring your Jenkins pipelines using Prometheus</h2>
-
 <h3 id="lander-van-den-bulcke">Lander Van den Bulcke</h3>
-
 <p>In order to optimize your continous delivery pipelines, and to make sure your delivery actually is continuous,
 it can be useful to collect some metrics about your pipelines.
 In addition to discussing which metrics are potentially useful and how they can be used to improve your workflow,
 we will look at the basics of Prometheus and how it can be used to monitor Jenkins jobs/pipelines,
 and even how it can alert the relevant people when all isn&rsquo;t hunky-dory.</p>
-
 <h2 id="forget-yaml-write-all-of-your-configuration-in-typescript">Forget YAML. Write all of your configuration in Typescript</h2>
-
 <h3 id="gareth-rushgrove">Gareth Rushgrove</h3>
-
 <p>Managing configuration by manipulating data structures by hand is popular.
 YAML currently rules all around us.
 But what if you could write and maintain configuration in a high-level programming language and
@@ -2449,25 +2329,16 @@ In this talk we&rsquo;ll quickly introduce TypeScript (Familiar syntax! Types! F
 show a few examples of making a YAML-based configuration file more exciting.
 We&rsquo;ll also discuss how that facilitates powerful sharing and reuse of configuration,
 and even creating your own higher-level abstractions.</p>
-
 <h2 id="narcissus-a-go-library-to-manage-configuration-files">Narcissus, a go library to manage configuration files</h2>
-
 <h3 id="raphaël-pinson">Raphaël PINSON</h3>
-
 <p>The Narcissus go package provides an abstraction for configuration files as structure tags.</p>
-
 <h2 id="config-management-2018-in-review">Config Management 2018 in Review</h2>
-
 <h3 id="david-schmitt">David Schmitt</h3>
-
 <p>In this ignite David will do a quick run through the major innovations in Configuration Management in 2018.
 Expect a sparkly firework of features, value added, satisfied customers and robust goodness.
 David will also tell the story of Frank, a sysadmin, and what he thinks of those features.</p>
-
 <h2 id="open-source-business-alliance-enabling-open-source-on-the-political-level">Open Source Business Alliance - Enabling open source on the political level</h2>
-
 <h3 id="felix-kronlage">Felix Kronlage</h3>
-
 <p>The Open Source Business Alliance is a non-profit organisation promoting open source within germany on a political level.
 As part of an ignite talk I want to give a brief overview of our work in order to possibly spark interest,
 so that people in the audience might carry this idea on to see whether they can / want to do such work in their country.</p>
@@ -2517,9 +2388,7 @@ DTEND:20190205T145500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/istioobserve/":Istio: Control and Observability for Microservices
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Istio is a new open platform to connect, manage, and secure micro-services jointly launched by IBM, Google, and Lyft.<br />
 This session will provide a technical overview of the Istio project and demonstrations of using Istio with microservices and Kubernetes.</p>
-
 <p>Specifically :</p>
-
 <p>Service mesh - what it is, why, and who is using it
 Making the deployment more secure (Using istio to get mutual tls authentication between services)
 Rolling out a new version to 1% of users (Using istio for traffic splitting)
@@ -2666,7 +2535,6 @@ I had all of those questions and many more.<br />
 Coming from development background the transition into a more ops role and
 a DevOps team has been a fascinating journey.<br />
 I&rsquo;d like to share the lessons I learned along the way and encourage more people to blur the traditional lines.</p>
-
 <p>What is it like to start new in infrastructure management land coming from unconventional background?
 - How do you wrap your head into infrastructure as code when all you cared before was if your code compiles?
 - How do software development techniques translate to infrastructure management?</p>
@@ -2688,7 +2556,6 @@ DTSTART:20190205T100000
 DTEND:20190205T105500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/keynote1/":100 years of infrastructure: A future history
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>RFC-1 was published 50 years ago.  Infrastructure management emerged as a discrete field two decades later, and devops a decade after that.  As we work to realize the full potential of networked computing and the decentralized organizations it enables, what will the next 50 years bring, and what can we do to hurry things along?</p>
-
 <p>In this talk, we’ll touch on some of the roots of current infrastructure management tools and the motivation and computing science theory behind them.  We&rsquo;ll attempt to reconcile some long-lasting disconnects by referring to current thinking in distributed consensus systems.  Finally, we’ll (carefully) extrapolate forward to see what the community likely will be working on between now and mid-century, and we’ll announce some new initiatives in that direction.</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/keynote1/
@@ -2708,7 +2575,6 @@ DTSTART:20190205T093000
 DTEND:20190205T095500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/intro10/":Welcome to YAMLcamp
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The opening introduction of the second day of CfgMgmtCamp or YAMLcamp.</p>
-
 <p>Long live all YAML engineers</p>
 </BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/tuesday/intro10/
