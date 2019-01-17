@@ -8,7 +8,7 @@
 <section id="talk">
 	<div id="talk">
 		<h1>{{ .Title }}</h1>
-		<h2>{{ with .Site.GetPage $speakerfile }}<a href="{{ $speakerfile | relURL }}">{{ .Title }}</a>{{ if isset .Params "twitter" }} <span style="font-size: 1em;"><a href="https://twitter.com/{{ .Param "twitter" }}"><i class="fab fa-twitter"></i> @{{ .Param "twitter" }}</a></span>{{ end }}{{ end }}</h2>
+		<h2>{{ with .Site.GetPage $speakerfile }}<a href="{{ $speakerfile | relURL }}">{{ .Title }}</a>{{ if isset .Params "twitter" }} <span style="font-size: 1em;"><a href="https://twitter.com/{{ .Param "twitter" }}"><i class="fab fa-twitter"></i> @{{ .Param "twitter" }}</a></span> {{ end }}{{ if isset .Params "github" }}<a href="https://github.com/{{ .Param "github" }}"><i class="fab fa-github"></i> {{ .Param "github" }}</a>{{ end }}{{ end }}</h2>
 		<h3>
 		{{ .Param "Room" }}
 		-

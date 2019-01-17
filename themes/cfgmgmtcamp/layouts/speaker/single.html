@@ -6,9 +6,12 @@
 	<div id="speaker">
 		<h1>
 		{{ .Title }}
+		<br>
 		{{ if isset .Params "twitter" }}
-			<br>
 			<a href="https://twitter.com/{{ .Param "twitter" }}"><i class="fab fa-twitter"></i> @{{ .Param "twitter" }}</a>
+		{{ end }}
+		{{ if isset .Params "github" }}
+			<a href="https://github.com/{{ .Param "github" }}"><i class="fab fa-github"></i> {{ .Param "github" }}</a>
 		{{ end }}
 		</h1>
 		{{ if isset .Params "image" }}
