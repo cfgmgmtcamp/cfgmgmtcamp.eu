@@ -243,7 +243,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 .cd-schedule .event-name {
-	font-size: 0.25rem;
+	font-size: 0.75rem;
 }
 @media only screen and (min-width: 800px) {
 	.cd-schedule .event-name {
