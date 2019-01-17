@@ -1,7 +1,7 @@
 ---
 title: "Ina Panova"
-image: https://avatars1.githubusercontent.com/u/4253816?s=460&v=4
-github: https://github.com/ipanova
+image: https://avatars1.githubusercontent.com/u/4253816?s=400&v=4
+github: ipanova
 date: 2019-01-03
 draft: false
 ---

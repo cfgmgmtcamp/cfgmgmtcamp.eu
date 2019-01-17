@@ -1,7 +1,8 @@
 ---
 title: "Charity Majors"
-image: https://pbs.twimg.com/profile_images/1079871193975418880/nvSh6vY__400x400.jpg
+image: https://pbs.twimg.com/profile_images/1083199847497293824/2wrdl4vB_400x400.jpg
 twitter: mipsytipsy 
+github: charity
 date: 2019-01-03
 draft: false
 ---

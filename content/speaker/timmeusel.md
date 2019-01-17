@@ -2,6 +2,7 @@
 title: "Tim Meusel"
 image: https://cfp.cfgmgmtcamp.be/uploads/db3bcc05ed8f74acfff5b5f96888f37b1edd8085f9372bc6e1.jpeg
 twitter: BastelsBlog
+github: bastelfreak
 date: 2019-01-03
 draft: false
 ---

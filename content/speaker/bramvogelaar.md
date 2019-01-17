@@ -2,6 +2,7 @@
 title: "Bram Vogelaar"
 image: https://cfp.cfgmgmtcamp.be/uploads/059f653445b3a4ce4c4f41f1371bc6f9cfc61451f14621eeba.png
 twitter: attachmentgenie
+github: attachmentgenie
 date: 2019-01-03
 draft: false
 ---

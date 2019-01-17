@@ -2,6 +2,7 @@
 title: "JJ Asghar"
 image: https://cfp.cfgmgmtcamp.be/uploads/052140502f38bc6001a52b27717cfdad2708f33d505057ae8d.jpeg
 twitter: jjasghar
+github: jjasghar
 date: 2019-01-03
 draft: false
 ---

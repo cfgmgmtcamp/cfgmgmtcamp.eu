@@ -2,6 +2,7 @@
 title: "Dirk Goetz"
 image: https://cfp.cfgmgmtcamp.be/uploads/347e7586d7478d77b8d06e217f9a756d24bf9107aadfbf809d.jpeg
 twitter: netways
+github: dgoetz
 date: 2019-01-03
 draft: false
 ---

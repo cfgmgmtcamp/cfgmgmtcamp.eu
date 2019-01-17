@@ -2,6 +2,7 @@
 title: "Philipp Krenn"
 image: https://cfp.cfgmgmtcamp.be/uploads/66455e804bbdfd8f443fd4b5ef2703bd3b24355d11120c9145.jpeg
 twitter: xeraa
+github: xeraa
 date: 2019-01-04
 draft: false
 ---

@@ -1,6 +1,8 @@
 ---
 title: "Martin Alfke"
 twitter: tuxmea
+github: tuxmea
+image: https://avatars3.githubusercontent.com/u/763214?s=400&v=4
 date: 2019-01-03
 draft: false
 ---

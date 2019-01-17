@@ -1,5 +1,7 @@
 ---
 title: "Gratien D'haese"
+imae: https://avatars2.githubusercontent.com/u/888633?s=400&v=4
+github: gdha
 date: 2019-01-03
 draft: false
 ---

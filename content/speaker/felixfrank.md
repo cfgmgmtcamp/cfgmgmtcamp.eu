@@ -2,6 +2,7 @@
 title: "Felix Frank"
 image: https://cfp.cfgmgmtcamp.be/uploads/b76755955a894531cde487504c7ff709c963aabb20836cf37d.jpeg
 twitter: felix_rex
+github: ffrank
 date: 2019-01-03
 draft: false
 ---
