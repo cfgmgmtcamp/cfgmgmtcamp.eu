@@ -3,8 +3,8 @@ title: "Support at scale in a DevOps world: how Swarming and Cynefin can save yo
 speaker: jonhall
 eventtype: talk
 room: 1.baula
-start: 12:20
-end: 12:55
+start: 11:20
+end: 12:15
 date: 2018-12-29
 draft: false
 ---
