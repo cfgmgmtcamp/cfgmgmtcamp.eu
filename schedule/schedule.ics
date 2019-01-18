@@ -1482,8 +1482,8 @@ ORGANIZER:Florian Heigl
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T112000
-DTEND:20190205T121500
+DTSTART:20190205T122000
+DTEND:20190205T125500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/hardening/":Cross-OS security hardening
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY>
 <h3 id="intro">Intro</h3>
@@ -1944,8 +1944,8 @@ ORGANIZER:Jon Hall
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
-DTSTART:20190205T122000
-DTEND:20190205T125500
+DTSTART:20190205T112000
+DTEND:20190205T121500
 DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/tuesday/devopsupport/":Support at scale in a DevOps world: how Swarming and Cynefin can save you from 3rd Line hell
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>As DevOps practices and modern software defined infrastructure become increasingly established in enterprises,
 and as the scale of delivery grows, practitioners increasingly find themselves drawn into traditional IT support structures.<br />
