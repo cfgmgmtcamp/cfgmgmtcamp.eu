@@ -8,6 +8,36 @@ X-WR-CALNAME;VALUE=TEXT:CfgMgmtCamp 2019 Ghent
 X-WR-TIMEZONE;VALUE=TEXT:Europe/Brussels
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:traefik@cfgmgmtcamp.eu
+SUMMARY:You Had One Job: Configuring the Edge Router
+ORGANIZER:Damien Duportal
+CATEGORIES:talk
+DTSTAMP:20190118T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T173000
+DTEND:20190204T175500
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/monday/traefik/":You Had One Job: Configuring the Edge Router
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>In the era of containers and other dynamic platforms, management of entry points is becoming a great challenge,
+with the large amounts of application deployments requiring entry points to update often.<br />
+And the patterns for routing, blue / green or canary, are challenging to scale.<br />
+You want secured HTTPS requests on your applications, while ensuring certificates are up to date on these ephemeral URLs,
+thus requiring a lot of plumbing.</p>
+
+<p>Learn how to overcome this complexity, and successfully build reliable entry points, focusing your energy on what matters to you.</p>
+
+<p>Our session will define what a modern edge router, reverse proxy and load-balancer are, from Traefik;s point of view.<br />
+We will then present concepts and advanced features which overcome the platform entry point challenges.<br />
+And finally, we&rsquo;ll dig deeper and show how we can scale these solutions and make them fault tolerant.<br />
+We look forward to the Q &amp; A section and chatting those who have questions around dynamic configuration,
+Ingress Controllers and with those who wish to learn how Traefik helps developers build the best infrastructure with ease.</p>
+</BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/traefik/
+LOCATION:1.baula
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:cnab@cfgmgmtcamp.eu
 SUMMARY:CNAB: packaging for distributed applications with multiple toolchains
 ORGANIZER:Gareth Rushgrove
