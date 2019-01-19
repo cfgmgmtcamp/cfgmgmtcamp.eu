@@ -8,25 +8,6 @@
 		<div class="overview-content">
 			{{ .Content }}
 		</div>
-		<div class="overview-days">
-			{{ range $.Site.Data.days }}
-				<li><a href="{{ printf "%s/%s" "schedule" .day | relURL }}">{{ .name }}</a></li>
-			{{ end }}
-		</div>
-		{{ if (fileExists "static/schedule/ical.svg") -}}
-			<div class="overview-qr">
-				This is the qrcode for the ical ics file :
-				<img src="/schedule/ical.svg">
-			</div>
-		{{ end }}
-		{{ if (fileExists "static/schedule/giggity.svg") -}}
-			<div class="overview-qr">
-				This is the qrcode for the giggity :
-				<img src="/schedule/giggity.svg">
-			</div>
-		{{ end }}
-
-
 	</div>
 </section>
 

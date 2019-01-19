@@ -8,3 +8,8 @@ draft: false
 
 ## THIS IS A DRAFT SCHEDULE ##
 
+{{< days >}}
+
+{{< icslink >}}
+
+{{< giggity >}}
