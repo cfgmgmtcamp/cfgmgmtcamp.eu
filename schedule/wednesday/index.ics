@@ -16,7 +16,8 @@ DTSTAMP:20190114T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T140000
 DTEND:20190206T170000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/sysdig/":Container Security Workshop
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/sysdig/": In this 3-hour use-case driven training session we&rsquo;ll cover the most important container security techniques : (best practices, platform features, image scanning, run-time security and forensics) with Docker, Kubernetes and other 3rd party open source tools (Anchore, Falco and Sysdig Inspect).
+Agenda:  Container security best practices (~30m) : Learn what are the security best practices building your containers: privileges, resource limits, Dockerfile options, rebuild process, etc. Kubernetes platform security features (~45min) : Host security configuration, Kubernetes RBAC, Kubernetes Security Policy, Kubernetes Network Policy and other Admission Controllers, etc. Break (15min) Image scanning (~30m) : How image static scanning works in Docker, available tools like Quay and Anchore, where can you perform image scanning in your process.. Runtime security and forensics (~45h) : Why runtime security is important? How tools like seccomp, SELinux, AppArmor or Falco compare. Writing Falco rules. Forensics on containers. Break (15min) Deploying all the open source tools for a real example (1h) : Bringing together all the tools and setup a container security lab with Falco response engine, NATS and Kubeless to respond to security incidents with Kubernetes features like a Network Policy or capturing all the activity for forensics analysis.  
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY>
 
 <p>In this 3-hour use-case driven training session we&rsquo;ll cover the most important container security techniques :
@@ -50,7 +51,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
 DTEND:20190206T100000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast0/":Breakfast
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast0/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast0/
 LOCATION:4.cloud
@@ -67,7 +68,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
 DTEND:20190206T100000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast1/":Breakfast
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast1/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast1/
 LOCATION:4.container
@@ -84,7 +85,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
 DTEND:20190206T100000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast2/":Breakfast
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast2/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast2/
 LOCATION:4.kubernetes
@@ -101,7 +102,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
 DTEND:20190206T100000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast3/":Breakfast
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast3/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast3/
 LOCATION:5.foremanhackroom
@@ -118,7 +119,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
 DTEND:20190206T100000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast4/":Breakfast
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast4/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast4/
 LOCATION:5.mgmthackroom
@@ -135,7 +136,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
 DTEND:20190206T100000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast5/":Breakfast
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast5/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast5/
 LOCATION:5.pulphackroom
@@ -152,7 +153,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
 DTEND:20190206T100000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast6/":Breakfast
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast6/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast6/
 LOCATION:5.puppethackroom
@@ -169,7 +170,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T090000
 DTEND:20190206T100000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast7/":Breakfast
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/breakfast7/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/breakfast7/
 LOCATION:5.terrahackroom
@@ -186,7 +187,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
 DTEND:20190206T140000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch0/":Lunch
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch0/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch0/
 LOCATION:4.cloud
@@ -203,7 +204,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
 DTEND:20190206T140000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch1/":Lunch
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch1/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch1/
 LOCATION:4.container
@@ -220,7 +221,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
 DTEND:20190206T140000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch2/":Lunch
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch2/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch2/
 LOCATION:4.kubernetes
@@ -237,7 +238,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
 DTEND:20190206T140000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch3/":Lunch
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch3/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch3/
 LOCATION:5.foremanhackroom
@@ -254,7 +255,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
 DTEND:20190206T140000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch4/":Lunch
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch4/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch4/
 LOCATION:5.mgmthackroom
@@ -271,7 +272,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
 DTEND:20190206T140000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch5/":Lunch
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch5/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch5/
 LOCATION:5.pulphackroom
@@ -288,7 +289,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
 DTEND:20190206T140000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch6/":Lunch
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch6/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch6/
 LOCATION:5.puppethackroom
@@ -305,7 +306,7 @@ DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T130000
 DTEND:20190206T140000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch7/":Lunch
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/lunch7/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/lunch7/
 LOCATION:5.terrahackroom
@@ -322,7 +323,15 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T140000
 DTEND:20190206T170000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/appkube/":Developing Applications with Kubernetes
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/appkube/":Microservices revolutionized the way we look at app development and is now one of the most popular programming architectures.
+Now, Docker alongside Kubernetes is changing the way teams look at deployments of these microservices.
+Kubernetes provides powerful production-grade orchestration for your &ldquo;Dockerized&rdquo; microservices.
+In this workshop, you&rsquo;ll get an overview of Kubernetes, and what it provides for application development.
+You&rsquo;ll then go through the process of building and deploying a microservice application on Kubernetes.
+This is a hands-on-keyboard lab, everyone should come with a laptop and a desire to learn.
+Attendees can use minikube locally, or cloud accounts will be provided.
+We&rsquo;ll cover:
+ Kubernetes basics Building Container Images Deploying the application with Kubernetes Upgrading and scaling the application with Kubernetes Debugging your application in Kubernetes  
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Microservices revolutionized the way we look at app development and is now one of the most popular programming architectures.<br />
 Now, Docker alongside Kubernetes is changing the way teams look at deployments of these microservices.<br />
 Kubernetes provides powerful production-grade orchestration for your &ldquo;Dockerized&rdquo; microservices.<br />
@@ -356,7 +365,11 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T140000
 DTEND:20190206T170000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/objectstack/":Everyday OpenStack with Object Oriented Operations
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/objectstack/":In this extended tutorial, led by Mark Shuttleworth and James Troup, you&rsquo;ll see how Canonical manages to operate tens of OpenStack clouds at reasonable scale with a small but focused team.
+Operating OpenStack is widely considered to be difficult. Many early implementations have ground to a halt as people struggle with combinatorial complexity and the pace of change. Object-oriented operations enable reuse of ops code in diverse settings and configurations.
+The aim of the tutorial is to walk you through several major but nevertheless absolutely standard OpenStack operational challenges. High availability deployment, scaling, ceph troubleshooting and disk replacement, and ultimately a full upgrade of a running openstack. These mechanisms are used to provide carrier grade infrastructure with regular upgrades and expansions, never allowing more than one second of network downtime.
+It is an advanced talk, but people who have some familiarity with the various Openstack components will be able to follow along.
+
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>In this extended tutorial, led by Mark Shuttleworth and James Troup,
 you&rsquo;ll see how Canonical manages to operate tens of OpenStack clouds at reasonable scale with a small but focused team.</p>
 
@@ -386,7 +399,7 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T140000
 DTEND:20190206T170000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/foreman1/":Foreman Construction Day After-Noon
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/foreman1/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/foreman1/
 LOCATION:5.foremanhackroom
@@ -403,7 +416,12 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T100000
 DTEND:20190206T130000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/objectkube/":Multi-cloud and on-prem Kubernetes with Object Oriented Operations
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/objectkube/":A deep dive into K8s operations, scaling, upgrades and integration across public clouds, VMware, OpenStack and bare metal, by Mark Shuttleworth and Calvin Hartwell.
+Calvin leads field engineering and delivery in EMEA for Canonical, helping companies deploy and operate OpenStack and Kubernetes efficiently at scale. Mark leads Ubuntu.
+Kubernetes is central to future automation and operations at the application layer across multiple cloud environments. It is an open community that is expanding very rapidly to embrace new capabilities and integrate with new services. That makes it challenging to operate efficiently, because the pace of change, the scale, and the complexity of user requirements all combine to make it difficult to keep up especially when one is trying to do it in a multi-cloud world taking advantage of the unique features in each public cloud.
+Calvin and Mark will work through the details of deploying Kubernetes, integrating it with various company systems, integrating it with cloud-specific LBAAS and identity, scaling it, and upgrading it.
+By the end of the tutorial you should be confident to deploy K8s in multiple different on-prem or cloud environments, taking advantage of sophisticated features, and offering your own CAAS to customers and users with high availability and a guarantee of free upgrades as and when they want them.
+
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>A deep dive into K8s operations, scaling, upgrades and integration across public clouds, VMware, OpenStack and bare metal,
 by Mark Shuttleworth and Calvin Hartwell.</p>
 
@@ -439,7 +457,9 @@ DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T100000
 DTEND:20190206T130000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/rudder/":Rudder on Docker hackathon
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/rudder/":Know about Docker, Rudder, or even better both?
+Let&rsquo;s get our heads down together and work on making it easy to just &ldquo;docker run&rdquo; a Rudder server.
+
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Know about Docker, Rudder, or even better both?<br />
 Let&rsquo;s get our heads down together and work on making it easy to just &ldquo;docker run&rdquo; a Rudder server.</p>
 </BODY></HTML>";
@@ -458,7 +478,7 @@ DTSTAMP:00010101T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T100000
 DTEND:20190206T130000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/puppet0/":#puppethack
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/puppet0/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/puppet0/
 LOCATION:5.puppethackroom
@@ -475,7 +495,7 @@ DTSTAMP:00010101T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T140000
 DTEND:20190206T170000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/puppet1/":#puppethack
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/puppet1/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/puppet1/
 LOCATION:5.puppethackroom
@@ -492,7 +512,7 @@ DTSTAMP:00010101T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T100000
 DTEND:20190206T130000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/foreman0/":Foreman Construction Day Pre-Noon
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/foreman0/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/foreman0/
 LOCATION:5.foremanhackroom
@@ -509,7 +529,7 @@ DTSTAMP:00010101T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T140000
 DTEND:20190206T170000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/mgmtcamp1/":MgmtCamp After-Noon Hackathon
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/mgmtcamp1/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/mgmtcamp1/
 LOCATION:5.mgmthackroom
@@ -526,7 +546,7 @@ DTSTAMP:00010101T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T100000
 DTEND:20190206T130000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/mgmtcamp0/":MgmtCamp Pre-Noon Hackathon
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/mgmtcamp0/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/mgmtcamp0/
 LOCATION:5.mgmthackroom
@@ -543,7 +563,7 @@ DTSTAMP:00010101T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T100000
 DTEND:20190206T130000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/pulp0/":Pulp Plugin
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/pulp0/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/pulp0/
 LOCATION:5.pulphackroom
@@ -560,7 +580,7 @@ DTSTAMP:00010101T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T140000
 DTEND:20190206T170000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/pulp1/":Pulp Plugin
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/pulp1/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/pulp1/
 LOCATION:5.pulphackroom
@@ -577,7 +597,7 @@ DTSTAMP:00010101T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T140000
 DTEND:20190206T170000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/terraform1/":Terraform Hackathon
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/terraform1/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/terraform1/
 LOCATION:5.terrahackroom
@@ -594,7 +614,7 @@ DTSTAMP:00010101T000000Z
 TZID:Europe-Brussels
 DTSTART:20190206T100000
 DTEND:20190206T130000
-DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/terraform0/":Terraform Hackaton
+DESCRIPTION;ALTREP="https://cfgmgmtcamp.eu/schedule/wednesday/terraform0/":
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/wednesday/terraform0/
 LOCATION:5.terrahackroom
