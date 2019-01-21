@@ -46,8 +46,8 @@ DTEND:{{ $date }}T{{ $endtime }}00
 {{ end -}}
 {{ end -}}
 {{ end -}}
-DESCRIPTION:"{{ (htmlUnescape .Content) | plainify | chomp }}"
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY>{{ .Content }}</BODY></HTML>";
+DESCRIPTION:"{{ (htmlUnescape (replace .RawContent "\n" "")) | plainify | chomp }}"
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY>{{ (replace .Content "\n" "") | chomp }}</BODY></HTML>";
 URL:{{ .Permalink }}
 LOCATION:{{ .Params.Room }}
 CLASS:PUBLIC
