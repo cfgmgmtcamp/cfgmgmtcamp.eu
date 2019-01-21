@@ -1,8 +1,10 @@
 <footer>
 	<div>
-		CfgMgmtCamp is a free open source event.<br>
-		CfgMgmtCamp logo is property of the CfgMgmtCamp group.<br>
+		CfgMgmtCamp is a free open source event. CfgMgmtCamp logo is property of the CfgMgmtCamp group.<br>
 		Copyleft 2014 - {{ now.Year }}, CfgMgmtCamp.<br>
+		{{ if .GitInfo }}
+			Git {{ .GitInfo.AbbreviatedHash }}<br>
+		{{ end }}
 	</div>
 </footer>
 
