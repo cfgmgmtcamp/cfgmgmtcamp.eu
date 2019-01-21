@@ -1,16 +1,18 @@
 ---
-title: "The Foreman Release Process and Roadmap"
+title: "The Foreman Community Update"
 speaker: tomerbrisker
 eventtype: talk
 room: 3.foreman
 start: 14:00
-end: 14:55
+end: 14:25
 date: 2018-12-29
 draft: false
 ---
 
-The first part of the talk will be a short description of the release process of Foreman,
-as well as some changes that have been made to it over the past year to ensure higher quality releases.  
-The second part will be an open discussion of the roadmap for the upcoming releases.  
-This is your chance to influence the future direction of the Foreman project - come and say your opinions!  
+The first half of the talk with be the yearly Community Update given by Greg,
+summarizing the work done in the past year, notable highlights, and potential
+issues.
 
+The second part will be a look to the year ahead with Tomer, as well as a more
+detailed look at the changes so far in the release process, and what that means
+for our builds in terms of frequency and stability.
