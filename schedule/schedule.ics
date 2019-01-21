@@ -297,6 +297,23 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:foremanclients@cfgmgmtcamp.eu
+SUMMARY:Clients\, TheForeman\, and you. Reusing your server lifecycle management for client machines
+ORGANIZER:Alexander Olofsson
+CATEGORIES:talk
+DTSTAMP:20181229T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T143000
+DTEND:20190204T145500
+DESCRIPTION:"Clients and servers nowadays can be treated much more alike than many peoplemight think, so in this talk I'll be going over how to extend your servermanagement tooling to also handle clients - though perhaps not quite as well asthe servers it's designed for."
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Clients and servers nowadays can be treated much more alike than many peoplemight think, so in this talk I&rsquo;ll be going over how to extend your servermanagement tooling to also handle clients - though perhaps not quite as well asthe servers it&rsquo;s designed for.</p></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/foremanclients/
+LOCATION:3.foreman
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:drilling@cfgmgmtcamp.eu
 SUMMARY:Drilling down a software bug: lessons about observability\, monitoring\, automation and good practices
 ORGANIZER:Katerina Koutsonikoli
@@ -383,15 +400,15 @@ END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
 UID:foremanrel@cfgmgmtcamp.eu
-SUMMARY:The Foreman Release Process and Roadmap
-ORGANIZER:Tomer Brisker
+SUMMARY:The Foreman Community Update
+ORGANIZER:Tomer Brisker & Greg Sutcliffe
 CATEGORIES:talk
 DTSTAMP:20181229T000000Z
 TZID:Europe-Brussels
 DTSTART:20190204T140000
-DTEND:20190204T145500
-DESCRIPTION:"The first part of the talk will be a short description of the release process of Foreman,as well as some changes that have been made to it over the past year to ensure higher quality releases.  The second part will be an open discussion of the roadmap for the upcoming releases.  This is your chance to influence the future direction of the Foreman project - come and say your opinions!  "
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The first part of the talk will be a short description of the release process of Foreman,as well as some changes that have been made to it over the past year to ensure higher quality releases.<br />The second part will be an open discussion of the roadmap for the upcoming releases.<br />This is your chance to influence the future direction of the Foreman project - come and say your opinions!</p></BODY></HTML>";
+DTEND:20190204T142500
+DESCRIPTION:"The first half of the talk with be the yearly Community Update given by Greg,summarizing the work done in the past year, notable highlights, and potentialissues.The second part will be a look to the year ahead with Tomer, as well as a moredetailed look at the changes so far in the release process, and what that meansfor our builds in terms of frequency and stability."
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The first half of the talk with be the yearly Community Update given by Greg,summarizing the work done in the past year, notable highlights, and potentialissues.</p><p>The second part will be a look to the year ahead with Tomer, as well as a moredetailed look at the changes so far in the release process, and what that meansfor our builds in terms of frequency and stability.</p></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/foremanrel/
 LOCATION:3.foreman
 CLASS:PUBLIC
