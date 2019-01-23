@@ -3,8 +3,8 @@ title: "Building a self healing system with SaltStack"
 speaker: garethgreenaway
 eventtype: talk
 room: 3.salt
-start: 14:00
-end: 14:55
+start: 12:20
+end: 12:55
 date: 2018-12-31
 draft: false
 ---
