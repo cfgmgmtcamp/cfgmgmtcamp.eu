@@ -1,6 +1,6 @@
 ---
 title: "Centralized Logging Patterns"
-speaker: philippkrenn
+speaker: emanuiltolev
 eventtype: talk
 room: 1.devobs
 start: 15:00
