@@ -146,7 +146,7 @@ BEGIN:VEVENT
 METHOD:PUBLISH
 UID:centrallog@cfgmgmtcamp.eu
 SUMMARY:Centralized Logging Patterns
-ORGANIZER:Philipp Krenn
+ORGANIZER:Emanuil Tolev
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
