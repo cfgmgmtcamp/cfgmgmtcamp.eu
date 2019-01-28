@@ -711,8 +711,8 @@ ORGANIZER:Mark Shuttleworth
 CATEGORIES:keynote
 DTSTAMP:20181227T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T120000
-DTEND:20190204T124000
+DTSTART:20190204T112000
+DTEND:20190204T120000
 DESCRIPTION:"Infrastructure as code is a proven pattern,and so is open source. Wouldn't it make sense to bring a community driven approach to operational code itself?  This talk is about bringing those ideas together,to create effective open source communities for operational code on Kubernetes and on traditional machine or cloud environments.  Collaborating on complex infrastructure, and using open source to share the benefits of that collaboration,will enable us all to spend more time focused on the things which are truly different about our challenges and less on the problems we all share.  "
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Infrastructure as code is a proven pattern,and so is open source. Wouldn&rsquo;t it make sense to bring a community driven approach to operational code itself?</p><p>This talk is about bringing those ideas together,to create effective open source communities for operational code on Kubernetes and on traditional machine or cloud environments.<br />Collaborating on complex infrastructure, and using open source to share the benefits of that collaboration,will enable us all to spend more time focused on the things which are truly different about our challenges and less on the problems we all share.</p></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/objectinfra/
@@ -932,8 +932,8 @@ ORGANIZER:Eric Sorenson
 CATEGORIES:keynote
 DTSTAMP:20181226T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T112000
-DTEND:20190204T120000
+DTSTART:20190204T120000
+DTEND:20190204T124000
 DESCRIPTION:"To borrow a phrase, "In the beginning was the command line." Then we had ISConf and CFEngine, and things were good... for a while.  Puppet and Chef came along, embodying the idea that infrastructure code should behave like application code.  More recently, Ansible brought the concept of idempotent resources to imperative workflows, but stops short of modelling in favor of radical simplicity.  Now we're wondering: is it possible to get the best of both worlds?  Can we get model-based guarantees plus orchestrated action?  I think the answer is "yes" and in this talk I will explore an emerging "fourth generation" of config management tools that attempt to bring the beneficial properties of models together with orchestrated action. In full disclosure, I'll talk about Puppet's Bolt and Lyra projects, but the talk will not be vendor-specific as tools like Terraform and OpsMop also exemplify this approach."
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>To borrow a phrase, &ldquo;In the beginning was the command line.&rdquo; Then we had ISConf and CFEngine, and things were good&hellip; for a while.</p><p>Puppet and Chef came along, embodying the idea that infrastructure code should behave like application code.  Morerecently, Ansible brought the concept of idempotent resources to imperative workflows, but stops short of modelling infavor of radical simplicity.</p><p>Now we&rsquo;re wondering: is it possible to get the best of both worlds?<br />Can we get model-based guarantees plus orchestrated action?</p><p>I think the answer is &ldquo;yes&rdquo; and in this talk I will explore an emerging &ldquo;fourth generation&rdquo; of config management toolsthat attempt to bring the beneficial properties of models together with orchestrated action. In full disclosure, I&rsquo;lltalk about Puppet&rsquo;s Bolt and Lyra projects, but the talk will not be vendor-specific as tools like Terraform and OpsMopalso exemplify this approach.</p></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/4thgenauto/
