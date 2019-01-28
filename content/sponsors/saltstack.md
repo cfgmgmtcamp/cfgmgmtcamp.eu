@@ -1,10 +1,10 @@
 ---
 title: "SlatStack"
-date: 2018-12-03
-draft: true
-level: platinum
-image: slatstack.png
+level: gold
+image: saltstack.png
 link: https://www.saltstack.com/
+date: 2019-01-28
+draft: false
 ---
 
 
