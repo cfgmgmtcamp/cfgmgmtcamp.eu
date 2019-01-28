@@ -9,7 +9,7 @@ end: 14:55
 draft: false
 ---
 
-What is it like to start new in infrastructure management land coming from development/qa/release  background?
+What is it like to start new in infrastructure management land coming from development/qa/release background?
 - How do you wrap your head into infrastructure as code when all you cared before was if your code compiles?
 - How do software development techniques translate to infrastructure management?
 
