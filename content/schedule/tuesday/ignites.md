@@ -48,11 +48,5 @@ In this ignite David will do a quick run through the major innovations in Config
 Expect a sparkly firework of features, value added, satisfied customers and robust goodness.
 David will also tell the story of Frank, a sysadmin, and what he thinks of those features.
 
-## Open Source Business Alliance - Enabling open source on the political level ##
-### Felix Kronlage ##
-
-The Open Source Business Alliance is a non-profit organisation promoting open source within germany on a political level.
-As part of an ignite talk I want to give a brief overview of our work in order to possibly spark interest,
-so that people in the audience might carry this idea on to see whether they can / want to do such work in their country.
 
 
