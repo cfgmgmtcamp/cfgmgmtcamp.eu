@@ -1,10 +1,10 @@
 ---
 title: "Skyscrapers"
-date: 2018-12-03
-draft: true
-level: core
+level: silver
 image: skyscrapers.png
 link: https://skyscrapers.eu/
+date: 2019-01-30
+draft: false
 ---
 
 
