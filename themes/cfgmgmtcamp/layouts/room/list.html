@@ -6,8 +6,14 @@
 	<div id="rooms">
 	<h1>Rooms</h1>
 	<ul>
-	{{ range .Pages }}
-		<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+	{{ range sort (.Pages.GroupByParam "code") }}
+		<li>{{ .Key }} {{ range .Pages }}{{ if .Params.capacity }}({{ .Params.capacity }}){{ end }}{{ end }}
+		<ul>
+		{{ range .Pages.ByWeight }}
+			<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+		{{ end }}
+		</ul>
+		</li>
 	{{ end }}
 	</ul>
 	</div>

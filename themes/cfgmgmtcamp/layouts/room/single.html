@@ -5,13 +5,16 @@
 
 <div class="scheduling">
 
-<h1>{{ .Title }}</h1>
+<h1>{{ .Title }} - {{ .Params.Code }} - {{ .Params.Capacity }}</h1>
+<h2>Building {{ .Params.Building }} - {{ .Params.Location }}</h2>
 
 <div class="cd-schedule-single loading">
 	<div class="timeline">
 		<ul>
 		{{ range (index $.Site.Data.timeslots (index (split ($.Page.Permalink | relURL) "/") 2)) }}
-			<li><span>{{ .slot }}</span></li>
+			{{ if .slot }}
+				<li><span>{{ .slot }}</span></li>
+			{{ end }}
 		{{ end }}
 		</ul>
 	</div>
