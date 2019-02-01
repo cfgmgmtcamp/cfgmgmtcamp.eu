@@ -1,10 +1,10 @@
 ---
 title: "IBM Cloud"
-date: 2018-12-03
-draft: true
 level: titanium
-image: ibmcloud.png
+image: ibm.jpg
 link: https://www.ibm.com/cloud/
+date: 2018-02-01
+draft: false
 ---
 
 
