@@ -6,7 +6,7 @@ room: 3.puppet
 start: 14:00
 end: 14:55
 date: 2018-12-28
-draft: false
+draft: true
 ---
 
 Throwing hardware on your Puppetserver to scale it vertically works up to a certain level.  

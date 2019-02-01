@@ -3,8 +3,8 @@ title: "A general update on the Choria and Marionette Collective projects"
 speaker: ripienaar
 eventtype: talk
 room: 3.puppet
-start: 16:30
-end: 17:25
+start: 15:00
+end: 15:55
 date: 2018-12-31
 draft: false
 ---
