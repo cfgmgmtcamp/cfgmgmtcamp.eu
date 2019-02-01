@@ -1,10 +1,10 @@
 ---
 title: "Canonical"
-date: 2018-12-03
-draft: true
-level: platinum
+level: titanium
 image: canonical.png
 link: https://www.canonical.com/
+date: 2019-02-01
+draft: false
 ---
 
 
