@@ -49,7 +49,9 @@ DTEND:{{ $date }}T{{ $endtime }}00
 DESCRIPTION:"{{ (htmlUnescape (replace .RawContent "\n" "")) | plainify | chomp }}"
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY>{{ (replace .Content "\n" "") | chomp }}</BODY></HTML>";
 URL:{{ .Permalink }}
-LOCATION:{{ .Params.Room }}
+{{ $room := .Param "room" -}}
+{{ $roomfile := printf "%s/%s" "room" $room -}}
+LOCATION:{{ with .Site.GetPage $roomfile }}{{ .Param "code" }}{{ end }}
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
