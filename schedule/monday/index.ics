@@ -110,6 +110,23 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
+UID:puppetcertificates@cfgmgmtcamp.eu
+SUMMARY:Automating Puppet Certificates Renewal
+ORGANIZER:Raphaël Pinson
+CATEGORIES:talk
+DTSTAMP:20181231T000000Z
+TZID:Europe-Brussels
+DTSTART:20190204T173000
+DTEND:20190204T181500
+DESCRIPTION:"Everyone who has been using Puppet with a self-signed CA for over 5 years knows that dreaded time: the time when the CA and client certificates must be renewed.This talk will present the ways to ease CA renewal, and present a new approach to renew Puppet client certificates in a secure and automated way."
+X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Everyone who has been using Puppet with a self-signed CA for over 5 years knows that dreaded time: the time when the CAand client certificates must be renewed.</p><p>This talk will present the ways to ease CA renewal, and present a new approach to renew Puppet client certificates in asecure and automated way.</p></BODY></HTML>";
+URL:https://cfgmgmtcamp.eu/schedule/monday/puppetcertificates/
+LOCATION:B.1.015
+CLASS:PUBLIC
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+METHOD:PUBLISH
 UID:breakfast00@cfgmgmtcamp.eu
 SUMMARY:Breakfast
 ORGANIZER:
