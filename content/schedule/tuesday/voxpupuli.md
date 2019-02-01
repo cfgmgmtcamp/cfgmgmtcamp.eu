@@ -1,6 +1,6 @@
 ---
 title: "Vox Pupuli  - The Community behind Puppet"
-speaker: timmeusel
+speaker: alexanderfisher
 eventtype: talk
 room: 3.puppet
 start: 15:30
