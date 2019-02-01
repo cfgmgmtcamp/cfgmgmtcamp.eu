@@ -99,8 +99,8 @@ ORGANIZER:R.I. Pienaar
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T150000
-DTEND:20190204T155500
+DTSTART:20190204T163000
+DTEND:20190204T172500
 DESCRIPTION:"Choria is a 2 year old project that started life as an easy route to using MCollective for open source Puppet users.  It has evolved to encompass a number of technologies related to large scale systems managementand have been deployed on globe spanning sites with 100s of thousands of nodes and thousands of daily active users.  This talk will give an update on the projects status, progress, and will explore some of the new technologies created in this project.  With the arrival of Puppet 6 in fall 2018 Puppet Inc has officially deprecated The Marionette Collective andhave donated the legacy MCollective code bases to the Choria project.  We will explore what options Puppet 6 users have for benefiting from their past investments in the MCollective platform andlook at work done that will be of particular interest to Puppet users such as orchestrating nodes using the Puppet DSL using Choria Playbooks.  "
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Choria is a 2 year old project that started life as an easy route to using MCollective for open source Puppet users.<br />It has evolved to encompass a number of technologies related to large scale systems managementand have been deployed on globe spanning sites with 100s of thousands of nodes and thousands of daily active users.</p><p>This talk will give an update on the projects status, progress, and will explore some of the new technologies created in this project.</p><p>With the arrival of Puppet 6 in fall 2018 Puppet Inc has officially deprecated The Marionette Collective andhave donated the legacy MCollective code bases to the Choria project.<br />We will explore what options Puppet 6 users have for benefiting from their past investments in the MCollective platform andlook at work done that will be of particular interest to Puppet users such as orchestrating nodes using the Puppet DSL using Choria Playbooks.</p></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/choriamarionette/
@@ -116,8 +116,8 @@ ORGANIZER:Raphaël Pinson
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T173000
-DTEND:20190204T181500
+DTSTART:20190204T150000
+DTEND:20190204T155500
 DESCRIPTION:"Everyone who has been using Puppet with a self-signed CA for over 5 years knows that dreaded time: the time when the CA and client certificates must be renewed.This talk will present the ways to ease CA renewal, and present a new approach to renew Puppet client certificates in a secure and automated way."
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Everyone who has been using Puppet with a self-signed CA for over 5 years knows that dreaded time: the time when the CAand client certificates must be renewed.</p><p>This talk will present the ways to ease CA renewal, and present a new approach to renew Puppet client certificates in asecure and automated way.</p></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/puppetcertificates/
@@ -235,8 +235,8 @@ ORGANIZER:Carles Garcia Cabot
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T163000
-DTEND:20190204T165500
+DTSTART:20190204T173000
+DTEND:20190204T175500
 DESCRIPTION:"The CERN IT infrastructure consists of more than 40000 Puppet-managed virtual andphysical machines located in two data centers.  Many Puppet catalogs contain configuration that depends on sensitive datawhich has to be centrally managed but accessible only by the relevant machines.  In order to distribute the secrets to hosts via Puppet,we developed a system that provides Puppet resources that fetch secrets at catalog application time and a CLI for managing them.  This presentation will explain how this system works and how it is integrated with our configuration management stack,its limitations and future developments.  "
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The CERN IT infrastructure consists of more than 40000 Puppet-managed virtual andphysical machines located in two data centers.<br />Many Puppet catalogs contain configuration that depends on sensitive datawhich has to be centrally managed but accessible only by the relevant machines.<br />In order to distribute the secrets to hosts via Puppet,we developed a system that provides Puppet resources that fetch secrets at catalog application time and a CLI for managing them.</p><p>This presentation will explain how this system works and how it is integrated with our configuration management stack,its limitations and future developments.</p></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/puppetcern/
