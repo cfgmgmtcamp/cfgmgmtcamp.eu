@@ -1,9 +1,9 @@
 - name:  Titanium
   identifier: titanium
-  size: 600x600
+  size: 900x900
 - name: Platinum
   identifier: platinum
-  size: 400x400
+  size: 600x600
 - name: Gold
   identifier: gold
   size: 300x300
