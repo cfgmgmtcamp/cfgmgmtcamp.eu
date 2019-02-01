@@ -350,7 +350,7 @@ BEGIN:VEVENT
 METHOD:PUBLISH
 UID:voxpupuli@cfgmgmtcamp.eu
 SUMMARY:Vox Pupuli  - The Community behind Puppet
-ORGANIZER:Tim Meusel
+ORGANIZER:Alexander Fisher
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels

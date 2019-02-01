@@ -99,8 +99,8 @@ ORGANIZER:R.I. Pienaar
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T163000
-DTEND:20190204T172500
+DTSTART:20190204T150000
+DTEND:20190204T155500
 DESCRIPTION:"Choria is a 2 year old project that started life as an easy route to using MCollective for open source Puppet users.  It has evolved to encompass a number of technologies related to large scale systems managementand have been deployed on globe spanning sites with 100s of thousands of nodes and thousands of daily active users.  This talk will give an update on the projects status, progress, and will explore some of the new technologies created in this project.  With the arrival of Puppet 6 in fall 2018 Puppet Inc has officially deprecated The Marionette Collective andhave donated the legacy MCollective code bases to the Choria project.  We will explore what options Puppet 6 users have for benefiting from their past investments in the MCollective platform andlook at work done that will be of particular interest to Puppet users such as orchestrating nodes using the Puppet DSL using Choria Playbooks.  "
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Choria is a 2 year old project that started life as an easy route to using MCollective for open source Puppet users.<br />It has evolved to encompass a number of technologies related to large scale systems managementand have been deployed on globe spanning sites with 100s of thousands of nodes and thousands of daily active users.</p><p>This talk will give an update on the projects status, progress, and will explore some of the new technologies created in this project.</p><p>With the arrival of Puppet 6 in fall 2018 Puppet Inc has officially deprecated The Marionette Collective andhave donated the legacy MCollective code bases to the Choria project.<br />We will explore what options Puppet 6 users have for benefiting from their past investments in the MCollective platform andlook at work done that will be of particular interest to Puppet users such as orchestrating nodes using the Puppet DSL using Choria Playbooks.</p></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/choriamarionette/
@@ -201,8 +201,8 @@ ORGANIZER:Jorie Tappa
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T150000
-DTEND:20190204T155500
+DTSTART:20190204T140000
+DTEND:20190204T145500
 DESCRIPTION:"In Puppet 6, we removed several core types and providers into modules, and published most of those onto the Puppet Forge.  This talk covers the history and motivation behind removing them, hurdles we faced, module authorship with PDK, setting up CI pipelines,and the behind the scenes view of how the extracted modules are repackaged back into Puppet agent.  "
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>In Puppet 6, we removed several core types and providers into modules, and published most of those onto the Puppet Forge.<br />This talk covers the history and motivation behind removing them, hurdles we faced, module authorship with PDK, setting up CI pipelines,and the behind the scenes view of how the extracted modules are repackaged back into Puppet agent.</p></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/puppettype/
@@ -218,8 +218,8 @@ ORGANIZER:Carles Garcia Cabot
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
-DTSTART:20190204T173000
-DTEND:20190204T175500
+DTSTART:20190204T163000
+DTEND:20190204T165500
 DESCRIPTION:"The CERN IT infrastructure consists of more than 40000 Puppet-managed virtual andphysical machines located in two data centers.  Many Puppet catalogs contain configuration that depends on sensitive datawhich has to be centrally managed but accessible only by the relevant machines.  In order to distribute the secrets to hosts via Puppet,we developed a system that provides Puppet resources that fetch secrets at catalog application time and a CLI for managing them.  This presentation will explain how this system works and how it is integrated with our configuration management stack,its limitations and future developments.  "
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>The CERN IT infrastructure consists of more than 40000 Puppet-managed virtual andphysical machines located in two data centers.<br />Many Puppet catalogs contain configuration that depends on sensitive datawhich has to be centrally managed but accessible only by the relevant machines.<br />In order to distribute the secrets to hosts via Puppet,we developed a system that provides Puppet resources that fetch secrets at catalog application time and a CLI for managing them.</p><p>This presentation will explain how this system works and how it is integrated with our configuration management stack,its limitations and future developments.</p></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/puppetcern/
@@ -513,23 +513,6 @@ DESCRIPTION:"Real-time, autonomous, automation.  Mgmt is a real-time automation 
 X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Real-time, autonomous, automation.</p><p>Mgmt is a real-time automation tool that is fast and safe.<br />As we get closer to a 0.1 release that we&rsquo;ll recommend as &ldquo;production ready&rdquo;,we&rsquo;ll look at the last remaining features that we&rsquo;re aiming to land by then.<br />We&rsquo;ll explain and demo the import and module system, classes, and native functions.</p><p>It uses a real-time, reactive programming language to model the desired state over time,and a powerful event-driven engine to apply this state.<br />We&rsquo;ll also show some exciting real-time demos that include scheduling, finite state machines, and remote execution.<br />Finally we&rsquo;ll talk about some of the future designs we&rsquo;re planning andmake it easy for new users to get involved and help shape the project.</p></BODY></HTML>";
 URL:https://cfgmgmtcamp.eu/schedule/monday/mgmtroad/
 LOCATION:3.mgmt
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
-UID:scalingpuppet@cfgmgmtcamp.eu
-SUMMARY:Scaling and monitoring your puppetserver for thousands of clients - including all pitfalls!
-ORGANIZER:Tim Meusel
-CATEGORIES:talk
-DTSTAMP:20181228T000000Z
-TZID:Europe-Brussels
-DTSTART:20190204T140000
-DTEND:20190204T145500
-DESCRIPTION:"Throwing hardware on your Puppetserver to scale it vertically works up to a certain level.  But how do you proceed once you reach the limit?  How do you distribute your agents over several Puppetservers evenly, but without hardcoded assignments?  How do you handle the massively increased load on your Foreman and PuppetDB intances,after the Puppetserver isn't the bottleneck anymore?  And how the heck can this all be monitored?  I would like to show you a walkthrough from a small environment with a single physical server for Puppetserver/Foreman/PostgreSQLand a handful of agents that got scaled up to several thousand agents.  This also includes probably all common pitfalls that you can find yourself in on this journey!  "
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><p>Throwing hardware on your Puppetserver to scale it vertically works up to a certain level.<br />But how do you proceed once you reach the limit?<br />How do you distribute your agents over several Puppetservers evenly, but without hardcoded assignments?<br />How do you handle the massively increased load on your Foreman and PuppetDB intances,after the Puppetserver isn&rsquo;t the bottleneck anymore?<br />And how the heck can this all be monitored?</p><p>I would like to show you a walkthrough from a small environment with a single physical server for Puppetserver/Foreman/PostgreSQLand a handful of agents that got scaled up to several thousand agents.<br />This also includes probably all common pitfalls that you can find yourself in on this journey!</p></BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/monday/scalingpuppet/
-LOCATION:3.puppet
 CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
@@ -1319,7 +1302,7 @@ BEGIN:VEVENT
 METHOD:PUBLISH
 UID:voxpupuli@cfgmgmtcamp.eu
 SUMMARY:Vox Pupuli  - The Community behind Puppet
-ORGANIZER:Tim Meusel
+ORGANIZER:Alexander Fisher
 CATEGORIES:talk
 DTSTAMP:20181231T000000Z
 TZID:Europe-Brussels
