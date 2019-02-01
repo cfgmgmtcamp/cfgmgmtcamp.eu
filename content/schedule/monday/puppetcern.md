@@ -3,8 +3,8 @@ title: "Secrets management with Puppet at CERN"
 speaker: carlesgarciacabot
 eventtype: talk
 room: 3.puppet
-start: 16:30
-end: 16:55
+start: 17:30
+end: 17:55
 date: 2018-12-31
 draft: false
 ---

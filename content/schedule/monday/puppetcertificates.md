@@ -3,8 +3,8 @@ title: "Automating Puppet Certificates Renewal"
 speaker: raphaelpinson
 eventtype: talk
 room: 3.puppet
-start: 17:30
-end: 18:15
+start: 15:00
+end: 15:55
 date: 2018-12-31
 draft: false
 ---
