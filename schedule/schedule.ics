@@ -1489,7 +1489,7 @@ BEGIN:VEVENT
 METHOD:PUBLISH
 UID:roadtravel@cfgmgmtcamp.eu
 SUMMARY:Benefits of taking the less traveled road
-ORGANIZER:Eduard Jilavu
+ORGANIZER:Eduard Iacoboaia
 CATEGORIES:talk
 DTSTAMP:20181228T000000Z
 TZID:Europe-Brussels
