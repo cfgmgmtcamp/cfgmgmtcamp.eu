@@ -40,3 +40,12 @@ and even creating your own higher-level abstractions.
 ### Raphaël PINSON ###
 
 The Narcissus go package provides an abstraction for configuration files as structure tags.
+
+## Debugging Production Incidents By Looking For Snowflakes In Logs ##
+### Emil Stenqvist ###
+
+When faced with an incident, what’s the first thing you do?  
+You typically look at the logs! But how do you know what to look for?  
+If you could instantly look at the change in the log data, rather than the raw logs,
+you could move quickly investigate and fix an incident.  
+I'll make the case for this method and showcase a tool called uno that helps you do exactly this.  
