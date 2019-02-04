@@ -161,23 +161,6 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 METHOD:PUBLISH
-UID:hardening@cfgmgmtcamp.eu
-SUMMARY:Cross-OS security hardening
-ORGANIZER:Florian Heigl
-CATEGORIES:talk
-DTSTAMP:20181231T000000Z
-TZID:Europe-Brussels
-DTSTART:20190205T122000
-DTEND:20190205T125500
-DESCRIPTION:"### Intro ###We're working to put in place a Rudder policy that covers all OS that we support at our customers,or that will be coming around (i.e. beta of a new version).  For our managed systems, it should cover distro-/OS-specific settings and that "what makes sense everywhere, will be applied everywhere".  For our human eyes, it should have a clear design that allows for easy understanding and maintenance.  Rudder offers many options to express little details in the policy.  We need to find a best practice for quickly choosing the simplest option, which is least likely to require redesign.  ### Experiences ###- managing kernel module blacklists, managing sysctls- configuring auditd to be safe and lightweight- mixing globally applicable and os-specific Rudder rules- using ncf sys knowledge to abstract OS-specific package and service names out of the policy- independent testing of compliance using Lynis and monitoring** why? because if we (flawed human) design the policy, we (same flawed human) should not design the final test :-) **### Takeaway ###We'll wrap it up with practical stuff like configuring OSSEC and why nsjail is awesome as a containment technology for services.  We can help our colleagues and ourselves securing many applications, with a much better learning curve than SElinux etc. got.  So when you walk in the room and listen you get rough idea of sustainable policy design but also of what a sec policy looks like,if it's not only made to fill a checklist.  "
-X-ALT-DESC;FMTTYPE=text/html:@"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 3.2//EN""><HTML><BODY><h3 id="intro">Intro</h3><p>We&rsquo;re working to put in place a Rudder policy that covers all OS that we support at our customers,or that will be coming around (i.e. beta of a new version).</p><p>For our managed systems, it should cover distro-/OS-specific settings and that &ldquo;what makes sense everywhere, will be applied everywhere&rdquo;.</p><p>For our human eyes, it should have a clear design that allows for easy understanding and maintenance.</p><p>Rudder offers many options to express little details in the policy.<br />We need to find a best practice for quickly choosing the simplest option, which is least likely to require redesign.</p><h3 id="experiences">Experiences</h3><ul><li>managing kernel module blacklists, managing sysctls</li><li>configuring auditd to be safe and lightweight</li><li>mixing globally applicable and os-specific Rudder rules</li><li>using ncf sys knowledge to abstract OS-specific package and service names out of the policy</li><li>independent testing of compliance using Lynis and monitoring</li></ul><p>** why? because if we (flawed human) design the policy, we (same flawed human) should not design the final test :-) **</p><h3 id="takeaway">Takeaway</h3><p>We&rsquo;ll wrap it up with practical stuff like configuring OSSEC and why nsjail is awesome as a containment technology for services.<br />We can help our colleagues and ourselves securing many applications, with a much better learning curve than SElinux etc. got.</p><p>So when you walk in the room and listen you get rough idea of sustainable policy design but also of what a sec policy looks like,if it&rsquo;s not only made to fill a checklist.</p></BODY></HTML>";
-URL:https://cfgmgmtcamp.eu/schedule/tuesday/hardening/
-LOCATION:B.CON
-CLASS:PUBLIC
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-METHOD:PUBLISH
 UID:dontlogin@cfgmgmtcamp.eu
 SUMMARY:Don't make me log in
 ORGANIZER:Wim Bonthuis
