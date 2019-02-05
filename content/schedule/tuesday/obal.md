@@ -3,8 +3,8 @@ title: "Obal: wrapping Ansible Playbooks into a CLI app"
 speaker: ewoudkohlvanwijngaarden
 eventtype: talk
 room: 3.ansible
-start: 17:30
-end: 17:55
+start: 14:00
+end: 14:25
 date: 2018-12-29
 draft: false
 ---

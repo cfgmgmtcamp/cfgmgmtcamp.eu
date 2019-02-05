@@ -3,8 +3,8 @@ title: "Ansible - 'Faster-than-light'"
 speaker: bernhardhopfenmuller
 eventtype: talk
 room: 3.ansible
-start: 14:00
-end: 14:55
+start: 17:30
+end: 17:55
 date: 2018-12-29
 draft: false
 ---
