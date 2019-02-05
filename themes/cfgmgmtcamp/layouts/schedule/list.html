@@ -18,6 +18,8 @@
 	<div class="events">
 		<ul>
 		{{ range .Data.Pages.GroupByParam "Room" }}
+			{{ $room := .Key }}
+			{{ $roomfile := printf "%s/%s" "room" $room }}
 			<li class="events-group">
 				<div class="top-info"><span>{{ .Key }}</span></div>
 				<ul>
