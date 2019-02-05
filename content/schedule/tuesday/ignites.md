@@ -49,3 +49,13 @@ You typically look at the logs! But how do you know what to look for?
 If you could instantly look at the change in the log data, rather than the raw logs,
 you could move quickly investigate and fix an incident.  
 I'll make the case for this method and showcase a tool called uno that helps you do exactly this.  
+
+## Docker Security 101 ##
+### Frank Louwers ###
+
+It's 2019. Docker is almost six years old. Yet I still see "old Linux
+folks" spread FUD and non-sense about Docker security. It reminds me a
+bit of the early days of Virtualisation, when vendors told folks that
+"VMs were good for your test env, at best, but you'll never run secure
+stuff in a VM".
+To help people understand, I'll cover some basic Docker/container security mechanisms.
