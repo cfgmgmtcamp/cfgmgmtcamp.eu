@@ -23,7 +23,7 @@
 			<li class="events-group">
 				<div class="top-info"><span>{{ .Key }}</span></div>
 				<ul>
-				{{ range .Pages }}
+				{{ range .Pages.ByParam "Start" }}
 					{{ $speaker := .Param "speaker" }}
 					{{ $speakerfile := printf "%s/%s" "speaker" $speaker }}
 					<li class="single-event" data-start="{{ .Params.Start }}" data-end="{{ .Params.End }}" data-content="{{ .Permalink }}" data-speaker="{{ $speakerfile | relURL }}" data-event="{{ .Params.Eventtype }}" data-speaker-twitter="{{ with .Site.GetPage $speakerfile }}{{ if isset .Params "twitter" }}{{ .Param "twitter" }}{{ end }}{{ end }}" >
