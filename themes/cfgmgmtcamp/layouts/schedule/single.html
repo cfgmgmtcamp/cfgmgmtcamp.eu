@@ -46,6 +46,13 @@
 			{{ .Content }}
 		</div>
 		{{ end }}
+		{{ if isset .Params "youtube" }}
+			{{ $youtubeurl := "www.youtube-nocookie.com" }}
+			{{ $youtubeid := .Param "youtube" }}
+			<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+				<iframe src="https://{{ $youtubeurl }}/embed/{{ $youtubeid }}?autoplay=0" allowfullscreen title="{{ .Title }}"></iframe>
+			</div>
+		{{ end }}
 	</div>
 </section>
 
