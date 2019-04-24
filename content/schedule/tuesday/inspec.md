@@ -5,6 +5,7 @@ eventtype: talk
 room: 3.ansible
 start: 11:20
 end: 12:15
+youtube: u4VKq2JLOVY&
 date: 2018-12-31
 draft: false
 ---

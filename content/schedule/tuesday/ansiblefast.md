@@ -6,6 +6,8 @@ room: 3.ansible
 start: 17:30
 end: 17:55
 date: 2018-12-29
+youtube: f-7xmav6bNE
+slide: https://github.com/Fobhep/cfmgmt2019/blob/master/cfgmgt2019.pdf
 draft: false
 ---
 
