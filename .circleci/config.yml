@@ -1,0 +1,46 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:0.55.6
+    working_directory: ~/cfgmgmtcamp
+    steps:
+      - checkout
+      - run:
+          name: "Run Hugo"
+          command: make
+      - persist_to_workspace:
+          root: .
+          paths:
+            - public
+
+  netlify:
+    docker:
+      - image: pstauffer/curl
+    steps:
+      - run:
+          name: "Netlify build hook"
+          command: curl -X POST -d {} https://api.netlify.com/build_hooks/5cf115d1638abde5a1ae0116
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
+  nightly:
+    triggers:
+      - schedule:
+          cron: "1 0 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - build
+      - netlify:
+          requires:
+            - build
