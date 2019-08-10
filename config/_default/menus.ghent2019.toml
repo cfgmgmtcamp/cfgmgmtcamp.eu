@@ -1,0 +1,52 @@
+### navbar
+[[navbar]]
+	name = "About"
+	identifier = "about"
+	url = "/ghent2019/about/"
+	weight = -1000
+[[navbar]]
+	name = "Registration"
+	identifier = "registration"
+	url = "https://registration.cfgmgmtcamp.be/ghent/2019/"
+	weight = -900
+[[navbar]]
+	name = "Sponsors"
+	identifier = "sponsors"
+	url = "/ghent2019/sponsors/"
+	weight = -800
+[[navbar]]
+	name = "Location"
+	identifier = "location"
+	url = "/ghent2019/location/"
+	weight = -700
+#[navbar]]
+#	name = "CfP"
+#	identifier = "cfp"
+#	url = "https://cfp.cfgmgmtcamp.be"
+#	weight = -600
+[[navbar]]
+	name = "Schedule"
+	identifier = "schedule"
+	url = "/ghent2019/schedule/"
+	weight = -600
+[[navbar]]
+	name = "Fringe"
+	identifier = "fringes"
+	url = "/ghent2019/fringes/"
+	weight = -400
+[[navbar]]
+	name = "Speakers"
+	identifier = "speakers"
+	url = "/ghent2019/speaker/"
+	weight = -350
+[[navbar]]
+	name = "Conduct"
+	identifier = "conduct"
+	url = "/ghent2019/codeofconduct/"
+	weight = -300
+[[navbar]]
+	name = "Archive"
+	identifier = "archive"
+	url = "https://archive.cfgmgmtcamp.eu/"
+	weight = -100
+

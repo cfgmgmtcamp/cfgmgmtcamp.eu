@@ -1,0 +1,19 @@
+### config.toml
+title = "CfgMgmtCamp"
+baseURL = "https://cfgmgmtcamp.eu/"
+theme = "cfgmgmtcamp"
+languageCode = "ghent2020"
+defaultContentLanguage = "ghent2020"
+defaultContentLanguageInSubdir = true
+enableMissingTranslationPlaceholders = true
+dataDir = "data"
+assetDir = "assets"
+PaginatePath = "blog"
+sectionPagesMenu = "main"
+buildDrafts = false
+pygmentsUseClasses = true
+enableGitInfo = true
+enableRobotsTXT = true
+
+[outputs]
+section = [ "HTML", "Calendar" ]

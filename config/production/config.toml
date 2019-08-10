@@ -1,0 +1,3 @@
+[params.analytics.piwik]
+	URL = "https://stats.vantosh.com"
+	ID = "45"
