@@ -17,7 +17,8 @@
 		{{ $day := .File.Dir }}
 		{{ $day := substr $day 9 }}
 		{{ $day := strings.TrimSuffix "/" $day }}
-		{{ range $.Site.Data.days }}
+		{{ $sitedata := index $.Site.Data .Site.Language.Lang }}
+		{{ range $sitedata.days }}
 			{{ if eq $day .day }}
 			{{ .name }}
 			{{ end }}
