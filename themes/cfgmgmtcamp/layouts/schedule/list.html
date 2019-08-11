@@ -10,7 +10,8 @@
 <div class="cd-schedule loading">
 	<div class="timeline">
 		<ul>
-		{{ range (index $.Site.Data.timeslots (index (split ($.Page.Permalink | relURL) "/") 2)) }}
+		{{ $data := index $.Site.Data .Site.Language.Lang }}
+		{{ range (index $data.timeslots (index (split ($.Page.Permalink | relURL) "/") 3)) }}
 			<li><span>{{ .slot }}</span></li>
 		{{ end }}
 		</ul>
