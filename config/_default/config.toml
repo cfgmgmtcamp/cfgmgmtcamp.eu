@@ -16,4 +16,10 @@ enableGitInfo = true
 enableRobotsTXT = true
 
 [outputs]
-section = [ "HTML", "Calendar" ]
+	section = [ "HTML", "Calendar", "RSS" ]
+
+[outputFormats]
+[outputFormats.RSS]
+	mediatype = "application/rss"
+	baseName = "feed"
+	suffix = "xml"

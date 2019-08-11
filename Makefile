@@ -8,7 +8,10 @@ all: build
 
 build:
 	$(HUGO) --environment=production --minify
+	@rm -rf public/feed.xml
+	@find public/*/posts/ -name 'feed.xml' -exec sh -c "cat {} >> public/feed.xml" \;
 	@find public/ -name '*.html' ! -name '*.gz' -type f -exec sh -c "gzip -c -9 < {} > {}.gz" \;
+	@find public/ -name '*.xml' ! -name '*.gz' -type f -exec sh -c "gzip -c -9 < {} > {}.gz" \;
 	@find public/ -name '*.css' ! -name '*.gz' -type f -exec sh -c "gzip -c -9 < {} > {}.gz" \;
 	@find public/ -name '*.js' ! -name '*.gz' -type f -exec sh -c "gzip -c -9 < {} > {}.gz" \;
 
