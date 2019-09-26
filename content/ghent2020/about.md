@@ -4,12 +4,12 @@ date: 2018-09-03
 draft: false
 ---
 
-Configuration Management Camp is the event for technologists interested  Open Source Infrastructure automation and related topics
-This includes but is not limited to top Open Source Configuration Management , Provisioning, Orchestration,  Choreography, Container Operations and many more topics.
+Configuration Management Camp is the event for technologists interested  Open Source Infrastructure automation and related topics.  
+This includes but is not limited to top Open Source Configuration Management, Provisioning, Orchestration,  Choreography, Container Operations, and many more topics.  
 
-We’re pleased to announce CfgMgmtCamp 2019, the sixt year and 8th edition. While CfgMgmtCamp has evolved beyond pure configuration management, we are evolving the topics and content of the conference. CfgMgmtCamp wants to join all infrastructure management tools and principles to come together to share and learn about infra mgmt. 
-
-
+We're pleased to announce CfgMgmtCamp 2020, the seventh year and nineth edition.  
+While CfgMgmtCamp has evolved beyond pure configuration management, we are evolving the topics and content of the conference.  
+CfgMgmtCamp wants to join all infrastructure management tools and principles to come together to share and learn about infra mgmt.  
 
 
 ## Attendees ##
@@ -22,7 +22,8 @@ We are also committed to ensuring the conference is a place where ideas are exch
 
 ## Events around CfgMgmtCamp ##
 
-Visit two Belgian cities in one trip!  Configuration Management Camp is held immediately after [FOSDEM](https://fosdem.org/2019/).  
+Visit two Belgian cities in one trip!  
+Configuration Management Camp is held immediately after [FOSDEM](https://fosdem.org/2020/).  
 More value, more waffles, more beer, and the best community around!  
 
 ## Format ##
@@ -31,8 +32,8 @@ Configuration Management Camp will have a main track, hacker spaces, training, w
 The schedule will be posted once it has been finalized.  
 
 
-## Tech Day (Fringes) ##
+## Workshop / Fringe Day ##
 
-Tech Day events happen on the last day, and provide additional time and space to explore topics and technologies discussed during the main conference.  
+The Workshop / Fringe Day events happen on the last day, and provide additional time and space to explore topics and technologies discussed during the main conference.  
 
 
