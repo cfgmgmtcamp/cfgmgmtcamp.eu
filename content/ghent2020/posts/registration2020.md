@@ -1,9 +1,8 @@
 ---
 title: "Registrations are open"
 date: 2019-10-30
-draft: true
+draft: false
 ---
-
 
 Registration for Config Managment Camp Ghent 2020 are open.
 
