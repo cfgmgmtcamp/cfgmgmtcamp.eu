@@ -7,7 +7,8 @@
 [[navbar]]
 	name = "Registration"
 	identifier = "registration"
-	url = "https://registration.cfgmgmtcamp.be/ghent/2020/"
+	url = "https://cfgmgmtcamp.eu/ghent2020/registration/"
+	#url = "https://registration.cfgmgmtcamp.be/ghent/2020/"
 	weight = -900
 [[navbar]]
 	name = "CfP"
