@@ -4,11 +4,11 @@
 	identifier = "about"
 	url = "/ghent2020/about/"
 	weight = -1000
-#[[navbar]]
-#	name = "Registration"
-#	identifier = "registration"
-#	url = "https://registration.cfgmgmtcamp.be/ghent/2020/"
-#	weight = -900
+[[navbar]]
+	name = "Registration"
+	identifier = "registration"
+	url = "https://registration.cfgmgmtcamp.be/ghent/2020/"
+	weight = -900
 [[navbar]]
 	name = "CfP"
 	identifier = "cfp"
