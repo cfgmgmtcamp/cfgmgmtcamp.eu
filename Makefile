@@ -39,5 +39,8 @@ draft:
 serve:
 	$(HUGO) server --environment=development --noHTTPCache --disableFastRender
 
+servedraft:
+	$(HUGO) server --environment=development --buildFuture --buildExpired --noHTTPCache --disableFastRender
+
 clean:
 	@rm -rf public/
