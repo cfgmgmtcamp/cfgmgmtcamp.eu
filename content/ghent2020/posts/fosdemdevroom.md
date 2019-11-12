@@ -11,4 +11,6 @@ The Call-for-Presentation for the devroom is _open_.
 The CfP will run untill __Sunday 3 November 23:59:59 CET__.  
 Please submit using the following link.  
 
-[https://cfp.cfgmgmtcamp.be/fosdem2020/cfp](https://cfp.cfgmgmtcamp.be/fosdem2020/cfp)
+<!-- [https://cfp.cfgmgmtcamp.be/fosdem2020/cfp](https://cfp.cfgmgmtcamp.be/fosdem2020/cfp) -->
+[https://penta.fosdem.org/submission/FOSDEM20](https://penta.fosdem.org/submission/FOSDEM20)  
+
