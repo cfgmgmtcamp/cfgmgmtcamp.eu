@@ -20,11 +20,11 @@
 	identifier = "sponsors"
 	url = "/ghent2020/sponsors/"
 	weight = -700
-#[[navbar]]
-#	name = "Schedule"
-#	identifier = "schedule"
-#	url = "/ghent2020/schedule/"
-#	weight = -600
+[[navbar]]
+	name = "Schedule"
+	identifier = "schedule"
+	url = "https://cfp.cfgmgmtcamp.be/2020/schedule/"
+	weight = -600
 #[[navbar]]
 #	name = "Fringe"
 #	identifier = "fringes"
