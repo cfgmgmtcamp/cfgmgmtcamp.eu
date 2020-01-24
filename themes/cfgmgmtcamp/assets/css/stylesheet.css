@@ -782,6 +782,9 @@ section div h3 {
 section div ul li {
 	margin: 5px 0 5px 0;
 }
+section iframe {
+	display: none;
+}
 
 footer {
   position: fixed;
@@ -792,12 +795,31 @@ footer {
   border-top: 10px solid #5782ad;
   color: #aaaaaa;
   background: #ffffff;
-  opacity: 75%;
+  opacity: 100%;
 }
 footer div {
   width: 100%;
   font-size: 6px;
   text-align: center;
+  display: inline-block;
+}
+#leftsponsor {
+  width: 25%;
+  float: left;
+  text-align: left;
+}
+#centertext {
+  width: 35%;
+  float: center;
+  text-align: center;
+}
+#rightsponsor {
+  width: 25%;
+  float: right;
+  text-align: right;
+}
+#rightsponsor img {
+  width: 50%;
 }
 footer a {
   color: #666;
