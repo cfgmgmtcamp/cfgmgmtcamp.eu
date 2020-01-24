@@ -562,12 +562,27 @@ footer {
   color: #aaaaaa;
   background: #ffffff;
   opacity: 75%;
+  font-size: 10px;
 }
 footer div {
-  width: 100%;
-  font-size: 10px;
+  display: inline-block;
+}
+#leftsponsor {
+  width: 25%;
+  float: left;
+  text-align: left;
+}
+#centertext {
+  width: 35%;
+  float: center;
   text-align: center;
 }
+#rightsponsor {
+  width: 25%;
+  float: right;
+  text-align: right;
+}
+
 footer a {
   color: #666;
 }

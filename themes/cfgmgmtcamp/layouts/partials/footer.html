@@ -1,9 +1,37 @@
 <footer>
-	<div>
+	<div id="leftsponsor">
+		&nbsp;<br>
+		&nbsp;<br>
+		&nbsp;<br>
+	</div>
+	<div id="centertext">
 		CfgMgmtCamp is a free open source event. CfgMgmtCamp logo is property of the CfgMgmtCamp group.<br>
 		Copyleft 2014 - {{ now.Year }}, CfgMgmtCamp.<br>
 		{{ if .GitInfo }}
 			Git {{ .GitInfo.AbbreviatedHash }}<br>
+		{{ end }}
+	</div>
+	<div id="rightsponsor">
+		{{ $data := index $.Site.Data .Site.Language.Lang }}
+		{{ range $.Site.Pages }}
+			{{ $level := .Param "level" }}
+			{{ if eq $level "titanium" }}
+					{{ if .Param "link" }}
+						<a href="{{ .Param "link" }}">
+					{{ end }}
+					{{ if .Param "image" }}
+						{{ $imagename := .Param "image" }}
+						{{ $imagelocation := (printf "%s/%s" "images/sponsors/" $imagename) }}
+						{{ $imageresource := resources.Get $imagelocation }}
+						{{ $image := $imageresource.Resize "x25" }}
+						<img src="{{  $image.RelPermalink }}" alt="{{ .Title }}">
+					{{ else }}
+						{{ .Title }}
+					{{ end }}
+					{{ if .Param "link" }}
+						</a>
+					{{ end }}
+			{{ end }}
 		{{ end }}
 	</div>
 </footer>
@@ -11,6 +39,3 @@
 {{ if .Site.Params.analytics.piwik }}
 	{{ partial "_analytics/piwik.html" . }}
 {{ end }}
-
-</body>
-</html>
