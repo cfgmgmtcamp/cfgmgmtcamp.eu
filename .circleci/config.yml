@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:0.56.3
+      - image: cibuilds/hugo:0.59.0
     working_directory: ~/cfgmgmtcamp
     steps:
       - checkout
