@@ -17,9 +17,9 @@
 <div id="container">
 	<section id="posts">
 		<div class="inner">
-		{{ range first 5 (where .Data.Pages "Type" "posts") }}
+		{{ range first 5 (where $.Site.RegularPages "Type" "posts") }}
 			<h1>{{ .Title }}</h1>
-            <h3>{{ .Date.Format "2 January 2006" }}</h3>
+            <h3>Published on {{ .Date.Format "2 January 2006" }}</h3>
 			{{ .Content }}
 		{{ end  }}
 		</div>
