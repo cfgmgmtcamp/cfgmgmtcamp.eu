@@ -1,6 +1,6 @@
 ---
 title: "NO CfgMgmtCamp Ghent 2021"
-date: 2020-10-22
+date: 2020-10-20
 draft: false
 ---
 
