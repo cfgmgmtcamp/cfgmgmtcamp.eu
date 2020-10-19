@@ -2,7 +2,7 @@
 [[navbar]]
 	name = "About"
 	identifier = "about"
-	url = "/ghent2020/about/"
+	url = "/ghent2021/about/"
 	weight = -1000
 #[[navbar]]
 #	name = "Registration"
@@ -44,12 +44,12 @@
 [[navbar]]
 	name = "Conduct"
 	identifier = "conduct"
-	url = "/ghent2020/codeofconduct/"
+	url = "/ghent2021/codeofconduct/"
 	weight = -300
 [[navbar]]
 	name = "Past"
 	identifier = "past"
-	url = "/ghent2020/past/"
+	url = "/ghent2021/past/"
 	#url = "https://archive.cfgmgmtcamp.eu/"
 	weight = -100
 
