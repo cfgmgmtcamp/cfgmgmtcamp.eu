@@ -4,17 +4,17 @@
 	identifier = "about"
 	url = "/ghent2021/about/"
 	weight = -1000
-#[[navbar]]
-#	name = "Registration"
-#	identifier = "registration"
-#	url = "https://cfgmgmtcamp.eu/ghent2020/registration/"
-#	#url = "https://registration.cfgmgmtcamp.be/ghent/2020/"
-#	weight = -900
 [[navbar]]
-	name = "CfP"
-	identifier = "cfp"
-	url = "https://cfp.cfgmgmtcamp.org/fosdem2021/cfp"
-	weight = -800
+	name = "FOSDEM"
+	identifier = "registration"
+	url = "https://fosdem.org/2021/schedule/track/infra_management/"
+#	#url = "https://registration.cfgmgmtcamp.be/ghent/2020/"
+	weight = -900
+#[[navbar]]
+#	name = "CfP"
+#	identifier = "cfp"
+#	url = "https://cfp.cfgmgmtcamp.org/fosdem2021/cfp"
+#	weight = -800
 #[[navbar]]
 #	name = "Sponsors"
 #	identifier = "sponsors"
