@@ -30,7 +30,7 @@ Event staff will be happy to help participants address concerns. All reports wil
 If you cannot find a member of the event staff or are not comfortable contacting one of the staff, you can alternatively contact any of the people listed below.
 
 - Kris Buytaert - Kris.Buytaert at inuits.eu, @krisbuytaert
-- Nathen Harvey - nharvey at chef.io, @nathenharvey, +1 202 368 7264
+- Nathen Harvey - nharvey at chef.io, @nathenharvey
 - Kara Sowles - kara at puppetlabs.com
 
 All organizers can be reached at cfgmgmtcamp-team at lists.inuits.eu  
