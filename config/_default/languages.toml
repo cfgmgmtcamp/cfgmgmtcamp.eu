@@ -1,4 +1,8 @@
 [ghent2021]
+	title = "CfgMgmtCamp 2022"
+	contentDir = "content/ghent2022/"
+	weight = -2022
+[ghent2021]
 	title = "CfgMgmtCamp 2021"
 	contentDir = "content/ghent2021/"
 	weight = -2021
