@@ -36,15 +36,15 @@
 #	identifier = "speakers"
 #	url = "/ghent2020/speaker/"
 #	weight = -350
-[[navbar]]
-	name = "Location"
-	identifier = "location"
-	url = "/ghent2020/location/"
-	weight = -500
+#[[navbar]]
+#	name = "Location"
+#	identifier = "location"
+#	url = "/ghent2020/location/"
+#	weight = -500
 [[navbar]]
 	name = "Conduct"
 	identifier = "conduct"
-	url = "/ghent2021/codeofconduct/"
+	url = "/ghent2022/codeofconduct/"
 	weight = -300
 [[navbar]]
 	name = "Past"
