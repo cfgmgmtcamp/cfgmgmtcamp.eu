@@ -9,7 +9,7 @@ we have decided __not__ to hold CfgMgmtCamp after FOSDEM 2022.
 
 With the new wave of COVID19 hitting the world yet again and
 Europe going again in lockdowns, we cannot plan ahead.
-The rules keep changing, venues are confisued on how to plan,
+The rules keep changing, venues are confused on how to plan,
 and we have entered yet again a period of uncertainty.  
 
 We are keeping an option of doing something in late 2022.
