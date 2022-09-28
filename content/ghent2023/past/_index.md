@@ -1,6 +1,6 @@
 ---
 title: "Previous CfgMgmtCamp Events"
-date: 2018-09-10
+date: 2022-09-27
 draft: false
 ---
 
@@ -15,6 +15,3 @@ An overview of the past events :
 - CfgMgmtCamp 2016 Ghent : [https://archive.cfgmgmtcamp.eu/gent-2016/](https://archive.cfgmgmtcamp.eu/gent-2016/)
 - CfgMgmtCamp 2015 Ghent : [https://archive.cfgmgmtcamp.eu/2015/](https://archive.cfgmgmtcamp.eu/2015/)
 - CfgMgmtCamp 2014 Ghent : [https://archive.cfgmgmtcamp.eu/2014/](https://archive.cfgmgmtcamp.eu/2014/)
-
-
-
