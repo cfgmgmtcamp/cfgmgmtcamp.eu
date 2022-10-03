@@ -1,0 +1,54 @@
+### navbar
+[[navbar]]
+	name = "About"
+	identifier = "about"
+	url = "/ghent2022/about/"
+	weight = -1000
+#[[navbar]]
+#	name = "FOSDEM"
+#	identifier = "registration"
+#	url = "https://fosdem.org/2022/schedule/track/infra_management/"
+#	#url = "https://registration.cfgmgmtcamp.be/ghent/2020/"
+#	weight = -900
+#[[navbar]]
+#	name = "CfP"
+#	identifier = "cfp"
+#	url = "https://cfp.cfgmgmtcamp.org/fosdem2021/cfp"
+#	weight = -800
+[[navbar]]
+	name = "Sponsors"
+	identifier = "sponsors"
+	url = "/ghent2023/sponsors/"
+	weight = -700
+#[[navbar]]
+#	name = "Schedule"
+#	identifier = "schedule"
+#	url = "https://cfp.cfgmgmtcamp.be/2020/schedule/"
+#	#url = "/ghent2020/schedule/"
+#	weight = -600
+#[[navbar]]
+#	name = "Fringe"
+#	identifier = "fringes"
+#	url = "/ghent2020/fringes/"
+#	weight = -400
+#[[navbar]]
+#	name = "Speakers"
+#	identifier = "speakers"
+#	url = "/ghent2020/speaker/"
+#	weight = -350
+#[[navbar]]
+#	name = "Location"
+#	identifier = "location"
+#	url = "/ghent2020/location/"
+#	weight = -500
+[[navbar]]
+	name = "Conduct"
+	identifier = "conduct"
+	url = "/ghent2023/codeofconduct/"
+	weight = -300
+[[navbar]]
+	name = "Past"
+	identifier = "past"
+	url = "/ghent2023/past/"
+	#url = "https://archive.cfgmgmtcamp.eu/"
+	weight = -100
