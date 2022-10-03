@@ -2,8 +2,8 @@
 title = "CfgMgmtCamp"
 baseURL = "https://cfgmgmtcamp.eu/"
 theme = "cfgmgmtcamp"
-languageCode = "ghent2022"
-defaultContentLanguage = "ghent2022"
+languageCode = "ghent2023"
+defaultContentLanguage = "ghent2023"
 defaultContentLanguageInSubdir = true
 enableMissingTranslationPlaceholders = true
 dataDir = "data"
