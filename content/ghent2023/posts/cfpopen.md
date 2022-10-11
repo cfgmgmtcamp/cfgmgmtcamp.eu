@@ -1,5 +1,5 @@
  ---
-title: "CfgMgmtCamp 2022 Call for Presentation is OPEN"
+title: "CfgMgmtCamp 2023 Call for Presentation is OPEN"
 date: 2022-10-07
 draft: false
 ---
