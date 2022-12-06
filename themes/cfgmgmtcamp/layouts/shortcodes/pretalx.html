@@ -1,0 +1,14 @@
+{{ $eventcode := .Get "event" }}
+</div>
+<div class="col-lg-12">
+<script type="text/javascript" src="https://cfp.gsebelux.eu/{{ $eventcode }}/schedule/widget/v2.en.js"></script>
+<pretalx-schedule event-url="https://cfp.gsebelux.eu/{{ $eventcode }}/" locale="en" format="grid" style="--pretalx-clr-primary: #3aa57c"></pretalx-schedule>
+<noscript>
+	<div class="pretalx-widget">
+		<div class="pretalx-widget-info-message">
+			JavaScript is disabled in your browser. To access our schedule without JavaScript,
+			please <a target="_blank" href="https://cfp.gsebelux.eu/{{ $eventcode }}/schedule/">click here</a>.
+		</div>
+	</div>
+</noscript>
+</div>
