@@ -59,6 +59,8 @@
 	<link href="{{ $schedulecss.RelPermalink }}" rel="stylesheet" type="text/css">
 	{{ $schedulesinglestylecss := resources.Get "css/schedule-single.css" }}
 	{{ $schedulesinglecss := $schedulesinglestylecss | resources.Minify }}
+	<link rel="stylesheet" type="text/css" href="https://registration.cfgmgmtcamp.org/ghent/2023/widget/v1.css">
+	<script type="text/javascript" src="https://registration.cfgmgmtcamp.org/widget/v1.en.js" async></script>
 	<link href="{{ $schedulesinglecss.RelPermalink }}" rel="stylesheet" type="text/css">
 	<link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.ico">
