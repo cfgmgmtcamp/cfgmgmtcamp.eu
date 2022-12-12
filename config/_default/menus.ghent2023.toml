@@ -41,11 +41,11 @@
 #	identifier = "speakers"
 #	url = "/ghent2023/speaker/"
 #	weight = -350
-#[[navbar]]
-#	name = "Location"
-#	identifier = "location"
-#	url = "/ghent2023/location/"
-#	weight = -500
+[[navbar]]
+	name = "Location"
+	identifier = "location"
+	url = "/ghent2023/location/"
+	weight = -500
 [[navbar]]
 	name = "Conduct"
 	identifier = "conduct"
