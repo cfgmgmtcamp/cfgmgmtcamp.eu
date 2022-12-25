@@ -1,10 +1,8 @@
 ---
 title: "Atix"
-level: bronze
+level: gold
 image: atix.png
 link: https://www.atix.de/
-date: 2020-01-13
-draft: true
+date: 2022-12-25
+draft: false
 ---
-
-
