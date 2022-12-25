@@ -1,6 +1,6 @@
 #!Makefile
 
-HUGO=hugo
+HUGO=hugo-extended
 
 .PHONY: build serve draft clean
 

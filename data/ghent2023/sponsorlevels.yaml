@@ -1,24 +1,24 @@
 - name:  Titanium
   identifier: titanium
-  size: 900x900
+  size: 800x800
 - name: Platinum
   identifier: platinum
-  size: 600x600
+  size: 400x400
 - name: Gold
   identifier: gold
-  size: 300x300
+  size: 250x250
 - name: Silver
   identifier: silver
-  size: 200x200
+  size: 175x175
 - name: Core
   identifier: core
   size: 300x300
 - name: Media
   identifier: media
-  size: 200x200
+  size: 150x150
 - name: Bronze
   identifier: bronze
-  size: 200x200
+  size: 100x100
 - name: Metal
   identifier: metal
   size: 1x1

@@ -29,8 +29,9 @@
 										{{ $imagename := .Param "image" }}
 										{{ $imagelocation := (printf "%s/%s" "images/sponsors/" $imagename) }}
 										{{ $imageresource := resources.Get $imagelocation }}
-										{{ $image := $imageresource.Fit $imagesize }}
-										<img src="{{  $image.RelPermalink }}" alt="{{ .Title }}">
+										{{ $imageoptions := (printf "%s webp" $imagesize) }}
+										{{ $image := $imageresource.Fit $imageoptions }}
+										<img src="{{  $image.RelPermalink }}" alt="{{ .Title }}" width="{{ $imagewidth }}" height="{{ $imageheight }}">
 									{{ else }}
 										{{ .Title }}
 									{{ end }}
