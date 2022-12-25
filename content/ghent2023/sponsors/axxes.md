@@ -1,10 +1,10 @@
 ---
 title: "Axxes IT Consulting"
-level: bronze
+level: platinum
 image: axxes.jpg
 link: https://www.axxes.com/
-date: 2020-01-24
-draft: true
+date: 2022-12-25
+draft: false
 ---
 
 
