@@ -2,7 +2,7 @@
 # repository branch will inherit these settings.
 
 [context.production]
-	command = "make"
+	command = "make netlify"
 	publish = "public/"
 
 [context.production.environment]
