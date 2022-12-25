@@ -1,10 +1,10 @@
 ---
 title: "Puppet"
-level: gold
+level: platinum
 image: puppet.jpg
 link: https://puppet.com/
-date: 2020-01-12
-draft: true
+date: 2022-12-25
+draft: false
 ---
 
 
