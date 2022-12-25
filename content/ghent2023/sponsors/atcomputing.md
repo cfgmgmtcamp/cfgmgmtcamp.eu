@@ -1,10 +1,10 @@
 ---
 title: "AT Computing"
-level: gold
+level: platinum
 image: atcomputing.png
 link: https://www.atcomputing.nl/
-date: 2019-12-19
-draft: true
+date: 2022-12-25
+draft: false
 ---
 
 
