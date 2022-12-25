@@ -28,7 +28,7 @@ qrcode:
 	@qrencode -t SVG -o static/schedule/ical.svg -l H 'https://cfgmgmtcamp.eu/schedule/schedule.ics'
 
 netlify:
-	$(MAKE) HUGO=./hugo build
+	$(MAKE) HUGO=hugo build
 
 travis:
 	$(MAKE) HUGO=./hugo build
