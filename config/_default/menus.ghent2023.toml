@@ -15,22 +15,21 @@
 #	url = "https://fosdem.org/2023/schedule/track/infra_management/"
 #	#url = "https://registration.cfgmgmtcamp.be/ghent/2023/"
 #	weight = -900
-[[navbar]]
-	name = "CfP"
-	identifier = "cfp"
-	url = "https://cfp.cfgmgmtcamp.org/2023/cfp"
-	weight = -800
+#[[navbar]]
+#	name = "CfP"
+#	identifier = "cfp"
+#	url = "https://cfp.cfgmgmtcamp.org/2023/cfp"
+#	weight = -800
 [[navbar]]
 	name = "Sponsors"
 	identifier = "sponsors"
 	url = "/ghent2023/sponsors/"
 	weight = -700
-#[[navbar]]
-#	name = "Schedule"
-#	identifier = "schedule"
-#	url = "https://cfp.cfgmgmtcamp.be/2023/schedule/"
-#	#url = "/ghent2023/schedule/"
-#	weight = -600
+[[navbar]]
+	name = "Schedule"
+	identifier = "schedule"
+	url = "/ghent2023/schedule/"
+	weight = -600
 #[[navbar]]
 #	name = "Fringe"
 #	identifier = "fringes"
