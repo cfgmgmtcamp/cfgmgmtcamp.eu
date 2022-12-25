@@ -28,6 +28,7 @@ hugo.linux
 Session.vim
 
 # Temporary
+.hugo_build.lock
 .netrwhist
 *~
 # Auto-generated tag files
