@@ -2,13 +2,13 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:0.88.1
+      - image: cibuilds/hugo:0.107.1
     working_directory: ~/cfgmgmtcamp
     steps:
       - checkout
       - run:
           name: "Run Hugo"
-          command: make
+          command: make netlify
       - persist_to_workspace:
           root: .
           paths:
