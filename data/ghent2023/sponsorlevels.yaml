@@ -16,6 +16,9 @@
 - name: Media
   identifier: media
   size: 150x150
+- name: Food
+  identifier: food
+  size: 150x150
 - name: Bronze
   identifier: bronze
   size: 100x100
