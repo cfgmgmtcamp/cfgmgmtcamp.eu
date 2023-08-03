@@ -1,4 +1,8 @@
 
+[ghent2024]
+	title = "CfgMgmtCamp 2024"
+	contentDir = "content/ghent2024"
+	weight = -2024
 [ghent2023]
 	title = "CfgMgmtCamp 2023"
 	contentDir = "content/ghent2023/"
