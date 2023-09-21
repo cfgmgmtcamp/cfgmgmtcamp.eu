@@ -1,13 +1,13 @@
  ---
-title: "CfgMgmtCamp 2023 Call for Presentation is OPEN"
-date: 2022-10-07
-draft: true
+title: "CfgMgmtCamp 2024 Call for Presentation is OPEN"
+date: 2023-09-20
+draft: false
 ---
 
 We're looking for _content_ for this year's CfgMgmtCamp in Ghent, Belgium.
 
 We're looking for __presentations, workshops, fringes__.  
-The CfP will run untill __2022-12-06 23:55 CET__.  
+The CfP will run untill __2022-11-15 23:55 CET__.  
 Please remember to submit soon and often.  
 
-[https://cfp.cfgmgmtcamp.be/2023/cfp](https://cfp.cfgmgmtcamp.be/2023/cfp)
+[https://cfp.cfgmgmtcamp.be/2024/cfp](https://cfp.cfgmgmtcamp.be/2024/cfp)
