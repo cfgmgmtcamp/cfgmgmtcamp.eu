@@ -15,11 +15,11 @@
 #	url = "https://fosdem.org/2023/schedule/track/infra_management/"
 #	#url = "https://registration.cfgmgmtcamp.be/ghent/2023/"
 #	weight = -900
-#[[navbar]]
-#	name = "CfP"
-#	identifier = "cfp"
-#	url = "https://cfp.cfgmgmtcamp.org/2023/cfp"
-#	weight = -800
+[[navbar]]
+	name = "CfP"
+	identifier = "cfp"
+	url = "https://cfp.cfgmgmtcamp.org/2024/cfp"
+	weight = -800
 [[navbar]]
 	name = "Sponsors"
 	identifier = "sponsors"
