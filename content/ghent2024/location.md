@@ -35,11 +35,6 @@ Cars cannot remain in the parking lot, long term, without prior registration.
 
 Please note that the inner city of Ghent is a Low Emissions Zone.  
 While the venue is outside of the Low Emissions zone, we advise you to pay attention.  
-More information can be found on the following sites:
-
-- [LEZ Belgium](https://www.lez-belgium.be/en/info-menue/environmental-zones/ghent-lez.html)
-- [LEZ Gent](https://stad.gent/natuur-milieu/lage-emissiezone-2020/de-euronorm-en-lez)
-- [LEZ Maps](https://stad.gent/over-gent-en-het-stadsbestuur/over-gent/kaarten-cijfers-en-data/gent-kaart/stadsplan)
 
 ## Location Plan ##
 
