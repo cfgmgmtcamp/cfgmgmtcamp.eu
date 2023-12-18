@@ -4,11 +4,11 @@
 	identifier = "about"
 	url = "/ghent2024/about/"
 	weight = -1000
-#[[navbar]]
-#	name = "Registration"
-#	identifier = "registration"
-#	url = "/ghent2024/registration/"
-#	weight = -900
+[[navbar]]
+	name = "Registration"
+	identifier = "registration"
+	url = "/ghent2024/registration/"
+	weight = -900
 #[[navbar]]
 #	name = "FOSDEM"
 #	identifier = "registration"

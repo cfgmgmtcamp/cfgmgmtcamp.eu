@@ -1,6 +1,6 @@
 ---
 title: "Registration"
-date: 2022-09-27
+date: 2023-12-18
 type: registration
 draft: false
 ---
@@ -9,4 +9,4 @@ draft: false
 
 <br>
 
-{{< prereg organizer="ghent" event="2023" >}}
+{{< prereg organizer="ghent" event="2024" >}}
