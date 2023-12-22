@@ -1,8 +1,8 @@
 ---
 title: "betadots"
-level: platinum
+level: gold
 image: betadots.jpg
 link: https://www.betadots.de/
-date: 2022-12-25
-draft: true
+date: 2023-12-22
+draft: false
 ---
