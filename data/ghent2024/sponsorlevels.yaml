@@ -7,21 +7,21 @@
 - name: Gold
   identifier: gold
   size: 250x250
-- name: Silver
-  identifier: silver
-  size: 175x175
 - name: Core
   identifier: core
   size: 300x300
+- name: Silver
+  identifier: silver
+  size: 175x175
+- name: Bronze
+  identifier: bronze
+  size: 100x100
 - name: Media
   identifier: media
   size: 150x150
 - name: Food
   identifier: food
   size: 150x150
-- name: Bronze
-  identifier: bronze
-  size: 100x100
 - name: Metal
   identifier: metal
   size: 1x1
