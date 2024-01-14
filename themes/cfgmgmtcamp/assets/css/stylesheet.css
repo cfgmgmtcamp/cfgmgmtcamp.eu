@@ -219,6 +219,10 @@ section div ul li {
 	border-bottom: 10px #ff00ff;
 }
 
+#sponsors div {
+	width: 1040px;
+	padding: 25px;
+}
 #sponsors div ul {
 	text-align: center;
 }
