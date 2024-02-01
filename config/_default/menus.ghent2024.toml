@@ -30,11 +30,11 @@
 	identifier = "schedule"
 	url = "/ghent2024/schedule/"
 	weight = -600
-#[[navbar]]
-#	name = "Fringe"
-#	identifier = "fringes"
-#	url = "/ghent2024/fringes/"
-#	weight = -400
+[[navbar]]
+	name = "Soocial"
+	identifier = "social"
+	url = "/ghent2024/social/"
+	weight = -400
 #[[navbar]]
 #	name = "Speakers"
 #	identifier = "speakers"
