@@ -31,7 +31,7 @@
 	url = "/ghent2024/schedule/"
 	weight = -600
 [[navbar]]
-	name = "Soocial"
+	name = "Social"
 	identifier = "social"
 	url = "/ghent2024/social/"
 	weight = -400
